@@ -4,6 +4,11 @@ output: pdf_document
 date: "2024-02-15"
 ---
 
+```{r}
+if (!require("ggplot2")) install.packages("ggplot2")
+```
+
+
 ```{r CPU}
 CPU <- read.csv("../final_data/CPU.csv")
 CPU$ReleaseDate <- as.Date(CPU$ReleaseDate, format = "%Y-%m-%d")
@@ -13,7 +18,7 @@ CPU$X <- NULL
 summary(CPU)
 ```
 
-```{r}
+```{r GPU}
 GPU <- read.csv("../final_data/GPU.csv")
 GPU$ReleaseDate <- as.Date(GPU$ReleaseDate, format = "%Y-%m-%d")
 GPU$CurrentDate <- as.Date(GPU$CurrentDate, format = "%Y-%m-%d")
@@ -21,4 +26,46 @@ GPU$Score <- as.numeric(GPU$Score)
 GPU$X <- NULL
 summary(GPU)
 ```
+
+```{r Disk}
+Disk <- read.csv("../final_data/Disk.csv")
+Disk$ReleaseDate <- as.Date(Disk$ReleaseDate, format = "%Y-%m-%d")
+Disk$CurrentDate <- as.Date(Disk$CurrentDate, format = "%Y-%m-%d")
+Disk$Score <- as.numeric(Disk$Score)
+Disk$X <- NULL
+summary(Disk)
+```
+
+```{r Memory}
+Memory <- read.csv("../final_data/Memory.csv")
+Memory$ReleaseDate <- as.Date(Memory$ReleaseDate, format = "%Y-%m-%d")
+Memory$CurrentDate <- as.Date(Memory$CurrentDate, format = "%Y-%m-%d")
+Memory$Score <- as.numeric(Memory$Score)
+Memory$X <- NULL
+summary(Memory)
+```
+
+```{r MSRP}
+ggplot(CPU, aes(x=ReleasePrice)) + 
+  geom_histogram(bins=30, fill="lightblue", color="black") +
+  labs(title="CPU MSRP Prices", x="Price", y="Frequency") +
+  theme_minimal()
+
+ggplot(GPU, aes(x=ReleasePrice)) + 
+  geom_histogram(bins=30, fill="lightblue", color="black") +
+  labs(title="GPU MSRP Prices", x="Price", y="Frequency") +
+  theme_minimal()
+
+ggplot(Disk, aes(x=ReleasePrice)) + 
+  geom_histogram(bins=30, fill="lightblue", color="black") +
+  labs(title="Disk MSRP Prices", x="Price", y="Frequency") +
+  theme_minimal()
+
+ggplot(Memory, aes(x=ReleasePrice)) + 
+  geom_histogram(bins=30, fill="lightblue", color="black") +
+  labs(title="Memory MSRP Prices", x="Price", y="Frequency") +
+  theme_minimal()
+```
+
+
 

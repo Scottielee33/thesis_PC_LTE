@@ -50,6 +50,8 @@ CPU_complete$ReleasePrice <- as.numeric(gsub(",", "", CPU_complete$ReleasePrice)
 CPU_complete$CurrentPrice <- as.numeric(gsub(",", "", CPU_complete$CurrentPrice))
 CPU_complete$Score <- as.numeric(gsub(",", "", CPU_complete$Score))
 
+CPU_complete <- CPU_complete[!grepl("threadripper|xeon", CPU_complete$CPU, ignore.case = TRUE), ]
+
 # ---GPU---
 GPU_R <- read.csv(file = "../scraped_data/gpu_data_r.csv")
 GPU_Price <- read.csv(file = "../scraped_data/GPU_price_data.csv")
@@ -106,6 +108,8 @@ GPU_complete$CurrentDate <- as.Date(GPU_complete$CurrentDate, format = "%Y-%m-%d
 GPU_complete$ReleasePrice <- as.numeric(gsub(",", "", GPU_complete$ReleasePrice))
 GPU_complete$CurrentPrice <- as.numeric(gsub(",", "", GPU_complete$CurrentPrice))
 GPU_complete$Score <- as.numeric(gsub(",", "", GPU_complete$Score))
+
+GPU_complete <- GPU_complete[!grepl("RTX A|quadro|WX|FirePro|NVS|Tesla", GPU_complete$GPU, ignore.case = TRUE), ]
 
 # ---Disk---
 Disk_R <- read.csv(file = "../scraped_data/harddrive_data_r.csv")
@@ -212,6 +216,8 @@ Memory_complete$CurrentDate <- as.Date(Memory_complete$CurrentDate, format = "%Y
 Memory_complete$ReleasePrice <- as.numeric(gsub(",", "", Memory_complete$ReleasePrice))
 Memory_complete$CurrentPrice <- as.numeric(gsub(",", "", Memory_complete$CurrentPrice))
 Memory_complete$Score <- as.numeric(gsub(",", "", Memory_complete$Score))
+
+Memory_complete$Scores <- NULL
 
 write.csv(CPU_complete, file = "../../final_data/CPU.csv")
 write.csv(GPU_complete, file = "../../final_data/GPU.csv")
