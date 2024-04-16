@@ -1,0 +1,24 @@
+---
+title: "summary"
+output: pdf_document
+date: "2024-02-15"
+---
+
+```{r CPU}
+CPU <- read.csv("../final_data/CPU.csv")
+CPU$ReleaseDate <- as.Date(CPU$ReleaseDate, format = "%Y-%m-%d")
+CPU$CurrentDate <- as.Date(CPU$CurrentDate, format = "%Y-%m-%d")
+CPU$Score <- as.numeric(CPU$Score)
+CPU$X <- NULL
+summary(CPU)
+```
+
+```{r}
+GPU <- read.csv("../final_data/GPU.csv")
+GPU$ReleaseDate <- as.Date(GPU$ReleaseDate, format = "%Y-%m-%d")
+GPU$CurrentDate <- as.Date(GPU$CurrentDate, format = "%Y-%m-%d")
+GPU$Score <- as.numeric(GPU$Score)
+GPU$X <- NULL
+summary(GPU)
+```
+

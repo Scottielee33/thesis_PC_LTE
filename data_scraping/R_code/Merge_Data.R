@@ -46,8 +46,9 @@ CPU_complete$ReleaseYear <- NULL
 
 CPU_complete$ReleaseDate <- as.Date(CPU_complete$ReleaseDate, format = "%Y-%m-%d")
 CPU_complete$CurrentDate <- as.Date(CPU_complete$CurrentDate, format = "%Y-%m-%d")
-CPU_complete$ReleasePrice <- as.numeric(CPU_complete$ReleasePrice)
-CPU_complete$CurrentPrice <- as.numeric(CPU_complete$CurrentPrice)
+CPU_complete$ReleasePrice <- as.numeric(gsub(",", "", CPU_complete$ReleasePrice))
+CPU_complete$CurrentPrice <- as.numeric(gsub(",", "", CPU_complete$CurrentPrice))
+CPU_complete$Score <- as.numeric(gsub(",", "", CPU_complete$Score))
 
 # ---GPU---
 GPU_R <- read.csv(file = "../scraped_data/gpu_data_r.csv")
@@ -100,6 +101,12 @@ GPU_complete$CurrentPrice1 <- NULL
 GPU_complete$Quarters <- NULL
 GPU_complete$Year <- NULL
 
+GPU_complete$ReleaseDate <- as.Date(GPU_complete$ReleaseDate, format = "%Y-%m-%d")
+GPU_complete$CurrentDate <- as.Date(GPU_complete$CurrentDate, format = "%Y-%m-%d")
+GPU_complete$ReleasePrice <- as.numeric(gsub(",", "", GPU_complete$ReleasePrice))
+GPU_complete$CurrentPrice <- as.numeric(gsub(",", "", GPU_complete$CurrentPrice))
+GPU_complete$Score <- as.numeric(gsub(",", "", GPU_complete$Score))
+
 # ---Disk---
 Disk_R <- read.csv(file = "../scraped_data/harddrive_data_r.csv")
 Disk_Price <- read.csv(file = "../scraped_data/disk_price_data.csv")
@@ -147,6 +154,12 @@ Disk_complete$CurrentPrice1 <- NULL
 Disk_complete$ReleaseQuarters <- NULL
 Disk_complete$ReleaseYear <- NULL
 
+Disk_complete$ReleaseDate <- as.Date(Disk_complete$ReleaseDate, format = "%Y-%m-%d")
+Disk_complete$CurrentDate <- as.Date(Disk_complete$CurrentDate, format = "%Y-%m-%d")
+Disk_complete$ReleasePrice <- as.numeric(gsub(",", "", Disk_complete$ReleasePrice))
+Disk_complete$CurrentPrice <- as.numeric(gsub(",", "", Disk_complete$CurrentPrice))
+Disk_complete$Score <- as.numeric(gsub(",", "", Disk_complete$Score))
+
 # ---RAM---
 Memory_R <- read.csv(file = "../scraped_data/memory_data_r.csv")
 Memory_Price <- read.csv(file = "../scraped_data/memory_price_data.csv")
@@ -193,6 +206,12 @@ Memory_complete$ReleaseQuarterYear <- NULL
 Memory_complete$CurrentPrice1 <- NULL
 Memory_complete$Quarters <- NULL
 Memory_complete$Year <- NULL
+
+Memory_complete$ReleaseDate <- as.Date(Memory_complete$ReleaseDate, format = "%Y-%m-%d")
+Memory_complete$CurrentDate <- as.Date(Memory_complete$CurrentDate, format = "%Y-%m-%d")
+Memory_complete$ReleasePrice <- as.numeric(gsub(",", "", Memory_complete$ReleasePrice))
+Memory_complete$CurrentPrice <- as.numeric(gsub(",", "", Memory_complete$CurrentPrice))
+Memory_complete$Score <- as.numeric(gsub(",", "", Memory_complete$Score))
 
 write.csv(CPU_complete, file = "../../final_data/CPU.csv")
 write.csv(GPU_complete, file = "../../final_data/GPU.csv")
