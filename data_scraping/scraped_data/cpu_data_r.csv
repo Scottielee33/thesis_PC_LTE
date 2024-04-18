@@ -1,376 +1,913 @@
-"CPU","Score","CurrentPrice","ReleaseQuarters","ReleaseYear","CurrentPrice2","URL"
-"AMD Ryzen Threadripper PRO 7995WX","153,173","9,999.00","Q4","2023","$9,999.00 USD (2023-10-23)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+7995WX"
-"AMD Ryzen Threadripper PRO 5995WX","92,987","5,699.99","Q1","2022","$5,699.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5995WX"
-"AMD Ryzen Threadripper PRO 5975WX","75,881","2,699.99","Q1","2022","$2,699.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5975WX"
-"AMD Ryzen Threadripper PRO 5965WX","66,617","1,999.99","Q1","2022","$1,999.99 USD (2023-05-18)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5965WX"
-"AMD Ryzen 9 7950X","62,951","540.99","Q3","2022","$540.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7950X"
-"AMD Ryzen 9 7950X3D","62,590","661.08","Q1","2023","$661.08 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7950X3D"
-"Intel Core i9-13900KS","61,896","999.99","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900KS"
-"Intel Core i9-14900K","61,079","589.00","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900K"
-"Intel Core i9-13900K","59,370","569.97","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900K"
-"Intel Core i9-13900KF","58,681","546.49","Q4","2022","$546.49 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900KF"
-"Intel Core i7-14700K","53,630","409.00","Q4","2023","$409.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700K"
-"Intel Core i7-14700KF","53,435","384.00","Q4","2023","$384.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700KF"
-"Intel Core i9-14900F","52,059","524.00","Q1","2024","$524.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900F"
-"AMD Ryzen 9 7900X","51,934","409.00","Q3","2022","$409.00 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900X"
-"Intel Core i9-13900F","51,852","526.03","Q1","2023","$526.03 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900F"
-"AMD Ryzen 9 7900X3D","50,405","561.05","Q1","2023","$561.05 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900X3D"
-"AMD Ryzen Threadripper PRO 5955WX","49,998","1,099.99","Q1","2022","$1,099.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5955WX"
-"Intel Core i9-14900","49,464","549.00","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900"
-"AMD Ryzen 9 7900","48,869","419.99","Q3","2022","$409.00 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900"
-"Intel Core i9-13900","47,916","549.99","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900"
-"Intel Core i7-14700","46,658","384.00","Q4","2023","$409.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700"
-"Intel Core i7-13700K","46,562","407.99","Q4","2022","$407.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700K"
-"Intel Core i7-13700KF","46,390","390.98","Q4","2022","$390.98 USD (2023-05-21)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700KF"
-"Intel Core i7-14700F","45,176","359.00","Q1","2024","$359.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700F"
-"Intel Core i9-13900T","44,412","549.00","Q1","2023","$549.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900T"
-"Intel Core i9-12900KS","44,160","399.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KS"
-"Intel Core i9-14900T","43,527","549.00","Q1","2024","$549.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900T"
-"Intel Core i9-12900K","41,361","352.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900K"
-"Intel Core i9-12900KF","41,162","398.99","Q4","2021","$398.99 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KF"
-"Intel Core i5-14600KF","39,365","294.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600KF"
-"Intel Core i5-14600K","39,281","319.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600K"
-"Intel Core i7-13700F","39,259","360.99","Q1","2023","$360.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700F"
-"Intel Core i5-13600K","38,146","309.99","Q3","2022","$309.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600K"
-"Intel Core i5-13600KF","37,931","292.99","Q4","2022","$292.99 USD (2023-05-26)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600KF"
-"Intel Core i7-13700","37,695","349.99","Q4","2022","$407.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700"
-"Intel Core i9-12900F","36,971","425.00","Q1","2022","$425.00 USD (2023-05-25)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900F"
-"Intel Core i5-14600","36,251","255.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600"
-"AMD Ryzen 7 7700X","36,024","315.75","Q4","2022","$315.75 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7700X"
-"Intel Core i7-12700K","34,658","409.00","Q4","2021","$409.00 USD (2021-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700K"
-"AMD Ryzen 7 7700","34,601","319.79","Q4","2022","$315.75 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7700"
-"Intel Core i7-12700KF","34,462","276.00","Q4","2021","$276.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700KF"
-"AMD Ryzen 7 7800X3D","34,388","439.00","Q2","2023","$439.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7800X3D"
-"Intel Core i9-12900","34,363","449.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900"
-"Intel Core i5-13600","32,689","255.00","Q3","2022","$309.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600"
-"Intel Core i5-14500","32,554","232.00","Q1","2024","$232.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14500"
-"Intel Core i5-13500","32,038","247.98","Q3","2022","$247.98 USD (2023-05-27)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13500"
-"Intel Xeon W-3265M @ 2.70GHz","32,025","6,353.00","Q4","2021","$6,353.00 USD (2021-10-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3265M+@+2.70GHz"
-"Intel Core i7-12700","30,839","325.49","Q4","2021","$409.00 USD (2021-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700"
-"Intel Core i7-12700F","30,665","284.99","Q1","2022","$284.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700F"
-"Intel Core i9-12900T","30,113","489.00","Q3","2023","$544.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900T"
-"Intel Core i7-12700E","29,384","344.00","Q3","2022","$344.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700E"
-"AMD Ryzen 5 7600X","28,584","218.00","Q3","2022","$218.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7600X"
-"AMD Ryzen 7 5800X3D","28,305","289.55","Q2","2022","$289.55 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800X3D"
-"Intel Core i7-13700T","27,749","384.00","Q1","2023","$384.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700T"
-"Intel Core i5-12600K","27,746","199.99","Q4","2021","$199.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600K"
-"Intel Core i5-13490F","27,539","263.66","Q2","2023","$263.66 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13490F"
-"Intel Core i5-12600KF","27,425","219.94","Q4","2021","$219.94 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600KF"
-"AMD Ryzen 5 7600","27,252","219.99","Q3","2022","$218.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7600"
-"Intel Core i5-14400","26,853","221.00","Q1","2024","$221.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14400"
-"AMD Ryzen 7 5700X","26,715","184.99","Q2","2022","$184.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700X"
-"Intel Xeon W-3323 @ 3.50GHz","25,875","949.00","Q4","2021","$949.00 USD (2021-07-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3323+@+3.50GHz"
-"Intel Core i5-13600T","25,834","255.00","Q1","2023","$255.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600T"
-"Intel Core i5-14400F","25,800","196.00","Q1","2024","$196.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14400F"
-"Intel Core i5-13400F","25,266","164.99","Q1","2023","$164.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400F"
-"Intel Core i5-13400","24,932","228.26","Q1","2023","$164.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400"
-"AMD Ryzen 7 5700G","24,606","167.86","Q2","2021","$167.86 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700G"
-"Intel Xeon W-1370P @ 3.60GHz","24,540","508.99","Q2","2021","$508.99 USD (2023-05-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1370P+@+3.60GHz"
-"Intel Xeon W-1370 @ 2.90GHz","23,449","468.99","Q3","2021","$468.99 USD (2023-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1370+@+2.90GHz"
-"Intel Core i5-13500T","23,346","232.00","Q1","2023","$232.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13500T"
-"Intel Core i9-11900KB @ 3.30GHz","22,901","539.00","Q3","2021","$539.00 USD (2021-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900KB+@+3.30GHz"
-"Intel Core i9-11900F @ 2.50GHz","22,580","418.99","Q2","2021","$418.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900F+@+2.50GHz"
-"Intel Core i5-14500T","22,398","232.00","Q1","2024","$232.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14500T"
-"Intel Core i7-12700T","21,594","339.00","Q2","2022","$339.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700T"
-"AMD Ryzen 5 5600","21,569","119.99","Q3","2023","NA","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600"
-"Intel Core i5-12600","21,285","260.00","Q4","2021","$199.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600"
-"Intel Core i5-13400T","21,110","221.00","Q2","2023","$221.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400T"
-"Intel Core i7-11700F @ 2.50GHz","21,066","225.99","Q2","2021","$225.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700F+@+2.50GHz"
-"Intel Core i5-12490F","20,523","181.99","Q2","2022","$181.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12490F"
-"Intel Core i5-12500","19,926","202.00","Q1","2022","$311.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500"
-"AMD Ryzen 5 5600G","19,900","121.80","Q2","2021","$121.80 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600G"
-"Intel Core i5-11600KF @ 3.90GHz","19,663","214.82","Q2","2021","$214.82 USD (2023-05-26)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600KF+@+3.90GHz"
-"Intel Core i5-12400F","19,544","149.99","Q1","2022","$149.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400F"
-"Intel Core i9-10900E @ 2.80GHz","19,478","444.00","Q4","2021","$444.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900E+@+2.80GHz"
-"AMD Ryzen 5 5500","19,463","84.99","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5500"
-"Intel Core i5-12400","19,425","192.00","Q1","2022","$149.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400"
-"Intel Core i9-11900T @ 1.50GHz","18,968","439.00","Q2","2021","$439.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900T+@+1.50GHz"
-"Intel Core i5-11600 @ 2.80GHz","18,109","247.99","Q2","2021","$247.99 USD (2023-05-29)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600+@+2.80GHz"
-"Intel Core i5-12500T","16,573","202.00","Q2","2022","$202.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500T"
-"Intel Core i5-12400T","16,167","149.99","Q3","2022","$149.99 USD (2023-05-17)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400T"
-"AMD Ryzen 5 4500","16,138","75.09","Q2","2022","$75.09 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4500"
-"Intel Core i7-11700T @ 1.40GHz","15,831","323.00","Q4","2021","$323.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700T+@+1.40GHz"
-"Intel Core i3-14100F","15,320","109.00","Q1","2024","$109.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-14100F"
-"Intel Core i5-11600T @ 1.70GHz","14,713","213.00","Q4","2021","$213.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600T+@+1.70GHz"
-"Intel Core i3-13100","14,699","128.67","Q1","2023","$128.67 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100"
-"Intel Core i3-12300","14,695","143.00","Q1","2022","$143.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12300"
-"Intel Core i3-13100F","14,655","110.99","Q1","2023","$110.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100F"
-"Intel Xeon W-1250P @ 4.10GHz","14,510","321.50","Q2","2021","$321.50 USD (2022-07-12)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1250P+@+4.10GHz"
-"Intel Core i3-12100F","14,154","136.99","Q1","2022","$136.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100F"
-"Intel Core i5-11400T @ 1.30GHz","13,626","182.00","Q2","2021","$182.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11400T+@+1.30GHz"
-"Intel Core i3-12100","13,534","122.00","Q3","2023","$138.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100"
-"Intel Core i3-12300T","13,251","157.00","Q4","2022","$157.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12300T"
-"Intel Core i5-11500T @ 1.50GHz","13,079","192.00","Q3","2021","$192.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11500T+@+1.50GHz"
-"Intel Core i3-13100T","13,011","134.00","Q2","2023","$134.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100T"
-"Intel Core i3-12100T","12,676","122.00","Q1","2022","$122.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100T"
-"AMD Ryzen 3 4100","11,077","64.99","Q2","2022","$64.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+4100"
-"Intel Core i3-10325 @ 3.90GHz","10,268","190.10","Q1","2022","$190.10 USD (2022-06-25)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10325+@+3.90GHz"
-"Intel Core i3-10305 @ 3.80GHz","9,291","167.11","Q2","2021","$167.11 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10305+@+3.80GHz"
-"Intel Core i3-10105 @ 3.70GHz","8,561","104.70","Q2","2021","$104.70 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105+@+3.70GHz"
-"Intel Core i3-10100E @ 3.20GHz","8,365","125.00","Q4","2021","$125.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10100E+@+3.20GHz"
-"Intel Core i3-10305T @ 3.00GHz","8,136","143.00","Q2","2021","$143.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10305T+@+3.00GHz"
-"Intel Core i3-10105T @ 3.00GHz","8,024","122.00","Q2","2021","$122.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105T+@+3.00GHz"
-"Intel 300","7,142","82.00","Q1","2024","$82.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+300"
-"Intel Pentium Gold G7400","6,776","89.99","Q1","2022","$89.99 USD (2023-05-03)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400"
-"Intel Pentium Gold G7400T","5,688","64.00","Q2","2022","$64.00 USD (2022-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400T"
-"Intel Celeron G6900","4,555","79.90","Q1","2022","$79.90 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G6900"
-"Intel Pentium Gold G6605 @ 4.30GHz","4,509","145.08","Q3","2021","$145.08 USD (2023-02-03)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6605+@+4.30GHz"
-"Intel Pentium Gold G6505 @ 4.20GHz","4,371","75.00","Q3","2021","$75.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6505+@+4.20GHz"
-"Intel Pentium Gold G6405 @ 4.10GHz","4,252","71.90","Q2","2021","$71.90 USD (2023-05-17)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6405+@+4.10GHz"
-"Intel Celeron G6900T","4,003","42.00","Q3","2022","$42.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G6900T"
-"Intel Pentium Gold G6405T @ 3.50GHz","3,746","64.00","Q2","2021","$64.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6405T+@+3.50GHz"
-"Intel Pentium Gold G6505T @ 3.60GHz","3,698","90.00","Q4","2022","$90.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6505T+@+3.60GHz"
-"Intel Pentium Gold G6400T @ 3.40GHz","3,588","64.00","Q2","2021","$64.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6400T+@+3.40GHz"
-"Intel Celeron G5925 @ 3.60GHz","2,841","44.87","Q2","2021","$44.87 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5925+@+3.60GHz"
-"Intel Celeron G5900T @ 3.20GHz","2,620","42.00","Q4","2021","$42.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5900T+@+3.20GHz"
-"Intel Celeron G5905T @ 3.30GHz","2,154","42.00","Q2","2021","$42.00 USD (2020-07-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5905T+@+3.30GHz"
-"AMD Ryzen Threadripper PRO 7995WX","15.3","9,999.00","Q4","2023","$9,999.00 USD (2023-10-23)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+7995WX"
-"AMD Ryzen Threadripper PRO 5995WX","16.3","5,699.99","Q1","2022","$5,699.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5995WX"
-"AMD Ryzen Threadripper PRO 5975WX","28.1","2,699.99","Q1","2022","$2,699.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5975WX"
-"AMD Ryzen Threadripper PRO 5965WX","33.3","1,999.99","Q1","2022","$1,999.99 USD (2023-05-18)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5965WX"
-"AMD Ryzen 9 7950X","116.4","540.99","Q3","2022","$540.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7950X"
-"AMD Ryzen 9 7950X3D","94.7","661.08","Q1","2023","$661.08 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7950X3D"
-"Intel Core i9-13900KS","61.9","999.99","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900KS"
-"Intel Core i9-14900K","103.7","589.00","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900K"
-"Intel Core i9-13900K","104.2","569.97","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900K"
-"Intel Core i9-13900KF","107.4","546.49","Q4","2022","$546.49 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900KF"
-"Intel Core i7-14700K","131.1","409.00","Q4","2023","$409.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700K"
-"Intel Core i7-14700KF","139.2","384.00","Q4","2023","$384.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700KF"
-"Intel Core i9-14900F","99.3","524.00","Q1","2024","$524.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900F"
-"AMD Ryzen 9 7900X","127.0","409.00","Q3","2022","$409.00 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900X"
-"Intel Core i9-13900F","98.6","526.03","Q1","2023","$526.03 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900F"
-"AMD Ryzen 9 7900X3D","89.8","561.05","Q1","2023","$561.05 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900X3D"
-"AMD Ryzen Threadripper PRO 5955WX","45.5","1,099.99","Q1","2022","$1,099.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5955WX"
-"Intel Core i9-14900","90.1","549.00","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900"
-"AMD Ryzen 9 7900","116.4","419.99","Q3","2022","$409.00 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900"
-"Intel Core i9-13900","87.1","549.99","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900"
-"Intel Core i7-14700","121.5","384.00","Q4","2023","$409.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700"
-"Intel Core i7-13700K","114.1","407.99","Q4","2022","$407.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700K"
-"Intel Core i7-13700KF","118.7","390.98","Q4","2022","$390.98 USD (2023-05-21)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700KF"
-"Intel Core i7-14700F","125.8","359.00","Q1","2024","$359.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700F"
-"Intel Core i9-13900T","80.9","549.00","Q1","2023","$549.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900T"
-"Intel Core i9-12900KS","110.4","399.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KS"
-"Intel Core i9-14900T","79.3","549.00","Q1","2024","$549.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900T"
-"Intel Core i9-12900K","117.2","352.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900K"
-"Intel Core i9-12900KF","103.2","398.99","Q4","2021","$398.99 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KF"
-"Intel Core i5-14600KF","133.9","294.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600KF"
-"Intel Core i5-14600K","123.1","319.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600K"
-"Intel Core i7-13700F","108.8","360.99","Q1","2023","$360.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700F"
-"Intel Core i5-13600K","123.1","309.99","Q3","2022","$309.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600K"
-"Intel Core i5-13600KF","129.5","292.99","Q4","2022","$292.99 USD (2023-05-26)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600KF"
-"Intel Core i7-13700","107.7","349.99","Q4","2022","$407.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700"
-"Intel Core i9-12900F","87.0","425.00","Q1","2022","$425.00 USD (2023-05-25)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900F"
-"Intel Core i5-14600","142.2","255.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600"
-"AMD Ryzen 7 7700X","114.1","315.75","Q4","2022","$315.75 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7700X"
-"Intel Core i7-12700K","84.7","409.00","Q4","2021","$409.00 USD (2021-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700K"
-"AMD Ryzen 7 7700","108.2","319.79","Q4","2022","$315.75 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7700"
-"Intel Core i7-12700KF","124.9","276.00","Q4","2021","$276.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700KF"
-"AMD Ryzen 7 7800X3D","78.3","439.00","Q2","2023","$439.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7800X3D"
-"Intel Core i9-12900","76.4","449.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900"
-"Intel Core i5-13600","128.2","255.00","Q3","2022","$309.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600"
-"Intel Core i5-14500","140.3","232.00","Q1","2024","$232.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14500"
-"Intel Core i5-13500","129.2","247.98","Q3","2022","$247.98 USD (2023-05-27)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13500"
-"Intel Xeon W-3265M @ 2.70GHz","5.0","6,353.00","Q4","2021","$6,353.00 USD (2021-10-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3265M+@+2.70GHz"
-"Intel Core i7-12700","94.7","325.49","Q4","2021","$409.00 USD (2021-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700"
-"Intel Core i7-12700F","107.6","284.99","Q1","2022","$284.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700F"
-"Intel Core i9-12900T","61.6","489.00","Q3","2023","$544.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900T"
-"Intel Core i7-12700E","85.4","344.00","Q3","2022","$344.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700E"
-"AMD Ryzen 5 7600X","131.1","218.00","Q3","2022","$218.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7600X"
-"AMD Ryzen 7 5800X3D","97.8","289.55","Q2","2022","$289.55 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800X3D"
-"Intel Core i7-13700T","72.3","384.00","Q1","2023","$384.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700T"
-"Intel Core i5-12600K","138.7","199.99","Q4","2021","$199.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600K"
-"Intel Core i5-13490F","104.4","263.66","Q2","2023","$263.66 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13490F"
-"Intel Core i5-12600KF","124.7","219.94","Q4","2021","$219.94 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600KF"
-"AMD Ryzen 5 7600","123.9","219.99","Q3","2022","$218.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7600"
-"Intel Core i5-14400","121.5","221.00","Q1","2024","$221.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14400"
-"AMD Ryzen 7 5700X","144.4","184.99","Q2","2022","$184.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700X"
-"Intel Xeon W-3323 @ 3.50GHz","27.3","949.00","Q4","2021","$949.00 USD (2021-07-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3323+@+3.50GHz"
-"Intel Core i5-13600T","101.3","255.00","Q1","2023","$255.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600T"
-"Intel Core i5-14400F","131.6","196.00","Q1","2024","$196.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14400F"
-"Intel Core i5-13400F","153.1","164.99","Q1","2023","$164.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400F"
-"Intel Core i5-13400","109.2","228.26","Q1","2023","$164.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400"
-"AMD Ryzen 7 5700G","146.6","167.86","Q2","2021","$167.86 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700G"
-"Intel Xeon W-1370P @ 3.60GHz","48.2","508.99","Q2","2021","$508.99 USD (2023-05-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1370P+@+3.60GHz"
-"Intel Xeon W-1370 @ 2.90GHz","50.0","468.99","Q3","2021","$468.99 USD (2023-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1370+@+2.90GHz"
-"Intel Core i5-13500T","100.6","232.00","Q1","2023","$232.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13500T"
-"Intel Core i9-11900KB @ 3.30GHz","42.5","539.00","Q3","2021","$539.00 USD (2021-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900KB+@+3.30GHz"
-"Intel Core i9-11900F @ 2.50GHz","53.9","418.99","Q2","2021","$418.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900F+@+2.50GHz"
-"Intel Core i5-14500T","96.5","232.00","Q1","2024","$232.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14500T"
-"Intel Core i7-12700T","63.7","339.00","Q2","2022","$339.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700T"
-"AMD Ryzen 5 5600","179.8","119.99","Q3","2023","NA","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600"
-"Intel Core i5-12600","81.9","260.00","Q4","2021","$199.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600"
-"Intel Core i5-13400T","95.5","221.00","Q2","2023","$221.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400T"
-"Intel Core i7-11700F @ 2.50GHz","93.2","225.99","Q2","2021","$225.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700F+@+2.50GHz"
-"Intel Core i5-12490F","112.8","181.99","Q2","2022","$181.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12490F"
-"Intel Core i5-12500","98.6","202.00","Q1","2022","$311.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500"
-"AMD Ryzen 5 5600G","163.4","121.80","Q2","2021","$121.80 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600G"
-"Intel Core i5-11600KF @ 3.90GHz","91.5","214.82","Q2","2021","$214.82 USD (2023-05-26)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600KF+@+3.90GHz"
-"Intel Core i5-12400F","130.3","149.99","Q1","2022","$149.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400F"
-"Intel Core i9-10900E @ 2.80GHz","43.9","444.00","Q4","2021","$444.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900E+@+2.80GHz"
-"AMD Ryzen 5 5500","229.0","84.99","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5500"
-"Intel Core i5-12400","101.2","192.00","Q1","2022","$149.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400"
-"Intel Core i9-11900T @ 1.50GHz","43.2","439.00","Q2","2021","$439.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900T+@+1.50GHz"
-"Intel Core i5-11600 @ 2.80GHz","73.0","247.99","Q2","2021","$247.99 USD (2023-05-29)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600+@+2.80GHz"
-"Intel Core i5-12500T","82.0","202.00","Q2","2022","$202.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500T"
-"Intel Core i5-12400T","107.8","149.99","Q3","2022","$149.99 USD (2023-05-17)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400T"
-"AMD Ryzen 5 4500","214.9","75.09","Q2","2022","$75.09 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4500"
-"Intel Core i7-11700T @ 1.40GHz","49.0","323.00","Q4","2021","$323.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700T+@+1.40GHz"
-"Intel Core i3-14100F","140.6","109.00","Q1","2024","$109.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-14100F"
-"Intel Core i5-11600T @ 1.70GHz","69.1","213.00","Q4","2021","$213.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600T+@+1.70GHz"
-"Intel Core i3-13100","114.2","128.67","Q1","2023","$128.67 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100"
-"Intel Core i3-12300","102.8","143.00","Q1","2022","$143.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12300"
-"Intel Core i3-13100F","132.0","110.99","Q1","2023","$110.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100F"
-"Intel Xeon W-1250P @ 4.10GHz","45.1","321.50","Q2","2021","$321.50 USD (2022-07-12)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1250P+@+4.10GHz"
-"Intel Core i3-12100F","103.3","136.99","Q1","2022","$136.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100F"
-"Intel Core i5-11400T @ 1.30GHz","74.9","182.00","Q2","2021","$182.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11400T+@+1.30GHz"
-"Intel Core i3-12100","110.9","122.00","Q3","2023","$138.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100"
-"Intel Core i3-12300T","84.4","157.00","Q4","2022","$157.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12300T"
-"Intel Core i5-11500T @ 1.50GHz","68.1","192.00","Q3","2021","$192.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11500T+@+1.50GHz"
-"Intel Core i3-13100T","97.1","134.00","Q2","2023","$134.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100T"
-"Intel Core i3-12100T","103.9","122.00","Q1","2022","$122.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100T"
-"AMD Ryzen 3 4100","170.4","64.99","Q2","2022","$64.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+4100"
-"Intel Core i3-10325 @ 3.90GHz","54.0","190.10","Q1","2022","$190.10 USD (2022-06-25)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10325+@+3.90GHz"
-"Intel Core i3-10305 @ 3.80GHz","55.6","167.11","Q2","2021","$167.11 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10305+@+3.80GHz"
-"Intel Core i3-10105 @ 3.70GHz","81.8","104.70","Q2","2021","$104.70 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105+@+3.70GHz"
-"Intel Core i3-10100E @ 3.20GHz","66.9","125.00","Q4","2021","$125.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10100E+@+3.20GHz"
-"Intel Core i3-10305T @ 3.00GHz","56.9","143.00","Q2","2021","$143.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10305T+@+3.00GHz"
-"Intel Core i3-10105T @ 3.00GHz","65.8","122.00","Q2","2021","$122.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105T+@+3.00GHz"
-"Intel 300","87.1","82.00","Q1","2024","$82.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+300"
-"Intel Pentium Gold G7400","75.3","89.99","Q1","2022","$89.99 USD (2023-05-03)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400"
-"Intel Pentium Gold G7400T","88.9","64.00","Q2","2022","$64.00 USD (2022-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400T"
-"Intel Celeron G6900","57.0","79.90","Q1","2022","$79.90 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G6900"
-"Intel Pentium Gold G6605 @ 4.30GHz","31.1","145.08","Q3","2021","$145.08 USD (2023-02-03)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6605+@+4.30GHz"
-"Intel Pentium Gold G6505 @ 4.20GHz","58.3","75.00","Q3","2021","$75.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6505+@+4.20GHz"
-"Intel Pentium Gold G6405 @ 4.10GHz","59.1","71.90","Q2","2021","$71.90 USD (2023-05-17)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6405+@+4.10GHz"
-"Intel Celeron G6900T","95.3","42.00","Q3","2022","$42.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G6900T"
-"Intel Pentium Gold G6405T @ 3.50GHz","58.5","64.00","Q2","2021","$64.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6405T+@+3.50GHz"
-"Intel Pentium Gold G6505T @ 3.60GHz","41.1","90.00","Q4","2022","$90.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6505T+@+3.60GHz"
-"Intel Pentium Gold G6400T @ 3.40GHz","56.1","64.00","Q2","2021","$64.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6400T+@+3.40GHz"
-"Intel Celeron G5925 @ 3.60GHz","63.3","44.87","Q2","2021","$44.87 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5925+@+3.60GHz"
-"Intel Celeron G5900T @ 3.20GHz","62.4","42.00","Q4","2021","$42.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5900T+@+3.20GHz"
-"Intel Celeron G5905T @ 3.30GHz","51.3","42.00","Q2","2021","$42.00 USD (2020-07-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5905T+@+3.30GHz"
-"Intel Core i9-14900T","43,527","549.00","Q1","2024","$549.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900T"
-"Intel Core i5-14500T","22,398","232.00","Q1","2024","$232.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14500T"
-"Intel Core i9-14900","49,464","549.00","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900"
-"Intel Core i5-14400","26,853","221.00","Q1","2024","$221.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14400"
-"Intel Core i5-14600","36,251","255.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600"
-"Intel 300","7,142","82.00","Q1","2024","$82.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+300"
-"Intel Core i7-14700","46,658","384.00","Q4","2023","$409.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700"
-"Intel Core i3-14100F","15,320","109.00","Q1","2024","$109.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-14100F"
-"Intel Core i5-14400F","25,800","196.00","Q1","2024","$196.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14400F"
-"Intel Core i5-14500","32,554","232.00","Q1","2024","$232.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14500"
-"Intel Core i9-14900F","52,059","524.00","Q1","2024","$524.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900F"
-"Intel Core i7-14700F","45,176","359.00","Q1","2024","$359.00 USD (2024-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700F"
-"AMD Ryzen Threadripper PRO 7995WX","153,173","9,999.00","Q4","2023","$9,999.00 USD (2023-10-23)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+7995WX"
-"Intel Core i7-14700KF","53,435","384.00","Q4","2023","$384.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700KF"
-"Intel Core i5-14600KF","39,365","294.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600KF"
-"Intel Core i7-14700K","53,630","409.00","Q4","2023","$409.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700K"
-"Intel Core i5-14600K","39,281","319.00","Q4","2023","$294.00 USD (2023-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600K"
-"Intel Core i9-14900K","61,079","589.00","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900K"
-"Intel Core i5-13490F","27,539","263.66","Q2","2023","$263.66 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13490F"
-"Intel Core i5-13400T","21,110","221.00","Q2","2023","$221.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400T"
-"AMD Ryzen 7 7800X3D","34,388","439.00","Q2","2023","$439.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7800X3D"
-"Intel Core i3-13100T","13,011","134.00","Q2","2023","$134.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100T"
-"AMD Ryzen 9 7900X3D","50,405","561.05","Q1","2023","$561.05 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900X3D"
-"Intel Core i5-13500T","23,346","232.00","Q1","2023","$232.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13500T"
-"AMD Ryzen 9 7950X3D","62,590","661.08","Q1","2023","$661.08 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7950X3D"
-"Intel Core i7-13700T","27,749","384.00","Q1","2023","$384.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700T"
-"Intel Core i9-13900","47,916","549.99","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900"
-"Intel Core i5-13600T","25,834","255.00","Q1","2023","$255.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600T"
-"AMD Ryzen 5 7600","27,252","219.99","Q3","2022","$218.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7600"
-"AMD Ryzen 7 7700","34,601","319.79","Q4","2022","$315.75 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7700"
-"Intel Core i3-13100","14,699","128.67","Q1","2023","$128.67 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100"
-"AMD Ryzen 9 7900","48,869","419.99","Q3","2022","$409.00 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900"
-"Intel Core i5-13400F","25,266","164.99","Q1","2023","$164.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400F"
-"Intel Core i7-13700F","39,259","360.99","Q1","2023","$360.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700F"
-"Intel Core i9-13900KS","61,896","999.99","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900KS"
-"Intel Core i5-13600","32,689","255.00","Q3","2022","$309.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600"
-"Intel Core i9-13900T","44,412","549.00","Q1","2023","$549.00 USD (2023-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900T"
-"Intel Core i3-13100F","14,655","110.99","Q1","2023","$110.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100F"
-"Intel Core i9-13900F","51,852","526.03","Q1","2023","$526.03 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900F"
-"Intel Pentium Gold G6505T @ 3.60GHz","3,698","90.00","Q4","2022","$90.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6505T+@+3.60GHz"
-"Intel Core i3-12300T","13,251","157.00","Q4","2022","$157.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12300T"
-"Intel Core i7-13700KF","46,390","390.98","Q4","2022","$390.98 USD (2023-05-21)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700KF"
-"Intel Core i7-13700K","46,562","407.99","Q4","2022","$407.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700K"
-"Intel Core i5-13600KF","37,931","292.99","Q4","2022","$292.99 USD (2023-05-26)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600KF"
-"Intel Core i9-13900KF","58,681","546.49","Q4","2022","$546.49 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900KF"
-"AMD Ryzen 7 7700X","36,024","315.75","Q4","2022","$315.75 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7700X"
-"AMD Ryzen 5 7600X","28,584","218.00","Q3","2022","$218.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7600X"
-"AMD Ryzen 9 7950X","62,951","540.99","Q3","2022","$540.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7950X"
-"AMD Ryzen 9 7900X","51,934","409.00","Q3","2022","$409.00 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900X"
-"Intel Core i9-13900K","59,370","569.97","Q1","2023","$999.99 USD (2023-05-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900K"
-"Intel Core i7-12700E","29,384","344.00","Q3","2022","$344.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700E"
-"Intel Core i5-13600K","38,146","309.99","Q3","2022","$309.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600K"
-"Intel Core i5-13500","32,038","247.98","Q3","2022","$247.98 USD (2023-05-27)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13500"
-"Intel Core i5-13400","24,932","228.26","Q1","2023","$164.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400"
-"Intel Core i7-13700","37,695","349.99","Q4","2022","$407.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700"
-"Intel Core i5-12400T","16,167","149.99","Q3","2022","$149.99 USD (2023-05-17)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400T"
-"Intel Celeron G6900T","4,003","42.00","Q3","2022","$42.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G6900T"
-"Intel Core i5-12490F","20,523","181.99","Q2","2022","$181.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12490F"
-"Intel Pentium Gold G7400T","5,688","64.00","Q2","2022","$64.00 USD (2022-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400T"
-"Intel Core i7-12700T","21,594","339.00","Q2","2022","$339.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700T"
-"AMD Ryzen 3 4100","11,077","64.99","Q2","2022","$64.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+4100"
-"AMD Ryzen 7 5800X3D","28,305","289.55","Q2","2022","$289.55 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800X3D"
-"AMD Ryzen 5 4500","16,138","75.09","Q2","2022","$75.09 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4500"
-"AMD Ryzen 7 5700X","26,715","184.99","Q2","2022","$184.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700X"
-"Intel Core i9-12900KS","44,160","399.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KS"
-"AMD Ryzen 5 5600","21,569","119.99","Q3","2023","NA","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600"
-"AMD Ryzen 5 5500","19,463","84.99","Q1","2024","NA","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5500"
-"Intel Core i5-12500T","16,573","202.00","Q2","2022","$202.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500T"
-"Intel Core i3-12100T","12,676","122.00","Q1","2022","$122.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100T"
-"AMD Ryzen Threadripper PRO 5975WX","75,881","2,699.99","Q1","2022","$2,699.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5975WX"
-"AMD Ryzen Threadripper PRO 5965WX","66,617","1,999.99","Q1","2022","$1,999.99 USD (2023-05-18)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5965WX"
-"AMD Ryzen Threadripper PRO 5955WX","49,998","1,099.99","Q1","2022","$1,099.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5955WX"
-"AMD Ryzen Threadripper PRO 5995WX","92,987","5,699.99","Q1","2022","$5,699.99 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5995WX"
-"Intel Core i3-12300","14,695","143.00","Q1","2022","$143.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12300"
-"Intel Pentium Gold G7400","6,776","89.99","Q1","2022","$89.99 USD (2023-05-03)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400"
-"Intel Core i9-12900","34,363","449.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900"
-"Intel Core i9-12900T","30,113","489.00","Q3","2023","$544.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900T"
-"Intel Celeron G6900","4,555","79.90","Q1","2022","$79.90 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G6900"
-"Intel Core i9-12900F","36,971","425.00","Q1","2022","$425.00 USD (2023-05-25)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900F"
-"Intel Core i7-12700F","30,665","284.99","Q1","2022","$284.99 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700F"
-"Intel Core i5-12600","21,285","260.00","Q4","2021","$199.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600"
-"Intel Core i3-12100","13,534","122.00","Q3","2023","$138.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100"
-"Intel Core i3-10325 @ 3.90GHz","10,268","190.10","Q1","2022","$190.10 USD (2022-06-25)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10325+@+3.90GHz"
-"Intel Core i5-12400F","19,544","149.99","Q1","2022","$149.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400F"
-"Intel Core i5-12400","19,425","192.00","Q1","2022","$149.99 USD (2023-05-22)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400"
-"Intel Core i5-12500","19,926","202.00","Q1","2022","$311.00 USD (2022-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500"
-"Intel Core i3-12100F","14,154","136.99","Q1","2022","$136.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100F"
-"Intel Core i7-12700","30,839","325.49","Q4","2021","$409.00 USD (2021-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700"
-"Intel Core i5-12600KF","27,425","219.94","Q4","2021","$219.94 USD (2023-05-31)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600KF"
-"Intel Core i3-10100E @ 3.20GHz","8,365","125.00","Q4","2021","$125.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10100E+@+3.20GHz"
-"Intel Core i9-10900E @ 2.80GHz","19,478","444.00","Q4","2021","$444.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900E+@+2.80GHz"
-"Intel Core i9-12900KF","41,162","398.99","Q4","2021","$398.99 USD (2023-05-30)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KF"
-"Intel Core i7-12700K","34,658","409.00","Q4","2021","$409.00 USD (2021-10-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700K"
-"Intel Core i7-12700KF","34,462","276.00","Q4","2021","$276.00 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700KF"
-"Intel Core i5-11600T @ 1.70GHz","14,713","213.00","Q4","2021","$213.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600T+@+1.70GHz"
-"Intel Core i5-12600K","27,746","199.99","Q4","2021","$199.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600K"
-"Intel Core i9-12900K","41,361","352.99","Q2","2022","$399.99 USD (2023-05-24)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900K"
-"Intel Xeon W-3323 @ 3.50GHz","25,875","949.00","Q4","2021","$949.00 USD (2021-07-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3323+@+3.50GHz"
-"Intel Core i7-11700T @ 1.40GHz","15,831","323.00","Q4","2021","$323.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700T+@+1.40GHz"
-"Intel Celeron G5900T @ 3.20GHz","2,620","42.00","Q4","2021","$42.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5900T+@+3.20GHz"
-"Intel Xeon W-3265M @ 2.70GHz","32,025","6,353.00","Q4","2021","$6,353.00 USD (2021-10-19)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3265M+@+2.70GHz"
-"Intel Xeon W-1370 @ 2.90GHz","23,449","468.99","Q3","2021","$468.99 USD (2023-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1370+@+2.90GHz"
-"Intel Core i5-11500T @ 1.50GHz","13,079","192.00","Q3","2021","$192.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11500T+@+1.50GHz"
-"Intel Pentium Gold G6505 @ 4.20GHz","4,371","75.00","Q3","2021","$75.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6505+@+4.20GHz"
-"Intel Pentium Gold G6605 @ 4.30GHz","4,509","145.08","Q3","2021","$145.08 USD (2023-02-03)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6605+@+4.30GHz"
-"Intel Core i9-11900KB @ 3.30GHz","22,901","539.00","Q3","2021","$539.00 USD (2021-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900KB+@+3.30GHz"
-"Intel Celeron G5925 @ 3.60GHz","2,841","44.87","Q2","2021","$44.87 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5925+@+3.60GHz"
-"Intel Core i5-11400T @ 1.30GHz","13,626","182.00","Q2","2021","$182.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11400T+@+1.30GHz"
-"Intel Core i3-10105T @ 3.00GHz","8,024","122.00","Q2","2021","$122.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105T+@+3.00GHz"
-"Intel Xeon W-1370P @ 3.60GHz","24,540","508.99","Q2","2021","$508.99 USD (2023-05-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1370P+@+3.60GHz"
-"Intel Core i3-10305T @ 3.00GHz","8,136","143.00","Q2","2021","$143.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10305T+@+3.00GHz"
-"Intel Core i3-10305 @ 3.80GHz","9,291","167.11","Q2","2021","$167.11 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10305+@+3.80GHz"
-"Intel Pentium Gold G6405 @ 4.10GHz","4,252","71.90","Q2","2021","$71.90 USD (2023-05-17)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6405+@+4.10GHz"
-"Intel Pentium Gold G6405T @ 3.50GHz","3,746","64.00","Q2","2021","$64.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6405T+@+3.50GHz"
-"Intel Core i9-11900T @ 1.50GHz","18,968","439.00","Q2","2021","$439.00 USD (2021-01-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900T+@+1.50GHz"
-"Intel Xeon W-1250P @ 4.10GHz","14,510","321.50","Q2","2021","$321.50 USD (2022-07-12)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1250P+@+4.10GHz"
-"Intel Celeron G5905T @ 3.30GHz","2,154","42.00","Q2","2021","$42.00 USD (2020-07-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5905T+@+3.30GHz"
-"AMD Ryzen 7 5700G","24,606","167.86","Q2","2021","$167.86 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700G"
-"AMD Ryzen 5 5600G","19,900","121.80","Q2","2021","$121.80 USD (2023-06-01)","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600G"
-"Intel Pentium Gold G6400T @ 3.40GHz","3,588","64.00","Q2","2021","$64.00 USD (2020-04-01)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6400T+@+3.40GHz"
-"Intel Core i5-11600 @ 2.80GHz","18,109","247.99","Q2","2021","$247.99 USD (2023-05-29)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600+@+2.80GHz"
-"Intel Core i9-11900F @ 2.50GHz","22,580","418.99","Q2","2021","$418.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900F+@+2.50GHz"
-"Intel Core i7-11700F @ 2.50GHz","21,066","225.99","Q2","2021","$225.99 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700F+@+2.50GHz"
-"Intel Core i5-11600KF @ 3.90GHz","19,663","214.82","Q2","2021","$214.82 USD (2023-05-26)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600KF+@+3.90GHz"
-"Intel Core i3-10105 @ 3.70GHz","8,561","104.70","Q2","2021","$104.70 USD (2023-06-02)","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105+@+3.70GHz"
+"CPU","URL","ReleaseQuarters","ReleaseYear","CurrentPrice","Score"
+"Intel Core i9-14900K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900K&id=5717","Q4",2023,589,61046
+"Intel Core i9-13900KS","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900KS&id=5160","Q1",2023,999.99,61899
+"Intel Core i9-13900K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900K&id=5022","Q3",2022,569.97,59349
+"Intel Core i9-13900KF","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900KF&id=5055","Q4",2022,546.49,58678
+"Intel Core i9-14900","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900&id=5886","Q1",2024,549,49392
+"Intel Core i9-14900F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900F&id=5833","Q1",2024,524,52059
+"Intel Core i7-14700KF","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700KF&id=5723","Q4",2023,384,53451
+"Intel Core i7-14700K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700K&id=5719","Q4",2023,409,53642
+"Intel Core i9-13900F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900F&id=5143","Q1",2023,526.03,51623
+"Intel Core i9-14900T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-14900T&id=5903","Q1",2024,549,43527
+"Intel Core i7-13700K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700K&id=5060","Q4",2022,407.99,46552
+"Intel Core i7-13700KF","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700KF&id=5061","Q4",2022,390.98,46381
+"Intel Core i9-12900KS","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KS&id=4813","Q2",2022,399.99,44157
+"Intel Core i9-13900","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900&id=5176","Q1",2023,549.99,47920
+"Intel Core i7-14700F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700F&id=5834","Q1",2024,359,44921
+"Intel Core i5-14600KF","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600KF&id=5722","Q4",2023,294,39393
+"AMD Ryzen 9 7950X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7950X&id=5031","Q3",2022,540.99,62943
+"Intel Core i5-14600K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600K&id=5720","Q4",2023,319,39255
+"AMD Ryzen 9 7900X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900X&id=5027","Q3",2022,409,51931
+"Intel Core i5-14600","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14600&id=5865","Q1",2024,255,36251
+"Intel Core i9-13900T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-13900T&id=5154","Q1",2023,549,44297
+"AMD Ryzen 7 7700X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7700X&id=5036","Q4",2022,315.75,36020
+"Intel Core i7-14700","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14700&id=5852","Q1",2024,384,46566
+"Intel Core i9-12900K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900K&id=4597","Q4",2021,352.99,41361
+"Intel Core i9-12900KF","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KF&id=4611","Q4",2021,398.99,41158
+"AMD Ryzen 5 7600X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7600X&id=5033","Q3",2022,218,28572
+"AMD Ryzen 9 7900","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900&id=5167","Q1",2023,419.99,48842
+"Intel Core i5-13600K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600K&id=5008","Q3",2022,309.99,38139
+"AMD Ryzen 9 7950X3D","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7950X3D&id=5234","Q1",2023,661.08,62536
+"Intel Core i7-13700","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700&id=4992","Q3",2022,349.99,37655
+"Intel Core i5-13600KF","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600KF&id=5059","Q4",2022,292.99,37914
+"Intel Core i7-13700F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700F&id=5163","Q1",2023,360.99,39246
+"AMD Ryzen 9 7900X3D","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+7900X3D&id=5240","Q1",2023,561.05,50408
+"Intel Core i9-12900F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900F&id=4694","Q1",2022,425,36971
+"AMD Ryzen 7 7700","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7700&id=5169","Q1",2023,319.79,34598
+"Intel Core i5-13600","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600&id=5159","Q1",2023,255,32488
+"Intel Core i9-12900","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900&id=4729","Q1",2022,449.99,34358
+"Intel Core i7-12700K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700K&id=4609","Q4",2021,409,34652
+"Intel Core i7-12700KF","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700KF&id=4608","Q4",2021,276,34462
+"Intel Core i5-14500","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14500&id=5835","Q1",2024,232,32734
+"Intel Core i5-12600K","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600K&id=4603","Q4",2021,199.99,27748
+"AMD Ryzen Threadripper PRO 7995WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+7995WX&id=5726","Q4",2023,999,153173
+"Intel Core i5-14500T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14500T&id=5889","Q1",2024,232,22398
+"Intel Core i5-12600KF","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600KF&id=4625","Q4",2021,219.94,27434
+"AMD Ryzen 5 7600","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+7600&id=5172","Q1",2023,219.99,27247
+"Intel Core i5-13490F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13490F&id=5412","Q2",2023,263.66,27539
+"Intel Core i7-12700","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700&id=4669","Q1",2022,325.49,30834
+"Intel Core i7-13700T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-13700T&id=5223","Q1",2023,384,27450
+"Intel Core i5-13500","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13500&id=4993","Q3",2022,247.98,32004
+"Intel Core i7-12700F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700F&id=4692","Q1",2022,284.99,30659
+"Intel Core i5-13600T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13600T&id=5175","Q1",2023,255,26096
+"Intel Core i5-12600","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600&id=4688","Q1",2022,260,21278
+"Intel Core i9-12900T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900T&id=4710","Q1",2022,489,30113
+"Intel Core i3-14100F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-14100F&id=5853","Q1",2024,109,15320
+"Intel Core i5-14400","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14400&id=5868","Q1",2024,221,26855
+"Intel Core i7-12700E","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700E&id=5018","Q3",2022,344,29384
+"AMD Ryzen 7 7800X3D","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+7800X3D&id=5299","Q2",2023,439,34383
+"Intel Core i5-14400F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-14400F&id=5837","Q1",2024,196,25891
+"Intel Core i5-12490F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12490F&id=4903","Q2",2022,181.99,20523
+"Intel Core i5-12500","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500&id=4675","Q1",2022,202,19930
+"Intel Core i5-13400","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400&id=4994","Q3",2022,228.26,24927
+"Intel Core i5-13400F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400F&id=5166","Q1",2023,164.99,25268
+"Intel Core i5-13500T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13500T&id=5239","Q1",2023,232,23296
+"Intel Core i3-13100","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100&id=5170","Q1",2023,128.67,14693
+"Intel Core i7-12700T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-12700T&id=4830","Q2",2022,339,21589
+"Intel Core i3-12300","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12300&id=4746","Q1",2022,143,14695
+"Intel Core i3-13100F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100F&id=5156","Q1",2023,110.99,14653
+"Intel Core i9-11900KF @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900KF+%40+3.50GHz&id=4240","Q2",2021,415.99,25269
+"Intel Core i5-12400","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400&id=4677","Q1",2022,192,19425
+"Intel Xeon W-1370P @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1370P+%40+3.60GHz&id=4377","Q2",2021,508.99,24540
+"Intel Core i5-12500T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12500T&id=4804","Q2",2022,202,16575
+"Intel Core i9-11900K @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900K+%40+3.50GHz&id=3904","Q1",2021,318.9,25324
+"Intel Core i5-12400F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400F&id=4681","Q1",2022,149.99,19535
+"Intel Core i5-13400T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-13400T&id=5328","Q2",2023,221,21110
+"Intel Xeon W-1370 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1370+%40+2.90GHz&id=4547","Q3",2021,468.99,23449
+"AMD Ryzen 9 5900X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5900X&id=3870","Q4",2020,299.99,39193
+"AMD Ryzen 9 5950X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5950X&id=3862","Q4",2020,441.71,45682
+"Intel Core i3-12100F","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100F&id=4670","Q1",2022,136.99,14153
+"AMD Ryzen 7 5800X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800X&id=3869","Q4",2020,225.03,27911
+"Intel Core i9-11900 @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900+%40+2.50GHz&id=4245","Q2",2021,419.99,22966
+"Intel Core i3-12100","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100&id=4687","Q1",2022,122,13537
+"Intel Core i9-11900F @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900F+%40+2.50GHz&id=4267","Q2",2021,418.99,22580
+"Intel Core i7-11700K @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700K+%40+3.60GHz&id=3896","Q4",2020,276.1,24657
+"Intel Core i3-13100T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-13100T&id=5295","Q2",2023,134,13073
+"Intel Core i3-12300T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12300T&id=5109","Q4",2022,157,13251
+"Intel Core i7-11700KF @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700KF+%40+3.60GHz&id=4234","Q1",2021,262.99,24012
+"AMD Ryzen 7 5700X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700X&id=4814","Q2",2022,184.99,26705
+"Intel Core i5-12400T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12400T&id=4980","Q3",2022,149.99,16167
+"AMD Ryzen 5 5600X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600X&id=3859","Q4",2020,156.41,21911
+"Intel Core i5-11600K @ 3.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600K+%40+3.90GHz&id=4236","Q2",2021,178.48,19647
+"AMD Ryzen Threadripper PRO 5965WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5965WX&id=4768","Q1",2022,999.99,66617
+"Intel Core i5-11600KF @ 3.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600KF+%40+3.90GHz&id=4261","Q2",2021,214.82,19664
+"AMD Ryzen Threadripper PRO 5955WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5955WX&id=4767","Q1",2022,99.99,50024
+"Intel Core i9-11900T @ 1.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900T+%40+1.50GHz&id=4360","Q2",2021,439,18968
+"AMD Ryzen Threadripper PRO 5975WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5975WX&id=4776","Q1",2022,699.99,75881
+"Intel Core i9-11900KB @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-11900KB+%40+3.30GHz&id=4444","Q3",2021,539,22901
+"Intel Core i7-11700F @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700F+%40+2.50GHz&id=4264","Q2",2021,225.99,21059
+"Intel Core i5-11600 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600+%40+2.80GHz&id=4306","Q2",2021,247.99,18113
+"AMD Ryzen 7 5700G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5700G&id=4323","Q2",2021,167.86,24601
+"Intel Core i3-12100T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-12100T&id=4802","Q1",2022,122,12676
+"AMD Ryzen 5 5600","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600&id=4811","Q2",2022,119.99,21569
+"Intel 300","https://www.cpubenchmark.net/cpu.php?cpu=Intel+300&id=5862","Q1",2024,82,7142
+"AMD Ryzen 7 5800X3D","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+5800X3D&id=4823","Q2",2022,289.55,28297
+"AMD Ryzen Threadripper PRO 5995WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+5995WX&id=4764","Q1",2022,699.99,92987
+"AMD Ryzen 5 5600G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5600G&id=4325","Q2",2021,121.8,19900
+"Intel Core i5-11500 @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11500+%40+2.70GHz&id=4238","Q2",2021,208.5,17393
+"Intel Core i9-10900K @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900K+%40+3.70GHz&id=3730","Q2",2020,319.99,22968
+"Intel Core i9-10900KF @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900KF+%40+3.70GHz&id=3754","Q2",2020,315.19,22646
+"Intel Core i7-11700 @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700+%40+2.50GHz&id=3947","Q1",2021,194.99,19802
+"Intel Core i9-10850K @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10850K+%40+3.60GHz&id=3824","Q3",2020,265.99,22458
+"AMD Ryzen 5 5500","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5500&id=4807","Q2",2022,84.99,19457
+"Intel Core i7-10700K @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700K+%40+3.80GHz&id=3733","Q2",2020,261.19,18847
+"Intel Core i7-10700KF @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700KF+%40+3.80GHz&id=3757","Q2",2020,274.99,18652
+"Intel Core i9-9900KS @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900KS+%40+4.00GHz&id=3593","Q4",2019,957.6,19525
+"Intel Core i5-11400 @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11400+%40+2.60GHz&id=4233","Q1",2021,139.4,17088
+"Intel Core i9-10900F @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900F+%40+2.80GHz&id=3798","Q3",2020,332.8,20050
+"Intel Core i9-10900 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900+%40+2.80GHz&id=3745","Q2",2020,399,19892
+"Intel Pentium Gold G7400","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400&id=4732","Q1",2022,89.99,6776
+"Intel Core i5-11400F @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11400F+%40+2.60GHz&id=4226","Q1",2021,119.99,17088
+"Intel Xeon W-1250P @ 4.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-1250P+%40+4.10GHz&id=4362","Q2",2021,321.5,14510
+"Intel Core i9-9990XE @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9990XE+%40+4.00GHz&id=3770","Q3",2020,163,30162
+"Intel Core i7-11700T @ 1.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-11700T+%40+1.40GHz&id=4558","Q4",2021,323,15670
+"Intel Core i9-9900KF @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900KF+%40+3.60GHz&id=3435","Q2",2019,374.99,18316
+"Intel Core i9-9900K @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900K+%40+3.60GHz&id=3334","Q4",2018,565,18324
+"Intel Core i5-10600 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600+%40+3.30GHz&id=3750","Q2",2020,218.21,13679
+"Intel Core i5-10600K @ 4.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600K+%40+4.10GHz&id=3735","Q2",2020,159.09,14328
+"Intel Core i5-10600KF @ 4.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600KF+%40+4.10GHz&id=3810","Q3",2020,175.99,14256
+"Intel Core i7-10700 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700+%40+2.90GHz&id=3747","Q2",2020,227.82,16459
+"Intel Core i9-10900E @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900E+%40+2.80GHz&id=4621","Q4",2021,444,19478
+"Intel Core i5-11600T @ 1.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11600T+%40+1.70GHz&id=4607","Q4",2021,213,14713
+"Intel Core i7-9700KF @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700KF+%40+3.60GHz&id=3428","Q2",2019,239.98,14314
+"Intel Core i7-10700F @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700F+%40+2.90GHz&id=3806","Q3",2020,189.99,16457
+"Intel Core i7-9700K @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700K+%40+3.60GHz&id=3335","Q4",2018,260.53,14477
+"Intel Core i3-10325 @ 3.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10325+%40+3.90GHz&id=4685","Q1",2022,190.1,10268
+"Intel Core i7-8086K @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8086K+%40+4.00GHz&id=3279","Q2",2018,367,14313
+"Intel Core i3-10320 @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10320+%40+3.80GHz&id=3890","Q4",2020,139.99,10024
+"Intel Core i9-9900 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900+%40+3.10GHz&id=3487","Q3",2019,499,16562
+"Intel Core i3-10305 @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10305+%40+3.80GHz&id=4369","Q2",2021,167.11,9291
+"AMD Ryzen 7 3800XT","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3800XT&id=3797","Q3",2020,206.5,23625
+"Intel Core i5-10500 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10500+%40+3.10GHz&id=3749","Q2",2020,228.99,13069
+"Intel Core i3-9350K @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9350K+%40+4.00GHz&id=3709","Q2",2020,293.22,7700
+"AMD Ryzen 5 3600XT","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3600XT&id=3781","Q3",2020,368,18664
+"Intel Core i7-9700F @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700F+%40+3.00GHz&id=3465","Q2",2019,202.1,13265
+"Intel Core i7-7740X @ 4.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7740X+%40+4.30GHz&id=3041","Q3",2017,219.99,9878
+"Intel Core i7-9700 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700+%40+3.00GHz&id=3477","Q2",2019,167.29,13212
+"Intel Xeon W-2275 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-2275+%40+3.30GHz&id=3891","Q4",2020,58,27895
+"AMD Ryzen 9 3900XT","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+3900XT&id=3778","Q3",2020,390,32737
+"Intel Core i5-9600KF @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600KF+%40+3.70GHz&id=3443","Q2",2019,159.99,10713
+"AMD Ryzen 7 4700G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+4700G&id=3836","Q3",2020,235.12,20143
+"Intel Core i5-9600K @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600K+%40+3.70GHz&id=3337","Q4",2018,201.65,10692
+"Intel Core i5-9600 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600+%40+3.10GHz&id=3554","Q3",2019,172.29,10401
+"Intel Core i7-8700K @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8700K+%40+3.70GHz&id=3098","Q4",2017,250,13655
+"Intel Core i9-10920X @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10920X+%40+3.50GHz&id=3632","Q4",2019,757.9,26278
+"Intel Celeron G6900","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G6900&id=4709","Q1",2022,79.9,4555
+"Intel Core i7-7700K @ 4.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7700K+%40+4.20GHz&id=2874","Q4",2016,159.06,9656
+"AMD Ryzen 7 3800X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3800X&id=3499","Q3",2019,164.87,23174
+"AMD Ryzen 7 PRO 4750G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+4750G&id=3789","Q3",2020,248.97,20476
+"Intel Xeon W-2255 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-2255+%40+3.70GHz&id=3689","Q1",2020,778,22321
+"Intel Core i3-9320 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9320+%40+3.70GHz&id=3539","Q3",2019,215.67,7358
+"AMD Ryzen 9 3900X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+3900X&id=3493","Q3",2019,216.99,32661
+"AMD Ryzen 9 3950X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+3950X&id=3598","Q4",2019,459.99,38813
+"Intel Core i3-10300 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10300+%40+3.70GHz&id=3765","Q2",2020,99.99,9304
+"AMD Ryzen 7 PRO 3700","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+3700&id=3564","Q3",2019,329.99,22930
+"Intel Core i9-10900X @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900X+%40+3.70GHz&id=3633","Q4",2019,604.97,22490
+"Intel Core i3-10105 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105+%40+3.70GHz&id=4259","Q2",2021,104.7,8550
+"AMD Ryzen Threadripper 3960X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+3960X&id=3617","Q4",2019,474.51,54860
+"AMD Ryzen Threadripper PRO 3955WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+3955WX&id=3846","Q3",2020,990.8,40374
+"AMD Ryzen 3 3300X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3300X&id=3716","Q2",2020,146.64,12659
+"Intel Core i9-10940X @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10940X+%40+3.30GHz&id=3639","Q4",2019,897.05,27860
+"Intel Xeon W-3265M @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3265M+%40+2.70GHz&id=4551","Q4",2021,353,32025
+"Intel Core i3-9350KF @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9350KF+%40+4.00GHz&id=3459","Q2",2019,104.03,7549
+"AMD Ryzen Threadripper 3970X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+3970X&id=3623","Q4",2019,495,63277
+"AMD Ryzen 7 3700X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+3700X&id=3485","Q3",2019,146.97,22578
+"AMD Ryzen Threadripper PRO 3975WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+3975WX&id=3851","Q4",2020,997.19,62992
+"Intel Core i3-10105F @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105F+%40+3.70GHz&id=4175","Q1",2021,74,9011
+"AMD Ryzen 5 4600G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4600G&id=3807","Q3",2020,101.99,16043
+"AMD Ryzen 5 PRO 4650G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+4650G&id=3795","Q3",2020,106.99,16212
+"AMD Ryzen 5 3600X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3600X&id=3494","Q3",2019,129.88,18216
+"Intel Core i9-10980XE @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10980XE+%40+3.00GHz&id=3630","Q4",2019,121.48,32850
+"Intel Pentium Gold G6505 @ 4.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6505+%40+4.20GHz&id=4467","Q3",2021,75,4371
+"Intel Core i7-8700 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8700+%40+3.20GHz&id=3099","Q4",2017,139.99,12873
+"Intel Pentium Gold G6605 @ 4.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6605+%40+4.30GHz&id=4461","Q3",2021,145.08,4509
+"Intel Core i9-9920X @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9920X+%40+3.50GHz&id=3378","Q4",2018,610.31,25223
+"Intel Core i9-9940X @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9940X+%40+3.30GHz&id=3358","Q4",2018,871.03,28059
+"AMD Ryzen 9 3900","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+3900&id=3575","Q4",2019,504.05,30836
+"Intel Core i3-10100 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10100+%40+3.60GHz&id=3717","Q2",2020,96.01,8668
+"Intel Core i9-9960X @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9960X+%40+3.10GHz&id=3405","Q1",2019,398.11,30618
+"Intel Xeon W-3323 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3323+%40+3.50GHz&id=4570","Q4",2021,949,25875
+"AMD Ryzen Threadripper PRO 3995WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+3995WX&id=3837","Q3",2020,866,83709
+"Intel Core i5-9500F @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9500F+%40+3.00GHz&id=3511","Q3",2019,134.26,10028
+"AMD Ryzen 5 4500","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+4500&id=4816","Q2",2022,75.09,16141
+"Intel Core i5-8600K @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8600K+%40+3.60GHz&id=3100","Q4",2017,118.6,10205
+"Intel Core i3-10100F @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10100F+%40+3.60GHz&id=3863","Q4",2020,69.5,8766
+"Intel Core i7-10700T @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-10700T+%40+2.00GHz&id=3792","Q3",2020,413.99,12836
+"Intel Core i5-8600 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8600+%40+3.10GHz&id=3251","Q2",2018,115.56,9944
+"Intel Core i5-9500 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9500+%40+3.00GHz&id=3444","Q2",2019,159.09,9815
+"Intel Core i3-7350K @ 4.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7350K+%40+4.20GHz&id=2930","Q1",2017,59.99,4958
+"Intel Core i5-10400 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10400+%40+2.90GHz&id=3737","Q2",2020,114.99,12135
+"Intel Core i7-9800X @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9800X+%40+3.80GHz&id=3374","Q4",2018,298.67,18085
+"Intel Core i5-10300H @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10300H+%40+2.50GHz&id=3646","Q1",2020,250,8433
+"Intel Core i5-11400T @ 1.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11400T+%40+1.30GHz&id=4406","Q2",2021,182,13626
+"Intel Core i9-7900X @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-7900X+%40+3.30GHz&id=3035","Q2",2017,237.56,21175
+"AMD Ryzen 5 3600","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3600&id=3481","Q2",2019,83.49,17768
+"Intel Core i9-9900X @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900X+%40+3.50GHz&id=3376","Q4",2018,553.29,21819
+"AMD Ryzen Threadripper 3990X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+3990X&id=3674","Q1",2020,861,80866
+"Intel Core i9-9980XE @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9980XE+%40+3.00GHz&id=3373","Q4",2018,87.01,32054
+"Intel Core i3-9300 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9300+%40+3.70GHz&id=3510","Q3",2019,254.35,7137
+"Intel Core i7-9700E @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700E+%40+2.60GHz&id=3875","Q4",2020,323,12669
+"AMD Ryzen 3 4300G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+4300G&id=3808","Q3",2020,124,10949
+"Intel Pentium Gold G7400T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400T&id=4882","Q2",2022,64,5688
+"Intel Core i5-11500T @ 1.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11500T+%40+1.50GHz&id=4526","Q3",2021,192,13079
+"Intel Core i5-10400F @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10400F+%40+2.90GHz&id=3767","Q2",2020,109,12205
+"Intel Core i5-7600K @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7600K+%40+3.80GHz&id=2919","Q1",2017,98,6798
+"Intel Core i5-7640X @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7640X+%40+4.00GHz&id=3045","Q3",2017,94.92,6844
+"AMD Ryzen 3 4100","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+4100&id=4832","Q2",2022,64.99,11077
+"Intel Pentium Gold G6405 @ 4.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6405+%40+4.10GHz&id=4367","Q2",2021,71.9,4252
+"Intel Core i7-7820X @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7820X+%40+3.60GHz&id=3038","Q2",2017,329.88,17203
+"Intel Pentium Gold G6600 @ 4.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6600+%40+4.20GHz&id=4168","Q1",2021,239.9,4273
+"Intel Core i9-7920X @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-7920X+%40+2.90GHz&id=3082","Q3",2017,226.07,23616
+"AMD Ryzen 5 3500X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3500X&id=3592","Q4",2019,99.98,13179
+"Intel Core i7-6700K @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6700K+%40+4.00GHz&id=2565","Q3",2015,134.99,8933
+"Intel Core i3-7320 @ 4.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7320+%40+4.10GHz&id=2941","Q1",2017,106.98,4844
+"Intel Core i9-7960X @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-7960X+%40+2.80GHz&id=3096","Q4",2017,367.98,28754
+"AMD Ryzen 5 3500","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3500&id=3588","Q4",2019,199.99,12793
+"Intel Core i3-9100F @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100F+%40+3.60GHz&id=3461","Q2",2019,65.99,6742
+"Intel Core i9-7940X @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-7940X+%40+3.10GHz&id=3094","Q3",2017,500,25966
+"AMD Ryzen Threadripper 2920X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2920X&id=3354","Q4",2018,950,25557
+"Intel Core i3-9100 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100+%40+3.60GHz&id=3479","Q2",2019,105.39,6608
+"Intel Core i9-7980XE @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-7980XE+%40+2.60GHz&id=3092","Q3",2017,773.28,30208
+"Intel Pentium Gold G6500 @ 4.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6500+%40+4.10GHz&id=3857","Q4",2020,87.99,4145
+"Intel Core i3-8350K @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8350K+%40+4.00GHz&id=3102","Q4",2017,91.18,6863
+"Intel Core i5-7600 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7600+%40+3.50GHz&id=2920","Q1",2017,99,6559
+"Intel Pentium Gold G6400 @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6400+%40+4.00GHz&id=3805","Q3",2020,61.95,4123
+"Intel Core i7-4790K @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4790K+%40+4.00GHz&id=2275","Q2",2014,112.99,8068
+"Intel Core i5-8500 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8500+%40+3.00GHz&id=3223","Q1",2018,132.51,9572
+"Intel Core i9-9900T @ 2.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9900T+%40+2.10GHz&id=3599","Q4",2019,439,13224
+"Intel Core i7-7700 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7700+%40+3.60GHz&id=2905","Q4",2016,110.75,8657
+"AMD Ryzen Threadripper 2950X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2950X&id=3316","Q3",2018,75,29384
+"Intel Core i3-10305T @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10305T+%40+3.00GHz&id=4375","Q2",2021,143,8136
+"Intel Core i9-10900T @ 1.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-10900T+%40+1.90GHz&id=3751","Q2",2020,349.99,15023
+"Intel Core i9-9820X @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-9820X+%40+3.30GHz&id=3369","Q4",2018,496.83,20045
+"Intel Core i5-9400 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9400+%40+2.90GHz&id=3414","Q1",2019,137.19,9376
+"Intel Core i5-9400F @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9400F+%40+2.90GHz&id=3397","Q1",2019,149.99,9473
+"Intel Core i5-10600T @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10600T+%40+2.40GHz&id=3834","Q3",2020,213,11266
+"Intel Core i7-9700T @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700T+%40+2.00GHz&id=3506","Q3",2019,323,10708
+"Intel Pentium Gold G5620 @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5620+%40+4.00GHz&id=3626","Q4",2019,174.31,4102
+"Intel Core i5-9600T @ 2.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9600T+%40+2.30GHz&id=3602","Q4",2019,213,9623
+"AMD Ryzen 7 2700X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+2700X&id=3238","Q2",2018,108.8,17534
+"AMD Ryzen 3 3100","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3100&id=3715","Q2",2020,71.65,11620
+"Intel Core i3-7300 @ 4.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7300+%40+4.00GHz&id=2923","Q1",2017,58.67,4530
+"Intel Core i3-7101E @ 3.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7101E+%40+3.90GHz&id=3655","Q1",2020,117,4430
+"Intel Core i7-6850K @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6850K+%40+3.60GHz&id=2800","Q2",2016,125.26,11461
+"Intel Core i7-7800X @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7800X+%40+3.50GHz&id=3037","Q2",2017,174.5,12882
+"AMD Ryzen 5 2600X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2600X&id=3235","Q2",2018,77.3,13919
+"Intel Core i5-8400 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8400+%40+2.80GHz&id=3097","Q4",2017,142.29,9237
+"AMD Ryzen 3 2300X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+2300X&id=3395","Q1",2019,178.09,7530
+"Intel Core i3-10105T @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10105T+%40+3.00GHz&id=4401","Q2",2021,122,8024
+"Intel Celeron G6900T","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G6900T&id=4927","Q3",2022,42,4003
+"Intel Core i7-6950X @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6950X+%40+3.00GHz&id=2792","Q2",2016,283.46,17433
+"Intel Core i3-10300T @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10300T+%40+3.00GHz&id=3838","Q3",2020,193.97,8003
+"AMD Ryzen 5 3400G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3400G&id=3498","Q3",2019,105.97,9278
+"Intel Core i3-6320 @ 3.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6320+%40+3.90GHz&id=2625","Q4",2015,96.6,4509
+"Intel Core i7-6900K @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6900K+%40+3.20GHz&id=2794","Q2",2016,160,14436
+"Intel Core i3-10100E @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-10100E+%40+3.20GHz&id=4623","Q4",2021,125,8365
+"Intel Core i5-6600K @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6600K+%40+3.50GHz&id=2570","Q3",2015,65.99,6322
+"AMD Ryzen Threadripper 2970WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2970WX&id=3345","Q4",2018,439,29949
+"AMD Ryzen Threadripper 1900X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+1900X&id=3086","Q3",2017,139.99,16789
+"AMD Ryzen Threadripper 1920X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+1920X&id=3062","Q3",2017,209.99,23142
+"Intel Core i3-7100 @ 3.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7100+%40+3.90GHz&id=2924","Q1",2017,61.19,4337
+"Intel Core i3-9300T @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9300T+%40+3.20GHz&id=3509","Q3",2019,143,6164
+"Intel Pentium Gold G5600 @ 3.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5600+%40+3.90GHz&id=3261","Q2",2018,82.29,3843
+"Intel Core i7-8700T @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-8700T+%40+2.40GHz&id=3213","Q1",2018,389.95,10198
+"AMD Ryzen 5 3400GE","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+3400GE&id=3690","Q2",2020,355.4,8907
+"Intel Core i7-6700 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6700+%40+3.40GHz&id=2598","Q3",2015,119.99,8094
+"AMD Ryzen Threadripper 2990WX","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+2990WX&id=3309","Q3",2018,999.99,32501
+"Intel Core i3-6300 @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6300+%40+3.80GHz&id=2621","Q4",2015,65.24,4340
+"Intel Core i5-10500T @ 2.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10500T+%40+2.30GHz&id=3768","Q2",2020,99.99,10045
+"Intel Core i5-8600T @ 2.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8600T+%40+2.30GHz&id=3241","Q2",2018,199.99,9330
+"AMD Ryzen Threadripper 1950X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+1950X&id=3058","Q3",2017,583.1,27589
+"Intel Core i7-6800K @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6800K+%40+3.40GHz&id=2785","Q2",2016,133.2,10758
+"Intel Pentium Gold G6505T @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6505T+%40+3.60GHz&id=5120","Q4",2022,90,3698
+"Intel Core i7-5775C @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5775C+%40+3.30GHz&id=2539","Q2",2015,215,7683
+"Intel Core i5-7500 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7500+%40+3.40GHz&id=2910","Q4",2016,82.18,6023
+"Intel Core i3-8300 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8300+%40+3.70GHz&id=3280","Q2",2018,119.5,6310
+"Intel Core i5-6600 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6600+%40+3.30GHz&id=2594","Q3",2015,31.49,6042
+"Intel Pentium Gold G5600F @ 3.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5600F+%40+3.90GHz&id=3568","Q4",2019,69.99,4124
+"Intel Pentium G4620 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4620+%40+3.70GHz&id=2948","Q1",2017,50.83,3753
+"Intel Pentium Gold G5500 @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5500+%40+3.80GHz&id=3271","Q2",2018,54.64,3823
+"Intel Pentium Gold G5420 @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5420+%40+3.80GHz&id=3471","Q2",2019,57.09,3706
+"AMD Ryzen 5 2600","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2600&id=3243","Q2",2018,62.27,13201
+"Intel Pentium Gold G6500T @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6500T+%40+3.50GHz&id=4182","Q1",2021,75,3874
+"Intel Core i7-4790 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4790+%40+3.60GHz&id=2226","Q2",2014,84.32,7269
+"Intel Core i5-5675C @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-5675C+%40+3.10GHz&id=2563","Q3",2015,158.63,5579
+"Intel Celeron G5925 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5925+%40+3.60GHz&id=4421","Q2",2021,44.87,2841
+"Intel Core i3-8100 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8100+%40+3.60GHz&id=3103","Q4",2017,64.24,6131
+"Intel Core i7-4790S @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4790S+%40+3.20GHz&id=2258","Q2",2014,92.99,7008
+"AMD Ryzen 3 3200G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+3200G&id=3497","Q3",2019,76.6,7136
+"Intel Pentium Gold G5400 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5400+%40+3.70GHz&id=3248","Q2",2018,52.51,3726
+"Intel Core i7-9700TE @ 1.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9700TE+%40+1.80GHz&id=3619","Q4",2019,323,10280
+"AMD Ryzen 5 1600X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+1600X&id=3000","Q2",2017,138.84,13065
+"Intel Core i5-4690S @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4690S+%40+3.20GHz&id=2241","Q2",2014,59.99,5524
+"AMD Ryzen 7 1800X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+1800X&id=2966","Q1",2017,295,16380
+"Intel Core i5-4690K @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4690K+%40+3.50GHz&id=2284","Q2",2014,63.47,5690
+"Intel Core i7-4771 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4771+%40+3.50GHz&id=2027","Q1",2013,129.49,7140
+"Intel Core i3-6100 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6100+%40+3.70GHz&id=2617","Q4",2015,107.5,4147
+"Intel Core i5-4690 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4690+%40+3.50GHz&id=2236","Q2",2014,60.83,5569
+"Intel Celeron G5905 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5905+%40+3.50GHz&id=3848","Q3",2020,28.89,2814
+"AMD Ryzen 7 2700","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+2700&id=3240","Q2",2018,104.88,15720
+"Intel Pentium G4600 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4600+%40+3.60GHz&id=2921","Q1",2017,59.41,3631
+"Intel Pentium Gold G6405T @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6405T+%40+3.50GHz&id=4368","Q2",2021,64,3746
+"Intel Core i7-4770 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4770+%40+3.40GHz&id=1907","Q2",2013,74.99,7057
+"Intel Core i5-9500T @ 2.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9500T+%40+2.20GHz&id=3454","Q2",2019,192,8198
+"Intel Core i5-4670R @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4670R+%40+3.00GHz&id=3294","Q3",2018,276,5233
+"Intel Core i7-4770K @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4770K+%40+3.50GHz&id=1919","Q2",2013,96.89,7124
+"Intel Core i5-10400T @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-10400T+%40+2.00GHz&id=3826","Q3",2020,182,9816
+"Intel Core i5-7600T @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7600T+%40+2.80GHz&id=2928","Q1",2017,147.91,5889
+"Intel Celeron G5920 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5920+%40+3.50GHz&id=3887","Q4",2020,39.91,2482
+"Intel Core i3-4370 @ 3.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4370+%40+3.80GHz&id=2351","Q3",2014,46.99,3847
+"Intel Core i7-7700T @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-7700T+%40+2.90GHz&id=2951","Q1",2017,144.69,7610
+"AMD Ryzen 5 2400G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2400G&id=3183","Q1",2018,97.36,8732
+"Intel Xeon W-3175X @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3175X+%40+3.10GHz&id=3420","Q1",2019,660.69,37167
+"Intel Core i5-4670K @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4670K+%40+3.40GHz&id=1921","Q2",2013,93,5567
+"Intel Pentium G4500 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4500+%40+3.50GHz&id=2630","Q4",2015,89.99,2772
+"Intel Core i5-4670 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4670+%40+3.40GHz&id=1933","Q2",2013,60,5501
+"Intel Core i7-9850HL @ 1.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-9850HL+%40+1.90GHz&id=3621","Q4",2019,395,9112
+"Intel Core i3-7300T @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7300T+%40+3.50GHz&id=3021","Q2",2017,181.59,4211
+"Intel Core i7-4770S @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4770S+%40+3.10GHz&id=1884","Q2",2013,75,6761
+"Intel Core i5-9400T @ 1.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-9400T+%40+1.80GHz&id=3513","Q3",2019,182,8397
+"Intel Core i3-6098P @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6098P+%40+3.60GHz&id=2708","Q1",2016,70,4021
+"AMD Ryzen 3 1300X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+1300X&id=3057","Q3",2017,62.26,6985
+"AMD Ryzen 5 1500X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+1500X&id=3001","Q2",2017,50.94,9093
+"Intel Core i5-6500 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6500+%40+3.20GHz&id=2599","Q3",2015,84.11,5633
+"Intel Celeron G5900 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5900+%40+3.40GHz&id=3761","Q2",2020,43,2643
+"Intel Pentium Gold G6400T @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6400T+%40+3.40GHz&id=4308","Q2",2021,64,3541
+"AMD Ryzen 7 1700X","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+1700X&id=2969","Q1",2017,71.64,15667
+"Intel Pentium G4560 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4560+%40+3.50GHz&id=2925","Q1",2017,40.02,3529
+"Intel Pentium G3470 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3470+%40+3.60GHz&id=2521","Q2",2015,314.15,2428
+"Intel Core i5-6600T @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6600T+%40+2.70GHz&id=2613","Q4",2015,113.18,5683
+"Intel Core i7-4790T @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4790T+%40+2.70GHz&id=2253","Q2",2014,249.88,6346
+"Intel Core i5-7400 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7400+%40+3.00GHz&id=2929","Q1",2017,84.99,5485
+"Intel Core i5-4590 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4590+%40+3.30GHz&id=2234","Q2",2014,58,5369
+"Intel Core i3-4360 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4360+%40+3.70GHz&id=2244","Q2",2014,85.27,3631
+"Intel Core i5-4670S @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4670S+%40+3.10GHz&id=2004","Q1",2013,213,5130
+"Intel Core i7-4960X @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4960X+%40+3.60GHz&id=2026","Q1",2013,250,10092
+"Intel Core i3-9100T @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-9100T+%40+3.10GHz&id=3488","Q3",2019,122,5492
+"Intel Core i7-6700T @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-6700T+%40+2.80GHz&id=2614","Q4",2015,199.99,7256
+"Intel Core i7-3770 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3770+%40+3.40GHz&id=896","Q1",2012,49.99,6410
+"Intel Core i7-3770K @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3770K+%40+3.50GHz&id=2","Q2",2012,105,6462
+"AMD Ryzen 5 1600","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+1600&id=2984","Q1",2017,51.5,12282
+"Intel Core i3-4170 @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4170+%40+3.70GHz&id=2522","Q2",2015,25.92,3594
+"AMD Ryzen 3 2200G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+2200G&id=3186","Q1",2018,150,6767
+"Intel Core i5-4590S @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4590S+%40+3.00GHz&id=2227","Q2",2014,13.99,5135
+"Intel Core i5-3570K @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3570K+%40+3.40GHz&id=828","Q2",2012,47.97,4954
+"Intel Core i7-5930K @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5930K+%40+3.50GHz&id=2336","Q3",2014,222.37,10303
+"Intel Core i5-3570 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3570+%40+3.40GHz&id=827","Q3",2012,132.14,4920
+"Intel Core i7-3770S @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3770S+%40+3.10GHz&id=897","Q2",2012,75,6180
+"Intel Core i3-4340 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4340+%40+3.60GHz&id=2029","Q1",2013,119.35,3545
+"Intel Celeron G4950 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4950+%40+3.30GHz&id=4210","Q1",2021,119.99,2714
+"Intel Core i5-4570 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4570+%40+3.20GHz&id=1896","Q2",2013,60.08,5228
+"Intel Core i5-6402P @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6402P+%40+2.80GHz&id=2754","Q2",2016,105,5436
+"Intel Celeron G5900T @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5900T+%40+3.20GHz&id=4557","Q4",2021,42,2620
+"Intel Core i3-7101TE @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7101TE+%40+3.40GHz&id=3105","Q4",2017,117,3957
+"Intel Core i3-6300T @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6300T+%40+3.30GHz&id=2626","Q4",2015,90.03,4002
+"Intel Core i5-8500T @ 2.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8500T+%40+2.10GHz&id=3231","Q2",2018,265.99,7727
+"Intel Pentium G4520 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4520+%40+3.60GHz&id=2660","Q4",2015,51.63,2707
+"Intel Pentium G4400 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4400+%40+3.30GHz&id=2634","Q4",2015,27.99,2578
+"Intel Core i5-4570S @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4570S+%40+2.90GHz&id=1925","Q2",2013,100,5013
+"Intel Core i7-5820K @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5820K+%40+3.30GHz&id=2340","Q3",2014,120,9859
+"AMD Ryzen 7 1700","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+1700&id=2970","Q1",2017,87.39,14819
+"Intel Core i3-4160 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4160+%40+3.60GHz&id=2317","Q3",2014,7.19,3513
+"Intel Core i5-3550 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3550+%40+3.30GHz&id=825","Q1",2012,335.31,4808
+"Intel Core i3-8300T @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8300T+%40+3.20GHz&id=3285","Q2",2018,158.95,5733
+"Intel Core i5-3570S @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3570S+%40+3.10GHz&id=829","Q3",2012,59.99,4618
+"Intel Celeron G4930 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4930+%40+3.20GHz&id=3557","Q3",2019,64.1,2591
+"AMD Athlon 3000G","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+3000G&id=3614","Q4",2019,89.99,4488
+"Intel Pentium G3460 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3460+%40+3.50GHz&id=2361","Q3",2014,64.49,2216
+"Intel Core i7-5960X @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-5960X+%40+3.00GHz&id=2332","Q3",2014,106.04,12717
+"Intel Core i3-4330 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4330+%40+3.50GHz&id=2025","Q1",2013,96.95,3542
+"AMD Athlon 240GE","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+240GE&id=3394","Q1",2019,98.27,4534
+"Intel Core i5-3550S @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3550S+%40+3.00GHz&id=826","Q2",2012,329.95,4438
+"Intel Core i7-4930K @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4930K+%40+3.40GHz&id=2023","Q1",2013,171.99,9403
+"Intel Core i3-7100T @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-7100T+%40+3.40GHz&id=2953","Q1",2017,99.99,3768
+"Intel Core i7-4820K @ 3.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4820K+%40+3.70GHz&id=2030","Q3",2013,80.55,6526
+"Intel Celeron G4920 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4920+%40+3.20GHz&id=3305","Q3",2018,43.17,2500
+"Intel Core i5-6400 @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6400+%40+2.70GHz&id=2578","Q3",2015,79.8,5168
+"Intel Pentium Gold G5420T @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5420T+%40+3.20GHz&id=3589","Q4",2019,64,3452
+"Intel Pentium Gold G5500T @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G5500T+%40+3.20GHz&id=3264","Q2",2018,75,3304
+"Intel Core i3-4350 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4350+%40+3.60GHz&id=2283","Q2",2014,39.99,3501
+"Intel Core i5-3470 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3470+%40+3.20GHz&id=822","Q3",2012,34.99,4677
+"Intel Core i3-4150 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4150+%40+3.50GHz&id=2252","Q2",2014,21.29,3393
+"AMD Ryzen 3 1200","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+3+1200&id=3029","Q2",2017,50.23,6293
+"Intel Core i5-7500T @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7500T+%40+2.70GHz&id=2917","Q1",2017,159.33,5252
+"Intel Core i7-4770T @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4770T+%40+2.50GHz&id=2006","Q1",2013,74.99,5973
+"Intel Core i5-8400T @ 1.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8400T+%40+1.70GHz&id=3260","Q2",2018,239.84,7442
+"Intel Pentium G3440 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3440+%40+3.30GHz&id=2286","Q3",2014,149.99,2224
+"Intel Core i5-4570T @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4570T+%40+2.90GHz&id=2041","Q1",2013,128.8,3219
+"Intel Pentium G3430 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3430+%40+3.30GHz&id=2063","Q4",2013,98,2127
+"Intel Core i3-4370T @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4370T+%40+3.30GHz&id=3117","Q4",2017,138,3361
+"Intel Core i5-4460 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4460+%40+3.20GHz&id=2230","Q2",2014,29.99,4882
+"AMD Ryzen 5 1400","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+1400&id=2992","Q2",2017,39.95,7765
+"Intel Core i5-3470S @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3470S+%40+2.90GHz&id=823","Q3",2012,72.03,4387
+"Intel Pentium G3450 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3450+%40+3.40GHz&id=2299","Q3",2014,53.9,2167
+"Intel Core i3-8100T @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8100T+%40+3.10GHz&id=3304","Q3",2018,219.05,5276
+"Intel Celeron G4900 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4900+%40+3.10GHz&id=3275","Q2",2018,32.63,2442
+"Intel Core i3-4130 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4130+%40+3.40GHz&id=2015","Q1",2013,28.47,3306
+"Intel Core i3-6100T @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-6100T+%40+3.20GHz&id=2639","Q4",2015,110,3666
+"Intel Core i5-3450S @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3450S+%40+2.80GHz&id=821","Q2",2012,95,4375
+"Intel Core i5-3450 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3450+%40+3.10GHz&id=820","Q2",2012,245.33,4495
+"Intel Pentium G3260 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3260+%40+3.30GHz&id=2523","Q2",2015,118.09,2088
+"Intel Pentium G3258 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3258+%40+3.20GHz&id=2267","Q2",2014,53.28,2076
+"Intel Core i5-4440 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4440+%40+3.10GHz&id=2017","Q1",2013,88.8,4770
+"Intel Core i5-4460S @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4460S+%40+2.90GHz&id=2232","Q2",2014,159.95,4598
+"Intel Celeron G3950 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3950+%40+3.00GHz&id=2973","Q1",2017,143,2322
+"Intel Pentium G2140 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2140+%40+3.30GHz&id=2136","Q1",2014,45,2092
+"Intel Core i7-3970X @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3970X+%40+3.50GHz&id=1799","Q1",2012,189.88,8461
+"Intel Core i3-3250 @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-3250+%40+3.50GHz&id=2034","Q1",2013,70,2435
+"Intel Core i7-3770T @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3770T+%40+2.50GHz&id=898","Q2",2012,156.59,5444
+"Intel Core i5-3475S @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3475S+%40+2.90GHz&id=1775","Q1",2012,249.95,4250
+"Intel Core i3-4170T @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4170T+%40+3.20GHz&id=2624","Q4",2015,199.95,3215
+"Intel Core i5-3470T @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3470T+%40+2.90GHz&id=824","Q2",2012,269.95,2989
+"Intel Core i5-6500TE @ 2.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6500TE+%40+2.30GHz&id=2680","Q4",2015,489.95,4724
+"Intel Pentium G3250 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3250+%40+3.20GHz&id=2346","Q3",2014,56.39,1994
+"Intel Core i7-2700K @ 3.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-2700K+%40+3.50GHz&id=881","Q4",2011,99,5721
+"AMD FX-9590 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-9590+Eight-Core&id=2014","Q3",2013,251.85,6771
+"AMD Athlon 200GE","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+200GE&id=3325","Q3",2018,123.89,4117
+"Intel Core i5-4400E @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4400E+%40+2.70GHz&id=2188","Q1",2014,266,3251
+"Intel Core i5-4440S @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4440S+%40+2.80GHz&id=2119","Q4",2013,123.85,4384
+"Intel Core i5-4430 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4430+%40+3.00GHz&id=1924","Q2",2013,48.45,4655
+"Intel Core i7-3960X @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3960X+%40+3.30GHz&id=903","Q4",2011,808,8401
+"Intel Core i5-3350P @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3350P+%40+3.10GHz&id=1476","Q4",2012,223.19,4280
+"Intel Core i3-3245 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-3245+%40+3.40GHz&id=1934","Q1",2013,80,2379
+"Intel Core i5-6500T @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6500T+%40+2.50GHz&id=2627","Q4",2015,221.52,4777
+"Intel Core i3-3240 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-3240+%40+3.40GHz&id=765","Q1",2012,35.12,2317
+"Intel Celeron G5905T @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G5905T+%40+3.30GHz&id=4335","Q2",2021,42,2154
+"Intel Celeron G3920 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3920+%40+2.90GHz&id=2807","Q2",2016,83.82,2358
+"Intel Celeron G3930 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3930+%40+2.90GHz&id=2957","Q1",2017,27.2,2237
+"Intel Core i5-3340 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3340+%40+3.10GHz&id=2071","Q4",2013,129.95,4245
+"Intel Pentium G4600T @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4600T+%40+3.00GHz&id=3003","Q2",2017,117.99,3055
+"Intel Core i5-4670T @ 2.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4670T+%40+2.30GHz&id=1966","Q2",2013,259.02,4441
+"Intel Core i5-7400T @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-7400T+%40+2.40GHz&id=2889","Q4",2016,185.05,4744
+"Intel Celeron G4930T @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4930T+%40+3.00GHz&id=3788","Q3",2020,42,2297
+"Intel Core i5-4430S @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4430S+%40+2.70GHz&id=2111","Q4",2013,189.53,4321
+"Intel Core i3-4160T @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4160T+%40+3.10GHz&id=2380","Q4",2014,59.99,3125
+"Intel Pentium G3420 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3420+%40+3.20GHz&id=2028","Q3",2013,53,1933
+"Intel Core i5-3340S @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3340S+%40+2.80GHz&id=2090","Q4",2013,319.19,3914
+"Intel Core i7-3930K @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3930K+%40+3.20GHz&id=902","Q4",2011,399.1,8209
+"Intel Core i5-2550K @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2550K+%40+3.40GHz&id=813","Q1",2012,50.76,4088
+"Intel Pentium G4400T @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4400T+%40+2.90GHz&id=2633","Q4",2015,148.02,2331
+"Intel Pentium G2130 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2130+%40+3.20GHz&id=1864","Q1",2013,42.69,1921
+"Intel Pentium G3240 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3240+%40+3.10GHz&id=2250","Q2",2014,74,1938
+"Intel Core i7-2600K @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-2600K+%40+3.40GHz&id=868","Q4",2010,58.97,5485
+"Intel Core i7-3820 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-3820+%40+3.60GHz&id=8","Q1",2012,98.99,5754
+"Intel Core i7-2600 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-2600+%40+3.40GHz&id=1","Q4",2010,79.99,5342
+"Intel Celeron G4900T @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G4900T+%40+2.90GHz&id=3214","Q1",2018,68.95,2239
+"Intel Core i7-2600S @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-2600S+%40+2.80GHz&id=869","Q1",2011,249,4625
+"Intel Core i3-3220 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-3220+%40+3.30GHz&id=1472","Q3",2012,24.6,2263
+"Intel Core i5-3330 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3330+%40+3.00GHz&id=1475","Q4",2012,99.92,4091
+"Intel Celeron G3900 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3900+%40+2.80GHz&id=2706","Q1",2016,15.99,2180
+"Intel Pentium G2120 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2120+%40+3.10GHz&id=1443","Q4",2012,74.99,1892
+"Intel Core i5-2500 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2500+%40+3.30GHz&id=803","Q4",2010,12.99,4129
+"Intel Pentium G4560T @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G4560T+%40+2.90GHz&id=2983","Q1",2017,79.98,2966
+"Intel Core i5-3330S @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3330S+%40+2.70GHz&id=1794","Q1",2012,199.95,3884
+"Intel Core i3-3210 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-3210+%40+3.20GHz&id=1865","Q1",2013,115,2221
+"Intel Celeron G3930TE @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3930TE+%40+2.70GHz&id=3522","Q3",2019,42,2218
+"Intel Pentium G3220 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3220+%40+3.00GHz&id=2020","Q3",2013,60.91,1892
+"Intel Core i5-2500K @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2500K+%40+3.30GHz&id=804","Q4",2010,45.48,4121
+"Intel Core i3-3225 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-3225+%40+3.30GHz&id=1474","Q3",2012,167,2231
+"Intel Celeron G1850 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1850+%40+2.90GHz&id=2240","Q2",2014,59,1915
+"AMD FX-9370 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-9370+Eight-Core&id=1989","Q3",2013,120,6159
+"AMD PRO A12-9800","https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A12-9800&id=2939","Q1",2017,169,3705
+"AMD Athlon X4 845","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+845&id=2721","Q1",2016,35.44,3807
+"Intel Core i5-2450P @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2450P+%40+3.20GHz&id=801","Q1",2012,129.99,4203
+"AMD A12-9800","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A12-9800&id=2861","Q4",2016,87.67,3583
+"Intel Core i5-4590T @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4590T+%40+2.00GHz&id=2276","Q2",2014,94.19,4081
+"Intel Celeron G3930T @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3930T+%40+2.70GHz&id=3353","Q4",2018,16.99,2040
+"AMD A10-6800B APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-6800B+APU&id=2155","Q1",2014,128.02,3088
+"Intel Core i5-2500S @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2500S+%40+2.70GHz&id=805","Q1",2011,55.34,3399
+"AMD PRO A10-9700","https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A10-9700&id=2883","Q4",2016,169,3649
+"Intel Core i5-6400T @ 2.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-6400T+%40+2.20GHz&id=2668","Q4",2015,159.99,4273
+"AMD Athlon X4 950","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+950&id=3078","Q3",2017,25.99,3588
+"AMD Athlon X4 880K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+880K&id=2747","Q2",2016,94.61,3659
+"AMD FX-8370 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8370+Eight-Core&id=2347","Q3",2014,200,6204
+"AMD A6-9500","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9500&id=2903","Q4",2016,89.95,1876
+"Intel Core i7-4765T @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-4765T+%40+2.00GHz&id=2067","Q2",2013,498.95,5114
+"Intel Core i5-4570TE @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-4570TE+%40+2.70GHz&id=2338","Q3",2014,341.99,3074
+"Intel Core i3-4130T @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4130T+%40+2.90GHz&id=2035","Q1",2013,19.99,2875
+"AMD A12-9800E","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A12-9800E&id=3083","Q3",2017,670.15,3471
+"Intel Core i3-4150T @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-4150T+%40+3.00GHz&id=2296","Q3",2014,417.42,2912
+"AMD FX-4350 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-4350+Quad-Core&id=1929","Q2",2013,92.02,3304
+"AMD A10-9700","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-9700&id=2900","Q4",2016,88.05,3542
+"Intel Pentium G3260T @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3260T+%40+2.90GHz&id=2566","Q3",2015,49.99,1837
+"Intel Pentium G2030 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2030+%40+3.00GHz&id=1961","Q3",2013,59.53,1748
+"Intel Core i5-2380P @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2380P+%40+3.10GHz&id=791","Q1",2012,82.83,3797
+"AMD A10-6800K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-6800K+APU&id=1935","Q2",2013,47.53,3217
+"AMD A10-6700 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-6700+APU&id=1936","Q2",2013,38.51,3116
+"Intel Pentium G3250T @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3250T+%40+2.80GHz&id=2461","Q1",2015,49.99,1757
+"Intel Celeron G1840 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1840+%40+2.80GHz&id=2268","Q2",2014,49.25,1768
+"AMD FX-8350 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8350+Eight-Core&id=1780","Q4",2012,110.26,6059
+"Intel Core i5-2400 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2400+%40+3.10GHz&id=793","Q4",2010,41,3869
+"Intel Core i5-680 @ 3.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-680+%40+3.60GHz&id=771","Q2",2010,38,2618
+"AMD A10-5800B APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-5800B+APU&id=1990","Q3",2013,44.99,3034
+"Intel Core i7-990X @ 3.47GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-990X+%40+3.47GHz&id=867","Q1",2011,175,7106
+"Intel Celeron G3900T @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G3900T+%40+2.60GHz&id=2760","Q2",2016,112.46,2102
+"AMD A6-7470K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-7470K&id=2771","Q2",2016,89,1799
+"AMD A10 PRO-7850B APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10+PRO-7850B+APU&id=2416","Q4",2014,148.02,3453
+"Intel Pentium G3420T @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3420T+%40+2.70GHz&id=2350","Q3",2014,159.99,1912
+"Intel Core i3-2125 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2125+%40+3.30GHz&id=754","Q3",2011,154.99,2083
+"AMD A10-7890K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7890K&id=2744","Q2",2016,136.49,3522
+"Intel Core i3-2130 @ 3.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2130+%40+3.40GHz&id=755","Q3",2011,28.11,2035
+"AMD FX-4330","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-4330&id=2665","Q4",2015,733.5,3098
+"AMD FX-6350 Six-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-6350+Six-Core&id=1910","Q2",2013,52.83,4545
+"AMD A6-7480","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-7480&id=3436","Q2",2019,34.82,1836
+"AMD Athlon X4 870K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+870K&id=2724","Q1",2016,34.2,3410
+"Intel Pentium G2020 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2020+%40+2.90GHz&id=1839","Q1",2013,29.1,1681
+"AMD A10-6790K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-6790K+APU&id=2117","Q4",2013,42,3070
+"Intel Celeron G1630 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1630+%40+2.80GHz&id=2064","Q4",2013,109.95,1707
+"AMD A6-6420K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-6420K+APU&id=2372","Q4",2014,149.99,1576
+"Intel Core i7-980 @ 3.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-980+%40+3.33GHz&id=842","Q3",2011,290.84,6926
+"Intel Celeron G1820 @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1820+%40+2.70GHz&id=2129","Q1",2014,44.88,1707
+"AMD A8-6600K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-6600K+APU&id=1946","Q2",2013,19.19,3008
+"Intel Core i7-980X @ 3.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-980X+%40+3.33GHz&id=866","Q1",2010,110,6854
+"Intel Core i5-670 @ 3.47GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-670+%40+3.47GHz&id=770","Q1",2010,271.99,2533
+"AMD A4-6320 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-6320+APU&id=2212","Q2",2014,69.99,1530
+"AMD Athlon X4 760K Quad Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+760K+Quad+Core&id=1997","Q3",2013,15.2,2948
+"AMD Athlon X4 860K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+860K&id=2362","Q3",2014,20.5,3422
+"AMD PRO A6-9500","https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A6-9500&id=2942","Q1",2017,74,1770
+"Intel Core i5-2320 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2320+%40+3.00GHz&id=790","Q3",2011,135.3,3658
+"AMD PRO A12-9800E","https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A12-9800E&id=2944","Q1",2017,169,3171
+"Intel Celeron G1830 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1830+%40+2.80GHz&id=2165","Q1",2014,73,1560
+"Intel Core i3-2120 @ 3.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2120+%40+3.30GHz&id=752","Q1",2011,12.99,1952
+"AMD A10-7850K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7850K+APU&id=2133","Q1",2014,56,3416
+"AMD PRO A8-9600","https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A8-9600&id=2860","Q3",2016,119,3359
+"Intel Pentium G2010 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2010+%40+2.80GHz&id=1854","Q1",2013,22.97,1620
+"AMD Phenom II X6 1100T","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X6+1100T&id=394","Q4",2010,127.59,3849
+"AMD A10-7870K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7870K&id=2531","Q2",2015,517.2,3429
+"AMD Athlon X4 750 Quad Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+750+Quad+Core&id=2500","Q1",2015,94.75,2625
+"Intel Core i7-975 @ 3.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-975+%40+3.33GHz&id=841","Q2",2009,458.1,3461
+"Intel Core i5-2390T @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2390T+%40+2.70GHz&id=792","Q3",2011,99.9,2474
+"AMD FX-8300 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8300+Eight-Core&id=1825","Q1",2013,59.99,5309
+"AMD PRO A6-9500E","https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A6-9500E&id=2950","Q1",2017,74,1662
+"AMD A10-7860K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7860K&id=2722","Q1",2016,53.19,3271
+"AMD A10-5800K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-5800K+APU&id=1446","Q4",2012,20.99,2958
+"Intel Core i3-3220T @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-3220T+%40+2.80GHz&id=1473","Q3",2012,135,1940
+"Intel Core i5-2310 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2310+%40+2.90GHz&id=789","Q2",2011,47.59,3640
+"AMD FX-6300 Six-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-6300+Six-Core&id=1781","Q4",2012,48.88,4206
+"AMD A8-6500B APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-6500B+APU&id=2210","Q2",2014,49.95,2855
+"AMD Athlon X4 840","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+840&id=2463","Q1",2015,124.95,3319
+"AMD FX-4300 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-4300+Quad-Core&id=1814","Q4",2012,16.32,2995
+"AMD A8-9600","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-9600&id=3004","Q2",2017,112.49,3299
+"Intel Core i5-2500T @ 2.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2500T+%40+2.30GHz&id=806","Q2",2011,89.99,2929
+"AMD A8-7670K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-7670K&id=2595","Q3",2015,79.5,3192
+"AMD A4-7300 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-7300+APU&id=2357","Q3",2014,18.47,1528
+"Intel Core i7-965 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-965+%40+3.20GHz&id=839","Q4",2008,128,3424
+"Intel Core i5-2400S @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2400S+%40+2.50GHz&id=794","Q1",2011,110.19,3162
+"AMD A10-9700E","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-9700E&id=3133","Q4",2017,89.09,3180
+"AMD FX-8320 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8320+Eight-Core&id=1782","Q4",2012,48.42,5452
+"AMD A8-6500 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-6500+APU&id=1998","Q3",2013,27.8,2809
+"Intel Core i7-970 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-970+%40+3.20GHz&id=840","Q3",2010,520,6553
+"AMD FX-8370E Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8370E+Eight-Core&id=2367","Q3",2014,25.14,5310
+"AMD FX-4170 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-4170+Quad-Core&id=256","Q1",2012,22.95,3034
+"Intel Pentium G3220T @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G3220T+%40+2.60GHz&id=2189","Q1",2014,40.27,1600
+"AMD A10-7800 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7800+APU&id=2262","Q2",2014,52.64,3202
+"Intel Pentium G870 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G870+%40+3.10GHz&id=1484","Q3",2012,77,1516
+"Intel Core i7-960 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-960+%40+3.20GHz&id=838","Q4",2009,49,3333
+"AMD Phenom II X6 1090T","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X6+1090T&id=393","Q2",2010,69.75,3756
+"Intel Core i5-661 @ 3.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-661+%40+3.33GHz&id=769","Q1",2010,41,2459
+"Intel Celeron G1620 @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1620+%40+2.70GHz&id=1848","Q1",2013,44.99,1560
+"Intel Core2 Extreme X9775 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Extreme+X9775+%40+3.20GHz&id=1682","Q1",2009,805.95,2780
+"AMD A8-7600 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-7600+APU&id=2311","Q3",2014,21.4,3219
+"Intel Core i5-655K @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-655K+%40+3.20GHz&id=774","Q2",2010,76.87,2017
+"AMD A6-6400K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-6400K+APU&id=1960","Q3",2013,18.18,1494
+"AMD PRO A10-9700E","https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A10-9700E&id=2824","Q3",2016,139,3053
+"Intel Pentium G2030T @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2030T+%40+2.60GHz&id=2135","Q1",2014,130.5,1581
+"Intel Core i5-2405S @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2405S+%40+2.50GHz&id=795","Q2",2011,216.18,3157
+"AMD FX-8150 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8150+Eight-Core&id=263","Q3",2011,44.64,5260
+"AMD FX-8320E Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8320E+Eight-Core&id=2374","Q4",2014,132,5087
+"AMD A6-7400K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-7400K+APU&id=2392","Q4",2014,27.19,1623
+"AMD A10-7700K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7700K+APU&id=2146","Q1",2014,23.41,3197
+"Intel Core i5-2300 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-2300+%40+2.80GHz&id=788","Q1",2011,21.99,3420
+"Intel Core i3-2105 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2105+%40+3.10GHz&id=751","Q3",2011,112.97,1851
+"AMD A8-5600K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-5600K+APU&id=1449","Q4",2012,69.01,2846
+"AMD A10-5700 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-5700+APU&id=12","Q2",2012,68.02,2733
+"AMD FX-B4150 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-B4150+Quad-Core&id=1843","Q1",2013,89.68,3369
+"Intel Core i7-880 @ 3.07GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-880+%40+3.07GHz&id=833","Q3",2010,69.99,3325
+"AMD PRO A4-8350B","https://www.cpubenchmark.net/cpu.php?cpu=AMD+PRO+A4-8350B&id=2714","Q1",2016,28.99,1635
+"Intel Core i5-660 @ 3.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-660+%40+3.33GHz&id=768","Q4",2009,22.99,2382
+"Intel Core i3-2100 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2100+%40+3.10GHz&id=749","Q1",2011,24.01,1847
+"AMD FX-8310 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8310+Eight-Core&id=2393","Q4",2014,831.15,5128
+"AMD FX-6200 Six-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-6200+Six-Core&id=259","Q1",2012,35.93,4105
+"AMD FX-6120 Six-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-6120+Six-Core&id=258","Q2",2012,58.02,3887
+"AMD A4-6300 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-6300+APU&id=2083","Q4",2013,42.02,1432
+"AMD A8-7650K","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-7650K&id=2489","Q1",2015,37.99,3123
+"Intel Core i3-2102 @ 3.10GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2102+%40+3.10GHz&id=2728","Q1",2016,58,2029
+"Intel Core2 Duo E8600 @ 3.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E8600+%40+3.33GHz&id=957","Q4",2008,76.46,1370
+"AMD A6-5400B APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-5400B+APU&id=2085","Q4",2013,28.94,1451
+"Intel Pentium G860 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G860+%40+3.00GHz&id=1117","Q4",2011,72.99,1470
+"AMD Athlon II X3 460","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+460&id=161","Q3",2011,16.64,2008
+"Intel Core2 Extreme X9770 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Extreme+X9770+%40+3.20GHz&id=1033","Q4",2008,608.95,2689
+"Intel Celeron G1820T @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1820T+%40+2.40GHz&id=2169","Q1",2014,42,1631
+"Intel Core i7-870 @ 2.93GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-870+%40+2.93GHz&id=832","Q3",2009,100,3120
+"AMD Phenom II X6 1075T","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X6+1075T&id=392","Q3",2010,65.04,3413
+"Intel Core i7-950 @ 3.07GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-950+%40+3.07GHz&id=837","Q2",2009,249,3209
+"Intel Celeron G1610 @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1610+%40+2.60GHz&id=1819","Q4",2012,37,1517
+"AMD Phenom II X2 565","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X2+565&id=335","Q1",2011,168.87,1442
+"AMD A4-6300B APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-6300B+APU&id=2112","Q4",2013,27.95,1328
+"Intel Core i3-560 @ 3.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-560+%40+3.33GHz&id=740","Q3",2010,60,1706
+"Intel Core i5-650 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-650+%40+3.20GHz&id=767","Q1",2010,74.98,2239
+"AMD Phenom II X4 965","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+965&id=370","Q3",2009,74.02,2618
+"AMD Phenom II X6 1065T","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X6+1065T&id=391","Q1",2011,66.37,3384
+"AMD Athlon X4 740 Quad Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+740+Quad+Core&id=1789","Q4",2012,10,2632
+"Intel Pentium G850 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G850+%40+2.90GHz&id=1116","Q2",2011,33.29,1433
+"AMD Athlon II X2 270","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+270&id=143","Q3",2011,15,1289
+"AMD Athlon II X2 265","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+265&id=142","Q4",2010,12.45,1265
+"AMD Athlon II X2 B28","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+B28&id=151","Q3",2012,39.02,1269
+"AMD A6-9500E","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9500E&id=3330","Q4",2018,57.36,1756
+"Intel Core i7-875K @ 2.93GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-875K+%40+2.93GHz&id=846","Q2",2010,199.88,3118
+"Intel Core i3-550 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-550+%40+3.20GHz&id=739","Q2",2010,119.99,1610
+"AMD A4-5300 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-5300+APU&id=1447","Q4",2012,26.95,1364
+"AMD FX-8120 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8120+Eight-Core&id=261","Q4",2011,38.95,4645
+"AMD FX-4130 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-4130+Quad-Core&id=1807","Q4",2012,19.93,2684
+"Intel Celeron G1620T @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1620T+%40+2.40GHz&id=2197","Q1",2014,42,1541
+"AMD A8-5500 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-5500+APU&id=41","Q2",2012,58.95,2596
+"AMD Athlon II X3 455","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+455&id=160","Q4",2010,25.76,1863
+"Intel Pentium G645 @ 2.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G645+%40+2.90GHz&id=1797","Q1",2012,83,1388
+"AMD Phenom II X6 1055T","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X6+1055T&id=390","Q2",2010,34.3,3313
+"Intel Core i7-860 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-860+%40+2.80GHz&id=6","Q3",2009,35.99,2987
+"AMD A8-5500B APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-5500B+APU&id=1868","Q1",2013,49.04,2608
+"Intel Core2 Duo E8500 @ 3.16GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E8500+%40+3.16GHz&id=5","Q4",2008,41.69,1259
+"AMD Phenom II X4 B97","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+B97&id=386","Q3",2010,79.95,2539
+"AMD FX-6100 Six-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-6100+Six-Core&id=257","Q4",2011,27.95,3681
+"AMD Phenom II X2 555","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X2+555&id=333","Q1",2010,13.03,1301
+"Intel Core i7-940 @ 2.93GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-940+%40+2.93GHz&id=836","Q4",2008,348,2947
+"AMD Phenom II X4 960T","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+960T&id=369","Q2",2011,19.62,2344
+"Intel Pentium E6700 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E6700+%40+3.20GHz&id=1106","Q3",2010,29,1169
+"Intel Pentium G640 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G640+%40+2.80GHz&id=1111","Q3",2012,30,1355
+"Intel Pentium E6800 @ 3.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E6800+%40+3.33GHz&id=1398","Q4",2010,24.95,1164
+"AMD FX-4200 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-4200+Quad-Core&id=2118","Q4",2013,59.95,3109
+"AMD Sempron 240","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+240&id=3327","Q4",2018,36.1,1278
+"AMD Phenom II X4 840","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+840&id=357","Q1",2011,30,2398
+"Intel Pentium G2020T @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G2020T+%40+2.50GHz&id=1838","Q1",2013,47.6,1430
+"AMD Athlon II X3 450","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+450&id=159","Q4",2010,14.9,1822
+"AMD Athlon X2 340 Dual Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X2+340+Dual+Core&id=1994","Q3",2013,94.97,1307
+"AMD Phenom II X4 955","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+955&id=368","Q1",2009,59.01,2508
+"AMD Athlon X4 830","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X4+830&id=3190","Q1",2018,202.32,2901
+"Intel Core i5-760 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-760+%40+2.80GHz&id=773","Q3",2010,100,2628
+"AMD A10-6700T APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-6700T+APU&id=2254","Q2",2014,88.02,2299
+"Intel Celeron G555 @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G555+%40+2.70GHz&id=1791","Q1",2012,75,1388
+"AMD FX-4100 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-4100+Quad-Core&id=255","Q4",2011,15.99,2610
+"Intel Core2 Quad Q9650 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q9650+%40+3.00GHz&id=1050","Q4",2008,54.44,2469
+"AMD Phenom II X6 1045T","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X6+1045T&id=389","Q3",2010,47.99,3184
+"Intel Pentium E5800 @ 3.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E5800+%40+3.20GHz&id=1102","Q1",2012,100.19,1173
+"AMD Athlon II X3 445","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+445&id=158","Q3",2010,14.99,1823
+"AMD FX-8140 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8140+Eight-Core&id=262","Q1",2012,148.86,4860
+"Intel Core i7-930 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-930+%40+2.80GHz&id=835","Q1",2010,25.69,2962
+"Intel Core i3-540 @ 3.07GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-540+%40+3.07GHz&id=738","Q1",2010,110,1535
+"AMD A6-5400K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-5400K+APU&id=1494","Q4",2012,52.02,1262
+"Intel Pentium G840 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G840+%40+2.80GHz&id=1115","Q2",2011,57.64,1238
+"Intel Core2 Extreme X9650 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Extreme+X9650+%40+3.00GHz&id=1031","Q4",2008,859.99,2410
+"Intel Core2 Duo E7600 @ 3.06GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E7600+%40+3.06GHz&id=948","Q2",2009,119.95,1159
+"AMD Athlon II X4 645","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+645&id=174","Q4",2010,16.11,2341
+"AMD Athlon II X2 260","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+260&id=140","Q3",2010,12.49,1167
+"AMD Phenom II X3 B75","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X3+B75&id=346","Q3",2009,49.95,1764
+"AMD Phenom II X4 B95","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+B95&id=385","Q1",2010,62.02,2401
+"Intel Pentium G630 @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G630+%40+2.70GHz&id=1109","Q4",2011,37.49,1322
+"Intel Pentium E6500 @ 2.93GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E6500+%40+2.93GHz&id=1104","Q4",2009,34,1148
+"AMD A4-5300B APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-5300B+APU&id=1810","Q4",2012,25.95,1232
+"Intel Core2 Duo E8400 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E8400+%40+3.00GHz&id=955","Q4",2008,76.99,1200
+"AMD Athlon II X2 255","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+255&id=139","Q1",2010,12.55,1170
+"Intel Celeron G1610T @ 2.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1610T+%40+2.30GHz&id=2075","Q4",2013,14.98,1358
+"AMD Phenom II X4 945","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+945&id=7","Q2",2009,23.99,2378
+"Intel Core2 Extreme Q6850 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Extreme+Q6850+%40+3.00GHz&id=1024","Q4",2008,495.95,2304
+"Intel Core i5-750 @ 2.67GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-750+%40+2.67GHz&id=772","Q3",2009,110,2532
+"AMD Phenom II X6 1035T","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X6+1035T&id=388","Q2",2010,108,3001
+"AMD Phenom II X2 550","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X2+550&id=332","Q2",2009,41.35,1158
+"Intel Core2 Quad Q9550 @ 2.83GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q9550+%40+2.83GHz&id=1049","Q4",2008,323,2339
+"AMD A4-4020 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-4020+APU&id=2305","Q3",2014,105.37,1268
+"Intel Core i7-920 @ 2.67GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-920+%40+2.67GHz&id=834","Q4",2008,99,2833
+"Intel Core2 Quad Q9500 @ 2.83GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q9500+%40+2.83GHz&id=1047","Q2",2010,49.01,2221
+"AMD A8-3850 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-3850+APU&id=38","Q2",2011,68.02,2361
+"AMD Phenom II X4 940","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+940&id=367","Q1",2009,211.77,2345
+"AMD Athlon II X4 640","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+640&id=171","Q2",2010,11.39,2236
+"Intel Celeron G550 @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G550+%40+2.60GHz&id=686","Q3",2012,49,1250
+"Intel Core2 Duo E7500 @ 2.93GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E7500+%40+2.93GHz&id=947","Q1",2009,99.63,1133
+"AMD A8-3870K APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-3870K+APU&id=39","Q4",2011,68.04,2301
+"AMD Athlon II X2 B24","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+B24&id=149","Q1",2010,24.1,1120
+"Intel Pentium Silver J5005 @ 1.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Silver+J5005+%40+1.50GHz&id=3144","Q4",2017,521.99,3095
+"AMD Athlon II X2 250e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+250e&id=137","Q2",2011,76.73,1155
+"AMD Phenom II X2 B55","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X2+B55&id=337","Q4",2009,37.95,1183
+"Intel Pentium E5700 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E5700+%40+3.00GHz&id=1101","Q3",2010,29.99,1082
+"AMD Athlon II X3 440","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+440&id=157","Q1",2010,14.66,1712
+"Intel Pentium E6600 @ 3.06GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E6600+%40+3.06GHz&id=1105","Q4",2010,29.95,1121
+"AMD Athlon II X4 641 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+641+Quad-Core&id=173","Q1",2012,11.78,2313
+"Intel Pentium G620 @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G620+%40+2.60GHz&id=1107","Q2",2011,12,1213
+"AMD Phenom II X2 545","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X2+545&id=331","Q3",2009,43.98,1222
+"AMD Athlon II X2 245e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+245e&id=135","Q1",2011,19.97,1171
+"Intel Core2 Quad Q9505 @ 2.83GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q9505+%40+2.83GHz&id=1048","Q4",2009,49.99,2132
+"Intel Core2 Duo E6850 @ 3.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6850+%40+3.00GHz&id=943","Q4",2008,51.2,1118
+"AMD Athlon II X2 250","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+250&id=136","Q2",2009,38.95,1139
+"Intel Pentium G6951 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G6951+%40+2.80GHz&id=1113","Q1",2011,74,1383
+"AMD Athlon II X3 435","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+435&id=156","Q4",2009,159.95,1644
+"Intel Core i3-530 @ 2.93GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-530+%40+2.93GHz&id=737","Q1",2010,50,1492
+"AMD Athlon II X4 638 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+638+Quad-Core&id=2508","Q2",2015,62.85,2250
+"Intel Core i3-2120T @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2120T+%40+2.60GHz&id=753","Q3",2011,60,1520
+"AMD Athlon II X4 635","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+635&id=170","Q1",2010,17.11,2206
+"Intel Celeron E3500 @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+E3500+%40+2.70GHz&id=679","Q1",2011,15,935
+"AMD Phenom II X4 925","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+925&id=366","Q1",2009,20.76,2271
+"AMD A4-4000 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-4000+APU&id=1913","Q2",2013,19.95,1153
+"Intel Core2 Quad Q8400 @ 2.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q8400+%40+2.66GHz&id=1041","Q2",2009,128.88,2073
+"AMD Athlon II X2 245","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+245&id=134","Q3",2009,39.88,1097
+"Intel Core2 Duo E8200 @ 2.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E8200+%40+2.66GHz&id=950","Q4",2008,75.99,1108
+"AMD A6-3670 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-3670+APU&id=28","Q1",2012,54.95,2165
+"Intel Celeron G540 @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G540+%40+2.50GHz&id=684","Q4",2011,11.03,1172
+"Intel Pentium E6300 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E6300+%40+2.80GHz&id=1103","Q2",2009,41.85,1032
+"AMD Athlon 64 X2 Dual Core 6400+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+6400%2B&id=89","Q4",2008,249.95,998
+"Intel Core2 Quad Q9400 @ 2.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q9400+%40+2.66GHz&id=1045","Q4",2008,38.01,2114
+"AMD FX-8100 Eight-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+FX-8100+Eight-Core&id=260","Q1",2012,98.02,4046
+"Intel Pentium E5500 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E5500+%40+2.80GHz&id=1100","Q2",2010,15.99,1033
+"Intel Core2 Quad Q9450 @ 2.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q9450+%40+2.66GHz&id=1046","Q4",2008,35.7,2187
+"AMD Phenom II X4 920","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+920&id=365","Q1",2009,27.89,2209
+"Intel Pentium G645T @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G645T+%40+2.50GHz&id=1876","Q1",2012,223.84,1228
+"AMD A8-3820 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-3820+APU&id=37","Q1",2012,44.95,2174
+"AMD Athlon II X2 B22","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+B22&id=148","Q1",2010,25.95,1053
+"Intel Core2 Extreme Q6800 @ 2.93GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Extreme+Q6800+%40+2.93GHz&id=1023","Q4",2008,125,2145
+"AMD Athlon II X4 630","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+630&id=168","Q3",2009,48.04,2124
+"AMD Athlon II X4 631 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+631+Quad-Core&id=169","Q3",2011,12.31,2150
+"AMD Phenom II X4 820","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+820&id=355","Q4",2009,62.02,2086
+"AMD Athlon 7850 Dual-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+7850+Dual-Core&id=101","Q2",2009,99.99,1058
+"AMD Sempron 150","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+150&id=404","Q2",2011,14.95,597
+"Intel Core2 Duo E7400 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E7400+%40+2.80GHz&id=946","Q4",2008,48.99,1023
+"AMD A4-3420 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-3420+APU&id=19","Q1",2012,136,1054
+"AMD A8-6500T APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-6500T+APU&id=2179","Q1",2014,59.95,1929
+"Intel Celeron J4005 @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J4005+%40+2.00GHz&id=3200","Q1",2018,168.75,1588
+"AMD Athlon II X2 235e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+235e&id=131","Q4",2009,97.5,1080
+"Intel Pentium G6950 @ 2.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G6950+%40+2.80GHz&id=1112","Q1",2010,49,1238
+"AMD Athlon II X2 210e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+210e&id=1450","Q4",2010,28.49,1105
+"AMD Phenom II X3 720","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X3+720&id=343","Q1",2009,64.45,1554
+"Intel Pentium G640T @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G640T+%40+2.40GHz&id=2100","Q1",2012,92.99,1139
+"AMD Athlon II X2 240e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+240e&id=133","Q4",2009,37.89,1002
+"Intel Celeron G530 @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G530+%40+2.40GHz&id=683","Q3",2011,79.99,1117
+"Intel Celeron J4105 @ 1.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J4105+%40+1.50GHz&id=3159","Q1",2018,107,2909
+"AMD Athlon II X2 220","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+220&id=129","Q2",2010,59.95,1030
+"Intel Core i3-2100T @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2100T+%40+2.50GHz&id=750","Q1",2011,21.48,1488
+"Intel Pentium E5400 @ 2.70GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E5400+%40+2.70GHz&id=1099","Q2",2009,84.75,971
+"AMD Phenom II X4 910e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+910e&id=364","Q2",2010,69.9,2131
+"AMD Athlon II X3 425","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+425&id=155","Q3",2009,58.34,1561
+"AMD A4-3400 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-3400+APU&id=18","Q3",2011,79.95,1081
+"Intel Core2 Quad Q9300 @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q9300+%40+2.50GHz&id=1044","Q4",2008,38.04,1971
+"Intel Core2 Quad Q6700 @ 2.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q6700+%40+2.66GHz&id=1039","Q4",2008,99.95,2099
+"AMD Athlon II X2 240","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+240&id=132","Q3",2009,24.95,1032
+"Intel Core2 Duo E8300 @ 2.83GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E8300+%40+2.83GHz&id=952","Q4",2008,19.99,997
+"Intel Core2 Duo E7300 @ 2.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E7300+%40+2.66GHz&id=945","Q4",2008,49.96,963
+"AMD A8-3800 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A8-3800+APU&id=36","Q3",2011,109.95,2015
+"AMD Phenom II X3 710","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X3+710&id=341","Q1",2009,169,1551
+"AMD Athlon II X4 620","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+620&id=166","Q3",2009,54.95,2014
+"Intel Core2 Quad Q8300 @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q8300+%40+2.50GHz&id=9","Q1",2009,130,1883
+"Intel Core2 Duo E7200 @ 2.53GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E7200+%40+2.53GHz&id=944","Q4",2008,47,996
+"AMD Athlon II X3 420e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+420e&id=1517","Q2",2011,116.15,1557
+"Intel Pentium G630T @ 2.30GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G630T+%40+2.30GHz&id=1110","Q4",2011,84.07,1090
+"AMD Phenom II X3 B73","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X3+B73&id=345","Q3",2010,75,1538
+"Intel Core i7-860S @ 2.53GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-860S+%40+2.53GHz&id=855","Q2",2011,140,2166
+"Intel Core2 Extreme X6800 @ 2.93GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Extreme+X6800+%40+2.93GHz&id=933","Q4",2008,263.64,993
+"Intel Core i5 750S @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5+750S+%40+2.40GHz&id=1659","Q3",2012,140,1326
+"AMD Sempron 140","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+140&id=402","Q3",2009,11.95,486
+"AMD Athlon 7750 Dual-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+7750+Dual-Core&id=100","Q1",2009,79.99,978
+"AMD Athlon II X4 610e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+610e&id=164","Q3",2010,16.6,1964
+"AMD Athlon II X4 615e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+615e&id=165","Q4",2010,59,2000
+"Intel Pentium E5300 @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E5300+%40+2.60GHz&id=1098","Q2",2009,59.49,929
+"AMD Athlon 64 X2 Dual Core 6000+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+6000%2B&id=88","Q4",2008,38.5,931
+"AMD A6-3650 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-3650+APU&id=27","Q3",2011,128,2049
+"AMD Phenom II X4 810","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+810&id=354","Q1",2009,213,1971
+"Intel Core2 Duo E6750 @ 2.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6750+%40+2.66GHz&id=942","Q4",2008,10.3,1015
+"AMD Athlon II X2 215","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+215&id=128","Q3",2009,28.97,961
+"AMD Athlon II X3 415e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+415e&id=154","Q4",2010,75,1441
+"AMD Phenom 9950 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9950+Quad-Core&id=308","Q4",2008,199.99,1884
+"AMD Athlon 64 X2 Dual Core 5600+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+5600%2B&id=86","Q4",2008,107.21,907
+"Intel Core2 Duo E6700 @ 2.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6700+%40+2.66GHz&id=1668","Q1",2010,29.99,990
+"AMD Athlon 64 FX-62 Dual Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+FX-62+Dual+Core&id=62","Q1",2009,250,993
+"AMD Phenom II X4 805","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+805&id=353","Q2",2009,173.99,1959
+"AMD Phenom II X4 905e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+905e&id=362","Q2",2009,53.99,1936
+"AMD Athlon 64 X2 Dual Core 5800+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+5800%2B&id=87","Q1",2009,29.95,797
+"AMD Sempron 145","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+145&id=403","Q4",2010,39.99,506
+"AMD Athlon 64 X2 Dual Core 5400+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+5400%2B&id=85","Q4",2008,52.99,907
+"Intel Pentium E5200 @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E5200+%40+2.50GHz&id=1097","Q2",2009,49.94,927
+"Intel Core2 Quad Q8200 @ 2.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q8200+%40+2.33GHz&id=1040","Q4",2008,63.99,1777
+"Intel Celeron E3400 @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+E3400+%40+2.60GHz&id=678","Q1",2010,19.99,854
+"AMD A4-3300 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A4-3300+APU&id=13","Q4",2011,56.61,962
+"AMD Phenom II X4 910","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+910&id=363","Q1",2009,100,1776
+"AMD Athlon II X4 605e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+605e&id=163","Q4",2009,15,1963
+"AMD A6-3620 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-3620+APU&id=26","Q1",2012,22.49,1851
+"Intel Core2 Duo E4700 @ 2.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E4700+%40+2.60GHz&id=938","Q4",2008,26.99,862
+"AMD Athlon II X3 405e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+405e&id=153","Q1",2010,112.9,1331
+"AMD Phenom 8600B Triple-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+8600B+Triple-Core&id=292","Q2",2009,14.95,1461
+"Intel Celeron E3200 @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+E3200+%40+2.40GHz&id=676","Q3",2009,19.99,839
+"Intel Celeron E3300 @ 2.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+E3300+%40+2.50GHz&id=677","Q3",2009,64.78,795
+"AMD A6-3500 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-3500+APU&id=24","Q3",2011,74.93,1417
+"AMD E2-3200 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+E2-3200+APU&id=253","Q4",2011,7.99,953
+"Intel Celeron G530T @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G530T+%40+2.00GHz&id=1860","Q1",2011,16.99,1056
+"AMD Phenom II X3 705e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X3+705e&id=340","Q3",2009,152.34,1222
+"Intel Pentium G620T @ 2.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+G620T+%40+2.20GHz&id=1108","Q3",2011,19.99,896
+"Intel Core2 Quad Q6600 @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q6600+%40+2.40GHz&id=1038","Q4",2008,37.91,1810
+"Intel Core2 Duo E6600 @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6600+%40+2.40GHz&id=912","Q4",2008,188.08,939
+"AMD Phenom 9750 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9750+Quad-Core&id=306","Q4",2008,48.02,1833
+"AMD Athlon Dual Core 5000B","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Dual+Core+5000B&id=107","Q2",2009,95,856
+"AMD Phenom 9850 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9850+Quad-Core&id=307","Q4",2008,129.99,1722
+"Intel Core2 Duo E4600 @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E4600+%40+2.40GHz&id=937","Q4",2008,157.95,865
+"AMD Athlon 7550 Dual-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+7550+Dual-Core&id=99","Q2",2009,14.95,900
+"AMD Phenom 9600B Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9600B+Quad-Core&id=304","Q1",2009,39.95,1822
+"AMD Athlon 64 X2 Dual Core 5200+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+5200%2B&id=84","Q4",2008,60,840
+"Intel Celeron G1101 @ 2.27GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G1101+%40+2.27GHz&id=680","Q2",2011,19.77,1086
+"Intel Pentium E2220 @ 2.40GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E2220+%40+2.40GHz&id=1137","Q1",2009,22,846
+"AMD Athlon 5200 Dual-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+5200+Dual-Core&id=56","Q4",2010,189.95,869
+"AMD Athlon II X4 600e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+600e&id=162","Q4",2009,19.85,1795
+"AMD Athlon II X3 400e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+400e&id=152","Q4",2009,25.49,1320
+"Intel Core2 Duo E6550 @ 2.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6550+%40+2.33GHz&id=941","Q4",2008,13.3,885
+"AMD Athlon Dual Core 5050e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Dual+Core+5050e&id=108","Q1",2009,60,809
+"AMD Phenom 9650 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9650+Quad-Core&id=305","Q4",2008,39.99,1713
+"AMD Athlon Dual Core 4850e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Dual+Core+4850e&id=106","Q1",2009,39,783
+"AMD Phenom 8600 Triple-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+8600+Triple-Core&id=291","Q1",2009,52.99,1210
+"AMD Athlon 5000 Dual-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+5000+Dual-Core&id=55","Q4",2009,109.95,872
+"AMD A6-3600 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-3600+APU&id=25","Q4",2011,24.95,1645
+"AMD Athlon 64 X2 Dual Core 5000+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+5000%2B&id=83","Q4",2008,331.49,776
+"AMD Phenom 9600 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9600+Quad-Core&id=303","Q4",2008,39.99,1577
+"AMD Athlon 64 X2 Dual Core 4800+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+4800%2B&id=82","Q4",2008,149.95,679
+"AMD Phenom 8650 Triple-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+8650+Triple-Core&id=293","Q4",2008,19,1237
+"AMD Phenom 9550 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9550+Quad-Core&id=302","Q4",2008,23.1,1656
+"AMD Phenom 9500 Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9500+Quad-Core&id=301","Q4",2008,29.99,1549
+"Intel Celeron G470 @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G470+%40+2.00GHz&id=2180","Q1",2014,35.15,568
+"AMD Phenom 9450e Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9450e+Quad-Core&id=300","Q1",2010,105,1455
+"AMD Phenom 8450 Triple-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+8450+Triple-Core&id=288","Q4",2008,20,1216
+"AMD Athlon 64 X2 Dual Core 4600+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+4600%2B&id=81","Q4",2008,349.95,720
+"AMD Phenom X3 8550","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+X3+8550&id=290","Q2",2009,29.95,1079
+"Intel Core2 Duo E4500 @ 2.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E4500+%40+2.20GHz&id=936","Q4",2008,11,744
+"Intel Core2 Duo E6400 @ 2.13GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6400+%40+2.13GHz&id=939","Q1",2009,29.94,765
+"Intel Celeron G465 @ 1.90GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G465+%40+1.90GHz&id=1804","Q1",2012,36.98,547
+"Intel Pentium E2200 @ 2.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E2200+%40+2.20GHz&id=1136","Q1",2009,54,725
+"Intel Celeron J3455 @ 1.50GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+J3455+%40+1.50GHz&id=2875","Q4",2016,349,2256
+"AMD Athlon Dual Core 4450e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Dual+Core+4450e&id=104","Q1",2009,14.48,705
+"AMD Phenom 9350e Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9350e+Quad-Core&id=299","Q1",2009,382.07,1550
+"AMD Athlon Dual Core 4450B","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Dual+Core+4450B&id=103","Q1",2009,31,711
+"AMD Athlon II X2 270u","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+270u&id=144","Q4",2010,67.67,675
+"Intel Core2 Duo E6420 @ 2.13GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6420+%40+2.13GHz&id=911","Q4",2008,39.99,760
+"AMD Athlon 64 X2 Dual Core 4200+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+4200%2B&id=79","Q4",2008,109.95,689
+"Intel Core2 Duo E4400 @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E4400+%40+2.00GHz&id=935","Q4",2008,42.5,673
+"AMD Athlon 64 X2 Dual Core 4400+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+4400%2B&id=80","Q4",2008,298.95,677
+"Intel Celeron E1500 @ 2.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+E1500+%40+2.20GHz&id=675","Q2",2009,19.65,626
+"Intel Celeron E1400 @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+E1400+%40+2.00GHz&id=674","Q1",2009,79.95,735
+"AMD Athlon 5370 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+5370+APU&id=2763","Q2",2016,598.68,1867
+"Intel Pentium E2180 @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E2180+%40+2.00GHz&id=1135","Q4",2008,19.5,687
+"Intel Celeron G440 @ 1.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G440+%40+1.60GHz&id=681","Q1",2012,100,425
+"AMD Phenom 9100e Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9100e+Quad-Core&id=297","Q1",2009,34.95,1279
+"AMD Phenom 8250e Triple-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+8250e+Triple-Core&id=286","Q3",2009,46.99,1084
+"AMD Phenom 9150e Quad-Core","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+9150e+Quad-Core&id=298","Q1",2009,247.5,1414
+"AMD Athlon II 170u","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+170u&id=113","Q4",2010,24,340
+"AMD Athlon II 160u","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+160u&id=112","Q2",2010,29.99,358
+"AMD Athlon II X2 260u","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+260u&id=141","Q4",2010,83.44,713
+"Intel Celeron 450 @ 2.20GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+450+%40+2.20GHz&id=653","Q1",2009,299,415
+"Intel Core2 Duo E6320 @ 1.86GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6320+%40+1.86GHz&id=909","Q4",2008,39.99,717
+"AMD Athlon 5350 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+5350+APU&id=2195","Q1",2014,147.83,1783
+"Intel Celeron G460 @ 1.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+G460+%40+1.80GHz&id=682","Q1",2012,52.99,469
+"Intel Core2 Duo E6300 @ 1.86GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E6300+%40+1.86GHz&id=908","Q4",2008,127.61,638
+"Intel Pentium E2160 @ 1.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E2160+%40+1.80GHz&id=1134","Q4",2008,20,638
+"Intel Core2 Duo E4300 @ 1.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E4300+%40+1.80GHz&id=1678","Q4",2009,42.5,593
+"AMD Athlon 64 X2 Dual Core 3600+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+3600%2B&id=76","Q4",2008,68.25,622
+"AMD Athlon X2 Dual Core BE-2300","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X2+Dual+Core+BE-2300&id=201","Q1",2009,89.95,570
+"AMD Athlon II X2 250u","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+250u&id=138","Q1",2010,24.95,597
+"AMD Athlon 64 FX-74","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+FX-74&id=64","Q1",2009,499.5,972
+"Intel Celeron 430 @ 1.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+430+%40+1.80GHz&id=651","Q1",2009,29.99,280
+"AMD Athlon 64 3000+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+3000%2B&id=66","Q4",2008,20,334
+"AMD Sempron LE-1300","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+LE-1300&id=429","Q2",2009,27,417
+"Intel Pentium E2140 @ 1.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+E2140+%40+1.60GHz&id=1133","Q4",2008,158.99,561
+"Intel Celeron E1200 @ 1.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+E1200+%40+1.60GHz&id=673","Q4",2008,99.95,516
+"AMD Sempron LE-1200","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+LE-1200&id=427","Q1",2009,14.95,349
+"AMD Athlon 5150 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+5150+APU&id=2208","Q2",2014,98.86,1388
+"Intel Pentium Extreme Edition 955 @ 3.46GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Extreme+Edition+955+%40+3.46GHz&id=1130","Q2",2009,31.23,469
+"AMD Sempron LE-1100","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+LE-1100&id=425","Q1",2009,34.95,315
+"AMD Sempron LE-1250","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+LE-1250&id=428","Q1",2009,99.99,301
+"AMD Athlon 64 FX-55","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+FX-55&id=59","Q1",2009,65,404
+"AMD Athlon LE-1640","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+LE-1640&id=189","Q1",2009,89.95,430
+"AMD Sempron LE-1150","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+LE-1150&id=426","Q1",2009,14.94,251
+"AMD Sempron 2650 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+2650+APU&id=2214","Q2",2014,168.2,574
+"AMD Athlon LE-1620","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+LE-1620&id=188","Q1",2009,18,421
+"Intel Celeron 420 @ 1.60GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+420+%40+1.60GHz&id=650","Q1",2009,49.95,235
+"AMD Athlon 1640B","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+1640B&id=183","Q2",2009,50,412
+"AMD Sempron 3000+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3000%2B&id=411","Q4",2008,34.95,286
+"AMD Sempron 3200+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3200%2B&id=412","Q1",2009,124.68,251
+"AMD Sempron 3850 APU","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3850+APU&id=2209","Q2",2014,47.57,1142
+"Intel Celeron 440 @ 2.00GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+440+%40+2.00GHz&id=652","Q1",2009,34.99,368
+"AMD Athlon 64 3700+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+3700%2B&id=71","Q4",2008,89.95,394
+"AMD Athlon LE-1600","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+LE-1600&id=187","Q1",2009,21,412
+"AMD Sempron 3800+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3800%2B&id=424","Q4",2008,14.99,360
+"AMD Sempron 2800+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+2800%2B&id=410","Q4",2008,29.95,243
+"AMD Sempron 2500+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+2500%2B&id=408","Q1",2009,59.95,207
+"AMD Athlon XP 3000+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+XP+3000%2B&id=231","Q1",2009,79.7,262
+"AMD Sempron 3300+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3300%2B&id=413","Q4",2008,20,315
+"AMD Sempron 3100+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3100%2B&id=420","Q1",2009,65,298
+"AMD Sempron 3600+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3600%2B&id=423","Q1",2009,15,364
+"AMD Sempron 3400+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3400%2B&id=421","Q4",2008,86.68,292
+"AMD Sempron 2600+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+2600%2B&id=409","Q4",2008,34.95,253
+"AMD Sempron 2400+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+2400%2B&id=407","Q4",2008,12.99,205
+"AMD Sempron 2300+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+2300%2B&id=406","Q1",2009,45,207
+"AMD Athlon XP 2000+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+XP+2000%2B&id=223","Q1",2009,58.99,195
+"Intel Atom E3825 @ 1.33GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+E3825+%40+1.33GHz&id=2256","Q2",2014,70.32,378
+"AMD Athlon 2650e","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+2650e&id=184","Q1",2009,19,274
+"AMD Athlon XP 1800+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+XP+1800%2B&id=221","Q1",2009,50.95,195
+"Intel Atom D510 @ 1.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+D510+%40+1.66GHz&id=610","Q1",2010,97.16,406
+"AMD Sempron 2200+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+2200%2B&id=405","Q1",2009,39.95,184
+"AMD Athlon XP 1700+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+XP+1700%2B&id=49","Q1",2009,51.25,176
+"Intel Atom D425 @ 1.80GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+D425+%40+1.80GHz&id=609","Q1",2011,992.98,199
+"Intel Pentium 4 1700MHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+4+1700MHz&id=1062","Q1",2009,99.99,100
+"Intel Atom E3815 @ 1.46GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+E3815+%40+1.46GHz&id=2233","Q2",2014,135,184
+"AMD Sempron 3500+","https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3500%2B&id=422","Q1",2009,24.99,232
+"Intel Atom D410 @ 1.66GHz","https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+D410+%40+1.66GHz&id=608","Q1",2010,635.99,180

@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 import time
 
-df = pd.read_csv("data_scraping/scraped_data/cpu_data.csv")
+df = pd.read_csv("data_scraping/scraped_data/cpu_data_r.csv")
 df = df[['CPU', 'URL']]
 
 # Initialize the Firefox driver

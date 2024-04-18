@@ -14,7 +14,6 @@ CPU_Price$CurrentDate <- as.Date(CPU_Price$CurrentDate, format = "%d %b %y")
 sum(duplicated(CPU_R$CPU))
 sum(duplicated(CPU_Price$CPU))
 
-CPU_R$CurrentPrice2 <- NULL
 CPU_R$URL <- NULL
 CPU_Price$URL <- NULL
 CPU_R <- rename(CPU_R, CurrentPrice1 = CurrentPrice)
