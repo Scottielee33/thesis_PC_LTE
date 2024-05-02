@@ -1,0 +1,143 @@
+---
+title: "forecasting"
+output: pdf_document
+date: "2024-02-15"
+---
+
+```{r}
+if (!require("ggplot2")) install.packages("ggplot2")
+if (!require("lubridate")) install.packages("lubridate")
+if (!require("dplyr")) install.packages("dplyr")
+```
+
+```{r}
+# Read the data
+CPU <- read.csv("../final_data/CPU.csv")
+GPU <- read.csv("../final_data/GPU.csv")
+Disk <- read.csv("../final_data/Disk.csv")
+Memory <- read.csv("../final_data/Memory.csv")
+```
+
+```{r}
+# Convert 'ReleaseDate' and 'CurrentDate' to Date objects
+CPU$ReleaseDate <- as.Date(CPU$ReleaseDate)
+CPU$CurrentDate <- as.Date(CPU$CurrentDate)
+
+CPU$Log_Score <- log(CPU$Score)
+CPU$Age_Years <- as.numeric(difftime(Sys.Date(), CPU$ReleaseDate, units = "days") / 365.25)
+
+# Fit a linear regression model for each quartile
+models <- lapply(levels(CPU$Quartile), function(q) {
+  subset_data <- subset(CPU, Quartile == q)
+  lm(Log_Score ~ Age_Years, data = subset_data)
+})
+
+# Collect coefficients for a summary
+coefficients <- sapply(models, function(model) coef(model)[2])
+
+# Plot the regression line and data for each quartile
+ggplot(CPU, aes(x = Age_Years, y = Log_Score, color = Quartile)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  scale_color_manual(values = c("red", "green", "blue")) +
+  scale_fill_manual(values = c("red", "green", "blue")) +
+  labs(title = "Log Score vs. Age of CPU by Release Price Quartile",
+       x = "CPU Age (Years)", y = "Log Score") +
+  theme_minimal()
+
+# Print the model coefficients for each quartile
+print(coefficients)
+```
+
+```{r}
+# Convert 'ReleaseDate' and 'CurrentDate' to Date objects
+GPU$ReleaseDate <- as.Date(GPU$ReleaseDate)
+GPU$CurrentDate <- as.Date(GPU$CurrentDate)
+
+GPU$Log_Score <- log(GPU$Score)
+GPU$Age_Years <- as.numeric(difftime(Sys.Date(), GPU$ReleaseDate, units = "days") / 365.25)
+
+# Fit a linear regression model for each quartile
+models <- lapply(levels(GPU$Quartile), function(q) {
+  subset_data <- subset(GPU, Quartile == q)
+  lm(Log_Score ~ Age_Years, data = subset_data)
+})
+
+# Collect coefficients for a summary
+coefficients <- sapply(models, function(model) coef(model)[2])
+
+# Plot the regression line and data for each quartile
+ggplot(GPU, aes(x = Age_Years, y = Log_Score, color = Quartile)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  scale_color_manual(values = c("red", "green", "blue", "purple")) +
+  scale_fill_manual(values = c("red", "green", "blue", "purple")) +
+  labs(title = "Log Score vs. Age of GPU by Release Price Quartile",
+       x = "GPU Age (Years)", y = "Log Score") +
+  theme_minimal()
+
+# Print the model coefficients for each quartile
+print(coefficients)
+```
+
+```{r}
+# Convert 'ReleaseDate' and 'CurrentDate' to Date objects
+Disk$ReleaseDate <- as.Date(Disk$ReleaseDate)
+Disk$CurrentDate <- as.Date(Disk$CurrentDate)
+
+Disk$Log_Score <- log(Disk$Score)
+Disk$Age_Years <- as.numeric(difftime(Sys.Date(), Disk$ReleaseDate, units = "days") / 365.25)
+
+# Fit a linear regression model for each quartile
+models <- lapply(levels(Disk$Quartile), function(q) {
+  subset_data <- subset(Disk, Quartile == q)
+  lm(Log_Score ~ Age_Years, data = subset_data)
+})
+
+# Collect coefficients for a summary
+coefficients <- sapply(models, function(model) coef(model)[2])
+
+# Plot the regression line and data for each quartile
+ggplot(Disk, aes(x = Age_Years, y = Log_Score, color = Quartile)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  scale_color_manual(values = c("red", "green", "blue", "purple")) +
+  scale_fill_manual(values = c("red", "green", "blue", "purple")) +
+  labs(title = "Log Score vs. Age of Disk by Release Price Quartile",
+       x = "Disk Age (Years)", y = "Log Score") +
+  theme_minimal()
+
+# Print the model coefficients for each quartile
+print(coefficients)
+```
+
+```{r}
+# Convert 'ReleaseDate' and 'CurrentDate' to Date objects
+Memory$ReleaseDate <- as.Date(Memory$ReleaseDate)
+Memory$CurrentDate <- as.Date(Memory$CurrentDate)
+
+Memory$Log_Score <- log(Memory$Score)
+Memory$Age_Years <- as.numeric(difftime(Sys.Date(), Memory$ReleaseDate, units = "days") / 365.25)
+
+# Fit a linear regression model for each quartile
+models <- lapply(levels(Memory$Quartile), function(q) {
+  subset_data <- subset(Memory, Quartile == q)
+  lm(Log_Score ~ Age_Years, data = subset_data)
+})
+
+# Collect coefficients for a summary
+coefficients <- sapply(models, function(model) coef(model)[2])
+
+# Plot the regression line and data for each quartile
+ggplot(Memory, aes(x = Age_Years, y = Log_Score, color = Quartile)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  scale_color_manual(values = c("red", "green", "blue", "purple")) +
+  scale_fill_manual(values = c("red", "green", "blue", "purple")) +
+  labs(title = "Log Score vs. Age of Memory by Release Price Quartile",
+       x = "Memory Age (Years)", y = "Log Score") +
+  theme_minimal()
+
+# Print the model coefficients for each quartile
+print(coefficients)
+```

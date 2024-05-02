@@ -51,6 +51,12 @@ CPU_complete$Score <- as.numeric(gsub(",", "", CPU_complete$Score))
 
 CPU_complete <- CPU_complete[!grepl("threadripper|xeon", CPU_complete$CPU, ignore.case = TRUE), ]
 
+# Calculate the quartiles for the ReleasePrice
+quartiles <- quantile(CPU_complete$ReleasePrice, probs = c(0.33, 0.66))
+
+CPU_complete$Quartile <- cut(CPU_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
+                    labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
+
 # ---GPU---
 GPU_R <- read.csv(file = "../scraped_data/gpu_data_r.csv")
 GPU_Price <- read.csv(file = "../scraped_data/GPU_price_data.csv")
@@ -109,6 +115,11 @@ GPU_complete$CurrentPrice <- as.numeric(gsub(",", "", GPU_complete$CurrentPrice)
 GPU_complete$Score <- as.numeric(gsub(",", "", GPU_complete$Score))
 
 GPU_complete <- GPU_complete[!grepl("RTX A|quadro|WX|FirePro|NVS|Tesla", GPU_complete$GPU, ignore.case = TRUE), ]
+quartiles <- quantile(GPU_complete$ReleasePrice, probs = c(0.33, 0.66))
+
+GPU_complete$Quartile <- cut(GPU_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
+                    labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
+
 
 # ---Disk---
 Disk_R <- read.csv(file = "../scraped_data/harddrive_data_r.csv")
@@ -162,6 +173,11 @@ Disk_complete$CurrentDate <- as.Date(Disk_complete$CurrentDate, format = "%Y-%m-
 Disk_complete$ReleasePrice <- as.numeric(gsub(",", "", Disk_complete$ReleasePrice))
 Disk_complete$CurrentPrice <- as.numeric(gsub(",", "", Disk_complete$CurrentPrice))
 Disk_complete$Score <- as.numeric(gsub(",", "", Disk_complete$Score))
+
+quartiles <- quantile(Disk$ReleasePrice, probs = c(0.33, 0.66))
+
+Disk_complete$Quartile <- cut(Disk_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
+                     labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
 
 # ---RAM---
 Memory_R <- read.csv(file = "../scraped_data/memory_data_r.csv")
@@ -217,6 +233,11 @@ Memory_complete$CurrentPrice <- as.numeric(gsub(",", "", Memory_complete$Current
 Memory_complete$Score <- as.numeric(gsub(",", "", Memory_complete$Score))
 
 Memory_complete$Scores <- NULL
+
+quartiles <- quantile(Memory_complete$ReleasePrice, probs = c(0.33, 0.66))
+
+Memory_complete$Quartile <- cut(Memory_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
+                       labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
 
 write.csv(CPU_complete, file = "../../final_data/CPU.csv")
 write.csv(GPU_complete, file = "../../final_data/GPU.csv")
