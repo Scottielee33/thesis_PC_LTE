@@ -67,5 +67,42 @@ ggplot(Memory, aes(x=ReleasePrice)) +
   theme_minimal()
 ```
 
+```{r}
+cpu_summary <- CPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(ReleasePrice))
 
+gpu_summary <- GPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(ReleasePrice))
+
+disk_summary <- Disk %>% group_by(Quartile) %>% summarize(AvgPrice = mean(ReleasePrice))
+
+memory_summary <- Memory %>% group_by(Quartile) %>% summarize(AvgPrice = mean(ReleasePrice))
+
+
+
+# Combining data
+
+combined_data <- rbind(data.frame(Component = 'CPU', Quartile = cpu_summary$Quartile, Price = cpu_summary$AvgPrice),
+
+                       data.frame(Component = 'GPU', Quartile = gpu_summary$Quartile, Price = gpu_summary$AvgPrice),
+
+                       data.frame(Component = 'Disk', Quartile = disk_summary$Quartile, Price = disk_summary$AvgPrice),
+
+                       data.frame(Component = 'Memory', Quartile = memory_summary$Quartile, Price = memory_summary$AvgPrice))
+
+
+
+# Creating the plot
+
+ggplot(combined_data, aes(x = Component, y = Price, fill = Quartile)) +
+
+  geom_bar(stat = "identity", position = position_dodge()) +
+
+  theme_minimal() +
+
+  labs(title = "Component Prices per Quartile", x = "Component", y = "Price") +
+
+  scale_fill_brewer(palette = "Set1") +
+
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
 

@@ -1,5 +1,6 @@
 if (!require("dplyr")) install.packages("dplyr")
 if (!require("stringr")) install.packages("stringr")
+if (!require("lubridate")) install.packages("lubridate")
 
 # ---CPU---
 CPU_R <- read.csv(file = "../scraped_data/cpu_data_r.csv")
@@ -51,11 +52,42 @@ CPU_complete$Score <- as.numeric(gsub(",", "", CPU_complete$Score))
 
 CPU_complete <- CPU_complete[!grepl("threadripper|xeon", CPU_complete$CPU, ignore.case = TRUE), ]
 
-# Calculate the quartiles for the ReleasePrice
-quartiles <- quantile(CPU_complete$ReleasePrice, probs = c(0.33, 0.66))
+CPU_complete$Year <- year(CPU_complete$ReleaseDate)
 
-CPU_complete$Quartile <- cut(CPU_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
-                    labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
+# Calculate the number of CPUs for each year
+CPU_counts <- CPU_complete %>%
+  mutate(Year = year(ReleaseDate)) %>%
+  group_by(Year) %>%
+  summarise(Count = n())
+
+# Define a threshold for the minimum number of CPUs a year should have
+threshold <- 10
+
+# Group the years with fewer CPUs than the threshold together
+CPU_counts$GroupedYear <- cumsum(CPU_counts$Count >= threshold)
+
+# Join the grouped years back to the original data
+CPU_complete <- CPU_complete %>%
+  left_join(CPU_counts %>% select(Year, GroupedYear), by = "Year")
+
+CPU_complete <- CPU_complete %>%
+  group_by(GroupedYear) %>%
+  filter(n() >= 10)
+
+# Calculate the quartiles for each group of years
+CPU_complete <- CPU_complete %>%
+  group_by(GroupedYear) %>%
+  mutate(
+    Quartile = cut(
+      ReleasePrice, 
+      breaks = c(-Inf, quantile(ReleasePrice, probs = c(0.33, 0.66)), Inf), 
+      labels = c("First Quartile", "Second Quartile", "Third Quartile"), 
+      include.lowest = TRUE
+    )
+  )
+
+CPU_complete$Year <- NULL
+CPU_complete$GroupedYear <- NULL
 
 # ---GPU---
 GPU_R <- read.csv(file = "../scraped_data/gpu_data_r.csv")
@@ -115,11 +147,39 @@ GPU_complete$CurrentPrice <- as.numeric(gsub(",", "", GPU_complete$CurrentPrice)
 GPU_complete$Score <- as.numeric(gsub(",", "", GPU_complete$Score))
 
 GPU_complete <- GPU_complete[!grepl("RTX A|quadro|WX|FirePro|NVS|Tesla", GPU_complete$GPU, ignore.case = TRUE), ]
-quartiles <- quantile(GPU_complete$ReleasePrice, probs = c(0.33, 0.66))
 
-GPU_complete$Quartile <- cut(GPU_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
-                    labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
+GPU_complete$Year <- year(GPU_complete$ReleaseDate)
 
+# Calculate the number of GPUs for each year
+GPU_counts <- GPU_complete %>%
+  mutate(Year = year(ReleaseDate)) %>%
+  group_by(Year) %>%
+  summarise(Count = n())
+
+# Define a threshold for the minimum number of GPUs a year should have
+threshold <- 10
+
+# Group the years with fewer GPUs than the threshold together
+GPU_counts$GroupedYear <- cumsum(GPU_counts$Count >= threshold)
+
+# Join the grouped years back to the original data
+GPU_complete <- GPU_complete %>%
+  left_join(GPU_counts %>% select(Year, GroupedYear), by = "Year")
+
+# Calculate the quartiles for each group of years
+GPU_complete <- GPU_complete %>%
+  group_by(GroupedYear) %>%
+  mutate(
+    Quartile = cut(
+      ReleasePrice, 
+      breaks = c(-Inf, quantile(ReleasePrice, probs = c(0.33, 0.66)), Inf), 
+      labels = c("First Quartile", "Second Quartile", "Third Quartile"), 
+      include.lowest = TRUE
+    )
+  )
+
+GPU_complete$Year <- NULL
+GPU_complete$GroupedYear <- NULL
 
 # ---Disk---
 Disk_R <- read.csv(file = "../scraped_data/harddrive_data_r.csv")
@@ -174,11 +234,38 @@ Disk_complete$ReleasePrice <- as.numeric(gsub(",", "", Disk_complete$ReleasePric
 Disk_complete$CurrentPrice <- as.numeric(gsub(",", "", Disk_complete$CurrentPrice))
 Disk_complete$Score <- as.numeric(gsub(",", "", Disk_complete$Score))
 
-quartiles <- quantile(Disk$ReleasePrice, probs = c(0.33, 0.66))
+Disk_complete$Year <- year(Disk_complete$ReleaseDate)
 
-Disk_complete$Quartile <- cut(Disk_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
-                     labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
+# Calculate the number of Disks for each year
+Disk_counts <- Disk_complete %>%
+  mutate(Year = year(ReleaseDate)) %>%
+  group_by(Year) %>%
+  summarise(Count = n())
 
+# Define a threshold for the minimum number of Disks a year should have
+threshold <- 10
+
+# Group the years with fewer Disks than the threshold together
+Disk_counts$GroupedYear <- cumsum(Disk_counts$Count >= threshold)
+
+# Join the grouped years back to the original data
+Disk_complete <- Disk_complete %>%
+  left_join(Disk_counts %>% select(Year, GroupedYear), by = "Year")
+
+# Calculate the quartiles for each group of years
+Disk_complete <- Disk_complete %>%
+  group_by(GroupedYear) %>%
+  mutate(
+    Quartile = cut(
+      ReleasePrice, 
+      breaks = c(-Inf, quantile(ReleasePrice, probs = c(0.33, 0.66)), Inf), 
+      labels = c("First Quartile", "Second Quartile", "Third Quartile"), 
+      include.lowest = TRUE
+    )
+  )
+
+Disk_complete$Year <- NULL
+Disk_complete$GroupedYear <- NULL
 # ---RAM---
 Memory_R <- read.csv(file = "../scraped_data/memory_data_r.csv")
 Memory_Price <- read.csv(file = "../scraped_data/memory_price_data.csv")
@@ -239,7 +326,41 @@ quartiles <- quantile(Memory_complete$ReleasePrice, probs = c(0.33, 0.66))
 Memory_complete$Quartile <- cut(Memory_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
                        labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
 
-write.csv(CPU_complete, file = "../../final_data/CPU.csv")
-write.csv(GPU_complete, file = "../../final_data/GPU.csv")
-write.csv(Disk_complete, file = "../../final_data/Disk.csv")
-write.csv(Memory_complete, file = "../../final_data/Memory.csv")
+Memory_complete$Year <- year(Memory_complete$ReleaseDate)
+
+# Calculate the number of Memorys for each year
+Memory_counts <- Memory_complete %>%
+  mutate(Year = year(ReleaseDate)) %>%
+  group_by(Year) %>%
+  summarise(Count = n())
+
+# Define a threshold for the minimum number of Memorys a year should have
+threshold <- 10
+
+# Group the years with fewer Memorys than the threshold together
+Memory_counts$GroupedYear <- cumsum(Memory_counts$Count >= threshold)
+
+# Join the grouped years back to the original data
+Memory_complete <- Memory_complete %>%
+  left_join(Memory_counts %>% select(Year, GroupedYear), by = "Year")
+
+# Calculate the quartiles for each group of years
+Memory_complete <- Memory_complete %>%
+  group_by(GroupedYear) %>%
+  mutate(
+    Quartile = cut(
+      ReleasePrice, 
+      breaks = c(-Inf, quantile(ReleasePrice, probs = c(0.33, 0.66)), Inf), 
+      labels = c("First Quartile", "Second Quartile", "Third Quartile"), 
+      include.lowest = TRUE
+    )
+  )
+
+Memory_complete$Year <- NULL
+Memory_complete$GroupedYear <- NULL
+
+# --------
+write.csv(CPU_complete, file = "../final_data_no_inflation/CPU.csv")
+write.csv(GPU_complete, file = "../final_data_no_inflation/GPU.csv")
+write.csv(Disk_complete, file = "../final_data_no_inflation/Disk.csv")
+write.csv(Memory_complete, file = "../final_data_no_inflation/Memory.csv")

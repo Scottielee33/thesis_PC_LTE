@@ -1,887 +1,886 @@
-"","CPU","ReleaseDate","ReleasePrice","CurrentDate","CurrentPrice","Score","Quartile"
-"1","Intel Core i9-14900K",2023-12-31,589,2023-12-31,589,61046,"Third Quartile"
-"2","Intel Core i9-13900KS",2023-01-13,729.99,2023-05-18,988.99,61899,"Third Quartile"
-"3","Intel Core i9-13900K",2022-09-27,589,2023-05-31,1049.99,59349,"Third Quartile"
-"4","Intel Core i9-13900KF",2022-09-01,564,2023-05-17,548.99,58678,"Third Quartile"
-"5","Intel Core i9-14900",2024-03-31,549,2024-03-31,549,49392,"Third Quartile"
-"6","Intel Core i9-14900F",2024-03-31,524,2024-03-31,524,52059,"Third Quartile"
-"7","Intel Core i7-14700KF",2023-12-31,384,2023-12-31,384,53451,"Third Quartile"
-"8","Intel Core i7-14700K",2023-12-31,409,2023-12-31,409,53642,"Third Quartile"
-"9","Intel Core i9-13900F",2023-01-01,524,2023-05-29,569.99,51623,"Third Quartile"
-"10","Intel Core i9-14900T",2024-03-31,549,2024-03-31,549,43527,"Third Quartile"
-"11","Intel Core i7-13700K",2022-10-20,409,2023-05-14,1114.99,46552,"Third Quartile"
-"12","Intel Core i7-13700KF",2022-10-20,384,2023-04-30,390.99,46381,"Third Quartile"
-"13","Intel Core i9-12900KS",2022-01-01,739,2023-03-30,652.35,44157,"Third Quartile"
-"14","Intel Core i9-13900",2023-01-01,549,2023-05-22,549.99,47920,"Third Quartile"
-"15","Intel Core i7-14700F",2024-03-31,359,2024-03-31,359,44921,"Third Quartile"
-"16","Intel Core i5-14600KF",2023-12-31,294,2023-12-31,294,39393,"Third Quartile"
-"17","AMD Ryzen 9 7950X",2022-09-26,699,2023-06-02,555.99,62943,"Third Quartile"
-"18","Intel Core i5-14600K",2023-12-31,319,2023-12-31,319,39255,"Third Quartile"
-"19","AMD Ryzen 9 7900X",2022-09-28,549.99,2023-05-04,433.79,51931,"Third Quartile"
-"20","Intel Core i5-14600",2024-03-31,255,2024-03-31,255,36251,"Third Quartile"
-"21","Intel Core i9-13900T",2023-03-31,549,2023-03-31,549,44297,"Third Quartile"
-"22","AMD Ryzen 7 7700X",2022-10-02,399.99,2023-06-01,377.99,36020,"Third Quartile"
-"23","Intel Core i7-14700",2024-03-31,384,2024-03-31,384,46566,"Third Quartile"
-"24","Intel Core i9-12900K",2021-10-01,589,2023-03-25,355.99,41361,"Third Quartile"
-"25","Intel Core i9-12900KF",2021-10-01,564,2023-04-16,567,41158,"Third Quartile"
-"26","AMD Ryzen 5 7600X",2022-09-28,299.99,2023-05-10,239.89,28572,"Third Quartile"
-"27","AMD Ryzen 9 7900",2023-03-31,419.99,2023-03-31,419.99,48842,"Third Quartile"
-"28","Intel Core i5-13600K",2022-09-27,319,2023-05-19,314.99,38139,"Third Quartile"
-"29","AMD Ryzen 9 7950X3D",2023-03-03,918.99,2023-06-02,799.99,62536,"Third Quartile"
-"30","Intel Core i7-13700",2023-01-01,384,2023-05-10,392.99,37655,"Third Quartile"
-"31","Intel Core i5-13600KF",2022-09-01,294,2023-04-30,294.99,37914,"Third Quartile"
-"32","Intel Core i7-13700F",2023-01-01,359,2023-05-08,362.99,39246,"Third Quartile"
-"33","AMD Ryzen 9 7900X3D",2023-03-03,794.99,2023-05-23,599.99,50408,"Third Quartile"
-"34","Intel Core i9-12900F",2022-01-01,464,2023-03-08,540,36971,"Third Quartile"
-"35","AMD Ryzen 7 7700",2023-03-31,319.79,2023-03-31,319.79,34598,"Third Quartile"
-"36","Intel Core i5-13600",2023-03-31,255,2023-03-31,255,32488,"Third Quartile"
-"37","Intel Core i9-12900",2022-01-01,489,2023-03-08,568,34358,"Third Quartile"
-"38","Intel Core i7-12700K",2021-12-31,409,2021-12-31,409,34652,"Third Quartile"
-"39","Intel Core i7-12700KF",2021-12-31,276,2021-12-31,276,34462,"Third Quartile"
-"40","Intel Core i5-14500",2024-03-31,232,2024-03-31,232,32734,"Third Quartile"
-"41","Intel Core i5-12600K",2021-10-01,289,2023-05-12,235.99,27748,"Third Quartile"
-"43","Intel Core i5-14500T",2024-03-31,232,2024-03-31,232,22398,"Third Quartile"
-"44","Intel Core i5-12600KF",2021-10-01,264,2023-04-24,309.77,27434,"Third Quartile"
-"45","AMD Ryzen 5 7600",2023-03-31,219.99,2023-03-31,219.99,27247,"Third Quartile"
-"46","Intel Core i5-13490F",2023-05-02,193.49,2023-06-02,263.66,27539,"Second Quartile"
-"47","Intel Core i7-12700",2022-01-01,339,2023-05-20,383.99,30834,"Third Quartile"
-"48","Intel Core i7-13700T",2023-03-31,384,2023-03-31,384,27450,"Third Quartile"
-"49","Intel Core i5-13500",2022-09-30,247.98,2022-09-30,247.98,32004,"Third Quartile"
-"50","Intel Core i7-12700F",2022-01-01,314,2023-05-19,293.99,30659,"Third Quartile"
-"51","Intel Core i5-13600T",2023-03-31,255,2023-03-31,255,26096,"Third Quartile"
-"52","Intel Core i5-12600",2022-01-23,469.12,2023-03-08,260,21278,"Third Quartile"
-"53","Intel Core i9-12900T",2022-03-31,489,2022-03-31,489,30113,"Third Quartile"
-"54","Intel Core i3-14100F",2024-03-31,109,2024-03-31,109,15320,"Second Quartile"
-"55","Intel Core i5-14400",2024-03-31,221,2024-03-31,221,26855,"Third Quartile"
-"56","Intel Core i7-12700E",2022-09-30,344,2022-09-30,344,29384,"Third Quartile"
-"57","AMD Ryzen 7 7800X3D",2023-06-30,439,2023-06-30,439,34383,"Third Quartile"
-"58","Intel Core i5-14400F",2024-03-31,196,2024-03-31,196,25891,"Second Quartile"
-"59","Intel Core i5-12490F",2022-07-01,183.41,2023-05-13,181.45,20523,"Second Quartile"
-"60","Intel Core i5-12500",2022-03-31,202,2022-03-31,202,19930,"Second Quartile"
-"61","Intel Core i5-13400",2023-01-01,221,2023-05-22,199.99,24927,"Third Quartile"
-"62","Intel Core i5-13400F",2023-01-01,196,2023-05-20,208.99,25268,"Second Quartile"
-"63","Intel Core i5-13500T",2023-03-31,232,2023-03-31,232,23296,"Third Quartile"
-"64","Intel Core i3-13100",2023-01-01,134,2023-05-29,149.99,14693,"Second Quartile"
-"65","Intel Core i7-12700T",2022-06-30,339,2022-06-30,339,21589,"Third Quartile"
-"66","Intel Core i3-12300",2022-03-31,143,2022-03-31,143,14695,"Second Quartile"
-"67","Intel Core i3-13100F",2023-03-31,110.99,2023-03-31,110.99,14653,"Second Quartile"
-"68","Intel Core i9-11900KF @ 3.50GHz",2021-01-01,513,2023-05-31,396.78,25269,"Third Quartile"
-"69","Intel Core i5-12400",2022-03-31,192,2022-03-31,192,19425,"Second Quartile"
-"71","Intel Core i5-12500T",2022-06-30,202,2022-06-30,202,16575,"Second Quartile"
-"72","Intel Core i9-11900K @ 3.50GHz",2021-03-01,599.99,2023-05-01,442.99,25324,"Third Quartile"
-"73","Intel Core i5-12400F",2022-01-11,179.99,2023-05-03,184,19535,"Second Quartile"
-"74","Intel Core i5-13400T",2023-06-30,221,2023-06-30,221,21110,"Third Quartile"
-"76","AMD Ryzen 9 5900X",2020-11-05,549,2023-03-18,365.98,39193,"Third Quartile"
-"77","AMD Ryzen 9 5950X",2020-11-05,799,2022-12-26,534.99,45682,"Third Quartile"
-"78","Intel Core i3-12100F",2022-01-08,109.95,2023-05-03,136.99,14153,"Second Quartile"
-"79","AMD Ryzen 7 5800X",2020-11-06,449.99,2023-03-29,259,27911,"Third Quartile"
-"80","Intel Core i9-11900 @ 2.50GHz",2021-01-01,439,2023-05-09,499.97,22966,"Third Quartile"
-"81","Intel Core i3-12100",2022-03-31,122,2022-03-31,122,13537,"Second Quartile"
-"82","Intel Core i9-11900F @ 2.50GHz",2021-01-01,422,2023-04-27,489.99,22580,"Third Quartile"
-"83","Intel Core i7-11700K @ 3.60GHz",2021-03-26,418.99,2023-04-05,268.99,24657,"Third Quartile"
-"84","Intel Core i3-13100T",2023-06-30,134,2023-06-30,134,13073,"Second Quartile"
-"85","Intel Core i3-12300T",2022-12-31,157,2022-12-31,157,13251,"Second Quartile"
-"86","Intel Core i7-11700KF @ 3.60GHz",2021-01-01,374,2023-04-19,349.99,24012,"Third Quartile"
-"87","AMD Ryzen 7 5700X",2022-04-17,366,2023-05-21,192.99,26705,"Third Quartile"
-"88","Intel Core i5-12400T",2022-09-30,149.99,2022-09-30,149.99,16167,"Second Quartile"
-"89","AMD Ryzen 5 5600X",2020-11-05,299,2023-03-27,168.07,21911,"Third Quartile"
-"90","Intel Core i5-11600K @ 3.90GHz",2021-01-01,262,2023-05-08,248.98,19647,"Third Quartile"
-"92","Intel Core i5-11600KF @ 3.90GHz",2021-01-01,237,2023-05-10,229.99,19664,"Third Quartile"
-"94","Intel Core i9-11900T @ 1.50GHz",2021-06-30,439,2021-06-30,439,18968,"Third Quartile"
-"96","Intel Core i9-11900KB @ 3.30GHz",2021-09-30,539,2021-09-30,539,22901,"Third Quartile"
-"97","Intel Core i7-11700F @ 2.50GHz",2021-01-01,298,2023-04-02,249,21059,"Third Quartile"
-"98","Intel Core i5-11600 @ 2.80GHz",2021-05-27,289.89,2023-05-22,239.89,18113,"Third Quartile"
-"99","AMD Ryzen 7 5700G",2022-02-18,690.38,2023-05-18,186.29,24601,"Third Quartile"
-"100","Intel Core i3-12100T",2022-03-31,122,2022-03-31,122,12676,"Second Quartile"
-"101","AMD Ryzen 5 5600",2022-04-24,410.53,2023-05-07,132.88,21569,"Third Quartile"
-"102","Intel 300",2024-03-31,82,2024-03-31,82,7142,"First Quartile"
-"103","AMD Ryzen 7 5800X3D",2022-04-29,449,2023-04-20,349,28297,"Third Quartile"
-"105","AMD Ryzen 5 5600G",2022-02-11,331,2023-05-05,399.99,19900,"Third Quartile"
-"106","Intel Core i5-11500 @ 2.70GHz",2021-01-01,192,2023-04-15,229.28,17393,"Second Quartile"
-"107","Intel Core i9-10900K @ 3.70GHz",2020-04-01,488,2023-04-11,334.8,22968,"Third Quartile"
-"108","Intel Core i9-10900KF @ 3.70GHz",2020-04-01,463,2023-05-31,316.39,22646,"Third Quartile"
-"109","Intel Core i7-11700 @ 2.50GHz",2021-04-03,344.99,2023-04-19,289.99,19802,"Third Quartile"
-"110","Intel Core i9-10850K @ 3.60GHz",2020-07-01,453,2023-05-31,272.29,22458,"Third Quartile"
-"111","AMD Ryzen 5 5500",2022-04-17,191,2023-04-03,159,19457,"Second Quartile"
-"112","Intel Core i7-10700K @ 3.80GHz",2020-04-01,374,2023-01-18,369.95,18847,"Third Quartile"
-"113","Intel Core i7-10700KF @ 3.80GHz",2020-04-01,349,2023-04-18,278.99,18652,"Third Quartile"
-"114","Intel Core i9-9900KS @ 4.00GHz",2019-10-01,524,2023-02-24,886.8,19525,"Third Quartile"
-"115","Intel Core i5-11400 @ 2.60GHz",2021-01-01,182,2023-05-13,139.4,17088,"Second Quartile"
-"116","Intel Core i9-10900F @ 2.80GHz",2020-04-01,422,2023-05-31,427.99,20050,"Third Quartile"
-"117","Intel Core i9-10900 @ 2.80GHz",2020-04-01,439,2023-04-15,496.53,19892,"Third Quartile"
-"118","Intel Pentium Gold G7400",2022-01-01,64,2023-05-06,110.17,6776,"First Quartile"
-"119","Intel Core i5-11400F @ 2.60GHz",2021-01-01,157,2023-05-27,122.59,17088,"Second Quartile"
-"121","Intel Core i9-9990XE @ 4.00GHz",2020-09-30,163,2020-09-30,163,30162,"Second Quartile"
-"122","Intel Core i7-11700T @ 1.40GHz",2021-12-31,323,2021-12-31,323,15670,"Third Quartile"
-"123","Intel Core i9-9900KF @ 3.60GHz",2019-01-01,499,2023-03-06,360.73,18316,"Third Quartile"
-"124","Intel Core i9-9900K @ 3.60GHz",2018-10-22,579.99,2023-03-25,405,18324,"Third Quartile"
-"125","Intel Core i5-10600 @ 3.30GHz",2020-04-01,213,2023-03-17,191.08,13679,"Third Quartile"
-"126","Intel Core i5-10600K @ 4.10GHz",2020-04-01,262,2023-04-04,210.97,14328,"Third Quartile"
-"127","Intel Core i5-10600KF @ 4.10GHz",2020-04-01,237,2023-04-04,231.19,14256,"Third Quartile"
-"128","Intel Core i7-10700 @ 2.90GHz",2020-04-01,323,2023-04-19,348,16459,"Third Quartile"
-"129","Intel Core i9-10900E @ 2.80GHz",2021-12-31,444,2021-12-31,444,19478,"Third Quartile"
-"130","Intel Core i5-11600T @ 1.70GHz",2021-12-31,213,2021-12-31,213,14713,"Third Quartile"
-"131","Intel Core i7-9700KF @ 3.60GHz",2019-01-01,385,2022-10-24,294.8,14314,"Third Quartile"
-"132","Intel Core i7-10700F @ 2.90GHz",2020-04-01,298,2023-01-14,249.92,16457,"Third Quartile"
-"133","Intel Core i7-9700K @ 3.60GHz",2018-10-22,419.99,2022-10-29,315.99,14477,"Third Quartile"
-"134","Intel Core i3-10325 @ 3.90GHz",2022-03-31,190.1,2022-03-31,190.1,10268,"Second Quartile"
-"135","Intel Core i7-8086K @ 4.00GHz",2018-06-11,425,2023-05-12,305,14313,"Third Quartile"
-"136","Intel Core i3-10320 @ 3.80GHz",2020-04-01,154,2023-05-02,129.39,10024,"Second Quartile"
-"137","Intel Core i9-9900 @ 3.10GHz",2019-09-30,499,2019-09-30,499,16562,"Third Quartile"
-"138","Intel Core i3-10305 @ 3.80GHz",2021-01-01,143,2023-02-25,224.6,9291,"Second Quartile"
-"139","AMD Ryzen 7 3800XT",2020-08-16,392.99,2023-03-18,246.95,23625,"Third Quartile"
-"140","Intel Core i5-10500 @ 3.10GHz",2020-04-01,192,2023-04-09,181.46,13069,"Second Quartile"
-"141","Intel Core i3-9350K @ 4.00GHz",2020-06-30,293.22,2020-06-30,293.22,7700,"Third Quartile"
-"142","AMD Ryzen 5 3600XT",2020-07-01,249,2023-04-12,129.97,18664,"Third Quartile"
-"143","Intel Core i7-9700F @ 3.00GHz",2019-04-01,335,2023-05-28,187.68,13265,"Third Quartile"
-"144","Intel Core i7-7740X @ 4.30GHz",2017-08-04,349.99,2023-01-30,133.9,9878,"Third Quartile"
-"145","Intel Core i7-9700 @ 3.00GHz",2019-04-01,335,2023-03-15,268.38,13212,"Third Quartile"
-"147","AMD Ryzen 9 3900XT",2020-07-12,498,2023-03-17,424.95,32737,"Third Quartile"
-"148","Intel Core i5-9600KF @ 3.70GHz",2019-06-30,159.99,2019-06-30,159.99,10713,"Second Quartile"
-"149","AMD Ryzen 7 4700G",2021-10-12,309,2023-06-02,235.12,20143,"Third Quartile"
-"150","Intel Core i5-9600K @ 3.70GHz",2018-11-14,400.69,2023-02-03,150.87,10692,"Third Quartile"
-"151","Intel Core i5-9600 @ 3.10GHz",2019-04-01,224,2023-04-27,134.69,10401,"Third Quartile"
-"152","Intel Core i7-8700K @ 3.70GHz",2018-01-13,389.99,2023-05-20,259,13655,"Third Quartile"
-"153","Intel Core i9-10920X @ 3.50GHz",2019-10-01,689,2023-04-05,757.98,26278,"Third Quartile"
-"154","Intel Celeron G6900",2022-01-30,74.99,2023-05-23,98.78,4555,"First Quartile"
-"155","Intel Core i7-7700K @ 4.20GHz",2017-01-07,349.99,2023-05-28,129.99,9656,"Third Quartile"
-"156","AMD Ryzen 7 3800X",2019-07-07,399,2023-04-10,305.99,23174,"Third Quartile"
-"157","AMD Ryzen 7 PRO 4750G",2020-07-16,289,2023-04-14,266.27,20476,"Third Quartile"
-"159","Intel Core i3-9320 @ 3.70GHz",2019-04-01,162,2022-07-21,215.67,7358,"Second Quartile"
-"160","AMD Ryzen 9 3900X",2019-07-07,499,2023-04-15,224.99,32661,"Third Quartile"
-"161","AMD Ryzen 9 3950X",2019-11-25,1199,2023-03-05,530.2,38813,"Third Quartile"
-"162","Intel Core i3-10300 @ 3.70GHz",2020-04-01,143,2023-04-23,129.95,9304,"Second Quartile"
-"163","AMD Ryzen 7 PRO 3700",2019-09-30,329.99,2019-09-30,329.99,22930,"Third Quartile"
-"164","Intel Core i9-10900X @ 3.70GHz",2019-10-01,590,2023-03-08,696.67,22490,"Third Quartile"
-"165","Intel Core i3-10105 @ 3.70GHz",2021-01-01,122,2023-05-18,109.98,8550,"Second Quartile"
-"168","AMD Ryzen 3 3300X",2021-06-22,351,2023-04-09,149.82,12659,"Third Quartile"
-"169","Intel Core i9-10940X @ 3.30GHz",2019-10-01,784,2023-04-06,740.81,27860,"Third Quartile"
-"171","Intel Core i3-9350KF @ 4.00GHz",2019-01-01,184,2022-05-11,206.99,7549,"Second Quartile"
-"173","AMD Ryzen 7 3700X",2019-07-07,329,2023-03-08,128.99,22578,"Third Quartile"
-"175","Intel Core i3-10105F @ 3.70GHz",2021-05-26,154.61,2023-05-07,73.99,9011,"Second Quartile"
-"176","AMD Ryzen 5 4600G",2022-09-26,154,2023-03-08,154,16043,"Second Quartile"
-"177","AMD Ryzen 5 PRO 4650G",2022-05-19,219.99,2023-05-02,114.87,16212,"Third Quartile"
-"178","AMD Ryzen 5 3600X",2019-07-31,249.99,2023-05-01,135.99,18216,"Third Quartile"
-"179","Intel Core i9-10980XE @ 3.00GHz",2019-12-31,121.48,2019-12-31,121.48,32850,"Second Quartile"
-"180","Intel Pentium Gold G6505 @ 4.20GHz",2021-09-30,75,2021-09-30,75,4371,"First Quartile"
-"181","Intel Core i7-8700 @ 3.20GHz",2017-10-09,312,2022-12-28,236.2,12873,"Third Quartile"
-"182","Intel Pentium Gold G6605 @ 4.30GHz",2021-01-01,86,2023-01-07,156.18,4509,"First Quartile"
-"183","Intel Core i9-9920X @ 3.50GHz",2018-10-01,1199,2023-05-26,860.61,25223,"Third Quartile"
-"184","Intel Core i9-9940X @ 3.30GHz",2018-10-01,1387,2023-03-09,894.61,28059,"Third Quartile"
-"185","AMD Ryzen 9 3900",2021-01-13,449.99,2023-03-11,504.15,30836,"Third Quartile"
-"186","Intel Core i3-10100 @ 3.60GHz",2020-04-01,122,2023-04-28,121.49,8668,"Second Quartile"
-"187","Intel Core i9-9960X @ 3.10GHz",2019-02-17,1749.99,2023-04-02,1671.3,30618,"Third Quartile"
-"190","Intel Core i5-9500F @ 3.00GHz",2019-04-01,202,2023-05-23,134.65,10028,"Second Quartile"
-"191","AMD Ryzen 5 4500",2022-09-16,199.97,2023-05-23,75.49,16141,"Second Quartile"
-"192","Intel Core i5-8600K @ 3.60GHz",2017-10-09,258,2022-08-04,185,10205,"Third Quartile"
-"193","Intel Core i3-10100F @ 3.60GHz",2020-10-01,79,2023-04-02,99.96,8766,"First Quartile"
-"194","Intel Core i7-10700T @ 2.00GHz",2020-04-01,323,2022-02-02,519,12836,"Third Quartile"
-"195","Intel Core i5-8600 @ 3.10GHz",2018-04-01,213,2023-01-30,153.49,9944,"Third Quartile"
-"196","Intel Core i5-9500 @ 3.00GHz",2019-04-01,202,2022-10-22,175.99,9815,"Second Quartile"
-"197","Intel Core i3-7350K @ 4.20GHz",2017-03-02,169.99,2022-11-30,113.89,4958,"Second Quartile"
-"198","Intel Core i5-10400 @ 2.90GHz",2020-04-01,182,2023-03-25,106.38,12135,"Second Quartile"
-"199","Intel Core i7-9800X @ 3.80GHz",2018-12-31,298.67,2018-12-31,298.67,18085,"Third Quartile"
-"200","Intel Core i5-10300H @ 2.50GHz",2020-03-31,250,2020-03-31,250,8433,"Third Quartile"
-"201","Intel Core i5-11400T @ 1.30GHz",2021-06-30,182,2021-06-30,182,13626,"Second Quartile"
-"202","Intel Core i9-7900X @ 3.30GHz",2017-06-28,999.99,2023-02-18,265.93,21175,"Third Quartile"
-"203","AMD Ryzen 5 3600",2019-07-07,199,2023-02-28,94.99,17768,"Second Quartile"
-"204","Intel Core i9-9900X @ 3.50GHz",2018-10-01,999,2023-01-07,1008,21819,"Third Quartile"
-"206","Intel Core i9-9980XE @ 3.00GHz",2018-10-01,1999,2023-01-17,1889.97,32054,"Third Quartile"
-"207","Intel Core i3-9300 @ 3.70GHz",2019-04-01,152,2023-03-02,177.52,7137,"Second Quartile"
-"208","Intel Core i7-9700E @ 2.60GHz",2020-12-31,323,2020-12-31,323,12669,"Third Quartile"
-"209","AMD Ryzen 3 4300G",2020-09-30,124,2020-09-30,124,10949,"Second Quartile"
-"210","Intel Pentium Gold G7400T",2022-06-30,64,2022-06-30,64,5688,"First Quartile"
-"211","Intel Core i5-11500T @ 1.50GHz",2021-09-30,192,2021-09-30,192,13079,"Second Quartile"
-"212","Intel Core i5-10400F @ 2.90GHz",2020-04-01,155,2023-03-25,67.89,12205,"Second Quartile"
-"213","Intel Core i5-7600K @ 3.80GHz",2017-02-03,239.99,2023-03-12,73.61,6798,"Third Quartile"
-"214","Intel Core i5-7640X @ 4.00GHz",2017-08-17,239.99,2023-04-07,128.63,6844,"Third Quartile"
-"215","AMD Ryzen 3 4100",2022-04-30,169.99,2023-04-27,153.99,11077,"Second Quartile"
-"216","Intel Pentium Gold G6405 @ 4.10GHz",2021-01-01,64,2023-03-31,88.9,4252,"First Quartile"
-"217","Intel Core i7-7820X @ 3.60GHz",2017-08-10,599.99,2023-02-12,516.58,17203,"Third Quartile"
-"218","Intel Pentium Gold G6600 @ 4.20GHz",2020-04-01,86,2023-04-16,172.4,4273,"First Quartile"
-"219","Intel Core i9-7920X @ 2.90GHz",2017-09-10,1199.99,2023-03-26,165.59,23616,"Third Quartile"
-"220","AMD Ryzen 5 3500X",2021-05-26,254.99,2023-04-21,69.99,13179,"Third Quartile"
-"221","Intel Core i7-6700K @ 4.00GHz",2015-10-04,359.99,2023-03-08,130.2,8933,"Third Quartile"
-"222","Intel Core i3-7320 @ 4.10GHz",2017-03-11,159.99,2023-03-18,125.58,4844,"Second Quartile"
-"223","Intel Core i9-7960X @ 2.80GHz",2017-10-06,1784.99,2023-02-24,257.98,28754,"Third Quartile"
-"224","AMD Ryzen 5 3500",2019-12-31,199.99,2019-12-31,199.99,12793,"Second Quartile"
-"225","Intel Core i3-9100F @ 3.60GHz",2019-04-01,122,2023-03-25,6.6,6742,"Second Quartile"
-"226","Intel Core i9-7940X @ 3.10GHz",2017-10-02,1399,2023-04-25,546.25,25966,"Third Quartile"
-"228","Intel Core i3-9100 @ 3.60GHz",2019-04-01,122,2023-02-23,162.72,6608,"Second Quartile"
-"229","Intel Core i9-7980XE @ 2.60GHz",2017-09-28,1999,2023-01-02,596.93,30208,"Third Quartile"
-"230","Intel Pentium Gold G6500 @ 4.10GHz",2020-04-01,75,2023-05-03,88.99,4145,"First Quartile"
-"231","Intel Core i3-8350K @ 4.00GHz",2017-11-11,229.99,2023-05-03,133.6,6863,"Third Quartile"
-"232","Intel Core i5-7600 @ 3.50GHz",2017-01-09,229.99,2022-12-17,125.3,6559,"Third Quartile"
-"233","Intel Pentium Gold G6400 @ 4.00GHz",2020-04-01,64,2023-04-02,51.99,4123,"First Quartile"
-"234","Intel Core i7-4790K @ 4.00GHz",2014-07-09,339.99,2022-11-18,86.97,8068,"Third Quartile"
-"235","Intel Core i5-8500 @ 3.00GHz",2018-04-12,204.99,2023-01-19,168.99,9572,"Third Quartile"
-"236","Intel Core i9-9900T @ 2.10GHz",2019-12-31,439,2019-12-31,439,13224,"Third Quartile"
-"237","Intel Core i7-7700 @ 3.60GHz",2017-01-09,314.99,2023-01-11,195.99,8657,"Third Quartile"
-"239","Intel Core i3-10305T @ 3.00GHz",2021-06-30,143,2021-06-30,143,8136,"Second Quartile"
-"240","Intel Core i9-10900T @ 1.90GHz",2020-06-30,349.99,2020-06-30,349.99,15023,"Third Quartile"
-"241","Intel Core i9-9820X @ 3.30GHz",2018-10-01,899,2023-06-01,597.31,20045,"Third Quartile"
-"242","Intel Core i5-9400 @ 2.90GHz",2019-01-01,182,2023-05-11,181.45,9376,"Second Quartile"
-"243","Intel Core i5-9400F @ 2.90GHz",2019-01-01,182,2023-05-11,99,9473,"Second Quartile"
-"244","Intel Core i5-10600T @ 2.40GHz",2020-09-30,213,2020-09-30,213,11266,"Third Quartile"
-"245","Intel Core i7-9700T @ 2.00GHz",2019-09-30,323,2019-09-30,323,10708,"Third Quartile"
-"246","Intel Pentium Gold G5620 @ 4.00GHz",2019-12-31,174.31,2019-12-31,174.31,4102,"Second Quartile"
-"247","Intel Core i5-9600T @ 2.30GHz",2019-12-31,213,2019-12-31,213,9623,"Third Quartile"
-"248","AMD Ryzen 7 2700X",2018-05-19,319.99,2023-01-31,159.99,17534,"Third Quartile"
-"249","AMD Ryzen 3 3100",2021-06-22,276.25,2023-05-14,71.88,11620,"Third Quartile"
-"250","Intel Core i3-7300 @ 4.00GHz",2017-02-22,139.99,2022-11-28,137.26,4530,"Second Quartile"
-"251","Intel Core i3-7101E @ 3.90GHz",2020-03-31,117,2020-03-31,117,4430,"Second Quartile"
-"252","Intel Core i7-6850K @ 3.60GHz",2016-07-17,609.99,2023-03-24,94.53,11461,"Third Quartile"
-"253","Intel Core i7-7800X @ 3.50GHz",2017-07-12,639.89,2023-06-01,109.94,12882,"Third Quartile"
-"254","AMD Ryzen 5 2600X",2018-05-17,209.99,2023-04-03,79.99,13919,"Third Quartile"
-"255","Intel Core i5-8400 @ 2.80GHz",2017-10-06,189.99,2023-04-25,129.99,9237,"Second Quartile"
-"256","AMD Ryzen 3 2300X",2019-03-31,178.09,2019-03-31,178.09,7530,"Second Quartile"
-"257","Intel Core i3-10105T @ 3.00GHz",2021-06-30,122,2021-06-30,122,8024,"Second Quartile"
-"258","Intel Celeron G6900T",2022-09-30,42,2022-09-30,42,4003,"First Quartile"
-"259","Intel Core i7-6950X @ 3.00GHz",2016-06-29,1729.99,2023-01-09,379.74,17433,"Third Quartile"
-"260","Intel Core i3-10300T @ 3.00GHz",2020-09-30,193.97,2020-09-30,193.97,8003,"Second Quartile"
-"261","AMD Ryzen 5 3400G",2019-08-01,149.99,2023-02-20,109.97,9278,"Second Quartile"
-"262","Intel Core i3-6320 @ 3.90GHz",2015-11-22,169.99,2022-11-16,96.6,4509,"Second Quartile"
-"263","Intel Core i7-6900K @ 3.20GHz",2016-06-09,1199.99,2022-12-31,210.15,14436,"Third Quartile"
-"264","Intel Core i3-10100E @ 3.20GHz",2021-12-31,125,2021-12-31,125,8365,"Second Quartile"
-"265","Intel Core i5-6600K @ 3.50GHz",2015-09-25,259.99,2022-11-16,79,6322,"Third Quartile"
-"269","Intel Core i3-7100 @ 3.90GHz",2017-01-14,119.99,2022-12-28,85.07,4337,"Second Quartile"
-"270","Intel Core i3-9300T @ 3.20GHz",2019-09-30,143,2019-09-30,143,6164,"Second Quartile"
-"271","Intel Pentium Gold G5600 @ 3.90GHz",2018-04-01,93,2023-01-28,116.97,3843,"Second Quartile"
-"272","Intel Core i7-8700T @ 2.40GHz",2018-03-31,389.95,2018-03-31,389.95,10198,"Third Quartile"
-"273","AMD Ryzen 5 3400GE",2020-06-30,355.4,2020-06-30,355.4,8907,"Third Quartile"
-"274","Intel Core i7-6700 @ 3.40GHz",2015-09-28,329.99,2023-03-23,119.99,8094,"Third Quartile"
-"276","Intel Core i3-6300 @ 3.80GHz",2016-02-10,155.99,2015-12-24,154.99,4340,"Second Quartile"
-"277","Intel Core i5-10500T @ 2.30GHz",2020-06-30,99.99,2020-06-30,99.99,10045,"Second Quartile"
-"278","Intel Core i5-8600T @ 2.30GHz",2018-06-30,199.99,2018-06-30,199.99,9330,"Second Quartile"
-"280","Intel Core i7-6800K @ 3.40GHz",2016-07-13,352,2022-12-01,189.99,10758,"Third Quartile"
-"281","Intel Pentium Gold G6505T @ 3.60GHz",2022-12-31,90,2022-12-31,90,3698,"First Quartile"
-"282","Intel Core i7-5775C @ 3.30GHz",2015-10-28,371.99,2023-02-25,174.93,7683,"Third Quartile"
-"283","Intel Core i5-7500 @ 3.40GHz",2017-02-12,202.67,2022-10-21,92.93,6023,"Second Quartile"
-"284","Intel Core i3-8300 @ 3.70GHz",2018-06-11,138,2023-02-03,172.6,6310,"Second Quartile"
-"285","Intel Core i5-6600 @ 3.30GHz",2015-11-11,229.99,2023-01-06,99.9,6042,"Third Quartile"
-"286","Intel Pentium Gold G5600F @ 3.90GHz",2021-10-21,350,2023-01-23,74.99,4124,"Third Quartile"
-"287","Intel Pentium G4620 @ 3.70GHz",2017-03-03,92.99,2023-02-03,124.12,3753,"First Quartile"
-"288","Intel Pentium Gold G5500 @ 3.80GHz",2018-04-01,82,2023-03-25,10.71,3823,"First Quartile"
-"289","Intel Pentium Gold G5420 @ 3.80GHz",2019-04-01,64,2023-03-27,20.49,3706,"First Quartile"
-"290","AMD Ryzen 5 2600",2018-05-17,189.99,2023-04-26,67.34,13201,"Second Quartile"
-"291","Intel Pentium Gold G6500T @ 3.50GHz",2021-03-31,75,2021-03-31,75,3874,"First Quartile"
-"292","Intel Core i7-4790 @ 3.60GHz",2014-08-21,309.99,2022-10-25,105,7269,"Third Quartile"
-"293","Intel Core i5-5675C @ 3.10GHz",2015-10-25,273.99,2023-03-02,158.67,5579,"Third Quartile"
-"294","Intel Celeron G5925 @ 3.60GHz",2020-07-01,52,2023-05-30,44.91,2841,"First Quartile"
-"295","Intel Core i3-8100 @ 3.60GHz",2017-11-02,149.89,2023-02-01,133.37,6131,"Second Quartile"
-"296","Intel Core i7-4790S @ 3.20GHz",2014-06-07,314.99,2023-05-26,109.99,7008,"Third Quartile"
-"297","AMD Ryzen 3 3200G",2019-08-01,99.99,2022-07-13,129.98,7136,"Second Quartile"
-"298","Intel Pentium Gold G5400 @ 3.70GHz",2018-04-01,64,2023-01-15,104.7,3726,"First Quartile"
-"299","Intel Core i7-9700TE @ 1.80GHz",2019-12-31,323,2019-12-31,323,10280,"Third Quartile"
-"300","AMD Ryzen 5 1600X",2017-06-14,239.99,2023-01-31,265.7,13065,"Third Quartile"
-"301","Intel Core i5-4690S @ 3.20GHz",2014-06-30,59.99,2014-06-30,59.99,5524,"First Quartile"
-"302","AMD Ryzen 7 1800X",2017-04-21,469.99,2021-12-21,192.75,16380,"Third Quartile"
-"303","Intel Core i5-4690K @ 3.50GHz",2014-08-28,249.99,2023-05-26,65,5690,"Third Quartile"
-"304","Intel Core i7-4771 @ 3.50GHz",2013-09-18,319.99,2022-11-25,129.74,7140,"Third Quartile"
-"305","Intel Core i3-6100 @ 3.70GHz",2015-11-27,129.99,2019-08-01,129.99,4147,"Second Quartile"
-"306","Intel Core i5-4690 @ 3.50GHz",2014-07-09,224.99,2023-01-12,64.99,5569,"Third Quartile"
-"307","Intel Celeron G5905 @ 3.50GHz",2020-07-01,42,2023-03-19,30.32,2814,"First Quartile"
-"308","AMD Ryzen 7 2700",2018-05-12,294.99,2023-02-16,114.38,15720,"Third Quartile"
-"309","Intel Pentium G4600 @ 3.60GHz",2017-02-15,89.62,2023-01-26,76,3631,"First Quartile"
-"310","Intel Pentium Gold G6405T @ 3.50GHz",2021-06-30,64,2021-06-30,64,3746,"First Quartile"
-"311","Intel Core i7-4770 @ 3.40GHz",2013-07-14,309.99,2022-12-13,108,7057,"Third Quartile"
-"312","Intel Core i5-9500T @ 2.20GHz",2019-06-30,192,2019-06-30,192,8198,"Second Quartile"
-"313","Intel Core i5-4670R @ 3.00GHz",2018-09-30,276,2018-09-30,276,5233,"Third Quartile"
-"314","Intel Core i7-4770K @ 3.50GHz",2013-06-04,349.99,2022-10-19,72.05,7124,"Third Quartile"
-"315","Intel Core i5-10400T @ 2.00GHz",2020-09-30,182,2020-09-30,182,9816,"Second Quartile"
-"316","Intel Core i5-7600T @ 2.80GHz",2017-06-19,266.94,2022-04-04,199,5889,"Third Quartile"
-"317","Intel Celeron G5920 @ 3.50GHz",2020-04-01,52,2023-05-25,53,2482,"First Quartile"
-"318","Intel Core i3-4370 @ 3.80GHz",2014-09-16,159.99,2022-11-24,123.99,3847,"Second Quartile"
-"319","Intel Core i7-7700T @ 2.90GHz",2017-03-31,144.69,2017-03-31,144.69,7610,"Second Quartile"
-"320","AMD Ryzen 5 2400G",2018-02-14,169,2023-04-09,109.28,8732,"Second Quartile"
-"322","Intel Core i5-4670K @ 3.40GHz",2013-06-25,239.99,2022-12-29,117,5567,"Third Quartile"
-"323","Intel Pentium G4500 @ 3.50GHz",2015-11-20,89.99,2022-08-17,79.99,2772,"First Quartile"
-"324","Intel Core i5-4670 @ 3.40GHz",2013-08-28,209.99,2022-08-11,92.52,5501,"Third Quartile"
-"325","Intel Core i7-9850HL @ 1.90GHz",2019-12-31,395,2019-12-31,395,9112,"Third Quartile"
-"326","Intel Core i3-7300T @ 3.50GHz",2017-06-30,181.59,2017-06-30,181.59,4211,"Second Quartile"
-"327","Intel Core i7-4770S @ 3.10GHz",2013-06-04,309.99,2022-10-05,128.95,6761,"Third Quartile"
-"328","Intel Core i5-9400T @ 1.80GHz",2019-09-30,182,2019-09-30,182,8397,"Second Quartile"
-"329","Intel Core i3-6098P @ 3.60GHz",2016-06-11,125.59,2017-07-19,164.7,4021,"Second Quartile"
-"330","AMD Ryzen 3 1300X",2017-09-29,121.99,2023-04-23,67.11,6985,"Second Quartile"
-"331","AMD Ryzen 5 1500X",2017-05-24,201.32,2023-01-12,69.3,9093,"Second Quartile"
-"332","Intel Core i5-6500 @ 3.20GHz",2015-11-11,194.99,2022-12-07,80.98,5633,"Second Quartile"
-"333","Intel Celeron G5900 @ 3.40GHz",2020-04-01,42,2022-04-05,57.99,2643,"First Quartile"
-"334","Intel Pentium Gold G6400T @ 3.40GHz",2021-06-30,64,2021-06-30,64,3541,"First Quartile"
-"335","AMD Ryzen 7 1700X",2017-03-31,71.64,2017-03-31,71.64,15667,"First Quartile"
-"336","Intel Pentium G4560 @ 3.50GHz",2017-03-20,79.99,2023-03-19,29.99,3529,"First Quartile"
-"337","Intel Pentium G3470 @ 3.60GHz",2015-05-07,99.99,2022-12-06,309.73,2428,"Second Quartile"
-"338","Intel Core i5-6600T @ 2.70GHz",2017-11-18,190,2023-03-08,113.22,5683,"Second Quartile"
-"339","Intel Core i7-4790T @ 2.70GHz",2014-06-30,249.88,2014-06-30,249.88,6346,"Third Quartile"
-"340","Intel Core i5-7400 @ 3.00GHz",2017-02-22,189.99,2023-01-26,85,5485,"Second Quartile"
-"341","Intel Core i5-4590 @ 3.30GHz",2014-05-17,199.99,2023-05-10,18.74,5369,"Second Quartile"
-"342","Intel Core i3-4360 @ 3.70GHz",2014-05-21,159.99,2023-02-23,110.42,3631,"Second Quartile"
-"343","Intel Core i5-4670S @ 3.10GHz",2013-03-31,213,2013-03-31,213,5130,"Third Quartile"
-"344","Intel Core i7-4960X @ 3.60GHz",2013-09-16,1049.99,2022-03-08,1250,10092,"Third Quartile"
-"345","Intel Core i3-9100T @ 3.10GHz",2019-09-30,122,2019-09-30,122,5492,"Second Quartile"
-"346","Intel Core i7-6700T @ 2.80GHz",2015-12-31,199.99,2015-12-31,199.99,7256,"Second Quartile"
-"347","Intel Core i7-3770 @ 3.40GHz",2012-04-30,319.99,2022-11-16,74.77,6410,"Third Quartile"
-"348","Intel Core i7-3770K @ 3.50GHz",2012-04-30,349.99,2022-08-30,125,6462,"Third Quartile"
-"349","AMD Ryzen 5 1600",2017-05-26,218.99,2023-02-08,84.95,12282,"Third Quartile"
-"350","Intel Core i3-4170 @ 3.70GHz",2015-07-21,119.99,2022-10-07,57.88,3594,"Second Quartile"
-"351","AMD Ryzen 3 2200G",2018-04-05,111.31,2023-05-14,247.51,6767,"Second Quartile"
-"352","Intel Core i5-4590S @ 3.00GHz",2014-07-15,189.99,2023-05-10,240,5135,"Second Quartile"
-"353","Intel Core i5-3570K @ 3.40GHz",2012-06-20,229.99,2023-02-12,54.95,4954,"Third Quartile"
-"354","Intel Core i7-5930K @ 3.50GHz",2014-11-07,579.99,2022-09-30,44.99,10303,"Third Quartile"
-"355","Intel Core i5-3570 @ 3.40GHz",2012-08-09,214.99,2021-08-27,92.18,4920,"Third Quartile"
-"356","Intel Core i7-3770S @ 3.10GHz",2012-07-11,309.99,2022-09-16,109,6180,"Third Quartile"
-"357","Intel Core i3-4340 @ 3.60GHz",2013-09-20,159.99,2023-03-08,93.33,3545,"Second Quartile"
-"358","Intel Celeron G4950 @ 3.30GHz",2019-04-01,52,2022-04-22,1008.66,2714,"First Quartile"
-"359","Intel Core i5-4570 @ 3.20GHz",2013-08-21,189.99,2022-10-15,93.99,5228,"Second Quartile"
-"360","Intel Core i5-6402P @ 2.80GHz",2016-06-05,203.46,2017-01-28,189.99,5436,"Third Quartile"
-"361","Intel Celeron G5900T @ 3.20GHz",2021-12-31,42,2021-12-31,42,2620,"First Quartile"
-"362","Intel Core i3-7101TE @ 3.40GHz",2017-12-31,117,2017-12-31,117,3957,"Second Quartile"
-"363","Intel Core i3-6300T @ 3.30GHz",2016-08-14,158.06,2023-01-27,90.03,4002,"Second Quartile"
-"364","Intel Core i5-8500T @ 2.10GHz",2018-06-30,265.99,2018-06-30,265.99,7727,"Third Quartile"
-"365","Intel Pentium G4520 @ 3.60GHz",2015-11-28,99.99,2022-12-10,97.33,2707,"Second Quartile"
-"366","Intel Pentium G4400 @ 3.30GHz",2016-01-16,59.9,2022-12-10,57.99,2578,"First Quartile"
-"367","Intel Core i5-4570S @ 2.90GHz",2013-06-06,199.99,2023-05-28,100,5013,"Second Quartile"
-"368","Intel Core i7-5820K @ 3.30GHz",2014-11-08,374.99,2023-02-01,36.99,9859,"Third Quartile"
-"369","AMD Ryzen 7 1700",2017-04-09,324.99,2022-12-13,100.28,14819,"Third Quartile"
-"370","Intel Core i3-4160 @ 3.60GHz",2014-08-30,129.99,2022-09-28,122.57,3513,"Second Quartile"
-"371","Intel Core i5-3550 @ 3.30GHz",2012-06-14,209.99,2021-05-13,187.91,4808,"Third Quartile"
-"372","Intel Core i3-8300T @ 3.20GHz",2018-06-30,158.95,2018-06-30,158.95,5733,"Second Quartile"
-"373","Intel Core i5-3570S @ 3.10GHz",2021-06-07,69.99,2022-04-06,67.96,4618,"First Quartile"
-"374","Intel Celeron G4930 @ 3.20GHz",2019-04-01,42,2023-04-27,45.6,2591,"First Quartile"
-"375","AMD Athlon 3000G",2019-12-31,89.99,2019-12-31,89.99,4488,"First Quartile"
-"376","Intel Pentium G3460 @ 3.50GHz",2014-09-24,104.99,2023-01-10,175,2216,"Second Quartile"
-"377","Intel Core i7-5960X @ 3.00GHz",2014-08-31,1049.99,2022-08-24,165,12717,"Third Quartile"
-"378","Intel Core i3-4330 @ 3.50GHz",2013-09-16,149.99,2022-08-27,120.7,3542,"Second Quartile"
-"379","AMD Athlon 240GE",2019-03-31,98.27,2019-03-31,98.27,4534,"Second Quartile"
-"380","Intel Core i5-3550S @ 3.00GHz",2012-06-30,329.95,2012-06-30,329.95,4438,"Third Quartile"
-"381","Intel Core i7-4930K @ 3.40GHz",2013-09-14,579.99,2021-09-27,179.96,9403,"Third Quartile"
-"382","Intel Core i3-7100T @ 3.40GHz",2017-01-01,117,2022-06-21,175.1,3768,"Second Quartile"
-"383","Intel Core i7-4820K @ 3.70GHz",2013-11-14,324.99,2022-10-08,250,6526,"Third Quartile"
-"384","Intel Celeron G4920 @ 3.20GHz",2018-04-01,52,2023-03-04,106.93,2500,"First Quartile"
-"385","Intel Core i5-6400 @ 2.70GHz",2015-09-30,79.8,2015-09-30,79.8,5168,"First Quartile"
-"386","Intel Pentium Gold G5420T @ 3.20GHz",2019-12-31,64,2019-12-31,64,3452,"First Quartile"
-"387","Intel Pentium Gold G5500T @ 3.20GHz",2018-06-30,75,2018-06-30,75,3304,"First Quartile"
-"388","Intel Core i3-4350 @ 3.60GHz",2014-08-31,144.99,2023-03-10,39.99,3501,"Second Quartile"
-"389","Intel Core i5-3470 @ 3.20GHz",2012-08-09,199.99,2023-03-29,34.99,4677,"Second Quartile"
-"390","Intel Core i3-4150 @ 3.50GHz",2014-05-29,129.99,2022-10-13,76.6,3393,"Second Quartile"
-"391","AMD Ryzen 3 1200",2017-09-10,104.99,2023-01-31,61.99,6293,"Second Quartile"
-"392","Intel Core i5-7500T @ 2.70GHz",2017-07-15,235.17,2023-03-03,119.28,5252,"Third Quartile"
-"393","Intel Core i7-4770T @ 2.50GHz",2017-07-30,308.99,2023-03-15,74.72,5973,"Third Quartile"
-"394","Intel Core i5-8400T @ 1.70GHz",2018-06-30,239.84,2018-06-30,239.84,7442,"Third Quartile"
-"395","Intel Pentium G3440 @ 3.30GHz",2014-09-30,149.99,2014-09-30,149.99,2224,"Second Quartile"
-"396","Intel Core i5-4570T @ 2.90GHz",2015-02-21,200.99,2023-02-07,621,3219,"Second Quartile"
-"397","Intel Pentium G3430 @ 3.30GHz",2013-12-31,98,2013-12-31,98,2127,"Second Quartile"
-"398","Intel Core i3-4370T @ 3.30GHz",2017-12-31,138,2017-12-31,138,3361,"Second Quartile"
-"399","Intel Core i5-4460 @ 3.20GHz",2014-05-15,189.99,2022-10-28,55.97,4882,"Second Quartile"
-"400","AMD Ryzen 5 1400",2017-05-22,178.14,2023-01-12,57.39,7765,"Second Quartile"
-"401","Intel Core i5-3470S @ 2.90GHz",2013-03-18,197.99,2022-07-02,72.41,4387,"Second Quartile"
-"402","Intel Pentium G3450 @ 3.40GHz",2014-07-17,99.99,2022-03-12,57.97,2167,"Second Quartile"
-"403","Intel Core i3-8100T @ 3.10GHz",2018-09-30,219.05,2018-09-30,219.05,5276,"Third Quartile"
-"404","Intel Celeron G4900 @ 3.10GHz",2018-04-01,42,2023-01-15,58.4,2442,"First Quartile"
-"405","Intel Core i3-4130 @ 3.40GHz",2013-12-05,119.99,2023-05-01,21.26,3306,"Second Quartile"
-"406","Intel Core i3-6100T @ 3.20GHz",2016-05-08,124.99,2023-01-10,112.99,3666,"Second Quartile"
-"407","Intel Core i5-3450S @ 2.80GHz",2012-08-09,199.99,2021-05-13,129,4375,"Second Quartile"
-"408","Intel Core i5-3450 @ 3.10GHz",2012-07-02,189.99,2021-05-13,97.97,4495,"Second Quartile"
-"409","Intel Pentium G3260 @ 3.30GHz",2015-05-15,69.99,2023-02-08,55.35,2088,"First Quartile"
-"410","Intel Pentium G3258 @ 3.20GHz",2014-06-30,53.28,2014-06-30,53.28,2076,"First Quartile"
-"411","Intel Core i5-4440 @ 3.10GHz",2013-10-06,194.99,2023-05-28,29.99,4770,"Second Quartile"
-"412","Intel Core i5-4460S @ 2.90GHz",2014-06-30,159.95,2014-06-30,159.95,4598,"Second Quartile"
-"413","Intel Celeron G3950 @ 3.00GHz",2017-03-31,143,2017-03-31,143,2322,"Second Quartile"
-"414","Intel Pentium G2140 @ 3.30GHz",2014-03-31,45,2014-03-31,45,2092,"First Quartile"
-"415","Intel Core i7-3970X @ 3.50GHz",2013-01-02,1079.99,2022-07-05,185.59,8461,"Third Quartile"
-"416","Intel Core i3-3250 @ 3.50GHz",2013-11-23,129.99,2022-11-25,80.1,2435,"Second Quartile"
-"417","Intel Core i7-3770T @ 2.50GHz",2012-06-30,156.59,2012-06-30,156.59,5444,"Second Quartile"
-"418","Intel Core i5-3475S @ 2.90GHz",2012-03-31,249.95,2012-03-31,249.95,4250,"Third Quartile"
-"419","Intel Core i3-4170T @ 3.20GHz",2015-12-31,199.95,2015-12-31,199.95,3215,"Second Quartile"
-"420","Intel Core i5-3470T @ 2.90GHz",2012-06-30,269.95,2012-06-30,269.95,2989,"Third Quartile"
-"421","Intel Core i5-6500TE @ 2.30GHz",2015-12-31,489.95,2015-12-31,489.95,4724,"Third Quartile"
-"422","Intel Pentium G3250 @ 3.20GHz",2014-11-21,69.99,2023-04-30,56.39,1994,"First Quartile"
-"423","Intel Core i7-2700K @ 3.50GHz",2012-02-25,339.99,2023-03-27,17.54,5721,"Third Quartile"
-"424","AMD FX-9590 Eight-Core",2013-11-03,429.99,2023-03-08,260.03,6771,"Third Quartile"
-"425","AMD Athlon 200GE",2019-01-06,59.99,2021-08-28,123.89,4117,"First Quartile"
-"426","Intel Core i5-4400E @ 2.70GHz",2014-03-31,266,2014-03-31,266,3251,"Third Quartile"
-"427","Intel Core i5-4440S @ 2.80GHz",2013-12-22,199.99,2017-01-23,209.38,4384,"Second Quartile"
-"428","Intel Core i5-4430 @ 3.00GHz",2013-06-05,189.99,2022-12-07,12.99,4655,"Second Quartile"
-"429","Intel Core i7-3960X @ 3.30GHz",2011-11-10,1317.58,2022-08-26,199.98,8401,"Third Quartile"
-"430","Intel Core i5-3350P @ 3.10GHz",2013-01-11,179.99,2022-05-31,237.19,4280,"Second Quartile"
-"431","Intel Core i3-3245 @ 3.40GHz",2013-07-28,139.99,2022-09-24,145,2379,"Second Quartile"
-"432","Intel Core i5-6500T @ 2.50GHz",2015-12-31,221.52,2015-12-31,221.52,4777,"Third Quartile"
-"433","Intel Core i3-3240 @ 3.40GHz",2012-09-13,149.99,2023-05-08,33,2317,"Second Quartile"
-"434","Intel Celeron G5905T @ 3.30GHz",2021-06-30,42,2021-06-30,42,2154,"First Quartile"
-"435","Intel Celeron G3920 @ 2.90GHz",2016-06-15,67.15,2023-03-29,1083.82,2358,"First Quartile"
-"436","Intel Celeron G3930 @ 2.90GHz",2018-08-16,51.17,2023-04-18,19.37,2237,"First Quartile"
-"437","Intel Core i5-3340 @ 3.10GHz",2013-10-27,194.99,2021-11-05,195,4245,"Second Quartile"
-"438","Intel Pentium G4600T @ 3.00GHz",2018-01-13,87.78,2022-04-07,118,3055,"First Quartile"
-"439","Intel Core i5-4670T @ 2.30GHz",2013-06-30,259.02,2013-06-30,259.02,4441,"Third Quartile"
-"440","Intel Core i5-7400T @ 2.40GHz",2017-06-11,204.71,2022-03-19,179.59,4744,"Third Quartile"
-"441","Intel Celeron G4930T @ 3.00GHz",2020-09-30,42,2020-09-30,42,2297,"First Quartile"
-"442","Intel Core i5-4430S @ 2.70GHz",2017-07-30,134.99,2023-03-08,22.94,4321,"Second Quartile"
-"443","Intel Core i3-4160T @ 3.10GHz",2017-07-30,141.99,2021-05-30,59.99,3125,"Second Quartile"
-"444","Intel Pentium G3420 @ 3.20GHz",2013-09-30,53,2013-09-30,53,1933,"First Quartile"
-"445","Intel Core i5-3340S @ 2.80GHz",2013-11-17,199.99,2022-08-15,129.99,3914,"Second Quartile"
-"446","Intel Core i7-3930K @ 3.20GHz",2011-12-01,599.99,2022-08-12,399.1,8209,"Third Quartile"
-"447","Intel Core i5-2550K @ 3.40GHz",2012-03-04,229.99,2022-09-12,106.25,4088,"Third Quartile"
-"448","Intel Pentium G4400T @ 2.90GHz",2015-12-31,148.02,2015-12-31,148.02,2331,"Second Quartile"
-"449","Intel Pentium G2130 @ 3.20GHz",2013-02-20,99.99,2022-05-11,76,1921,"Second Quartile"
-"450","Intel Pentium G3240 @ 3.10GHz",2014-07-16,69.99,2022-11-18,49.75,1938,"First Quartile"
-"451","Intel Core i7-2600K @ 3.40GHz",2011-03-08,328.99,2022-08-19,79.99,5485,"Third Quartile"
-"452","Intel Core i7-3820 @ 3.60GHz",2012-05-13,299.99,2022-12-07,99.99,5754,"Third Quartile"
-"453","Intel Core i7-2600 @ 3.40GHz",2011-05-15,289.99,2022-10-15,59.49,5342,"Third Quartile"
-"454","Intel Celeron G4900T @ 2.90GHz",2018-03-31,68.95,2018-03-31,68.95,2239,"First Quartile"
-"455","Intel Core i7-2600S @ 2.80GHz",2011-12-30,309.99,2016-08-26,215,4625,"Third Quartile"
-"456","Intel Core i3-3220 @ 3.30GHz",2012-10-10,129.99,2022-09-10,41,2263,"Second Quartile"
-"457","Intel Core i5-3330 @ 3.00GHz",2012-10-10,189.99,2021-05-13,398.8,4091,"Second Quartile"
-"458","Intel Celeron G3900 @ 2.80GHz",2016-06-05,57.03,2023-04-16,35.09,2180,"First Quartile"
-"459","Intel Pentium G2120 @ 3.10GHz",2012-12-27,99.99,2023-05-26,85,1892,"Second Quartile"
-"460","Intel Core i5-2500 @ 3.30GHz",2011-01-10,209.99,2023-01-04,12.99,4129,"Third Quartile"
-"461","Intel Pentium G4560T @ 2.90GHz",2018-03-01,74.52,2022-07-27,124.65,2966,"First Quartile"
-"462","Intel Core i5-3330S @ 2.70GHz",2012-03-31,199.95,2012-03-31,199.95,3884,"Second Quartile"
-"463","Intel Core i3-3210 @ 3.20GHz",2013-02-21,129.99,2022-07-02,153,2221,"Second Quartile"
-"464","Intel Celeron G3930TE @ 2.70GHz",2019-09-30,42,2019-09-30,42,2218,"First Quartile"
-"465","Intel Pentium G3220 @ 3.00GHz",2013-09-13,69.99,2022-11-16,63.46,1892,"First Quartile"
-"466","Intel Core i5-2500K @ 3.30GHz",2011-03-20,224.99,2022-08-20,81.9,4121,"Third Quartile"
-"467","Intel Core i3-3225 @ 3.30GHz",2012-10-10,144.99,2022-07-12,198,2231,"Second Quartile"
-"468","Intel Celeron G1850 @ 2.90GHz",2014-05-20,59.99,2021-05-13,112.99,1915,"First Quartile"
-"469","AMD FX-9370 Eight-Core",2013-09-20,299.99,2022-11-24,369.72,6159,"Third Quartile"
-"470","AMD PRO A12-9800",2017-03-31,169,2017-03-31,169,3705,"Second Quartile"
-"471","AMD Athlon X4 845",2016-04-16,67.99,2022-09-16,59.99,3807,"First Quartile"
-"472","Intel Core i5-2450P @ 3.20GHz",2012-04-18,214.99,2022-04-16,179,4203,"Third Quartile"
-"473","AMD A12-9800",2017-08-27,109.99,2023-01-12,99.88,3583,"Second Quartile"
-"474","Intel Core i5-4590T @ 2.00GHz",2014-06-30,94.19,2014-06-30,94.19,4081,"Second Quartile"
-"475","Intel Celeron G3930T @ 2.70GHz",2017-01-01,42,2022-02-11,96.6,2040,"First Quartile"
-"476","AMD A10-6800B APU",2014-03-31,128.02,2014-03-31,128.02,3088,"Second Quartile"
-"477","Intel Core i5-2500S @ 2.70GHz",2011-03-31,55.34,2011-03-31,55.34,3399,"First Quartile"
-"478","AMD PRO A10-9700",2016-12-31,169,2016-12-31,169,3649,"Second Quartile"
-"479","Intel Core i5-6400T @ 2.20GHz",2021-07-11,159.99,2021-08-16,225,4273,"Second Quartile"
-"480","AMD Athlon X4 950",2017-09-30,25.99,2017-09-30,25.99,3588,"First Quartile"
-"481","AMD Athlon X4 880K",2016-06-05,94.01,2022-04-25,94.65,3659,"Second Quartile"
-"482","AMD FX-8370 Eight-Core",2014-11-14,199.99,2023-05-25,171.74,6204,"Second Quartile"
-"483","AMD A6-9500",2017-10-12,58.98,2023-03-23,60.05,1876,"First Quartile"
-"484","Intel Core i7-4765T @ 2.00GHz",2017-07-30,269.99,2021-08-19,519.85,5114,"Third Quartile"
-"485","Intel Core i5-4570TE @ 2.70GHz",2014-09-30,341.99,2014-09-30,341.99,3074,"Third Quartile"
-"486","Intel Core i3-4130T @ 2.90GHz",2013-09-23,139.99,2023-02-08,19.99,2875,"Second Quartile"
-"487","AMD A12-9800E",2017-09-30,670.15,2017-09-30,670.15,3471,"Third Quartile"
-"488","Intel Core i3-4150T @ 3.00GHz",2014-09-30,417.42,2014-09-30,417.42,2912,"Third Quartile"
-"489","AMD FX-4350 Quad-Core",2013-06-06,129.99,2019-01-12,229.99,3304,"Second Quartile"
-"490","AMD A10-9700",2017-08-27,89.99,2023-02-25,63.78,3542,"First Quartile"
-"491","Intel Pentium G3260T @ 2.90GHz",2015-09-30,49.99,2015-09-30,49.99,1837,"First Quartile"
-"492","Intel Pentium G2030 @ 3.00GHz",2013-04-01,64,2022-11-19,59.68,1748,"First Quartile"
-"493","Intel Core i5-2380P @ 3.10GHz",2012-06-10,194.99,2023-01-07,116.67,3797,"Second Quartile"
-"494","AMD A10-6800K APU",2013-11-03,139.99,2022-08-24,50.4,3217,"Second Quartile"
-"495","AMD A10-6700 APU",2013-06-16,148.99,2023-01-12,38.78,3116,"Second Quartile"
-"496","Intel Pentium G3250T @ 2.80GHz",2015-03-31,49.99,2015-03-31,49.99,1757,"First Quartile"
-"497","Intel Celeron G1840 @ 2.80GHz",2014-06-16,49.99,2023-05-13,40.3,1768,"First Quartile"
-"498","AMD FX-8350 Eight-Core",2012-12-13,209.99,2023-01-31,77.38,6059,"Third Quartile"
-"499","Intel Core i5-2400 @ 3.10GHz",2011-03-11,189.99,2021-12-22,58.85,3869,"Second Quartile"
-"500","Intel Core i5-680 @ 3.60GHz",2010-07-04,309.99,2021-10-20,60,2618,"Third Quartile"
-"501","AMD A10-5800B APU",2013-09-30,44.99,2013-09-30,44.99,3034,"First Quartile"
-"502","Intel Core i7-990X @ 3.47GHz",2012-08-17,1029.99,2022-03-20,1500.19,7106,"Third Quartile"
-"503","Intel Celeron G3900T @ 2.60GHz",2016-06-30,112.46,2016-06-30,112.46,2102,"Second Quartile"
-"504","AMD A6-7470K",2016-07-15,67.92,2021-11-12,39.99,1799,"First Quartile"
-"505","AMD A10 PRO-7850B APU",2014-12-31,148.02,2014-12-31,148.02,3453,"Second Quartile"
-"506","Intel Pentium G3420T @ 2.70GHz",2014-09-30,159.99,2014-09-30,159.99,1912,"Second Quartile"
-"507","Intel Core i3-2125 @ 3.30GHz",2011-12-18,149.99,2022-07-28,149.99,2083,"Second Quartile"
-"508","AMD A10-7890K",2016-06-05,162.83,2023-03-22,137.19,3522,"Second Quartile"
-"509","Intel Core i3-2130 @ 3.40GHz",2011-12-15,149.99,2021-12-30,45.94,2035,"Second Quartile"
-"510","AMD FX-4330",2015-12-31,733.5,2015-12-31,733.5,3098,"Third Quartile"
-"511","AMD FX-6350 Six-Core",2013-05-21,139.99,2023-01-25,50,4545,"Second Quartile"
-"512","AMD A6-7480",2019-05-04,43.99,2023-05-28,34.82,1836,"First Quartile"
-"513","AMD Athlon X4 870K",2016-04-20,93.99,2022-08-22,36.59,3410,"Second Quartile"
-"514","Intel Pentium G2020 @ 2.90GHz",2013-03-11,64.99,2023-03-19,54.64,1681,"First Quartile"
-"515","AMD A10-6790K APU",2014-03-03,129.99,2023-04-24,29.84,3070,"Second Quartile"
-"516","Intel Celeron G1630 @ 2.80GHz",2013-10-24,59.99,2021-05-13,51.99,1707,"First Quartile"
-"517","AMD A6-6420K APU",2014-10-24,69.99,2018-08-16,149.99,1576,"First Quartile"
-"518","Intel Core i7-980 @ 3.33GHz",2011-07-17,599.99,2021-05-13,194.99,6926,"Third Quartile"
-"519","Intel Celeron G1820 @ 2.70GHz",2014-02-28,49.99,2022-10-04,29.99,1707,"First Quartile"
-"520","AMD A8-6600K APU",2013-09-27,109.99,2023-05-25,19.28,3008,"Second Quartile"
-"521","Intel Core i7-980X @ 3.33GHz",2016-06-05,499,2022-09-19,133,6854,"Third Quartile"
-"522","Intel Core i5-670 @ 3.47GHz",2010-07-12,299.99,2021-12-05,291,2533,"Third Quartile"
-"523","AMD A4-6320 APU",2014-06-30,69.99,2014-06-30,69.99,1530,"First Quartile"
-"524","AMD Athlon X4 760K Quad Core",2018-03-21,46.5,2022-09-13,13.55,2948,"First Quartile"
-"525","AMD Athlon X4 860K",2014-11-14,79.99,2023-02-20,15.03,3422,"First Quartile"
-"526","AMD PRO A6-9500",2017-03-31,74,2017-03-31,74,1770,"First Quartile"
-"527","Intel Core i5-2320 @ 3.00GHz",2011-12-15,189.99,2023-04-28,26.11,3658,"Second Quartile"
-"528","AMD PRO A12-9800E",2017-03-31,169,2017-03-31,169,3171,"Second Quartile"
-"529","Intel Celeron G1830 @ 2.80GHz",2014-02-19,59.99,2022-03-12,69.95,1560,"First Quartile"
-"530","Intel Core i3-2120 @ 3.30GHz",2011-07-16,139.99,2022-09-21,31.99,1952,"Second Quartile"
-"531","AMD A10-7850K APU",2014-07-15,169.99,2023-02-24,51.02,3416,"Second Quartile"
-"532","AMD PRO A8-9600",2016-09-30,119,2016-09-30,119,3359,"Second Quartile"
-"533","Intel Pentium G2010 @ 2.80GHz",2013-03-04,74.99,2021-05-19,24.99,1620,"First Quartile"
-"534","AMD Phenom II X6 1100T",2011-03-06,229.99,2023-04-28,123.01,3849,"Third Quartile"
-"535","AMD A10-7870K",2015-08-09,144.99,2022-08-14,68.96,3429,"Second Quartile"
-"536","AMD Athlon X4 750 Quad Core",2015-03-31,94.75,2015-03-31,94.75,2625,"Second Quartile"
-"537","Intel Core i7-975 @ 3.33GHz",2010-07-22,1039.99,2021-05-13,645,3461,"Third Quartile"
-"538","Intel Core i5-2390T @ 2.70GHz",2011-09-30,99.9,2011-09-30,99.9,2474,"Second Quartile"
-"539","AMD FX-8300 Eight-Core",2016-02-23,124.99,2022-08-24,59.69,5309,"Second Quartile"
-"540","AMD PRO A6-9500E",2017-03-31,74,2017-03-31,74,1662,"First Quartile"
-"541","AMD A10-7860K",2016-03-15,114.99,2023-05-23,45.96,3271,"Second Quartile"
-"542","AMD A10-5800K APU",2012-12-03,119.99,2023-03-08,28.95,2958,"Second Quartile"
-"543","Intel Core i3-3220T @ 2.80GHz",2012-09-30,135,2012-09-30,135,1940,"Second Quartile"
-"544","Intel Core i5-2310 @ 2.90GHz",2011-06-30,47.59,2011-06-30,47.59,3640,"First Quartile"
-"545","AMD FX-6300 Six-Core",2012-12-31,48.88,2012-12-31,48.88,4206,"First Quartile"
-"546","AMD A8-6500B APU",2014-06-30,49.95,2014-06-30,49.95,2855,"First Quartile"
-"547","AMD Athlon X4 840",2015-03-31,124.95,2015-03-31,124.95,3319,"Second Quartile"
-"548","AMD FX-4300 Quad-Core",2013-02-21,119.99,2022-05-20,22,2995,"Second Quartile"
-"549","AMD A8-9600",2017-08-27,69.99,2022-09-21,127,3299,"First Quartile"
-"550","Intel Core i5-2500T @ 2.30GHz",2011-06-30,89.99,2011-06-30,89.99,2929,"First Quartile"
-"551","AMD A8-7670K",2015-10-21,109.99,2021-12-03,87.73,3192,"Second Quartile"
-"552","AMD A4-7300 APU",2014-09-30,18.47,2014-09-30,18.47,1528,"First Quartile"
-"553","Intel Core i7-965 @ 3.20GHz",2008-11-17,999,2023-02-28,85.28,3424,"Third Quartile"
-"554","Intel Core i5-2400S @ 2.50GHz",2011-03-16,202.99,2022-04-03,144.19,3162,"Third Quartile"
-"555","AMD A10-9700E",2018-01-17,159.98,2023-02-18,89.2,3180,"Second Quartile"
-"556","AMD FX-8320 Eight-Core",2012-10-27,179.99,2022-04-24,96.47,5452,"Second Quartile"
-"557","AMD A8-6500 APU",2013-08-06,118.99,2023-02-20,28.37,2809,"Second Quartile"
-"558","Intel Core i7-970 @ 3.20GHz",2010-10-15,879.99,2023-04-16,86,6553,"Third Quartile"
-"559","AMD FX-8370E Eight-Core",2014-10-11,194.99,2018-08-30,163.7,5310,"Second Quartile"
-"560","AMD FX-4170 Quad-Core",2012-03-12,139.99,2022-07-06,39,3034,"Second Quartile"
-"561","Intel Pentium G3220T @ 2.60GHz",2016-01-21,39.99,2023-03-08,40.31,1600,"First Quartile"
-"562","AMD A10-7800 APU",2014-10-28,159.99,2022-02-15,53.17,3202,"Second Quartile"
-"563","Intel Pentium G870 @ 3.10GHz",2012-09-30,77,2012-09-30,77,1516,"First Quartile"
-"564","Intel Core i7-960 @ 3.20GHz",2010-10-15,579.99,2021-10-20,134.48,3333,"Third Quartile"
-"565","AMD Phenom II X6 1090T",2010-09-16,279.99,2022-05-01,87.57,3756,"Third Quartile"
-"566","Intel Core i5-661 @ 3.33GHz",2010-07-08,209.99,2023-03-23,200.19,2459,"Third Quartile"
-"567","Intel Celeron G1620 @ 2.70GHz",2013-02-07,59.99,2023-05-09,98,1560,"First Quartile"
-"568","Intel Core2 Extreme X9775 @ 3.20GHz",2009-03-31,805.95,2009-03-31,805.95,2780,"Third Quartile"
-"569","AMD A8-7600 APU",2014-11-14,94.99,2023-04-25,23.05,3219,"Second Quartile"
-"570","Intel Core i5-655K @ 3.20GHz",2018-07-06,59.99,2022-03-14,77.99,2017,"First Quartile"
-"571","AMD A6-6400K APU",2013-09-26,74.99,2022-04-24,19.81,1494,"First Quartile"
-"572","AMD PRO A10-9700E",2016-09-30,139,2016-09-30,139,3053,"Second Quartile"
-"573","Intel Pentium G2030T @ 2.60GHz",2014-03-31,130.5,2014-03-31,130.5,1581,"Second Quartile"
-"574","Intel Core i5-2405S @ 2.50GHz",2011-07-13,219.99,2022-04-16,132.56,3157,"Third Quartile"
-"575","AMD FX-8150 Eight-Core",2011-11-27,269.99,2023-04-23,37.1,5260,"Third Quartile"
-"576","AMD FX-8320E Eight-Core",2014-11-21,119.99,2022-12-06,132,5087,"Second Quartile"
-"577","AMD A6-7400K APU",2014-12-27,64.99,2022-08-17,49.99,1623,"First Quartile"
-"578","AMD A10-7700K APU",2014-07-04,159.99,2023-04-04,55.3,3197,"Second Quartile"
-"579","Intel Core i5-2300 @ 2.80GHz",2011-01-10,184.99,2022-04-21,40.26,3420,"Second Quartile"
-"580","Intel Core i3-2105 @ 3.10GHz",2011-07-02,139.99,2022-04-16,113,1851,"Second Quartile"
-"581","AMD A8-5600K APU",2012-10-10,109.99,2021-07-23,175,2846,"Second Quartile"
-"582","AMD A10-5700 APU",2012-12-15,124.99,2019-01-12,64.5,2733,"Second Quartile"
-"583","AMD FX-B4150 Quad-Core",2013-03-31,89.68,2013-03-31,89.68,3369,"First Quartile"
-"584","Intel Core i7-880 @ 3.07GHz",2010-09-30,69.99,2010-09-30,69.99,3325,"First Quartile"
-"585","AMD PRO A4-8350B",2016-03-31,28.99,2016-03-31,28.99,1635,"First Quartile"
-"586","Intel Core i5-660 @ 3.33GHz",2010-07-04,207.99,2023-01-22,22.99,2382,"Third Quartile"
-"587","Intel Core i3-2100 @ 3.10GHz",2011-05-25,124.99,2022-01-05,29.45,1847,"Second Quartile"
-"588","AMD FX-8310 Eight-Core",2014-12-31,831.15,2014-12-31,831.15,5128,"Third Quartile"
-"589","AMD FX-6200 Six-Core",2012-05-16,159.99,2023-03-08,36.03,4105,"Second Quartile"
-"590","AMD FX-6120 Six-Core",2012-06-30,58.02,2012-06-30,58.02,3887,"First Quartile"
-"591","AMD A4-6300 APU",2013-11-07,59.99,2022-01-20,27.49,1432,"First Quartile"
-"592","AMD A8-7650K",2016-04-03,96.69,2023-02-18,38.09,3123,"Second Quartile"
-"593","Intel Core i3-2102 @ 3.10GHz",2016-03-31,58,2016-03-31,58,2029,"First Quartile"
-"594","Intel Core2 Duo E8600 @ 3.33GHz",2010-07-04,289.99,2021-06-10,38.99,1370,"Third Quartile"
-"595","AMD A6-5400B APU",2013-12-31,28.94,2013-12-31,28.94,1451,"First Quartile"
-"596","Intel Pentium G860 @ 3.00GHz",2011-12-15,99.99,2023-03-10,22.7,1470,"Second Quartile"
-"597","AMD Athlon II X3 460",2011-08-25,89.99,2022-01-23,29.99,2008,"First Quartile"
-"598","Intel Core2 Extreme X9770 @ 3.20GHz",2008-12-31,608.95,2008-12-31,608.95,2689,"Third Quartile"
-"599","Intel Celeron G1820T @ 2.40GHz",2014-03-31,42,2014-03-31,42,1631,"First Quartile"
-"600","Intel Core i7-870 @ 2.93GHz",2010-09-26,279.99,2023-03-08,51.17,3120,"Third Quartile"
-"601","AMD Phenom II X6 1075T",2011-01-03,239.99,2023-01-13,62.99,3413,"Third Quartile"
-"602","Intel Core i7-950 @ 3.07GHz",2010-09-01,299.99,2021-05-26,270,3209,"Third Quartile"
-"603","Intel Celeron G1610 @ 2.60GHz",2013-02-07,49.99,2023-03-25,7.19,1517,"First Quartile"
-"604","AMD Phenom II X2 565",2011-02-13,109.99,2018-04-28,121.59,1442,"Second Quartile"
-"605","AMD A4-6300B APU",2013-12-31,27.95,2013-12-31,27.95,1328,"First Quartile"
-"606","Intel Core i3-560 @ 3.33GHz",2010-09-25,149.99,2021-05-13,38.76,1706,"Second Quartile"
-"607","Intel Core i5-650 @ 3.20GHz",2010-11-12,164.99,2023-05-26,221.45,2239,"Second Quartile"
-"608","AMD Phenom II X4 965",2010-08-20,165.99,2018-12-23,58,2618,"Second Quartile"
-"609","AMD Phenom II X6 1065T",2021-06-03,159,2023-05-08,69.17,3384,"Second Quartile"
-"610","AMD Athlon X4 740 Quad Core",2013-11-06,74.99,2023-05-22,10,2632,"First Quartile"
-"611","Intel Pentium G850 @ 2.90GHz",2011-07-28,97.99,2022-01-06,101.98,1433,"Second Quartile"
-"612","AMD Athlon II X2 270",2011-10-08,69.99,2022-06-04,15.3,1289,"First Quartile"
-"613","AMD Athlon II X2 265",2011-04-13,77.99,2021-09-06,15.5,1265,"First Quartile"
-"614","AMD Athlon II X2 B28",2012-09-30,39.02,2012-09-30,39.02,1269,"First Quartile"
-"615","AMD A6-9500E",2018-10-13,59.99,2023-01-03,57.91,1756,"First Quartile"
-"616","Intel Core i7-875K @ 2.93GHz",2016-07-01,580,2023-05-26,380,3118,"Third Quartile"
-"617","Intel Core i3-550 @ 3.20GHz",2010-10-21,129.99,2022-06-08,17.91,1610,"Second Quartile"
-"618","AMD A4-5300 APU",2012-11-19,54.99,2017-05-04,43.39,1364,"First Quartile"
-"619","AMD FX-8120 Eight-Core",2011-12-29,209.99,2023-03-24,30.74,4645,"Third Quartile"
-"620","AMD FX-4130 Quad-Core",2013-01-11,109.99,2021-12-16,22.25,2684,"Second Quartile"
-"621","Intel Celeron G1620T @ 2.40GHz",2014-03-31,42,2014-03-31,42,1541,"First Quartile"
-"622","AMD A8-5500 APU",2012-12-06,105.99,2019-01-03,56.99,2596,"Second Quartile"
-"623","AMD Athlon II X3 455",2011-03-04,89.99,2022-07-08,25.76,1863,"First Quartile"
-"624","Intel Pentium G645 @ 2.90GHz",2013-02-07,67.99,2022-11-23,133.82,1388,"First Quartile"
-"625","AMD Phenom II X6 1055T",2010-10-06,195.99,2021-05-13,58,3313,"Second Quartile"
-"626","Intel Core i7-860 @ 2.80GHz",2010-08-26,283,2018-01-26,99,2987,"Third Quartile"
-"627","AMD A8-5500B APU",2013-03-31,49.04,2013-03-31,49.04,2608,"First Quartile"
-"628","Intel Core2 Duo E8500 @ 3.16GHz",2008-12-31,41.69,2008-12-31,41.69,1259,"First Quartile"
-"629","AMD Phenom II X4 B97",2010-09-30,79.95,2010-09-30,79.95,2539,"First Quartile"
-"630","AMD FX-6100 Six-Core",2011-12-25,149.99,2022-05-25,59,3681,"Second Quartile"
-"631","AMD Phenom II X2 555",2010-09-02,88.99,2022-06-08,13.18,1301,"First Quartile"
-"632","Intel Core i7-940 @ 2.93GHz",2008-11-17,562,2023-01-04,51.85,2947,"Third Quartile"
-"633","AMD Phenom II X4 960T",2011-12-28,109.99,2022-01-23,28.88,2344,"Second Quartile"
-"634","Intel Pentium E6700 @ 3.20GHz",2014-11-14,59.95,2023-03-08,29,1169,"First Quartile"
-"635","Intel Pentium G640 @ 2.80GHz",2012-09-18,71.99,2023-04-27,38.85,1355,"First Quartile"
-"636","Intel Pentium E6800 @ 3.33GHz",2010-12-31,24.95,2010-12-31,24.95,1164,"First Quartile"
-"637","AMD FX-4200 Quad-Core",2013-12-31,59.95,2013-12-31,59.95,3109,"First Quartile"
-"638","AMD Sempron 240",2018-12-31,36.1,2018-12-31,36.1,1278,"First Quartile"
-"639","AMD Phenom II X4 840",2011-05-04,104.99,2021-12-01,24.49,2398,"Second Quartile"
-"640","Intel Pentium G2020T @ 2.50GHz",2013-03-31,47.6,2013-03-31,47.6,1430,"First Quartile"
-"641","AMD Athlon II X3 450",2010-12-28,79.99,2022-04-29,34.01,1822,"First Quartile"
-"642","AMD Athlon X2 340 Dual Core",2013-07-29,44.99,2021-05-13,94.99,1307,"First Quartile"
-"643","AMD Phenom II X4 955",2010-07-04,159.99,2012-09-16,94.99,2508,"Second Quartile"
-"644","AMD Athlon X4 830",2018-03-31,202.32,2018-03-31,202.32,2901,"Second Quartile"
-"645","Intel Core i5-760 @ 2.80GHz",2010-07-27,209.99,2023-03-08,12.99,2628,"Third Quartile"
-"646","AMD A10-6700T APU",2016-05-06,139.99,2018-04-25,139.99,2299,"Second Quartile"
-"647","Intel Celeron G555 @ 2.70GHz",2013-03-04,59.99,2023-03-01,52.43,1388,"First Quartile"
-"648","AMD FX-4100 Quad-Core",2012-01-13,109.99,2022-03-11,23.99,2610,"Second Quartile"
-"649","Intel Core2 Quad Q9650 @ 3.00GHz",2010-07-04,329.99,2023-02-28,53.71,2469,"Third Quartile"
-"650","AMD Phenom II X6 1045T",2012-02-09,149.99,2023-05-09,48,3184,"Second Quartile"
-"651","Intel Pentium E5800 @ 3.20GHz",2014-12-12,48.99,2022-06-29,92.19,1173,"First Quartile"
-"652","AMD Athlon II X3 445",2010-09-02,77.99,2021-06-01,145.9,1823,"First Quartile"
-"653","AMD FX-8140 Eight-Core",2012-03-31,148.86,2012-03-31,148.86,4860,"Second Quartile"
-"654","Intel Core i7-930 @ 2.80GHz",2010-09-02,284.99,2023-02-26,15.96,2962,"Third Quartile"
-"655","Intel Core i3-540 @ 3.07GHz",2010-08-17,124.99,2023-03-19,23.08,1535,"Second Quartile"
-"656","AMD A6-5400K APU",2012-10-12,74.99,2017-12-10,20.99,1262,"First Quartile"
-"657","Intel Pentium G840 @ 2.80GHz",2011-07-20,88.99,2021-05-30,49.99,1238,"First Quartile"
-"658","Intel Core2 Extreme X9650 @ 3.00GHz",2008-12-31,859.99,2008-12-31,859.99,2410,"Third Quartile"
-"659","Intel Core2 Duo E7600 @ 3.06GHz",2009-06-30,119.95,2009-06-30,119.95,1159,"Second Quartile"
-"660","AMD Athlon II X4 645",2010-12-28,118.99,2022-05-12,16.48,2341,"Second Quartile"
-"661","AMD Athlon II X2 260",2010-09-22,67.99,2022-01-23,59.99,1167,"First Quartile"
-"662","AMD Phenom II X3 B75",2009-09-30,49.95,2009-09-30,49.95,1764,"First Quartile"
-"663","AMD Phenom II X4 B95",2010-03-31,62.02,2010-03-31,62.02,2401,"First Quartile"
-"664","Intel Pentium G630 @ 2.70GHz",2012-04-29,74.99,2018-12-27,24.99,1322,"First Quartile"
-"665","Intel Pentium E6500 @ 2.93GHz",2015-03-21,47.99,2018-08-29,225,1148,"First Quartile"
-"666","AMD A4-5300B APU",2012-12-31,25.95,2012-12-31,25.95,1232,"First Quartile"
-"667","Intel Core2 Duo E8400 @ 3.00GHz",2010-07-22,169.5,2019-02-14,157.95,1200,"Second Quartile"
-"668","AMD Athlon II X2 255",2010-10-15,62.99,2022-07-13,12.55,1170,"First Quartile"
-"669","Intel Celeron G1610T @ 2.30GHz",2013-12-31,14.98,2013-12-31,14.98,1358,"First Quartile"
-"670","AMD Phenom II X4 945",2010-09-08,135.99,2023-04-10,35,2378,"Second Quartile"
-"671","Intel Core2 Extreme Q6850 @ 3.00GHz",2008-12-31,495.95,2008-12-31,495.95,2304,"Third Quartile"
-"672","Intel Core i5-750 @ 2.67GHz",2010-09-22,189.99,2022-03-19,597,2532,"Second Quartile"
-"673","AMD Phenom II X6 1035T",2011-07-15,144.99,2011-11-08,129.99,3001,"Second Quartile"
-"674","AMD Phenom II X2 550",2010-09-16,83.99,2022-05-04,41.91,1158,"First Quartile"
-"675","Intel Core2 Quad Q9550 @ 2.83GHz",2010-09-14,274.99,2023-03-18,29.8,2339,"Third Quartile"
-"676","AMD A4-4020 APU",2014-09-30,105.37,2014-09-30,105.37,1268,"Second Quartile"
-"677","Intel Core i7-920 @ 2.67GHz",2010-07-04,294.99,2021-05-13,38.99,2833,"Third Quartile"
-"678","Intel Core2 Quad Q9500 @ 2.83GHz",2010-01-17,183,2017-09-10,33.99,2221,"Second Quartile"
-"679","AMD A8-3850 APU",2012-02-08,129.99,2021-06-01,129.68,2361,"Second Quartile"
-"680","AMD Phenom II X4 940",2010-08-12,132.99,2018-12-28,59.34,2345,"Second Quartile"
-"681","AMD Athlon II X4 640",2010-09-16,104.99,2022-04-29,19.99,2236,"Second Quartile"
-"682","Intel Celeron G550 @ 2.60GHz",2012-08-09,59.99,2019-01-23,70.45,1250,"First Quartile"
-"683","Intel Core2 Duo E7500 @ 2.93GHz",2010-08-31,123.99,2018-06-30,19.99,1133,"Second Quartile"
-"684","AMD A8-3870K APU",2012-10-22,109.99,2018-10-18,49.99,2301,"Second Quartile"
-"685","AMD Athlon II X2 B24",2010-03-31,24.1,2010-03-31,24.1,1120,"First Quartile"
-"686","Intel Pentium Silver J5005 @ 1.50GHz",2017-12-31,521.99,2017-12-31,521.99,3095,"Third Quartile"
-"687","AMD Athlon II X2 250e",2011-06-30,76.73,2011-06-30,76.73,1155,"First Quartile"
-"688","AMD Phenom II X2 B55",2009-12-31,37.95,2009-12-31,37.95,1183,"First Quartile"
-"689","Intel Pentium E5700 @ 3.00GHz",2011-06-08,66.99,2021-05-30,159,1082,"First Quartile"
-"690","AMD Athlon II X3 440",2010-12-02,88.99,2022-04-24,14.76,1712,"First Quartile"
-"691","Intel Pentium E6600 @ 3.06GHz",2017-10-24,14.9,2022-12-21,37.48,1121,"First Quartile"
-"692","AMD Athlon II X4 641 Quad-Core",2012-08-09,89.99,2023-03-01,12.17,2313,"First Quartile"
-"693","Intel Pentium G620 @ 2.60GHz",2011-08-02,77.99,2023-02-18,11.99,1213,"First Quartile"
-"694","AMD Phenom II X2 545",2010-11-23,65.99,2018-07-27,43.98,1222,"First Quartile"
-"695","AMD Athlon II X2 245e",2011-03-31,19.97,2011-03-31,19.97,1171,"First Quartile"
-"696","Intel Core2 Quad Q9505 @ 2.83GHz",2010-07-04,239.99,2022-08-26,329.99,2132,"Third Quartile"
-"697","Intel Core2 Duo E6850 @ 3.00GHz",2016-08-26,65.5,2021-05-30,51.2,1118,"First Quartile"
-"698","AMD Athlon II X2 250",2010-10-15,58.99,2021-06-01,69.95,1139,"First Quartile"
-"699","Intel Pentium G6951 @ 2.80GHz",2011-03-31,74,2011-03-31,74,1383,"First Quartile"
-"700","AMD Athlon II X3 435",2010-07-21,75.99,2021-06-01,69.95,1644,"First Quartile"
-"701","Intel Core i3-530 @ 2.93GHz",2010-10-15,113.99,2023-04-12,115.19,1492,"Second Quartile"
-"702","AMD Athlon II X4 638 Quad-Core",2015-06-30,62.85,2015-06-30,62.85,2250,"First Quartile"
-"703","Intel Core i3-2120T @ 2.60GHz",2011-12-15,134.99,2021-11-07,164.9,1520,"Second Quartile"
-"704","AMD Athlon II X4 635",2010-08-12,99,2022-01-20,21.97,2206,"Second Quartile"
-"705","Intel Celeron E3500 @ 2.70GHz",2011-03-13,62.99,2023-05-09,95,935,"First Quartile"
-"706","AMD Phenom II X4 925",2010-07-27,135.99,2021-11-12,20.88,2271,"Second Quartile"
-"707","AMD A4-4000 APU",2013-06-30,19.95,2013-06-30,19.95,1153,"First Quartile"
-"708","Intel Core2 Quad Q8400 @ 2.66GHz",2010-07-04,169.99,2016-08-01,104.9,2073,"Second Quartile"
-"709","AMD Athlon II X2 245",2010-11-12,62.99,2021-07-18,12.87,1097,"First Quartile"
-"710","Intel Core2 Duo E8200 @ 2.66GHz",2017-10-25,157.95,2021-05-30,94.99,1108,"Second Quartile"
-"711","AMD A6-3670 APU",2012-12-06,79.99,2021-06-01,176.59,2165,"First Quartile"
-"712","Intel Celeron G540 @ 2.50GHz",2012-02-25,61.99,2018-03-06,20.99,1172,"First Quartile"
-"713","Intel Pentium E6300 @ 2.80GHz",2009-06-30,41.85,2009-06-30,41.85,1032,"First Quartile"
-"714","AMD Athlon 64 X2 Dual Core 6400+",2008-12-31,249.95,2008-12-31,249.95,998,"Third Quartile"
-"715","Intel Core2 Quad Q9400 @ 2.66GHz",2012-10-21,229.99,2021-11-13,53,2114,"Third Quartile"
-"716","AMD FX-8100 Eight-Core",2012-03-31,98.02,2012-03-31,98.02,4046,"Second Quartile"
-"717","Intel Pentium E5500 @ 2.80GHz",2011-04-07,72.99,2021-05-30,39.99,1033,"First Quartile"
-"718","Intel Core2 Quad Q9450 @ 2.66GHz",2008-12-31,35.7,2008-12-31,35.7,2187,"First Quartile"
-"719","AMD Phenom II X4 920",2010-09-22,159.99,2018-11-21,44.99,2209,"Second Quartile"
-"720","Intel Pentium G645T @ 2.50GHz",2012-03-31,223.84,2012-03-31,223.84,1228,"Third Quartile"
-"721","AMD A8-3820 APU",2012-03-31,44.95,2012-03-31,44.95,2174,"First Quartile"
-"722","AMD Athlon II X2 B22",2018-10-21,60.09,2019-01-29,43.89,1053,"First Quartile"
-"723","Intel Core2 Extreme Q6800 @ 2.93GHz",2008-12-31,125,2008-12-31,125,2145,"Second Quartile"
-"724","AMD Athlon II X4 630",2010-09-22,92.99,2022-07-06,29.98,2124,"First Quartile"
-"725","AMD Athlon II X4 631 Quad-Core",2011-12-04,84.99,2022-05-05,9.96,2150,"First Quartile"
-"726","AMD Phenom II X4 820",2011-03-09,99.99,2021-05-30,29,2086,"Second Quartile"
-"727","AMD Athlon 7850 Dual-Core",2010-07-12,45.99,2011-01-13,48.99,1058,"First Quartile"
-"728","AMD Sempron 150",2011-06-30,14.95,2011-06-30,14.95,597,"First Quartile"
-"729","Intel Core2 Duo E7400 @ 2.80GHz",2014-11-14,54.99,2018-07-27,157.95,1023,"First Quartile"
-"730","AMD A4-3420 APU",2012-03-31,136,2012-03-31,136,1054,"Second Quartile"
-"731","AMD A8-6500T APU",2014-03-31,59.95,2014-03-31,59.95,1929,"First Quartile"
-"732","Intel Celeron J4005 @ 2.00GHz",2018-03-31,168.75,2018-03-31,168.75,1588,"Second Quartile"
-"733","AMD Athlon II X2 235e",2017-12-10,17.99,2021-06-01,97.5,1080,"First Quartile"
-"734","Intel Pentium G6950 @ 2.80GHz",2010-09-05,99.99,2022-02-14,12.99,1238,"Second Quartile"
-"735","AMD Athlon II X2 210e",2010-12-31,28.49,2010-12-31,28.49,1105,"First Quartile"
-"736","AMD Phenom II X3 720",2010-08-03,99,2019-02-13,69.99,1554,"Second Quartile"
-"737","Intel Pentium G640T @ 2.40GHz",2012-03-31,92.99,2012-03-31,92.99,1139,"First Quartile"
-"738","AMD Athlon II X2 240e",2010-09-16,71.99,2021-06-16,43.54,1002,"First Quartile"
-"739","Intel Celeron G530 @ 2.40GHz",2011-12-15,51.99,2022-06-04,29.99,1117,"First Quartile"
-"740","Intel Celeron J4105 @ 1.50GHz",2018-03-31,107,2018-03-31,107,2909,"Second Quartile"
-"741","AMD Athlon II X2 220",2010-06-30,59.95,2010-06-30,59.95,1030,"First Quartile"
-"742","Intel Core i3-2100T @ 2.50GHz",2011-03-26,134.99,2021-09-27,51.71,1488,"Second Quartile"
-"743","Intel Pentium E5400 @ 2.70GHz",2014-11-14,38.99,2023-05-26,84.75,971,"First Quartile"
-"744","AMD Phenom II X4 910e",2010-06-30,69.9,2010-06-30,69.9,2131,"First Quartile"
-"745","AMD Athlon II X3 425",2010-10-15,62.99,2021-06-01,58.34,1561,"First Quartile"
-"746","AMD A4-3400 APU",2012-11-08,48.99,2021-06-01,108.5,1081,"First Quartile"
-"747","Intel Core2 Quad Q9300 @ 2.50GHz",2010-08-25,229.99,2018-01-03,24.99,1971,"Third Quartile"
-"748","Intel Core2 Quad Q6700 @ 2.66GHz",2010-07-24,372.69,2017-08-04,23.49,2099,"Third Quartile"
-"749","AMD Athlon II X2 240",2010-10-20,48.99,2018-11-01,15.99,1032,"First Quartile"
-"750","Intel Core2 Duo E8300 @ 2.83GHz",2015-08-26,39.99,2018-08-26,19.99,997,"First Quartile"
-"751","Intel Core2 Duo E7300 @ 2.66GHz",2017-07-28,21.99,2023-05-21,49.33,963,"First Quartile"
-"752","AMD A8-3800 APU",2011-09-30,109.95,2011-09-30,109.95,2015,"Second Quartile"
-"753","AMD Phenom II X3 710",2009-03-31,169,2009-03-31,169,1551,"Second Quartile"
-"754","AMD Athlon II X4 620",2010-08-25,89,2021-05-26,202.41,2014,"First Quartile"
-"755","Intel Core2 Quad Q8300 @ 2.50GHz",2008-11-30,224,2022-09-27,54.46,1883,"Third Quartile"
-"756","Intel Core2 Duo E7200 @ 2.53GHz",2008-04-20,113,2019-02-27,49,996,"Second Quartile"
-"757","AMD Athlon II X3 420e",2011-06-30,116.15,2011-06-30,116.15,1557,"Second Quartile"
-"758","Intel Pentium G630T @ 2.30GHz",2011-12-31,84.07,2011-12-31,84.07,1090,"First Quartile"
-"759","AMD Phenom II X3 B73",2010-09-30,75,2010-09-30,75,1538,"First Quartile"
-"760","Intel Core i7-860S @ 2.53GHz",2011-04-14,359.99,2023-04-04,110.99,2166,"Third Quartile"
-"761","Intel Core2 Extreme X6800 @ 2.93GHz",2008-12-31,263.64,2008-12-31,263.64,993,"Third Quartile"
-"762","Intel Core i5 750S @ 2.40GHz",2016-07-02,290,2023-05-10,180,1326,"Third Quartile"
-"763","AMD Sempron 140",2010-07-12,36.99,2011-07-16,39.99,486,"First Quartile"
-"764","AMD Athlon 7750 Dual-Core",2009-03-31,79.99,2009-03-31,79.99,978,"First Quartile"
-"765","AMD Athlon II X4 610e",2011-01-09,139.99,2023-02-18,16.69,1964,"Second Quartile"
-"766","AMD Athlon II X4 615e",2010-12-31,59,2010-12-31,59,2000,"First Quartile"
-"767","Intel Pentium E5300 @ 2.60GHz",2014-11-14,39.99,2021-05-13,33.75,929,"First Quartile"
-"768","AMD Athlon 64 X2 Dual Core 6000+",2008-12-31,38.5,2008-12-31,38.5,931,"First Quartile"
-"769","AMD A6-3650 APU",2012-04-13,89.99,2021-06-01,172.19,2049,"First Quartile"
-"770","AMD Phenom II X4 810",2010-10-15,115.99,2021-06-01,213,1971,"Second Quartile"
-"771","Intel Core2 Duo E6750 @ 2.66GHz",2014-11-14,48.99,2018-07-30,12.95,1015,"First Quartile"
-"772","AMD Athlon II X2 215",2009-09-30,28.97,2009-09-30,28.97,961,"First Quartile"
-"773","AMD Athlon II X3 415e",2010-12-31,75,2010-12-31,75,1441,"First Quartile"
-"774","AMD Phenom 9950 Quad-Core",2010-08-05,75.99,2018-12-22,134.99,1884,"First Quartile"
-"775","AMD Athlon 64 X2 Dual Core 5600+",2008-12-31,107.21,2008-12-31,107.21,907,"Second Quartile"
-"776","Intel Core2 Duo E6700 @ 2.66GHz",2010-07-04,99.99,2019-02-13,29.99,990,"Second Quartile"
-"777","AMD Athlon 64 FX-62 Dual Core",2009-03-31,250,2009-03-31,250,993,"Third Quartile"
-"778","AMD Phenom II X4 805",2009-06-30,173.99,2009-06-30,173.99,1959,"Second Quartile"
-"779","AMD Phenom II X4 905e",2009-06-30,53.99,2009-06-30,53.99,1936,"First Quartile"
-"780","AMD Athlon 64 X2 Dual Core 5800+",2009-03-31,29.95,2009-03-31,29.95,797,"First Quartile"
-"781","AMD Sempron 145",2011-02-17,42.99,2023-05-02,34.92,506,"First Quartile"
-"782","AMD Athlon 64 X2 Dual Core 5400+",2008-12-31,52.99,2008-12-31,52.99,907,"First Quartile"
-"783","Intel Pentium E5200 @ 2.50GHz",2016-10-01,99,2023-05-29,77.45,927,"Second Quartile"
-"784","Intel Core2 Quad Q8200 @ 2.33GHz",2010-07-04,183.99,2021-05-30,63.99,1777,"Second Quartile"
-"785","Intel Celeron E3400 @ 2.60GHz",2010-10-20,54.99,2021-05-30,50.81,854,"First Quartile"
-"786","AMD A4-3300 APU",2012-11-02,48.99,2021-06-01,105.75,962,"First Quartile"
-"787","AMD Phenom II X4 910",2009-03-31,100,2009-03-31,100,1776,"Second Quartile"
-"788","AMD Athlon II X4 605e",2011-01-09,138.99,2023-04-20,14.2,1963,"Second Quartile"
-"789","AMD A6-3620 APU",2012-03-31,22.49,2012-03-31,22.49,1851,"First Quartile"
-"790","Intel Core2 Duo E4700 @ 2.60GHz",2008-12-31,26.99,2008-12-31,26.99,862,"First Quartile"
-"791","AMD Athlon II X3 405e",2010-03-31,112.9,2010-03-31,112.9,1331,"Second Quartile"
-"792","AMD Phenom 8600B Triple-Core",2009-06-30,14.95,2009-06-30,14.95,1461,"First Quartile"
-"793","Intel Celeron E3200 @ 2.40GHz",2009-09-30,19.99,2009-09-30,19.99,839,"First Quartile"
-"794","Intel Celeron E3300 @ 2.50GHz",2010-07-04,51.99,2021-09-02,79,795,"First Quartile"
-"795","AMD A6-3500 APU",2012-10-10,69.99,2021-06-01,147,1417,"First Quartile"
-"796","AMD E2-3200 APU",2011-12-31,7.99,2011-12-31,7.99,953,"First Quartile"
-"797","Intel Celeron G530T @ 2.00GHz",2011-03-31,16.99,2011-03-31,16.99,1056,"First Quartile"
-"798","AMD Phenom II X3 705e",2009-09-30,152.34,2009-09-30,152.34,1222,"Second Quartile"
-"799","Intel Pentium G620T @ 2.20GHz",2011-07-10,82.99,2021-06-25,19.99,896,"First Quartile"
-"800","Intel Core2 Quad Q6600 @ 2.40GHz",2007-01-08,851,2021-07-17,58.99,1810,"Third Quartile"
-"801","Intel Core2 Duo E6600 @ 2.40GHz",2014-11-14,66.99,2023-05-02,195.5,939,"First Quartile"
-"802","AMD Phenom 9750 Quad-Core",2010-08-04,179.93,2021-05-30,49.99,1833,"Second Quartile"
-"803","AMD Athlon Dual Core 5000B",2009-06-30,95,2009-06-30,95,856,"Second Quartile"
-"804","AMD Phenom 9850 Quad-Core",2010-08-27,74.99,2019-01-13,119.99,1722,"First Quartile"
-"805","Intel Core2 Duo E4600 @ 2.40GHz",2015-02-08,39.99,2018-08-24,195.95,865,"First Quartile"
-"806","AMD Athlon 7550 Dual-Core",2009-06-30,14.95,2009-06-30,14.95,900,"First Quartile"
-"807","AMD Phenom 9600B Quad-Core",2009-03-31,39.95,2009-03-31,39.95,1822,"First Quartile"
-"808","AMD Athlon 64 X2 Dual Core 5200+",2008-12-31,60,2008-12-31,60,840,"First Quartile"
-"809","Intel Celeron G1101 @ 2.27GHz",2011-06-30,19.77,2011-06-30,19.77,1086,"First Quartile"
-"810","Intel Pentium E2220 @ 2.40GHz",2014-11-14,46.99,2021-06-10,302.5,846,"First Quartile"
-"811","AMD Athlon 5200 Dual-Core",2018-04-28,73.86,2019-01-23,71.59,869,"First Quartile"
-"812","AMD Athlon II X4 600e",2010-10-15,123.99,2022-05-04,19.99,1795,"Second Quartile"
-"813","AMD Athlon II X3 400e",2009-12-31,25.49,2009-12-31,25.49,1320,"First Quartile"
-"814","Intel Core2 Duo E6550 @ 2.33GHz",2014-12-09,32.99,2021-05-30,19.99,885,"First Quartile"
-"815","AMD Athlon Dual Core 5050e",2009-03-31,60,2009-03-31,60,809,"First Quartile"
-"816","AMD Phenom 9650 Quad-Core",2010-07-30,140.65,2021-05-13,31.17,1713,"Second Quartile"
-"817","AMD Athlon Dual Core 4850e",2009-03-31,39,2009-03-31,39,783,"First Quartile"
-"818","AMD Phenom 8600 Triple-Core",2009-03-31,52.99,2009-03-31,52.99,1210,"First Quartile"
-"819","AMD Athlon 5000 Dual-Core",2010-08-05,38.99,2020-11-21,70.99,872,"First Quartile"
-"820","AMD A6-3600 APU",2011-12-31,24.95,2011-12-31,24.95,1645,"First Quartile"
-"821","AMD Athlon 64 X2 Dual Core 5000+",2008-12-31,331.49,2008-12-31,331.49,776,"Third Quartile"
-"822","AMD Phenom 9600 Quad-Core",2008-12-31,39.99,2008-12-31,39.99,1577,"First Quartile"
-"823","AMD Athlon 64 X2 Dual Core 4800+",2008-12-31,149.95,2008-12-31,149.95,679,"Second Quartile"
-"824","AMD Phenom 8650 Triple-Core",2010-08-04,49.99,2021-05-30,19,1237,"First Quartile"
-"825","AMD Phenom 9550 Quad-Core",2010-08-04,99.97,2023-04-15,26.81,1656,"Second Quartile"
-"826","AMD Phenom 9500 Quad-Core",2018-11-01,28.99,2021-05-30,29.99,1549,"First Quartile"
-"827","Intel Celeron G470 @ 2.00GHz",2014-03-31,35.15,2014-03-31,35.15,568,"First Quartile"
-"828","AMD Phenom 9450e Quad-Core",2010-03-31,105,2010-03-31,105,1455,"Second Quartile"
-"829","AMD Phenom 8450 Triple-Core",2010-07-20,50.99,2023-03-08,16.97,1216,"First Quartile"
-"830","AMD Athlon 64 X2 Dual Core 4600+",2008-12-31,349.95,2008-12-31,349.95,720,"Third Quartile"
-"831","AMD Phenom X3 8550",2009-06-30,29.95,2009-06-30,29.95,1079,"First Quartile"
-"832","Intel Core2 Duo E4500 @ 2.20GHz",2012-09-30,129.99,2021-05-30,11,744,"Second Quartile"
-"833","Intel Core2 Duo E6400 @ 2.13GHz",2014-11-14,56.99,2021-05-30,42.5,765,"First Quartile"
-"834","Intel Celeron G465 @ 1.90GHz",2018-07-14,29.99,2022-04-09,37,547,"First Quartile"
-"835","Intel Pentium E2200 @ 2.20GHz",2017-10-25,157.95,2021-08-14,65.99,725,"Second Quartile"
-"836","Intel Celeron J3455 @ 1.50GHz",2017-04-13,236.83,2017-10-24,233.52,2256,"Third Quartile"
-"837","AMD Athlon Dual Core 4450e",2009-03-31,14.48,2009-03-31,14.48,705,"First Quartile"
-"838","AMD Phenom 9350e Quad-Core",2009-03-31,382.07,2009-03-31,382.07,1550,"Third Quartile"
-"839","AMD Athlon Dual Core 4450B",2009-03-31,31,2009-03-31,31,711,"First Quartile"
-"840","AMD Athlon II X2 270u",2010-12-31,67.67,2010-12-31,67.67,675,"First Quartile"
-"841","Intel Core2 Duo E6420 @ 2.13GHz",2017-10-25,157.95,2021-05-30,39.99,760,"Second Quartile"
-"842","AMD Athlon 64 X2 Dual Core 4200+",2008-12-31,109.95,2008-12-31,109.95,689,"Second Quartile"
-"843","Intel Core2 Duo E4400 @ 2.00GHz",2017-10-25,157.95,2021-05-30,42.5,673,"Second Quartile"
-"844","AMD Athlon 64 X2 Dual Core 4400+",2008-12-31,298.95,2008-12-31,298.95,677,"Third Quartile"
-"845","Intel Celeron E1500 @ 2.20GHz",2009-06-30,19.65,2009-06-30,19.65,626,"First Quartile"
-"846","Intel Celeron E1400 @ 2.00GHz",2016-07-01,80,2018-04-22,635,735,"First Quartile"
-"847","AMD Athlon 5370 APU",2016-06-09,53.48,2017-01-03,52.98,1867,"First Quartile"
-"848","Intel Pentium E2180 @ 2.00GHz",2018-04-22,230,2021-05-30,17.99,687,"Third Quartile"
-"849","Intel Celeron G440 @ 1.60GHz",2012-02-03,40.99,2022-06-25,91,425,"First Quartile"
-"850","AMD Phenom 9100e Quad-Core",2009-03-31,34.95,2009-03-31,34.95,1279,"First Quartile"
-"851","AMD Phenom 8250e Triple-Core",2009-09-30,46.99,2009-09-30,46.99,1084,"First Quartile"
-"852","AMD Phenom 9150e Quad-Core",2009-03-31,247.5,2009-03-31,247.5,1414,"Third Quartile"
-"853","AMD Athlon II 170u",2010-12-31,24,2010-12-31,24,340,"First Quartile"
-"854","AMD Athlon II 160u",2010-06-30,29.99,2010-06-30,29.99,358,"First Quartile"
-"855","AMD Athlon II X2 260u",2010-12-31,83.44,2010-12-31,83.44,713,"First Quartile"
-"856","Intel Celeron 450 @ 2.20GHz",2018-04-22,225,2021-05-31,38.99,415,"Third Quartile"
-"857","Intel Core2 Duo E6320 @ 1.86GHz",2017-11-18,157.95,2021-05-18,39.99,717,"Second Quartile"
-"858","AMD Athlon 5350 APU",2014-09-19,64.99,2016-10-22,42.99,1783,"First Quartile"
-"859","Intel Celeron G460 @ 1.80GHz",2017-09-17,19.59,2019-01-02,11.19,469,"First Quartile"
-"860","Intel Core2 Duo E6300 @ 1.86GHz",2014-11-14,46.99,2021-05-30,42.5,638,"First Quartile"
-"861","Intel Pentium E2160 @ 1.80GHz",2014-11-14,33.99,2021-05-30,12.94,638,"First Quartile"
-"862","Intel Core2 Duo E4300 @ 1.80GHz",2014-11-14,46.99,2021-05-30,42.5,593,"First Quartile"
-"863","AMD Athlon 64 X2 Dual Core 3600+",2008-12-31,68.25,2008-12-31,68.25,622,"First Quartile"
-"864","AMD Athlon X2 Dual Core BE-2300",2009-03-31,89.95,2009-03-31,89.95,570,"First Quartile"
-"865","AMD Athlon II X2 250u",2010-03-31,24.95,2010-03-31,24.95,597,"First Quartile"
-"866","AMD Athlon 64 FX-74",2009-03-31,499.5,2009-03-31,499.5,972,"Third Quartile"
-"867","Intel Celeron 430 @ 1.80GHz",2010-09-02,41.99,2021-05-30,57.99,280,"First Quartile"
-"868","AMD Athlon 64 3000+",2008-12-31,20,2008-12-31,20,334,"First Quartile"
-"869","AMD Sempron LE-1300",2010-09-02,35.99,2010-10-15,24.99,417,"First Quartile"
-"870","Intel Pentium E2140 @ 1.60GHz",2015-02-08,39.99,2021-05-30,159,561,"First Quartile"
-"871","Intel Celeron E1200 @ 1.60GHz",2016-07-01,75,2018-04-22,225,516,"First Quartile"
-"872","AMD Sempron LE-1200",2009-03-31,14.95,2009-03-31,14.95,349,"First Quartile"
-"873","AMD Athlon 5150 APU",2014-10-01,49.99,2016-10-12,39.99,1388,"First Quartile"
-"874","Intel Pentium Extreme Edition 955 @ 3.46GHz",2009-06-30,31.23,2009-06-30,31.23,469,"First Quartile"
-"875","AMD Sempron LE-1100",2009-03-31,34.95,2009-03-31,34.95,315,"First Quartile"
-"876","AMD Sempron LE-1250",2009-03-31,99.99,2009-03-31,99.99,301,"Second Quartile"
-"877","AMD Athlon 64 FX-55",2009-03-31,65,2009-03-31,65,404,"First Quartile"
-"878","AMD Athlon LE-1640",2009-03-31,89.95,2009-03-31,89.95,430,"First Quartile"
-"879","AMD Sempron LE-1150",2009-03-31,14.94,2009-03-31,14.94,251,"First Quartile"
-"880","AMD Sempron 2650 APU",2014-09-19,39.99,2022-07-23,114,574,"First Quartile"
-"881","AMD Athlon LE-1620",2009-03-31,18,2009-03-31,18,421,"First Quartile"
-"882","Intel Celeron 420 @ 1.60GHz",2010-12-04,139.99,2021-05-30,76.99,235,"Second Quartile"
-"883","AMD Athlon 1640B",2009-06-30,50,2009-06-30,50,412,"First Quartile"
-"884","AMD Sempron 3000+",2008-12-31,34.95,2008-12-31,34.95,286,"First Quartile"
-"885","AMD Sempron 3200+",2009-03-31,124.68,2009-03-31,124.68,251,"Second Quartile"
-"886","AMD Sempron 3850 APU",2014-11-14,35.99,2022-07-06,47.57,1142,"First Quartile"
-"887","Intel Celeron 440 @ 2.00GHz",2009-03-31,34.99,2009-03-31,34.99,368,"First Quartile"
-"888","AMD Athlon 64 3700+",2008-12-31,89.95,2008-12-31,89.95,394,"First Quartile"
-"889","AMD Athlon LE-1600",2009-03-31,21,2009-03-31,21,412,"First Quartile"
-"890","AMD Sempron 3800+",2008-12-31,14.99,2008-12-31,14.99,360,"First Quartile"
-"891","AMD Sempron 2800+",2008-12-31,29.95,2008-12-31,29.95,243,"First Quartile"
-"892","AMD Sempron 2500+",2009-03-31,59.95,2009-03-31,59.95,207,"First Quartile"
-"893","AMD Athlon XP 3000+",2009-03-31,79.7,2009-03-31,79.7,262,"First Quartile"
-"894","AMD Sempron 3300+",2008-12-31,20,2008-12-31,20,315,"First Quartile"
-"895","AMD Sempron 3100+",2009-03-31,65,2009-03-31,65,298,"First Quartile"
-"896","AMD Sempron 3600+",2009-03-31,15,2009-03-31,15,364,"First Quartile"
-"897","AMD Sempron 3400+",2008-12-31,86.68,2008-12-31,86.68,292,"First Quartile"
-"898","AMD Sempron 2600+",2008-12-31,34.95,2008-12-31,34.95,253,"First Quartile"
-"899","AMD Sempron 2400+",2008-12-31,12.99,2008-12-31,12.99,205,"First Quartile"
-"900","AMD Sempron 2300+",2009-03-31,45,2009-03-31,45,207,"First Quartile"
-"901","AMD Athlon XP 2000+",2009-03-31,58.99,2009-03-31,58.99,195,"First Quartile"
-"902","Intel Atom E3825 @ 1.33GHz",2014-06-30,70.32,2014-06-30,70.32,378,"First Quartile"
-"903","AMD Athlon 2650e",2009-03-31,19,2009-03-31,19,274,"First Quartile"
-"904","AMD Athlon XP 1800+",2009-03-31,50.95,2009-03-31,50.95,195,"First Quartile"
-"905","Intel Atom D510 @ 1.66GHz",2010-03-31,97.16,2010-03-31,97.16,406,"Second Quartile"
-"906","AMD Sempron 2200+",2009-03-31,39.95,2009-03-31,39.95,184,"First Quartile"
-"907","AMD Athlon XP 1700+",2009-03-31,51.25,2009-03-31,51.25,176,"First Quartile"
-"908","Intel Atom D425 @ 1.80GHz",2011-03-31,992.98,2011-03-31,992.98,199,"Third Quartile"
-"909","Intel Pentium 4 1700MHz",2009-03-31,99.99,2009-03-31,99.99,100,"Second Quartile"
-"910","Intel Atom E3815 @ 1.46GHz",2014-06-30,135,2014-06-30,135,184,"Second Quartile"
-"911","AMD Sempron 3500+",2009-03-31,24.99,2009-03-31,24.99,232,"First Quartile"
-"912","Intel Atom D410 @ 1.66GHz",2010-03-31,635.99,2010-03-31,635.99,180,"Third Quartile"
+"","X","CPU","ReleaseDate","ReleasePrice","CurrentDate","CurrentPrice","Score","Quartile","AdjustedReleasePrice","AdjustedCurrentPrice"
+"1",756,"AMD Athlon 64 X2 Dual Core 5400+",2008-12-31,52.99,2008-12-31,52.99,907,"Second Quartile",51.0304314329738,51.0304314329738
+"2",841,"AMD Athlon 64 3000+",2008-12-31,20,2008-12-31,20,334,"First Quartile",19.2604006163328,19.2604006163328
+"3",836,"AMD Athlon 64 X2 Dual Core 3600+",2008-12-31,68.25,2008-12-31,68.25,622,"Second Quartile",65.7261171032358,65.7261171032358
+"4",867,"AMD Sempron 3300+",2008-12-31,20,2008-12-31,20,315,"First Quartile",19.2604006163328,19.2604006163328
+"5",764,"Intel Core2 Duo E4700 @ 2.60GHz",2008-12-31,26.99,2008-12-31,26.99,862,"First Quartile",25.9919106317411,25.9919106317411
+"6",795,"AMD Phenom 9600 Quad-Core",2008-12-31,39.99,2008-12-31,39.99,1577,"First Quartile",38.5111710323575,38.5111710323575
+"7",815,"AMD Athlon 64 X2 Dual Core 4200+",2008-12-31,109.95,2008-12-31,109.95,689,"Second Quartile",105.88405238829,105.88405238829
+"8",632,"Intel Core2 Extreme X9650 @ 3.00GHz",2008-12-31,859.99,2008-12-31,859.99,2410,"Third Quartile",828.187596302003,828.187596302003
+"9",870,"AMD Sempron 3400+",2008-12-31,86.68,2008-12-31,86.68,292,"Second Quartile",83.4745762711865,83.4745762711865
+"10",735,"Intel Core2 Extreme X6800 @ 2.93GHz",2008-12-31,263.64,2008-12-31,263.64,993,"Third Quartile",253.890600924499,253.890600924499
+"11",692,"Intel Core2 Quad Q9450 @ 2.66GHz",2008-12-31,35.7,2008-12-31,35.7,2187,"First Quartile",34.3798151001541,34.3798151001541
+"12",796,"AMD Athlon 64 X2 Dual Core 4800+",2008-12-31,149.95,2008-12-31,149.95,679,"Second Quartile",144.404853620955,144.404853620955
+"13",857,"AMD Sempron 3000+",2008-12-31,34.95,2008-12-31,34.95,286,"First Quartile",33.6575500770416,33.6575500770416
+"14",794,"AMD Athlon 64 X2 Dual Core 5000+",2008-12-31,331.49,2008-12-31,331.49,776,"Third Quartile",319.231510015408,319.231510015408
+"15",781,"AMD Athlon 64 X2 Dual Core 5200+",2008-12-31,60,2008-12-31,60,840,"Second Quartile",57.7812018489985,57.7812018489985
+"16",697,"Intel Core2 Extreme Q6800 @ 2.93GHz",2008-12-31,125,2008-12-31,125,2145,"Second Quartile",120.37750385208,120.37750385208
+"17",864,"AMD Sempron 2800+",2008-12-31,29.95,2008-12-31,29.95,243,"First Quartile",28.8424499229584,28.8424499229584
+"18",602,"Intel Core2 Duo E8500 @ 3.16GHz",2008-12-31,41.69,2008-12-31,41.69,1259,"Second Quartile",40.1483050847458,40.1483050847458
+"19",572,"Intel Core2 Extreme X9770 @ 3.20GHz",2008-12-31,608.95,2008-12-31,608.95,2689,"Third Quartile",586.431047765794,586.431047765794
+"20",817,"AMD Athlon 64 X2 Dual Core 4400+",2008-12-31,298.95,2008-12-31,298.95,677,"Third Quartile",287.894838212635,287.894838212635
+"21",645,"Intel Core2 Extreme Q6850 @ 3.00GHz",2008-12-31,495.95,2008-12-31,495.95,2304,"Third Quartile",477.609784283513,477.609784283513
+"22",861,"AMD Athlon 64 3700+",2008-12-31,89.95,2008-12-31,89.95,394,"Second Quartile",86.6236517719569,86.6236517719569
+"23",871,"AMD Sempron 2600+",2008-12-31,34.95,2008-12-31,34.95,253,"First Quartile",33.6575500770416,33.6575500770416
+"24",688,"AMD Athlon 64 X2 Dual Core 6400+",2008-12-31,249.95,2008-12-31,249.95,998,"Third Quartile",240.706856702619,240.706856702619
+"25",742,"AMD Athlon 64 X2 Dual Core 6000+",2008-12-31,38.5,2008-12-31,38.5,931,"First Quartile",37.0762711864407,37.0762711864407
+"26",863,"AMD Sempron 3800+",2008-12-31,14.99,2008-12-31,14.99,360,"First Quartile",14.4356702619414,14.4356702619414
+"27",749,"AMD Athlon 64 X2 Dual Core 5600+",2008-12-31,107.21,2008-12-31,107.21,907,"Second Quartile",103.245377503852,103.245377503852
+"28",803,"AMD Athlon 64 X2 Dual Core 4600+",2008-12-31,349.95,2008-12-31,349.95,720,"Third Quartile",337.008859784284,337.008859784284
+"29",872,"AMD Sempron 2400+",2008-12-31,12.99,2008-12-31,12.99,205,"First Quartile",12.5096302003082,12.5096302003082
+"30",767,"Intel Celeron E3200 @ 2.40GHz",2009-09-30,19.99,2009-09-30,19.99,839,"First Quartile",19.1817162375694,19.1817162375694
+"31",869,"AMD Sempron 3600+",2009-03-31,15,2009-03-31,15,364,"First Quartile",14.3934839201371,14.3934839201371
+"32",858,"AMD Sempron 3200+",2009-03-31,124.68,2009-03-31,124.68,251,"Third Quartile",119.63863834418,119.63863834418
+"33",804,"AMD Phenom X3 8550",2009-06-30,29.95,2009-06-30,29.95,1079,"First Quartile",28.7389895605404,28.7389895605404
+"34",812,"AMD Athlon Dual Core 4450B",2009-03-31,31,2009-03-31,31,711,"First Quartile",29.74653343495,29.74653343495
+"35",746,"AMD Athlon II X2 215",2009-09-30,28.97,2009-09-30,28.97,961,"First Quartile",27.7986152777582,27.7986152777582
+"36",854,"AMD Athlon LE-1620",2009-03-31,18,2009-03-31,18,421,"First Quartile",17.2721807041645,17.2721807041645
+"37",818,"Intel Celeron E1500 @ 2.20GHz",2009-06-30,19.65,2009-06-30,19.65,626,"First Quartile",18.8554639353796,18.8554639353796
+"38",860,"Intel Celeron 440 @ 2.00GHz",2009-03-31,34.99,2009-03-31,34.99,368,"Second Quartile",33.5752001577065,33.5752001577065
+"39",772,"AMD Phenom II X3 705e",2009-09-30,152.34,2009-09-30,152.34,1222,"Third Quartile",146.180222692913,146.180222692913
+"40",862,"AMD Athlon LE-1600",2009-03-31,21,2009-03-31,21,412,"First Quartile",20.150877488192,20.150877488192
+"41",542,"Intel Core2 Extreme X9775 @ 3.20GHz",2009-03-31,805.95,2009-03-31,805.95,2780,"Third Quartile",773.361891028968,773.361891028968
+"42",837,"AMD Athlon X2 Dual Core BE-2300",2009-03-31,89.95,2009-03-31,89.95,570,"Third Quartile",86.3129252410889,86.3129252410889
+"43",823,"AMD Phenom 9100e Quad-Core",2009-03-31,34.95,2009-03-31,34.95,1279,"First Quartile",33.5368175339195,33.5368175339195
+"44",776,"AMD Athlon Dual Core 5000B",2009-06-30,95,2009-06-30,95,856,"Third Quartile",91.1587314942018,91.1587314942018
+"45",824,"AMD Phenom 8250e Triple-Core",2009-09-30,46.99,2009-09-30,46.99,1084,"Second Quartile",45.0899872938162,45.0899872938162
+"46",753,"AMD Phenom II X4 905e",2009-06-30,53.99,2009-06-30,53.99,1936,"Second Quartile",51.8069464565469,51.8069464565469
+"47",868,"AMD Sempron 3100+",2009-03-31,65,2009-03-31,65,298,"Third Quartile",62.3717636539275,62.3717636539275
+"48",839,"AMD Athlon 64 FX-74",2009-03-31,499.5,2009-03-31,499.5,972,"Third Quartile",479.303014540566,479.303014540566
+"49",866,"AMD Athlon XP 3000+",2009-03-31,79.7,2009-03-31,79.7,262,"Third Quartile",76.4773778956619,76.4773778956619
+"50",852,"AMD Sempron LE-1150",2009-03-31,14.94,2009-03-31,14.94,251,"First Quartile",14.3359099844566,14.3359099844566
+"51",874,"AMD Athlon XP 2000+",2009-03-31,58.99,2009-03-31,58.99,195,"Second Quartile",56.6047744299259,56.6047744299259
+"52",786,"AMD Athlon II X3 400e",2009-12-31,25.49,2009-12-31,25.49,1320,"First Quartile",24.4593270082863,24.4593270082863
+"53",811,"AMD Phenom 9350e Quad-Core",2009-03-31,382.07,2009-03-31,382.07,1550,"Third Quartile",366.621226757786,366.621226757786
+"54",791,"AMD Phenom 8600 Triple-Core",2009-03-31,52.99,2009-03-31,52.99,1210,"Second Quartile",50.8473808618711,50.8473808618711
+"55",849,"AMD Sempron LE-1250",2009-03-31,99.99,2009-03-31,99.99,301,"Third Quartile",95.946963811634,95.946963811634
+"56",810,"AMD Athlon Dual Core 4450e",2009-03-31,14.48,2009-03-31,14.48,705,"First Quartile",13.8945098109057,13.8945098109057
+"57",856,"AMD Athlon 1640B",2009-06-30,50,2009-06-30,50,412,"Second Quartile",47.9782797337904,47.9782797337904
+"58",873,"AMD Sempron 2300+",2009-03-31,45,2009-03-31,45,207,"Second Quartile",43.1804517604114,43.1804517604114
+"59",847,"Intel Pentium Extreme Edition 955 @ 3.46GHz",2009-06-30,31.23,2009-06-30,31.23,469,"First Quartile",29.9672335217255,29.9672335217255
+"60",848,"AMD Sempron LE-1100",2009-03-31,34.95,2009-03-31,34.95,315,"First Quartile",33.5368175339195,33.5368175339195
+"61",633,"Intel Core2 Duo E7600 @ 3.06GHz",2009-06-30,119.95,2009-06-30,119.95,1159,"Third Quartile",115.099893081363,115.099893081363
+"62",865,"AMD Sempron 2500+",2009-03-31,59.95,2009-03-31,59.95,207,"Second Quartile",57.5259574008147,57.5259574008147
+"63",877,"AMD Athlon XP 1800+",2009-03-31,50.95,2009-03-31,50.95,195,"Second Quartile",48.8898670487324,48.8898670487324
+"64",850,"AMD Athlon 64 FX-55",2009-03-31,65,2009-03-31,65,404,"Third Quartile",62.3717636539275,62.3717636539275
+"65",779,"AMD Athlon 7550 Dual-Core",2009-06-30,14.95,2009-06-30,14.95,900,"First Quartile",14.3455056404033,14.3455056404033
+"66",766,"AMD Phenom 8600B Triple-Core",2009-06-30,14.95,2009-06-30,14.95,1461,"First Quartile",14.3455056404033,14.3455056404033
+"67",790,"AMD Athlon Dual Core 4850e",2009-03-31,39,2009-03-31,39,783,"Second Quartile",37.4230581923565,37.4230581923565
+"68",879,"AMD Sempron 2200+",2009-03-31,39.95,2009-03-31,39.95,184,"Second Quartile",38.3346455072985,38.3346455072985
+"69",780,"AMD Phenom 9600B Quad-Core",2009-03-31,39.95,2009-03-31,39.95,1822,"Second Quartile",38.3346455072985,38.3346455072985
+"70",752,"AMD Phenom II X4 805",2009-06-30,173.99,2009-06-30,173.99,1959,"Third Quartile",166.954817817644,166.954817817644
+"71",662,"AMD Phenom II X2 B55",2009-12-31,37.95,2009-12-31,37.95,1183,"Second Quartile",36.4155143179469,36.4155143179469
+"72",876,"AMD Athlon 2650e",2009-03-31,19,2009-03-31,19,274,"First Quartile",18.2317462988404,18.2317462988404
+"73",788,"AMD Athlon Dual Core 5050e",2009-03-31,60,2009-03-31,60,809,"Second Quartile",57.5739356805485,57.5739356805485
+"74",738,"AMD Athlon 7750 Dual-Core",2009-03-31,79.99,2009-03-31,79.99,978,"Third Quartile",76.7556519181179,76.7556519181179
+"75",851,"AMD Athlon LE-1640",2009-03-31,89.95,2009-03-31,89.95,430,"Third Quartile",86.3129252410889,86.3129252410889
+"76",880,"AMD Athlon XP 1700+",2009-03-31,51.25,2009-03-31,51.25,176,"Second Quartile",49.1777367271352,49.1777367271352
+"77",845,"AMD Sempron LE-1200",2009-03-31,14.95,2009-03-31,14.95,349,"First Quartile",14.3455056404033,14.3455056404033
+"78",687,"Intel Pentium E6300 @ 2.80GHz",2009-06-30,41.85,2009-06-30,41.85,1032,"Second Quartile",40.1578201371826,40.1578201371826
+"79",761,"AMD Phenom II X4 910",2009-03-31,100,2009-03-31,100,1776,"Third Quartile",95.9565594675808,95.9565594675808
+"80",751,"AMD Athlon 64 FX-62 Dual Core",2009-03-31,250,2009-03-31,250,993,"Third Quartile",239.891398668952,239.891398668952
+"81",754,"AMD Athlon 64 X2 Dual Core 5800+",2009-03-31,29.95,2009-03-31,29.95,797,"First Quartile",28.7389895605404,28.7389895605404
+"82",727,"AMD Phenom II X3 710",2009-03-31,169,2009-03-31,169,1551,"Third Quartile",162.166585500212,162.166585500212
+"83",636,"AMD Phenom II X3 B75",2009-09-30,49.95,2009-09-30,49.95,1764,"Second Quartile",47.9303014540566,47.9303014540566
+"84",884,"AMD Sempron 3500+",2009-03-31,24.99,2009-03-31,24.99,232,"First Quartile",23.9795442109484,23.9795442109484
+"85",882,"Intel Pentium 4 1700MHz",2009-03-31,99.99,2009-03-31,99.99,100,"Third Quartile",95.946963811634,95.946963811634
+"86",825,"AMD Phenom 9150e Quad-Core",2009-03-31,247.5,2009-03-31,247.5,1414,"Third Quartile",237.492484682262,237.492484682262
+"87",885,"Intel Atom D410 @ 1.66GHz",2010-03-31,635.99,2010-03-31,635.99,180,"Third Quartile",600.427117825529,600.427117825529
+"88",827,"AMD Athlon II 160u",2010-06-30,29.99,2010-06-30,29.99,358,"First Quartile",28.3130383553006,28.3130383553006
+"89",838,"AMD Athlon II X2 250u",2010-03-31,24.95,2010-03-31,24.95,597,"First Quartile",23.5548618527759,23.5548618527759
+"90",709,"AMD Athlon II X2 210e",2010-12-31,28.49,2010-12-31,28.49,1105,"First Quartile",26.8969143962158,26.8969143962158
+"91",842,"AMD Sempron LE-1300",2010-09-02,35.99,2010-10-15,24.99,417,"First Quartile",33.9775341916394,23.5926251583515
+"92",637,"AMD Phenom II X4 B95",2010-03-31,62.02,2010-03-31,62.02,2401,"First Quartile",58.5520052949563,58.5520052949563
+"93",801,"AMD Phenom 9450e Quad-Core",2010-03-31,105,2010-03-31,105,1455,"Second Quartile",99.1286771359306,99.1286771359306
+"94",558,"Intel Core i7-880 @ 3.07GHz",2010-09-30,69.99,2010-09-30,69.99,3325,"First Quartile",66.0763439308932,66.0763439308932
+"95",765,"AMD Athlon II X3 405e",2010-03-31,112.9,2010-03-31,112.9,1331,"Second Quartile",106.58692998711,106.58692998711
+"96",603,"AMD Phenom II X4 B97",2010-09-30,79.95,2010-09-30,79.95,2539,"Second Quartile",75.4794070192157,75.4794070192157
+"97",828,"AMD Athlon II X2 260u",2010-12-31,83.44,2010-12-31,83.44,713,"Second Quartile",78.7742554306862,78.7742554306862
+"98",826,"AMD Athlon II 170u",2010-12-31,24,2010-12-31,24,340,"First Quartile",22.6579833453556,22.6579833453556
+"99",878,"Intel Atom D510 @ 1.66GHz",2010-03-31,97.16,2010-03-31,97.16,406,"Second Quartile",91.7270692431144,91.7270692431144
+"100",740,"AMD Athlon II X4 615e",2010-12-31,59,2010-12-31,59,2000,"First Quartile",55.7008757239991,55.7008757239991
+"101",733,"AMD Phenom II X3 B73",2010-09-30,75,2010-09-30,75,1538,"First Quartile",70.8061979542361,70.8061979542361
+"102",659,"AMD Athlon II X2 B24",2010-03-31,24.1,2010-03-31,24.1,1120,"First Quartile",22.7523916092945,22.7523916092945
+"103",610,"Intel Pentium E6800 @ 3.33GHz",2010-12-31,24.95,2010-12-31,24.95,1164,"First Quartile",23.5548618527759,23.5548618527759
+"104",813,"AMD Athlon II X2 270u",2010-12-31,67.67,2010-12-31,67.67,675,"First Quartile",63.8860722075088,63.8860722075088
+"105",718,"AMD Phenom II X4 910e",2010-06-30,69.9,2010-06-30,69.9,2131,"First Quartile",65.9913764933481,65.9913764933481
+"106",715,"AMD Athlon II X2 220",2010-06-30,59.95,2010-06-30,59.95,1030,"First Quartile",56.5977542314194,56.5977542314194
+"107",747,"AMD Athlon II X3 415e",2010-12-31,75,2010-12-31,75,1441,"First Quartile",70.8061979542361,70.8061979542361
+"108",793,"AMD A6-3600 APU",2011-12-31,24.95,2011-12-31,24.95,1645,"First Quartile",22.8333286669018,22.8333286669018
+"109",726,"AMD A8-3800 APU",2011-09-30,109.95,2011-09-30,109.95,2015,"Second Quartile",100.622223924884,100.622223924884
+"110",669,"AMD Athlon II X2 245e",2011-03-31,19.97,2011-03-31,19.97,1171,"First Quartile",18.2758145682577,18.2758145682577
+"111",732,"Intel Pentium G630T @ 2.30GHz",2011-12-31,84.07,2011-12-31,84.07,1090,"First Quartile",76.9377932275123,76.9377932275123
+"112",512,"Intel Core i5-2390T @ 2.70GHz",2011-09-30,99.9,2011-09-30,99.9,2474,"Second Quartile",91.4248310149695,91.4248310149695
+"113",524,"Intel Core i5-2500T @ 2.30GHz",2011-06-30,89.99,2011-06-30,89.99,2929,"Second Quartile",82.3555609913624,82.3555609913624
+"114",647,"AMD Phenom II X6 1035T",2011-07-15,144.99,2011-11-08,129.99,3001,"Second Quartile",132.689552040645,118.962099936295
+"115",518,"Intel Core i5-2310 @ 2.90GHz",2011-06-30,47.59,2011-06-30,47.59,3640,"First Quartile",43.5526297097337,43.5526297097337
+"116",881,"Intel Atom D425 @ 1.80GHz",2011-03-31,992.98,2011-03-31,992.98,199,"Third Quartile",908.739026038483,908.739026038483
+"117",782,"Intel Celeron G1101 @ 2.27GHz",2011-06-30,19.77,2011-06-30,19.77,1086,"First Quartile",18.092781873533,18.092781873533
+"118",673,"Intel Pentium G6951 @ 2.80GHz",2011-03-31,74,2011-03-31,74,1383,"First Quartile",67.7220970481255,67.7220970481255
+"119",702,"AMD Sempron 150",2011-06-30,14.95,2011-06-30,14.95,597,"First Quartile",13.6816939306686,13.6816939306686
+"120",737,"AMD Sempron 140",2010-07-12,36.99,2011-07-16,39.99,486,"First Quartile",34.9216168310293,36.5973873101965
+"121",701,"AMD Athlon 7850 Dual-Core",2010-07-12,45.99,2011-01-13,48.99,1058,"First Quartile",43.4183605855376,44.8338585728064
+"122",661,"AMD Athlon II X2 250e",2011-06-30,76.73,2011-06-30,76.73,1155,"First Quartile",70.2204933311172,70.2204933311172
+"123",451,"Intel Core i5-2500S @ 2.70GHz",2011-03-31,55.34,2011-03-31,55.34,3399,"First Quartile",50.6451466303144,50.6451466303144
+"124",771,"Intel Celeron G530T @ 2.00GHz",2011-03-31,16.99,2011-03-31,16.99,1056,"First Quartile",15.5486274168602,15.5486274168602
+"125",770,"AMD E2-3200 APU",2011-12-31,7.99,2011-12-31,7.99,953,"First Quartile",7.31215615425031,7.31215615425031
+"126",731,"AMD Athlon II X3 420e",2011-06-30,116.15,2011-06-30,116.15,1557,"Second Quartile",106.296237461348,106.296237461348
+"127",394,"Intel Core i5-3470T @ 2.90GHz",2012-06-30,269.95,2012-06-30,269.95,2989,"Third Quartile",242.038189188415,242.038189188415
+"128",354,"Intel Core i5-3550S @ 3.00GHz",2012-06-30,329.95,2012-06-30,329.95,4438,"Third Quartile",295.834415716679,295.834415716679
+"129",627,"AMD FX-8140 Eight-Core",2012-03-31,148.86,2012-03-31,148.86,4860,"Second Quartile",133.468438016623,133.468438016623
+"130",564,"AMD FX-6120 Six-Core",2012-06-30,58.02,2012-06-30,58.02,3887,"First Quartile",52.0209510528313,52.0209510528313
+"131",690,"AMD FX-8100 Eight-Core",2012-03-31,98.02,2012-03-31,98.02,4046,"First Quartile",87.885102071674,87.885102071674
+"132",711,"Intel Pentium G640T @ 2.40GHz",2012-03-31,92.99,2012-03-31,92.99,1139,"First Quartile",83.3751850810545,83.3751850810545
+"133",695,"AMD A8-3820 APU",2012-03-31,44.95,2012-03-31,44.95,2174,"First Quartile",40.3023397074245,40.3023397074245
+"134",640,"AMD A4-5300B APU",2012-12-31,25.95,2012-12-31,25.95,1232,"First Quartile",23.2668679734742,23.2668679734742
+"135",617,"AMD Phenom II X4 955",2010-07-04,159.99,2012-09-16,94.99,2508,"Third Quartile",151.043781475977,85.1683926319967
+"136",519,"AMD FX-6300 Six-Core",2012-12-31,48.88,2012-12-31,48.88,4206,"First Quartile",43.8259925450258,43.8259925450258
+"137",694,"Intel Pentium G645T @ 2.50GHz",2012-03-31,223.84,2012-03-31,223.84,1228,"Third Quartile",200.695789101444,200.695789101444
+"138",392,"Intel Core i5-3475S @ 2.90GHz",2012-03-31,249.95,2012-03-31,249.95,4250,"Third Quartile",224.106113678993,224.106113678993
+"139",391,"Intel Core i7-3770T @ 2.50GHz",2012-06-30,156.59,2012-06-30,156.59,5444,"Second Quartile",140.399185201014,140.399185201014
+"140",588,"AMD Athlon II X2 B28",2012-09-30,39.02,2012-09-30,39.02,1269,"First Quartile",34.985479318881,34.985479318881
+"141",537,"Intel Pentium G870 @ 3.10GHz",2012-09-30,77,2012-09-30,77,1516,"First Quartile",69.0384907112722,69.0384907112722
+"142",704,"AMD A4-3420 APU",2012-03-31,136,2012-03-31,136,1054,"Second Quartile",121.938113464065,121.938113464065
+"143",436,"Intel Core i5-3330S @ 2.70GHz",2012-03-31,199.95,2012-03-31,199.95,3884,"Third Quartile",179.27592490544,179.27592490544
+"144",763,"AMD A6-3620 APU",2012-03-31,22.49,2012-03-31,22.49,1851,"First Quartile",20.1646189103443,20.1646189103443
+"145",517,"Intel Core i3-3220T @ 2.80GHz",2012-09-30,135,2012-09-30,135,1940,"Second Quartile",121.041509688594,121.041509688594
+"146",317,"Intel Core i5-4670S @ 3.10GHz",2013-03-31,213,2013-03-31,213,5130,"Third Quartile",188.22846853473,188.22846853473
+"147",557,"AMD FX-B4150 Quad-Core",2013-03-31,89.68,2013-03-31,89.68,3369,"Second Quartile",79.2503711652329,79.2503711652329
+"148",418,"Intel Pentium G3420 @ 3.20GHz",2013-09-30,53,2013-09-30,53,1933,"First Quartile",46.8361917011301,46.8361917011301
+"149",601,"AMD A8-5500B APU",2013-03-31,49.04,2013-03-31,49.04,2608,"First Quartile",43.3367328494985,43.3367328494985
+"150",569,"AMD A6-5400B APU",2013-12-31,28.94,2013-12-31,28.94,1451,"First Quartile",25.5743280722774,25.5743280722774
+"151",413,"Intel Core i5-4670T @ 2.30GHz",2013-06-30,259.02,2013-06-30,259.02,4441,"Third Quartile",228.896422158995,228.896422158995
+"152",643,"Intel Celeron G1610T @ 2.30GHz",2013-12-31,14.98,2013-12-31,14.98,1358,"First Quartile",13.2378519185458,13.2378519185458
+"153",371,"Intel Pentium G3430 @ 3.30GHz",2013-12-31,98,2013-12-31,98,2127,"Second Quartile",86.6027695605801,86.6027695605801
+"154",475,"AMD A10-5800B APU",2013-09-30,44.99,2013-09-30,44.99,3034,"First Quartile",39.757740842148,39.757740842148
+"155",614,"Intel Pentium G2020T @ 2.50GHz",2013-03-31,47.6,2013-03-31,47.6,1430,"First Quartile",42.0642023579961,42.0642023579961
+"156",579,"AMD A4-6300B APU",2013-12-31,27.95,2013-12-31,27.95,1328,"First Quartile",24.6994633593695,24.6994633593695
+"157",681,"AMD A4-4000 APU",2013-06-30,19.95,2013-06-30,19.95,1153,"First Quartile",17.6298495176895,17.6298495176895
+"158",611,"AMD FX-4200 Quad-Core",2013-12-31,59.95,2013-12-31,59.95,3109,"First Quartile",52.9779187260896,52.9779187260896
+"159",384,"Intel Pentium G3258 @ 3.20GHz",2014-06-30,53.28,2014-06-30,53.28,2076,"First Quartile",46.333033050176,46.333033050176
+"160",480,"Intel Pentium G3420T @ 2.70GHz",2014-09-30,159.99,2014-09-30,159.99,1912,"Third Quartile",139.129541248079,139.129541248079
+"161",800,"Intel Celeron G470 @ 2.00GHz",2014-03-31,35.15,2014-03-31,35.15,568,"First Quartile",30.5669315261578,30.5669315261578
+"162",276,"Intel Core i5-4690S @ 3.20GHz",2014-06-30,59.99,2014-06-30,59.99,5524,"First Quartile",52.1681428806317,52.1681428806317
+"163",705,"AMD A8-6500T APU",2014-03-31,59.95,2014-03-31,59.95,1929,"First Quartile",52.1333583212848,52.1333583212848
+"164",520,"AMD A8-6500B APU",2014-06-30,49.95,2014-06-30,49.95,2855,"First Quartile",43.43721848454,43.43721848454
+"165",547,"Intel Pentium G2030T @ 2.60GHz",2014-03-31,130.5,2014-03-31,130.5,1581,"Second Quartile",113.484624869519,113.484624869519
+"166",562,"AMD FX-8310 Eight-Core",2014-12-31,831.15,2014-12-31,831.15,5128,"Third Quartile",722.77966253104,722.77966253104
+"167",650,"AMD A4-4020 APU",2014-09-30,105.37,2014-09-30,105.37,1268,"Second Quartile",91.6312254597794,91.6312254597794
+"168",369,"Intel Pentium G3440 @ 3.30GHz",2014-09-30,149.99,2014-09-30,149.99,2224,"Third Quartile",130.433401411334,130.433401411334
+"169",459,"Intel Core i5-4570TE @ 2.70GHz",2014-09-30,341.99,2014-09-30,341.99,3074,"Third Quartile",297.399286276834,297.399286276834
+"170",875,"Intel Atom E3825 @ 1.33GHz",2014-06-30,70.32,2014-06-30,70.32,378,"Second Quartile",61.1512553319891,61.1512553319891
+"171",595,"Intel Celeron G1620T @ 2.40GHz",2014-03-31,42,2014-03-31,42,1541,"First Quartile",36.5237873143279,36.5237873143279
+"172",526,"AMD A4-7300 APU",2014-09-30,18.47,2014-09-30,18.47,1528,"First Quartile",16.0617702784675,16.0617702784675
+"173",450,"AMD A10-6800B APU",2014-03-31,128.02,2014-03-31,128.02,3088,"Second Quartile",111.327982190006,111.327982190006
+"174",462,"Intel Core i3-4150T @ 3.00GHz",2014-09-30,417.42,2014-09-30,417.42,2912,"Third Quartile",362.994269065399,362.994269065399
+"175",448,"Intel Core i5-4590T @ 2.00GHz",2014-06-30,94.19,2014-06-30,94.19,4081,"Second Quartile",81.9089411222988,81.9089411222988
+"176",386,"Intel Core i5-4460S @ 2.90GHz",2014-06-30,159.95,2014-06-30,159.95,4598,"Third Quartile",139.094756688732,139.094756688732
+"177",479,"AMD A10 PRO-7850B APU",2014-12-31,148.02,2014-12-31,148.02,3453,"Second Quartile",128.720261863496,128.720261863496
+"178",497,"AMD A4-6320 APU",2014-06-30,69.99,2014-06-30,69.99,1530,"Second Quartile",60.8642827173765,60.8642827173765
+"179",573,"Intel Celeron G1820T @ 2.40GHz",2014-03-31,42,2014-03-31,42,1631,"First Quartile",36.5237873143279,36.5237873143279
+"180",883,"Intel Atom E3815 @ 1.46GHz",2014-06-30,135,2014-06-30,135,184,"Second Quartile",117.397887796054,117.397887796054
+"181",313,"Intel Core i7-4790T @ 2.70GHz",2014-06-30,249.88,2014-06-30,249.88,6346,"Third Quartile",217.299142240578,217.299142240578
+"182",388,"Intel Pentium G2140 @ 3.30GHz",2014-03-31,45,2014-03-31,45,2092,"First Quartile",39.1326292653514,39.1326292653514
+"183",400,"Intel Core i5-4400E @ 2.70GHz",2014-03-31,266,2014-03-31,266,3251,"Third Quartile",231.31731965741,231.31731965741
+"184",406,"Intel Core i5-6500T @ 2.50GHz",2015-12-31,221.52,2015-12-31,221.52,4777,"Third Quartile",192.406002460617,192.406002460617
+"185",470,"Intel Pentium G3250T @ 2.80GHz",2015-03-31,49.99,2015-03-31,49.99,1757,"First Quartile",43.4198991648891,43.4198991648891
+"186",320,"Intel Core i7-6700T @ 2.80GHz",2015-12-31,199.99,2015-12-31,199.99,7256,"Third Quartile",173.705653810486,173.705653810486
+"187",359,"Intel Core i5-6400 @ 2.70GHz",2015-09-30,79.8,2015-09-30,79.8,5168,"First Quartile",69.3120214714573,69.3120214714573
+"188",393,"Intel Core i3-4170T @ 3.20GHz",2015-12-31,199.95,2015-12-31,199.95,3215,"Second Quartile",173.67091094258,173.67091094258
+"189",252,"Intel Core i3-6300 @ 3.80GHz",2016-02-10,155.99,2015-12-24,154.99,4340,"Third Quartile",133.802586524239,134.619927416807
+"190",484,"AMD FX-4330",2015-12-31,733.5,2015-12-31,733.5,3098,"Third Quartile",637.097340216967,637.097340216967
+"191",676,"AMD Athlon II X4 638 Quad-Core",2015-06-30,62.85,2015-06-30,62.85,2250,"First Quartile",54.5897311965049,54.5897311965049
+"192",521,"AMD Athlon X4 840",2015-03-31,124.95,2015-03-31,124.95,3319,"Second Quartile",108.528033619782,108.528033619782
+"193",465,"Intel Pentium G3260T @ 2.90GHz",2015-09-30,49.99,2015-09-30,49.99,1837,"First Quartile",43.4198991648891,43.4198991648891
+"194",422,"Intel Pentium G4400T @ 2.90GHz",2015-12-31,148.02,2015-12-31,148.02,2331,"Second Quartile",128.565982684275,128.565982684275
+"195",395,"Intel Core i5-6500TE @ 2.30GHz",2015-12-31,489.95,2015-12-31,489.95,4724,"Third Quartile",425.5567032574,425.5567032574
+"196",510,"AMD Athlon X4 750 Quad Core",2015-03-31,94.75,2015-03-31,94.75,2625,"First Quartile",82.2971683511351,82.2971683511351
+"197",477,"Intel Celeron G3900T @ 2.60GHz",2016-06-30,112.46,2016-06-30,112.46,2102,"Second Quartile",96.4641251395337,96.4641251395337
+"198",567,"Intel Core i3-2102 @ 3.10GHz",2016-03-31,58,2016-03-31,58,2029,"First Quartile",49.7503046246928,49.7503046246928
+"199",846,"AMD Athlon 5150 APU",2014-10-01,49.99,2016-10-12,39.99,1388,"First Quartile",43.472003043887,34.3019772748529
+"200",559,"AMD PRO A4-8350B",2016-03-31,28.99,2016-03-31,28.99,1635,"First Quartile",24.866574673618,24.866574673618
+"201",831,"AMD Athlon 5350 APU",2014-09-19,64.99,2016-10-22,42.99,1783,"Second Quartile",56.5162127990041,36.8752688933715
+"202",546,"AMD PRO A10-9700E",2016-09-30,139,2016-09-30,139,3053,"Second Quartile",119.229178324695,119.229178324695
+"203",429,"Intel Core i7-2600S @ 2.80GHz",2011-12-30,309.99,2016-08-26,215,4625,"Third Quartile",283.691525188492,184.419232660499
+"204",452,"AMD PRO A10-9700",2016-12-31,169,2016-12-31,169,3649,"Third Quartile",144.962094509881,144.962094509881
+"205",506,"AMD PRO A8-9600",2016-09-30,119,2016-09-30,119,3359,"Second Quartile",102.073900867904,102.073900867904
+"206",682,"Intel Core2 Quad Q8400 @ 2.66GHz",2010-07-04,169.99,2016-08-01,104.9,2073,"Third Quartile",160.484607869875,89.9794302608669
+"207",660,"Intel Pentium Silver J5005 @ 1.50GHz",2017-12-31,521.99,2017-12-31,521.99,3095,"Third Quartile",438.40611376041,438.40611376041
+"208",652,"Intel Core2 Quad Q9500 @ 2.83GHz",2010-01-17,183,2017-09-10,33.99,2221,"Third Quartile",172.767123008336,28.5473357855828
+"209",387,"Intel Celeron G3950 @ 3.00GHz",2017-03-31,143,2017-03-31,143,2322,"Second Quartile",120.102059939345,120.102059939345
+"210",303,"Intel Core i3-6098P @ 3.60GHz",2016-06-11,125.59,2017-07-19,164.7,4021,"Second Quartile",107.726564789917,138.327337566504
+"211",514,"AMD PRO A6-9500E",2017-03-31,74,2017-03-31,74,1662,"First Quartile",62.1507163322485,62.1507163322485
+"212",401,"Intel Core i5-4440S @ 2.80GHz",2013-12-22,199.99,2017-01-23,209.38,4384,"Third Quartile",176.731509024698,175.852932238462
+"213",592,"AMD A4-5300 APU",2012-11-19,54.99,2017-05-04,43.39,1364,"First Quartile",49.304241613154,36.4421565088684
+"214",722,"Intel Core2 Quad Q6700 @ 2.66GHz",2010-07-24,372.69,2017-08-04,23.49,2099,"Third Quartile",351.85015887419,19.7286530627637
+"215",630,"AMD A6-5400K APU",2012-10-12,74.99,2017-12-10,20.99,1262,"First Quartile",67.2363171225753,17.6289667001878
+"216",502,"AMD PRO A12-9800E",2017-03-31,169,2017-03-31,169,3171,"Second Quartile",141.938798110135,141.938798110135
+"217",820,"AMD Athlon 5370 APU",2016-06-09,53.48,2017-01-03,52.98,1867,"First Quartile",45.8732119194582,44.4965533957098
+"218",294,"Intel Core i7-7700T @ 2.90GHz",2017-03-31,144.69,2017-03-31,144.69,7610,"Second Quartile",121.521447920446,121.521447920446
+"219",809,"Intel Celeron J3455 @ 1.50GHz",2017-04-13,236.83,2017-10-24,233.52,2256,"Third Quartile",198.907488499546,196.127503755495
+"220",461,"AMD A12-9800E",2017-09-30,670.15,2017-09-30,670.15,3471,"Third Quartile",562.841926352112,562.841926352112
+"221",309,"AMD Ryzen 7 1700X",2017-03-31,71.64,2017-03-31,71.64,15667,"First Quartile",60.1686124059767,60.1686124059767
+"222",444,"AMD PRO A12-9800",2017-03-31,169,2017-03-31,169,3705,"Second Quartile",141.938798110135,141.938798110135
+"223",300,"Intel Core i3-7300T @ 3.50GHz",2017-06-30,181.59,2017-06-30,181.59,4211,"Second Quartile",152.512818632068,152.512818632068
+"224",372,"Intel Core i3-4370T @ 3.30GHz",2017-12-31,138,2017-12-31,138,3361,"First Quartile",115.902687214193,115.902687214193
+"225",336,"Intel Core i3-7101TE @ 3.40GHz",2017-12-31,117,2017-12-31,117,3957,"First Quartile",98.265321768555,98.265321768555
+"226",334,"Intel Core i5-6402P @ 2.80GHz",2016-06-05,203.46,2017-01-28,189.99,5436,"Third Quartile",174.520637567931,159.567764810323
+"227",454,"AMD Athlon X4 950",2017-09-30,25.99,2017-09-30,25.99,3588,"First Quartile",21.8283394253397,21.8283394253397
+"228",500,"AMD PRO A6-9500",2017-03-31,74,2017-03-31,74,1770,"First Quartile",62.1507163322485,62.1507163322485
+"229",714,"Intel Celeron J4105 @ 1.50GHz",2018-03-31,107,2018-03-31,107,2909,"Second Quartile",87.7260604434314,87.7260604434314
+"230",361,"Intel Pentium Gold G5500T @ 3.20GHz",2018-06-30,75,2018-06-30,75,3304,"First Quartile",61.490229282779,61.490229282779
+"231",819,"Intel Celeron E1400 @ 2.00GHz",2016-07-01,80,2018-04-22,635,735,"First Quartile",68.6211098271625,520.617274594196
+"232",346,"Intel Core i3-8300T @ 3.20GHz",2018-06-30,158.95,2018-06-30,158.95,5733,"Second Quartile",130.318292593303,130.318292593303
+"233",288,"Intel Core i5-4670R @ 3.00GHz",2018-09-30,276,2018-09-30,276,5233,"Third Quartile",226.284043760627,226.284043760627
+"234",748,"AMD Phenom 9950 Quad-Core",2010-08-05,75.99,2018-12-22,134.99,1884,"Second Quartile",71.740839767232,110.674214011765
+"235",638,"Intel Pentium G630 @ 2.70GHz",2012-04-29,74.99,2018-12-27,24.99,1322,"First Quartile",67.2363171225753,20.488544397022
+"236",338,"Intel Core i5-8500T @ 2.10GHz",2018-06-30,265.99,2018-06-30,265.99,7727,"Third Quartile",218.077147825685,218.077147825685
+"237",618,"AMD Athlon X4 830",2018-03-31,202.32,2018-03-31,202.32,2901,"Second Quartile",165.876042513225,165.876042513225
+"238",844,"Intel Celeron E1200 @ 1.60GHz",2016-07-01,75,2018-04-22,225,516,"First Quartile",64.3322904629649,184.470687848337
+"239",254,"Intel Core i5-8600T @ 2.30GHz",2018-06-30,199.99,2018-06-30,199.99,9330,"Second Quartile",163.96574605684,163.96574605684
+"240",533,"AMD FX-8370E Eight-Core",2014-10-11,194.99,2018-08-30,163.7,5310,"Third Quartile",169.566030676686,134.212673781212
+"241",668,"AMD Phenom II X2 545",2010-11-23,65.99,2018-07-27,43.98,1222,"First Quartile",62.3000133733339,36.0578704514216
+"242",658,"AMD A8-3870K APU",2012-10-22,109.99,2018-10-18,49.99,2301,"Second Quartile",98.6174492640627,40.9852874912817
+"243",612,"AMD Sempron 240",2018-12-31,36.1,2018-12-31,36.1,1278,"First Quartile",29.597297028111,29.597297028111
+"244",723,"AMD Athlon II X2 240",2010-10-20,48.99,2018-11-01,15.99,1032,"First Quartile",46.250608503707,13.1097168830885
+"245",578,"AMD Phenom II X2 565",2011-02-13,109.99,2018-04-28,121.59,1442,"Second Quartile",100.658830463829,99.6879597132414
+"246",693,"AMD Phenom II X4 920",2010-09-22,159.99,2018-11-21,44.99,2209,"Third Quartile",151.043781475977,36.8859388724297
+"247",600,"Intel Core i7-860 @ 2.80GHz",2010-08-26,283,2018-01-26,99,2987,"Third Quartile",267.175386947318,81.1671026532683
+"248",428,"Intel Celeron G4900T @ 2.90GHz",2018-03-31,68.95,2018-03-31,68.95,2239,"First Quartile",56.5300174539682,56.5300174539682
+"249",654,"AMD Phenom II X4 940",2010-08-12,132.99,2018-12-28,59.34,2345,"Second Quartile",125.553550212452,48.6510694085348
+"250",657,"Intel Core2 Duo E7500 @ 2.93GHz",2010-08-31,123.99,2018-06-30,19.99,1133,"Second Quartile",117.056806457943,16.38919577817
+"251",686,"Intel Celeron G540 @ 2.50GHz",2012-02-25,61.99,2018-03-06,20.99,1172,"First Quartile",55.5804680414515,17.2090655019404
+"252",639,"Intel Pentium E6500 @ 2.93GHz",2015-03-21,47.99,2018-08-29,225,1148,"First Quartile",41.6827557696145,184.470687848337
+"253",745,"Intel Core2 Duo E6750 @ 2.66GHz",2014-11-14,48.99,2018-07-30,12.95,1015,"First Quartile",42.6023890602125,10.6173129228265
+"254",721,"Intel Core2 Quad Q9300 @ 2.50GHz",2010-08-25,229.99,2018-01-03,24.99,1971,"Third Quartile",217.129566233264,20.488544397022
+"255",724,"Intel Core2 Duo E8300 @ 2.83GHz",2015-08-26,39.99,2018-08-26,19.99,997,"First Quartile",34.734182188516,16.38919577817
+"256",368,"Intel Core i5-8400T @ 1.70GHz",2018-06-30,239.84,2018-06-30,239.84,7442,"Third Quartile",196.63755454909,196.63755454909
+"257",778,"Intel Core2 Duo E4600 @ 2.40GHz",2015-02-08,39.99,2018-08-24,195.95,865,"First Quartile",34.734182188516,160.653472372807
+"258",377,"Intel Core i3-8100T @ 3.10GHz",2018-09-30,219.05,2018-09-30,219.05,5276,"Second Quartile",179.592462991903,179.592462991903
+"259",706,"Intel Celeron J4005 @ 2.00GHz",2018-03-31,168.75,2018-03-31,168.75,1588,"Second Quartile",138.353015886253,138.353015886253
+"260",620,"AMD A10-6700T APU",2016-05-06,139.99,2018-04-25,139.99,2299,"Second Quartile",120.078364558806,114.773562630616
+"261",182,"Intel Core i7-9800X @ 3.80GHz",2018-12-31,298.67,2018-12-31,298.67,18085,"Third Quartile",244.870490398502,244.870490398502
+"262",491,"AMD A6-6420K APU",2014-10-24,69.99,2018-08-16,149.99,1576,"Second Quartile",60.8642827173765,122.97225986832
+"263",249,"Intel Core i7-8700T @ 2.40GHz",2018-03-31,389.95,2018-03-31,389.95,10198,"Third Quartile",319.708198784262,319.708198784262
+"264",582,"AMD Phenom II X4 965",2010-08-20,165.99,2018-12-23,58,2618,"Third Quartile",156.708277312315,47.5524439786825
+"265",703,"Intel Core2 Duo E7400 @ 2.80GHz",2014-11-14,54.99,2018-07-27,157.95,1023,"First Quartile",47.8200729622594,129.498422869533
+"266",730,"Intel Core2 Duo E7200 @ 2.53GHz",2008-04-20,113,2019-02-27,49,996,"Second Quartile",108.82126348228,39.4594013011973
+"267",280,"Intel Core i3-6100 @ 3.70GHz",2015-11-27,129.99,2019-08-01,129.99,4147,"Second Quartile",112.905634975874,104.680154594748
+"268",656,"Intel Celeron G550 @ 2.60GHz",2012-08-09,59.99,2019-01-23,70.45,1250,"First Quartile",53.7872604905093,56.7329555442724
+"269",360,"Intel Pentium Gold G5420T @ 3.20GHz",2019-12-31,64,2019-12-31,64,3452,"First Quartile",51.5388098627883,51.5388098627883
+"270",164,"Intel Core i9-10980XE @ 3.00GHz",2019-12-31,121.48,2019-12-31,121.48,32850,"First Quartile",97.8271034708051,97.8271034708051
+"271",463,"AMD FX-4350 Quad-Core",2013-06-06,129.99,2019-01-12,229.99,3304,"Second Quartile",114.872387909998,185.209545005354
+"272",226,"Intel Pentium Gold G5620 @ 4.00GHz",2019-12-31,174.31,2019-12-31,174.31,4102,"Second Quartile",140.370780424729,140.370780424729
+"273",777,"AMD Phenom 9850 Quad-Core",2010-08-27,74.99,2019-01-13,119.99,1722,"First Quartile",70.7967571278422,96.627215553687
+"274",299,"Intel Core i7-9850HL @ 1.90GHz",2019-12-31,395,2019-12-31,395,9112,"Third Quartile",318.091092121897,318.091092121897
+"275",236,"AMD Ryzen 3 2300X",2019-03-31,178.09,2019-03-31,178.09,7530,"Second Quartile",143.41479138225,143.41479138225
+"276",206,"AMD Ryzen 5 3500",2019-12-31,199.99,2019-12-31,199.99,12793,"Second Quartile",161.050727882172,161.050727882172
+"277",556,"AMD A10-5700 APU",2012-12-15,124.99,2019-01-12,64.5,2733,"Second Quartile",112.066505896129,51.9414568148413
+"278",274,"Intel Core i7-9700TE @ 1.80GHz",2019-12-31,323,2019-12-31,323,10280,"Second Quartile",260.10993102626,260.10993102626
+"279",139,"Intel Core i5-9600KF @ 3.70GHz",2019-06-30,159.99,2019-06-30,159.99,10713,"Second Quartile",128.83897171793,128.83897171793
+"280",129,"Intel Core i9-9900 @ 3.10GHz",2019-09-30,499,2019-09-30,499,16562,"Third Quartile",401.841658148928,401.841658148928
+"281",225,"Intel Core i7-9700T @ 2.00GHz",2019-09-30,323,2019-09-30,323,10708,"Second Quartile",260.10993102626,260.10993102626
+"282",750,"Intel Core2 Duo E6700 @ 2.66GHz",2010-07-04,99.99,2019-02-13,29.99,990,"Second Quartile",94.3988231125876,24.150764184141
+"283",641,"Intel Core2 Duo E8400 @ 3.00GHz",2010-07-22,169.5,2019-02-14,157.95,1200,"Third Quartile",160.022007376574,127.196172153553
+"284",153,"AMD Ryzen 7 PRO 3700",2019-09-30,329.99,2019-09-30,329.99,22930,"Third Quartile",265.738935415961,265.738935415961
+"285",353,"AMD Athlon 240GE",2019-03-31,98.27,2019-03-31,98.27,4534,"First Quartile",79.1362319565032,79.1362319565032
+"286",438,"Intel Celeron G3930TE @ 2.70GHz",2019-09-30,42,2019-09-30,42,2218,"First Quartile",33.8223439724548,33.8223439724548
+"287",710,"AMD Phenom II X3 720",2010-08-03,99,2019-02-13,69.99,1554,"Second Quartile",93.4641812995917,56.3625203483836
+"288",832,"Intel Celeron G460 @ 1.80GHz",2017-09-17,19.59,2019-01-02,11.19,469,"First Quartile",16.4531423371452,9.01123878694689
+"289",596,"AMD A8-5500 APU",2012-12-06,105.99,2019-01-03,56.99,2596,"Second Quartile",95.0310341621784,45.8936995950048
+"290",287,"Intel Core i5-9500T @ 2.20GHz",2019-06-30,192,2019-06-30,192,8198,"Second Quartile",154.616429588365,154.616429588365
+"291",302,"Intel Core i5-9400T @ 1.80GHz",2019-09-30,182,2019-09-30,182,8397,"Second Quartile",146.563490547304,146.563490547304
+"292",784,"AMD Athlon 5200 Dual-Core",2018-04-28,73.86,2019-01-23,71.59,869,"First Quartile",60.5555777976808,57.6509905949534
+"293",696,"AMD Athlon II X2 B22",2018-10-21,60.09,2019-01-29,43.89,1053,"First Quartile",49.2659717013626,35.3443494512153
+"294",217,"Intel Core i9-9900T @ 2.10GHz",2019-12-31,439,2019-12-31,439,13224,"Third Quartile",353.524023902564,353.524023902564
+"295",349,"AMD Athlon 3000G",2019-12-31,89.99,2019-12-31,89.99,4488,"First Quartile",72.468398430505,72.468398430505
+"296",247,"Intel Core i3-9300T @ 3.20GHz",2019-09-30,143,2019-09-30,143,6164,"First Quartile",115.157028287168,115.157028287168
+"297",319,"Intel Core i3-9100T @ 3.10GHz",2019-09-30,122,2019-09-30,122,5492,"First Quartile",98.2458563009402,98.2458563009402
+"298",227,"Intel Core i5-9600T @ 2.30GHz",2019-12-31,213,2019-12-31,213,9623,"Second Quartile",171.527601574592,171.527601574592
+"299",792,"AMD Athlon 5000 Dual-Core",2010-08-05,38.99,2020-11-21,70.99,872,"First Quartile",36.8097821098089,56.4731939666993
+"300",190,"Intel Core i7-9700E @ 2.60GHz",2020-12-31,323,2020-12-31,323,12669,"Second Quartile",256.949452757344,256.949452757344
+"301",240,"Intel Core i3-10300T @ 3.00GHz",2020-09-30,193.97,2020-09-30,193.97,8003,"Second Quartile",154.304908208489,154.304908208489
+"302",415,"Intel Celeron G4930T @ 3.00GHz",2020-09-30,42,2020-09-30,42,2297,"First Quartile",33.4113839498714,33.4113839498714
+"303",113,"Intel Core i9-9990XE @ 4.00GHz",2020-09-30,163,2020-09-30,163,30162,"Second Quartile",129.667990091168,129.667990091168
+"304",133,"Intel Core i3-9350K @ 4.00GHz",2020-06-30,293.22,2020-06-30,293.22,7700,"Second Quartile",233.259190518602,233.259190518602
+"305",183,"Intel Core i5-10300H @ 2.50GHz",2020-03-31,250,2020-03-31,250,8433,"Second Quartile",198.877285415901,198.877285415901
+"306",191,"AMD Ryzen 3 4300G",2020-09-30,124,2020-09-30,124,10949,"First Quartile",98.643133566287,98.643133566287
+"307",253,"Intel Core i5-10500T @ 2.30GHz",2020-06-30,99.99,2020-06-30,99.99,10045,"First Quartile",79.5429590749439,79.5429590749439
+"308",290,"Intel Core i5-10400T @ 2.00GHz",2020-09-30,182,2020-09-30,182,9816,"Second Quartile",144.782663782776,144.782663782776
+"309",224,"Intel Core i5-10600T @ 2.40GHz",2020-09-30,213,2020-09-30,213,11266,"Second Quartile",169.443447174348,169.443447174348
+"310",231,"Intel Core i3-7101E @ 3.90GHz",2020-03-31,117,2020-03-31,117,4430,"First Quartile",93.0745695746418,93.0745695746418
+"311",250,"AMD Ryzen 5 3400GE",2020-06-30,355.4,2020-06-30,355.4,8907,"Third Quartile",282.723948947245,282.723948947245
+"312",220,"Intel Core i9-10900T @ 1.90GHz",2020-06-30,349.99,2020-06-30,349.99,15023,"Third Quartile",278.420244490845,278.420244490845
+"313",121,"Intel Core i9-10900E @ 2.80GHz",2021-12-31,444,2021-12-31,444,19478,"Third Quartile",337.350581565082,337.350581565082
+"314",806,"Intel Core2 Duo E6400 @ 2.13GHz",2014-11-14,56.99,2021-05-30,42.5,765,"First Quartile",49.5593009296083,32.2914408029639
+"315",743,"AMD A6-3650 APU",2012-04-13,89.99,2021-06-01,172.19,2049,"First Quartile",80.6853737546413,130.829722161467
+"316",799,"AMD Phenom 9500 Quad-Core",2018-11-01,28.99,2021-05-30,29.99,1549,"First Quartile",23.7680232921035,22.7863602277856
+"317",458,"Intel Core i7-4765T @ 2.00GHz",2017-07-30,269.99,2021-08-19,519.85,5114,"Third Quartile",226.757728412754,394.981305915783
+"318",663,"Intel Pentium E5700 @ 3.00GHz",2011-06-08,66.99,2021-05-30,159,1082,"First Quartile",61.3068010980261,120.807978533441
+"319",677,"Intel Core i3-2120T @ 2.60GHz",2011-12-15,134.99,2021-11-07,164.9,1520,"Second Quartile",123.537917304412,125.2907903155
+"320",184,"Intel Core i5-11400T @ 1.30GHz",2021-06-30,182,2021-06-30,182,13626,"Second Quartile",138.283346497398,138.283346497398
+"321",789,"AMD Phenom 9650 Quad-Core",2010-07-30,140.65,2021-05-13,31.17,1713,"Second Quartile",132.785223230178,23.6829225841973
+"322",769,"AMD A6-3500 APU",2012-10-10,69.99,2021-06-01,147,1417,"First Quartile",62.75329824522,111.690395247899
+"323",685,"AMD A6-3670 APU",2012-12-06,79.99,2021-06-01,176.59,2165,"First Quartile",71.7193359999307,134.172836032833
+"324",114,"Intel Core i7-11700T @ 1.40GHz",2021-12-31,323,2021-12-31,323,15670,"Third Quartile",245.414950102526,245.414950102526
+"325",219,"Intel Core i3-10305T @ 3.00GHz",2021-06-30,143,2021-06-30,143,8136,"First Quartile",108.651200819384,108.651200819384
+"326",840,"Intel Celeron 430 @ 1.80GHz",2010-09-02,41.99,2021-05-30,57.99,280,"First Quartile",39.6420300279783,44.0607212273853
+"327",631,"Intel Pentium G840 @ 2.80GHz",2011-07-20,88.99,2021-05-30,49.99,1238,"Second Quartile",81.4403975177391,37.9823323703568
+"328",829,"Intel Celeron 450 @ 2.20GHz",2018-04-22,225,2021-05-31,38.99,415,"Second Quartile",184.470687848337,29.6245476919427
+"329",89,"Intel Core i9-11900T @ 1.50GHz",2021-06-30,439,2021-06-30,439,18968,"Third Quartile",333.551588529439,333.551588529439
+"330",835,"Intel Core2 Duo E4300 @ 1.80GHz",2014-11-14,46.99,2021-05-30,42.5,593,"First Quartile",40.8631610928636,32.2914408029639
+"331",165,"Intel Pentium Gold G6505 @ 4.20GHz",2021-09-30,75,2021-09-30,75,4371,"First Quartile",56.9848955346422,56.9848955346422
+"332",511,"Intel Core i7-975 @ 3.33GHz",2010-07-22,1039.99,2021-05-13,645,3461,"Third Quartile",981.836504139014,490.070101597923
+"333",680,"AMD Phenom II X4 925",2010-07-27,135.99,2021-11-12,20.88,2271,"Second Quartile",128.385798130621,15.8645949168444
+"334",90,"Intel Core i9-11900KB @ 3.30GHz",2021-09-30,539,2021-09-30,539,22901,"Third Quartile",409.531449242295,409.531449242295
+"335",672,"AMD Athlon II X2 250",2010-10-15,58.99,2021-06-01,69.95,1139,"First Quartile",55.6914348976052,53.147912568643
+"336",453,"Intel Core i5-6400T @ 2.20GHz",2021-07-11,159.99,2021-08-16,225,4273,"Second Quartile",121.560179154499,170.954686603927
+"337",473,"Intel Core i5-2400 @ 3.10GHz",2011-03-11,189.99,2021-12-22,58.85,3869,"Third Quartile",173.871908353694,44.7141480295159
+"338",768,"Intel Celeron E3300 @ 2.50GHz",2010-07-04,51.99,2021-09-02,79,795,"First Quartile",49.0828564218765,60.0240899631564
+"339",474,"Intel Core i5-680 @ 3.60GHz",2010-07-04,309.99,2021-10-20,60,2618,"Third Quartile",292.656177384449,45.5879164277138
+"340",684,"Intel Core2 Duo E8200 @ 2.66GHz",2017-10-25,157.95,2021-05-30,94.99,1108,"Second Quartile",132.658184387549,72.1732696911422
+"341",671,"Intel Core2 Duo E6850 @ 3.00GHz",2016-08-26,65.5,2021-05-30,51.2,1118,"First Quartile",56.1835336709893,38.9016886849824
+"342",626,"AMD Athlon II X3 445",2010-09-02,77.99,2021-06-01,145.9,1823,"Second Quartile",73.6290050460117,110.854616780057
+"343",814,"Intel Core2 Duo E6420 @ 2.13GHz",2017-10-25,157.95,2021-05-30,39.99,760,"Second Quartile",132.658184387549,30.3843462990712
+"344",411,"Intel Core i5-3340 @ 3.10GHz",2013-10-27,194.99,2021-11-05,195,4245,"Third Quartile",172.313000373648,148.16072839007
+"345",716,"Intel Core i3-2100T @ 2.50GHz",2011-03-26,134.99,2021-09-27,51.71,1488,"Second Quartile",123.537917304412,39.289185974618
+"346",808,"Intel Pentium E2200 @ 2.20GHz",2017-10-25,157.95,2021-08-14,65.99,725,"Second Quartile",132.658184387549,50.1391100844138
+"347",193,"Intel Core i5-11500T @ 1.50GHz",2021-09-30,192,2021-09-30,192,13079,"Second Quartile",145.881332568684,145.881332568684
+"348",417,"Intel Core i3-4160T @ 3.10GHz",2017-07-30,141.99,2021-05-30,59.99,3125,"Second Quartile",119.253786648864,45.5803184416425
+"349",674,"AMD Athlon II X3 435",2010-07-21,75.99,2021-06-01,69.95,1644,"Second Quartile",71.740839767232,53.147912568643
+"350",496,"Intel Core i5-670 @ 3.47GHz",2010-07-12,299.99,2021-12-05,291,2533,"Third Quartile",283.215350990551,221.101394674412
+"351",760,"AMD A4-3300 APU",2012-11-02,48.99,2021-06-01,105.75,962,"First Quartile",43.9246189603276,80.3487027038455
+"352",683,"AMD Athlon II X2 245",2010-11-12,62.99,2021-07-18,12.87,1097,"First Quartile",59.4677654551645,9.7786080737446
+"353",805,"Intel Core2 Duo E4500 @ 2.20GHz",2012-09-30,129.99,2021-05-30,11,744,"Second Quartile",116.549524773484,8.35778467841419
+"354",599,"AMD Phenom II X6 1055T",2010-10-06,195.99,2021-05-13,58,3313,"Third Quartile",185.03075649401,44.0683192134566
+"355",555,"AMD A8-5600K APU",2012-10-10,109.99,2021-07-23,175,2846,"Second Quartile",98.6174492640627,132.964756247498
+"356",525,"AMD A8-7670K",2015-10-21,109.99,2021-12-03,87.73,3192,"Second Quartile",95.5342010231277,66.6571318033888
+"357",431,"Intel Core i5-3330 @ 3.00GHz",2012-10-10,189.99,2021-05-13,398.8,4091,"Second Quartile",170.345751301748,303.007684522871
+"358",490,"Intel Celeron G1630 @ 2.80GHz",2013-10-24,59.99,2021-05-13,51.99,1707,"First Quartile",53.013266795298,39.501929584614
+"359",830,"Intel Core2 Duo E6320 @ 1.86GHz",2017-11-18,157.95,2021-05-18,39.99,717,"Second Quartile",132.658184387549,30.3843462990712
+"360",689,"Intel Core2 Quad Q9400 @ 2.66GHz",2012-10-21,229.99,2021-11-13,53,2114,"Third Quartile",206.209902320591,40.2693261778138
+"361",538,"Intel Core i7-960 @ 3.20GHz",2010-10-15,579.99,2021-10-20,134.48,3333,"Third Quartile",547.558490019699,102.177716686649
+"362",773,"Intel Pentium G620T @ 2.20GHz",2011-07-10,82.99,2021-06-25,19.99,896,"First Quartile",75.9494166759992,15.1883741565
+"363",39,"Intel Core i7-12700KF",2021-12-31,276,2021-12-31,276,34462,"Second Quartile",209.704415567483,209.704415567483
+"364",576,"Intel Core i7-950 @ 3.07GHz",2010-09-01,299.99,2021-05-26,270,3209,"Third Quartile",283.215350990551,205.145623924712
+"365",843,"Intel Pentium E2140 @ 1.60GHz",2015-02-08,39.99,2021-05-30,159,561,"First Quartile",34.734182188516,120.807978533441
+"366",797,"AMD Phenom 8650 Triple-Core",2010-08-04,49.99,2021-05-30,19,1237,"First Quartile",47.1946911430969,14.4361735354427
+"367",744,"AMD Phenom II X4 810",2010-10-15,115.99,2021-06-01,213,1971,"Second Quartile",109.504145342825,161.837103318384
+"368",122,"Intel Core i5-11600T @ 1.70GHz",2021-12-31,213,2021-12-31,213,14713,"Second Quartile",161.837103318384,161.837103318384
+"369",613,"AMD Phenom II X4 840",2011-05-04,104.99,2021-12-01,24.49,2398,"Second Quartile",96.0830130957122,18.6074678885785
+"370",821,"Intel Pentium E2180 @ 2.00GHz",2018-04-22,230,2021-05-30,17.99,687,"Second Quartile",188.570036467189,13.6687769422428
+"371",594,"AMD FX-4130 Quad-Core",2013-01-11,109.99,2021-12-16,22.25,2684,"Second Quartile",97.198353305798,16.9055190086105
+"372",855,"Intel Celeron 420 @ 1.60GHz",2010-12-04,139.99,2021-05-30,76.99,235,"Second Quartile",132.16212868818,58.496894762828
+"373",38,"Intel Core i7-12700K",2021-12-31,409,2021-12-31,409,34652,"Third Quartile",310.757630315582,310.757630315582
+"374",408,"Intel Celeron G5905T @ 3.30GHz",2021-06-30,42,2021-06-30,42,2154,"First Quartile",31.9115414993996,31.9115414993996
+"375",442,"Intel Celeron G1850 @ 2.90GHz",2014-05-20,59.99,2021-05-13,112.99,1915,"First Quartile",52.1681428806317,85.8496446194563
+"376",787,"Intel Core2 Duo E6550 @ 2.33GHz",2014-12-09,32.99,2021-05-30,19.99,885,"First Quartile",28.6885653214209,15.1883741565
+"377",587,"AMD Athlon II X2 265",2011-04-13,77.99,2021-09-06,15.5,1265,"First Quartile",71.3735993078826,11.7768784104927
+"378",580,"Intel Core i3-560 @ 3.33GHz",2010-09-25,149.99,2021-05-13,38.76,1706,"Third Quartile",141.602955082078,29.4497940123031
+"379",345,"Intel Core i5-3550 @ 3.30GHz",2012-06-14,209.99,2021-05-13,187.91,4808,"Third Quartile",188.277826811169,142.773756265528
+"380",816,"Intel Core2 Duo E4400 @ 2.00GHz",2017-10-25,157.95,2021-05-30,42.5,673,"Second Quartile",132.658184387549,32.2914408029639
+"381",492,"Intel Core i7-980 @ 3.33GHz",2011-07-17,599.99,2021-05-13,194.99,6926,"Third Quartile",549.088932539255,148.153130403998
+"382",759,"Intel Celeron E3400 @ 2.60GHz",2010-10-20,54.99,2021-05-30,50.81,854,"First Quartile",51.9151043400459,38.6053672282023
+"383",335,"Intel Celeron G5900T @ 3.20GHz",2021-12-31,42,2021-12-31,42,2620,"First Quartile",31.9115414993996,31.9115414993996
+"384",277,"AMD Ryzen 7 1800X",2017-04-21,469.99,2021-12-21,192.75,16380,"Third Quartile",394.73263741883,146.45118152403
+"385",719,"AMD Athlon II X3 425",2010-10-15,62.99,2021-06-01,58.34,1561,"First Quartile",59.4677654551645,44.3266507398803
+"386",775,"AMD Phenom 9750 Quad-Core",2010-08-04,179.93,2021-05-30,49.99,1833,"Third Quartile",169.868789305409,37.9823323703568
+"387",308,"Intel Pentium Gold G6400T @ 3.40GHz",2021-06-30,64,2021-06-30,64,3541,"First Quartile",48.627110856228,48.627110856228
+"388",483,"Intel Core i3-2130 @ 3.40GHz",2011-12-15,149.99,2021-12-30,45.94,2035,"Third Quartile",137.265369408762,34.9051480114862
+"389",568,"Intel Core2 Duo E8600 @ 3.33GHz",2010-07-04,289.99,2021-06-10,38.99,1370,"Third Quartile",273.774524596652,29.6245476919427
+"390",712,"AMD Athlon II X2 240e",2010-09-16,71.99,2021-06-16,43.54,1002,"First Quartile",67.9645092096728,33.0816313543776
+"391",329,"Intel Core i5-3570 @ 3.40GHz",2012-08-09,214.99,2021-08-27,92.18,4920,"Third Quartile",192.760845688525,70.0382356051109
+"392",728,"AMD Athlon II X4 620",2010-08-25,89,2021-05-26,202.41,2014,"Second Quartile",84.0233549056936,153.790836068892
+"393",758,"Intel Core2 Quad Q8200 @ 2.33GHz",2010-07-04,183.99,2021-05-30,63.99,1777,"Third Quartile",173.701764821332,48.6195128701567
+"394",285,"Intel Pentium Gold G6405T @ 3.50GHz",2021-06-30,64,2021-06-30,64,3746,"First Quartile",48.627110856228,48.627110856228
+"395",741,"Intel Pentium E5300 @ 2.60GHz",2014-11-14,39.99,2021-05-13,33.75,929,"First Quartile",34.7758632071422,25.643202990589
+"396",616,"AMD Athlon X2 340 Dual Core",2013-07-29,44.99,2021-05-13,94.99,1307,"First Quartile",39.757740842148,72.1732696911422
+"397",507,"Intel Pentium G2010 @ 2.80GHz",2013-03-04,74.99,2021-05-19,24.99,1620,"First Quartile",66.268792748448,18.9873671921428
+"398",783,"Intel Pentium E2220 @ 2.40GHz",2014-11-14,46.99,2021-06-10,302.5,846,"First Quartile",40.8631610928636,229.83907865639
+"399",244,"Intel Core i3-10100E @ 3.20GHz",2021-12-31,125,2021-12-31,125,8365,"First Quartile",94.9748258910703,94.9748258910703
+"400",707,"AMD Athlon II X2 235e",2017-12-10,17.99,2021-06-01,97.5,1080,"First Quartile",15.1093430650966,74.0803641950348
+"401",691,"Intel Pentium E5500 @ 2.80GHz",2011-04-07,72.99,2021-05-30,39.99,1033,"First Quartile",66.797781939766,30.3843462990712
+"402",355,"Intel Core i7-4930K @ 3.40GHz",2013-09-14,579.99,2021-09-27,179.96,9403,"Third Quartile",512.538166504499,136.733357338856
+"403",237,"Intel Core i3-10105T @ 3.00GHz",2021-06-30,122,2021-06-30,122,8024,"First Quartile",92.6954300696846,92.6954300696846
+"404",478,"AMD A6-7470K",2016-07-15,67.92,2021-11-12,39.99,1799,"First Quartile",58.259322243261,30.3843462990712
+"405",399,"AMD Athlon 200GE",2019-01-06,59.99,2021-08-28,123.89,4117,"First Quartile",48.309581307323,94.1314494371576
+"406",382,"Intel Core i5-3450 @ 3.10GHz",2012-07-02,189.99,2021-05-13,97.97,4495,"Second Quartile",170.345751301748,74.4374695403853
+"407",720,"AMD A4-3400 APU",2012-11-08,48.99,2021-06-01,108.5,1081,"First Quartile",43.9246189603276,82.438148873449
+"408",651,"Intel Core i7-920 @ 2.67GHz",2010-07-04,294.99,2021-05-13,38.99,2833,"Third Quartile",278.494937793602,29.6245476919427
+"409",700,"AMD Phenom II X4 820",2011-03-09,99.99,2021-05-30,29,2086,"Second Quartile",91.5071957275956,22.0341596067283
+"410",381,"Intel Core i5-3450S @ 2.80GHz",2012-08-09,199.99,2021-05-13,129,4375,"Third Quartile",179.311789056459,98.0140203195846
+"411",834,"Intel Pentium E2160 @ 1.80GHz",2014-11-14,33.99,2021-05-30,12.94,638,"First Quartile",29.5581793050954,9.8317939762436
+"412",266,"Intel Pentium Gold G6500T @ 3.50GHz",2021-03-31,75,2021-03-31,75,3874,"First Quartile",56.9848955346422,56.9848955346422
+"413",833,"Intel Core2 Duo E6300 @ 1.86GHz",2014-11-14,46.99,2021-05-30,42.5,638,"First Quartile",40.8631610928636,32.2914408029639
+"414",653,"AMD A8-3850 APU",2012-02-08,129.99,2021-06-01,129.68,2361,"Second Quartile",116.549524773484,98.530683372432
+"415",430,"Intel Core i3-3220 @ 3.30GHz",2012-10-10,129.99,2022-09-10,41,2263,"Second Quartile",116.549524773484,28.8442063817325
+"416",175,"Intel Core i5-8600K @ 3.60GHz",2017-10-09,258,2022-08-04,185,10205,"Third Quartile",216.687632617839,130.150687332207
+"417",729,"Intel Core2 Quad Q8300 @ 2.50GHz",2008-11-30,224,2022-09-27,54.46,1883,"Third Quartile",215.716486902928,38.3135482816866
+"418",272,"AMD Ryzen 3 3200G",2019-08-01,99.99,2022-07-13,129.98,7136,"First Quartile",80.5213374715657,91.4431694023801
+"419",493,"Intel Celeron G1820 @ 2.70GHz",2014-02-28,49.99,2022-10-04,29.99,1707,"First Quartile",43.472003043887,21.0984816923941
+"420",571,"AMD Athlon II X3 460",2011-08-25,89.99,2022-01-23,29.99,2008,"Second Quartile",82.3555609913624,21.0984816923941
+"421",785,"AMD Athlon II X4 600e",2010-10-15,123.99,2022-05-04,19.99,1795,"Second Quartile",117.056806457943,14.0633094041666
+"422",664,"AMD Athlon II X3 440",2010-12-02,88.99,2022-04-24,14.76,1712,"Second Quartile",84.0139140792997,10.3839142974237
+"423",585,"Intel Pentium G850 @ 2.90GHz",2011-07-28,97.99,2022-01-06,101.98,1433,"Second Quartile",89.6768687803489,71.7446869953433
+"424",622,"AMD FX-4100 Quad-Core",2012-01-13,109.99,2022-03-11,23.99,2610,"Second Quartile",98.6174492640627,16.8773783194576
+"425",655,"AMD Athlon II X4 640",2010-09-16,104.99,2022-04-29,19.99,2236,"Second Quartile",99.1192363095367,14.0633094041666
+"426",523,"AMD A8-9600",2017-08-27,69.99,2022-09-21,127,3299,"First Quartile",58.7828194066766,89.3466880604884
+"427",446,"Intel Core i5-2450P @ 3.20GHz",2012-04-18,214.99,2022-04-16,179,4203,"Third Quartile",192.760845688525,125.929583959271
+"428",246,"Intel Core i3-7100 @ 3.90GHz",2017-01-14,119.99,2022-12-28,85.07,4337,"First Quartile",100.776546658196,59.8482106559508
+"429",553,"Intel Core i5-2300 @ 2.80GHz",2011-01-10,184.99,2022-04-21,40.26,3420,"Third Quartile",169.296090985578,28.3236036324036
+"430",646,"Intel Core i5-750 @ 2.67GHz",2010-09-22,189.99,2022-03-19,597,2532,"Third Quartile",179.366260657671,419.999785607178
+"431",551,"AMD A6-7400K APU",2014-12-27,64.99,2022-08-17,49.99,1623,"Second Quartile",56.5162127990041,35.1688262688489
+"432",634,"AMD Athlon II X4 645",2010-12-28,118.99,2022-05-12,16.48,2341,"Second Quartile",112.336393260994,11.5939639309988
+"433",534,"AMD FX-4170 Quad-Core",2012-03-12,139.99,2022-07-06,39,3034,"Second Quartile",125.515562528195,27.437171924087
+"434",598,"Intel Pentium G645 @ 2.90GHz",2013-02-07,67.99,2022-11-23,133.82,1388,"First Quartile",60.082880636978,94.1446755610595
+"435",158,"Intel Core i3-9350KF @ 4.00GHz",2019-01-01,184,2022-05-11,206.99,7549,"Second Quartile",148.174078355516,145.62103119402
+"436",440,"Intel Core i5-2500K @ 3.30GHz",2011-03-20,224.99,2022-08-20,81.9,4121,"Third Quartile",205.90262993051,57.6180610405827
+"437",286,"Intel Core i7-4770 @ 3.40GHz",2013-07-14,309.99,2022-12-13,108,7057,"Third Quartile",273.938699347798,75.9798607128563
+"438",597,"AMD Athlon II X3 455",2011-03-04,89.99,2022-07-08,25.76,1863,"Second Quartile",82.3555609913624,18.1226038144739
+"439",822,"Intel Celeron G440 @ 1.60GHz",2012-02-03,40.99,2022-06-25,91,425,"First Quartile",36.751788756559,64.0200678228696
+"440",289,"Intel Core i7-4770K @ 3.50GHz",2013-06-04,349.99,2022-10-19,72.05,7124,"Third Quartile",309.286768556198,50.6884163366786
+"441",713,"Intel Celeron G530 @ 2.40GHz",2011-12-15,51.99,2022-06-04,29.99,1117,"First Quartile",47.5793489936763,21.0984816923941
+"442",859,"AMD Sempron 3850 APU",2014-11-14,35.99,2022-07-06,47.57,1142,"First Quartile",31.2974072724443,33.4663145750979
+"443",466,"Intel Pentium G2030 @ 3.00GHz",2013-04-01,64,2022-11-19,59.68,1748,"First Quartile",56.5569107334401,41.9859082161413
+"444",648,"AMD Phenom II X2 550",2010-09-16,83.99,2022-05-04,41.91,1158,"Second Quartile",79.2935008823506,29.4844070599612
+"445",352,"Intel Core i3-4330 @ 3.50GHz",2013-09-16,149.99,2022-08-27,120.7,3542,"Second Quartile",132.546422514198,84.9145295189051
+"446",420,"Intel Core i7-3930K @ 3.20GHz",2011-12-01,599.99,2022-08-12,399.1,8209,"Third Quartile",549.088932539255,280.773726023157
+"447",441,"Intel Core i3-3225 @ 3.30GHz",2012-10-10,144.99,2022-07-12,198,2231,"Second Quartile",129.99858140555,139.296411306903
+"448",279,"Intel Core i7-4771 @ 3.50GHz",2013-09-18,319.99,2022-11-25,129.74,7140,"Third Quartile",282.775716649898,91.2743252674627
+"449",389,"Intel Core i7-3970X @ 3.50GHz",2013-01-02,1079.99,2022-07-05,185.59,8461,"Third Quartile",954.389031609499,130.565762497213
+"450",301,"Intel Core i7-4770S @ 3.10GHz",2013-06-04,309.99,2022-10-05,128.95,6761,"Third Quartile",273.938699347798,90.7185466566927
+"451",213,"Intel Core i5-7600 @ 3.50GHz",2017-01-09,229.99,2022-12-17,125.3,6559,"Second Quartile",193.162746611538,88.1507087714897
+"452",476,"Intel Core i7-990X @ 3.47GHz",2012-08-17,1029.99,2022-03-20,1500.19,7106,"Third Quartile",923.492922697445,1055.40951150759
+"453",426,"Intel Core i7-3820 @ 3.60GHz",2012-05-13,299.99,2022-12-07,99.99,5754,"Third Quartile",268.972166603565,70.3446877099861
+"454",123,"Intel Core i7-9700KF @ 3.60GHz",2019-01-01,385,2022-10-24,294.8,14314,"Third Quartile",310.038153080836,207.396879056945
+"455",293,"Intel Core i3-4370 @ 3.80GHz",2014-09-16,159.99,2022-11-24,123.99,3847,"Third Quartile",139.129541248079,87.2291012017319
+"456",402,"Intel Core i5-4430 @ 3.00GHz",2013-06-05,189.99,2022-12-07,12.99,4655,"Third Quartile",167.894491722598,9.13868880240743
+"457",390,"Intel Core i3-3250 @ 3.50GHz",2013-11-23,129.99,2022-11-25,80.1,2435,"Second Quartile",114.872387909998,56.3517300287017
+"458",635,"AMD Athlon II X2 260",2010-09-22,67.99,2022-01-23,59.99,1167,"First Quartile",64.1881786521135,42.2039985570764
+"459",404,"Intel Core i5-3350P @ 3.10GHz",2013-01-11,179.99,2022-05-31,237.19,4280,"Second Quartile",159.057474420498,166.867251504466
+"460",177,"Intel Core i7-10700T @ 2.00GHz",2020-04-01,323,2022-02-02,519,12836,"Second Quartile",256.949452757344,365.125441759004
+"461",449,"Intel Celeron G3930T @ 2.70GHz",2017-01-01,42,2022-02-11,96.6,2040,"First Quartile",35.2747308912761,67.959764304277
+"462",364,"Intel Core i3-4150 @ 3.50GHz",2014-05-29,129.99,2022-10-13,76.6,3393,"Second Quartile",113.041121737845,53.8894197278221
+"463",322,"Intel Core i7-3770K @ 3.50GHz",2012-04-30,349.99,2022-08-30,125,6462,"Third Quartile",313.802355377119,87.9396536028429
+"464",242,"Intel Core i3-6320 @ 3.90GHz",2015-11-22,169.99,2022-11-16,96.6,4509,"Second Quartile",147.648502881366,67.959764304277
+"465",324,"Intel Core i3-4170 @ 3.70GHz",2015-07-21,119.99,2022-10-07,57.88,3594,"Second Quartile",104.219917999501,40.7195772042604
+"466",481,"Intel Core i3-2125 @ 3.30GHz",2011-12-18,149.99,2022-07-28,149.99,2083,"Third Quartile",137.265369408762,105.520549151123
+"467",607,"AMD Phenom II X4 960T",2011-12-28,109.99,2022-01-23,28.88,2344,"Second Quartile",100.658830463829,20.3175775684008
+"468",698,"AMD Athlon II X4 630",2010-09-22,92.99,2022-07-06,29.98,2124,"Second Quartile",87.7902446368589,21.0914465201058
+"469",591,"Intel Core i3-550 @ 3.20GHz",2010-10-21,129.99,2022-06-08,17.91,1610,"Second Quartile",122.721302294282,12.5999935682153
+"470",605,"AMD Phenom II X2 555",2010-09-02,88.99,2022-06-08,13.18,1301,"Second Quartile",84.0139140792997,9.27235707588375
+"471",267,"Intel Core i7-4790 @ 3.60GHz",2014-08-21,309.99,2022-10-25,105,7269,"Third Quartile",269.57163879925,73.869309026388
+"472",298,"Intel Core i5-4670 @ 3.40GHz",2013-08-28,209.99,2022-08-11,92.52,5501,"Third Quartile",185.568526326798,65.0894140106802
+"473",318,"Intel Core i7-4960X @ 3.60GHz",2013-09-16,1049.99,2022-03-08,1250,10092,"Third Quartile",927.877979703199,879.396536028429
+"474",405,"Intel Core i3-3245 @ 3.40GHz",2013-07-28,139.99,2022-09-24,145,2379,"Second Quartile",123.709405212098,102.009998179298
+"475",586,"AMD Athlon II X2 270",2011-10-08,69.99,2022-06-04,15.3,1289,"First Quartile",64.052291518896,10.763813600988
+"476",699,"AMD Athlon II X4 631 Quad-Core",2011-12-04,84.99,2022-05-05,9.96,2150,"First Quartile",77.7797436232458,7.00703159907452
+"477",504,"Intel Core i3-2120 @ 3.30GHz",2011-07-16,139.99,2022-09-21,31.99,1952,"Second Quartile",128.113734672528,22.5055161500396
+"478",344,"Intel Core i3-4160 @ 3.60GHz",2014-08-30,129.99,2022-09-28,122.57,3513,"Second Quartile",113.041121737845,86.2301067368036
+"479",412,"Intel Pentium G4600T @ 3.00GHz",2018-01-13,87.78,2022-04-07,118,3055,"First Quartile",71.9681643525646,83.0150330010837
+"480",615,"AMD Athlon II X3 450",2010-12-28,79.99,2022-04-29,34.01,1822,"Second Quartile",75.5171703247913,23.9266209522615
+"481",403,"Intel Core i7-3960X @ 3.30GHz",2011-11-10,1317.58,2022-08-26,199.98,8401,"Third Quartile",1205.80108957661,140.689375419972
+"482",678,"AMD Athlon II X4 635",2010-08-12,99,2022-01-20,21.97,2206,"Second Quartile",93.4641812995917,15.4562735172357
+"483",333,"Intel Core i5-4570 @ 3.20GHz",2013-08-21,189.99,2022-10-15,93.99,5228,"Third Quartile",167.894491722598,66.1235843370496
+"484",539,"AMD Phenom II X6 1090T",2010-09-16,279.99,2022-05-01,87.57,3756,"Third Quartile",264.333698202754,61.6070037280076
+"485",468,"AMD A10-6800K APU",2013-11-03,139.99,2022-08-24,50.4,3217,"Second Quartile",123.709405212098,35.4572683326663
+"486",498,"AMD Athlon X4 760K Quad Core",2018-03-21,46.5,2022-09-13,13.55,2948,"First Quartile",38.123942155323,9.53265845054817
+"487",230,"Intel Core i3-7300 @ 4.00GHz",2017-02-22,139.99,2022-11-28,137.26,4530,"First Quartile",117.574037558804,96.5647748282097
+"488",356,"Intel Core i3-7100T @ 3.40GHz",2017-01-01,117,2022-06-21,175.1,3768,"First Quartile",98.265321768555,123.185866766862
+"489",708,"Intel Pentium G6950 @ 2.80GHz",2010-09-05,99.99,2022-02-14,12.99,1238,"Second Quartile",94.3988231125876,9.13868880240743
+"490",425,"Intel Core i7-2600K @ 3.40GHz",2011-03-08,328.99,2022-08-19,79.99,5485,"Third Quartile",301.079631187335,56.2743431335312
+"491",427,"Intel Core i7-2600 @ 3.40GHz",2011-05-15,289.99,2022-10-15,59.49,5342,"Third Quartile",265.388255716026,41.852239942665
+"492",328,"Intel Core i7-5930K @ 3.50GHz",2014-11-07,579.99,2022-09-30,44.99,10303,"Third Quartile",504.367414391359,31.6512401247352
+"493",311,"Intel Pentium G3470 @ 3.60GHz",2015-05-07,99.99,2022-12-06,309.73,2428,"Second Quartile",86.8484840467546,217.900391283268
+"494",670,"Intel Core2 Quad Q9505 @ 2.83GHz",2010-07-04,239.99,2022-08-26,329.99,2132,"Third Quartile",226.570392627162,232.153650339217
+"495",373,"Intel Core i5-4460 @ 3.20GHz",2014-05-15,189.99,2022-10-28,55.97,4882,"Third Quartile",165.217960758313,39.3758592972089
+"496",530,"AMD FX-8320 Eight-Core",2012-10-27,179.99,2022-04-24,96.47,5452,"Second Quartile",161.379713547037,67.86830706453
+"497",245,"Intel Core i5-6600K @ 3.50GHz",2015-09-25,259.99,2022-11-16,79,6322,"Third Quartile",225.819955668724,55.5778610769967
+"498",306,"Intel Core i5-6500 @ 3.20GHz",2015-11-11,194.99,2022-12-07,80.98,5633,"Second Quartile",169.362795322299,56.9708251900657
+"499",495,"Intel Core i7-980X @ 3.33GHz",2016-06-05,499,2022-09-19,133,6854,"Third Quartile",428.024172546926,93.5677914334248
+"500",215,"Intel Core i7-4790K @ 4.00GHz",2014-07-09,339.99,2022-11-18,86.97,8068,"Third Quartile",295.660058309485,61.184893390714
+"501",330,"Intel Core i7-3770S @ 3.10GHz",2012-07-11,309.99,2022-09-16,109,6180,"Third Quartile",277.938204358276,76.683377941679
+"502",166,"Intel Core i7-8700 @ 3.20GHz",2017-10-09,312,2022-12-28,236.2,12873,"Third Quartile",262.04085804948,166.170769447932
+"503",554,"Intel Core i3-2105 @ 3.10GHz",2011-07-02,139.99,2022-04-16,113,1851,"Second Quartile",128.113734672528,79.49744685697
+"504",545,"AMD A6-6400K APU",2013-09-26,74.99,2022-04-24,19.81,1494,"First Quartile",66.268792748448,13.9366763029785
+"505",548,"Intel Core i5-2405S @ 2.50GHz",2011-07-13,219.99,2022-04-16,132.56,3157,"Third Quartile",201.326812562394,93.2582438527428
+"506",243,"Intel Core i7-6900K @ 3.20GHz",2016-06-09,1199.99,2022-12-31,210.15,14436,"Third Quartile",1029.30806976871,147.844145637099
+"507",642,"AMD Athlon II X2 255",2010-10-15,62.99,2022-07-13,12.55,1170,"First Quartile",59.4677654551645,8.82914122172543
+"508",455,"AMD Athlon X4 880K",2016-06-05,94.01,2022-04-25,94.65,3659,"Second Quartile",80.6383816856444,66.5879057080726
+"509",85,"Intel Core i5-12400T",2022-09-30,149.99,2022-09-30,149.99,16167,"First Quartile",105.520549151123,105.520549151123
+"510",179,"Intel Core i5-9500 @ 3.00GHz",2019-04-01,202,2022-10-22,175.99,9815,"Second Quartile",162.669368629426,123.811997100515
+"511",604,"AMD FX-6100 Six-Core",2011-12-25,149.99,2022-05-25,59,3681,"Third Quartile",137.265369408762,41.5075165005418
+"512",357,"Intel Core i7-4820K @ 3.70GHz",2013-11-14,324.99,2022-10-08,250,6526,"Third Quartile",287.194225300948,175.879307205686
+"513",332,"Intel Celeron G4950 @ 3.30GHz",2019-04-01,52,2022-04-22,1008.66,2714,"First Quartile",41.8752830135155,709.609688024348
+"514",435,"Intel Pentium G4560T @ 2.90GHz",2018-03-01,74.52,2022-07-27,124.65,2966,"First Quartile",61.0966918153692,87.6934225727549
+"515",544,"Intel Core i5-655K @ 3.20GHz",2018-07-06,59.99,2022-03-14,77.99,2017,"First Quartile",49.1839847289855,54.8673086758857
+"516",321,"Intel Core i7-3770 @ 3.40GHz",2012-04-30,319.99,2022-11-16,74.77,6410,"Third Quartile",286.904242112987,52.6019831990765
+"517",503,"Intel Celeron G1830 @ 2.80GHz",2014-02-19,59.99,2022-03-12,69.95,1560,"First Quartile",52.1681428806317,49.2110301561509
+"518",509,"AMD A10-7870K",2015-08-09,144.99,2022-08-14,68.96,3429,"Second Quartile",125.934210440434,48.5145480996164
+"519",561,"Intel Core i3-2100 @ 3.10GHz",2011-05-25,124.99,2022-01-05,29.45,1847,"Second Quartile",114.386282568179,20.7185823888298
+"520",439,"Intel Pentium G3220 @ 3.00GHz",2013-09-13,69.99,2022-11-16,63.46,1892,"First Quartile",61.850284097398,44.6452033410913
+"521",149,"Intel Core i3-9320 @ 3.70GHz",2019-04-01,162,2022-07-21,215.67,7358,"Second Quartile",130.457612465183,151.727560740201
+"522",126,"Intel Core i3-10325 @ 3.90GHz",2022-03-31,190.1,2022-03-31,190.1,10268,"First Quartile",133.738625199203,133.738625199203
+"523",443,"AMD FX-9370 Eight-Core",2013-09-20,299.99,2022-11-24,369.72,6159,"Third Quartile",265.101682045698,260.104389840345
+"524",258,"Intel Core i5-7500 @ 3.40GHz",2017-02-12,202.67,2022-10-21,92.93,6023,"Second Quartile",170.217374041308,65.3778560744975
+"525",807,"Intel Celeron G465 @ 1.90GHz",2018-07-14,29.99,2022-04-09,37,547,"First Quartile",24.5878930158739,26.0301374664415
+"526",376,"Intel Pentium G3450 @ 3.40GHz",2014-07-17,99.99,2022-03-12,57.97,2167,"Second Quartile",86.9527022276107,40.7828937548544
+"527",419,"Intel Core i5-3340S @ 2.80GHz",2013-11-17,199.99,2022-08-15,129.99,3914,"Third Quartile",176.731509024698,91.4502045746684
+"528",64,"Intel Core i7-12700T",2022-06-30,339,2022-06-30,339,21589,"Second Quartile",238.49234057091,238.49234057091
+"529",340,"Intel Pentium G4400 @ 3.30GHz",2016-01-16,59.9,2022-12-10,57.99,2578,"First Quartile",51.3800559830879,40.7969640994309
+"530",513,"AMD FX-8300 Eight-Core",2016-02-23,124.99,2022-08-24,59.69,5309,"Second Quartile",107.211906466213,41.9929433884295
+"531",94,"Intel Core i3-12100T",2022-03-31,122,2022-03-31,122,12676,"First Quartile",85.8291019163747,85.8291019163747
+"532",437,"Intel Core i3-3210 @ 3.20GHz",2013-02-21,129.99,2022-07-02,153,2221,"Second Quartile",114.872387909998,107.63813600988
+"533",351,"Intel Core i7-5960X @ 3.00GHz",2014-08-31,1049.99,2022-08-24,165,12717,"Third Quartile",913.085986718362,116.080342755753
+"534",291,"Intel Core i5-7600T @ 2.80GHz",2017-06-19,266.94,2022-04-04,199,5889,"Third Quartile",224.196111050411,139.999928535726
+"535",296,"Intel Core i5-4670K @ 3.40GHz",2013-06-25,239.99,2022-12-29,117,5567,"Third Quartile",212.079578233098,82.3115157722609
+"536",522,"AMD FX-4300 Quad-Core",2013-02-21,119.99,2022-05-20,22,2995,"Second Quartile",106.035370607898,15.4773790341003
+"537",59,"Intel Core i5-12500",2022-03-31,202,2022-03-31,202,19930,"Second Quartile",142.110480222194,142.110480222194
+"538",192,"Intel Pentium Gold G7400T",2022-06-30,64,2022-06-30,64,5688,"First Quartile",45.0251026446556,45.0251026446556
+"539",339,"Intel Pentium G4520 @ 3.60GHz",2015-11-28,99.99,2022-12-10,97.33,2707,"Second Quartile",86.8484840467546,68.4733318813176
+"540",528,"Intel Core i5-2400S @ 2.50GHz",2011-03-16,202.99,2022-04-03,144.19,3162,"Third Quartile",185.769033510797,101.440149223951
+"541",55,"Intel Core i7-12700E",2022-09-30,344,2022-09-30,344,29384,"Second Quartile",242.009926715024,242.009926715024
+"542",256,"Intel Pentium Gold G6505T @ 3.60GHz",2022-12-31,90,2022-12-31,90,3698,"First Quartile",63.3165505940469,63.3165505940469
+"543",52,"Intel Core i9-12900T",2022-03-31,489,2022-03-31,489,30113,"Third Quartile",344.019924894321,344.019924894321
+"544",255,"Intel Core i7-6800K @ 3.40GHz",2016-07-13,352,2022-12-01,189.99,10758,"Third Quartile",301.932883239515,133.661238304033
+"545",68,"Intel Core i5-12400",2022-03-31,192,2022-03-31,192,19425,"Second Quartile",135.075307933967,135.075307933967
+"546",414,"Intel Core i5-7400T @ 2.40GHz",2017-06-11,204.71,2022-03-19,179.59,4744,"Second Quartile",171.93071811317,126.344659124276
+"547",238,"Intel Celeron G6900T",2022-09-30,42,2022-09-30,42,4003,"First Quartile",29.5477236105552,29.5477236105552
+"548",69,"Intel Core i5-12500T",2022-06-30,202,2022-06-30,202,16575,"Second Quartile",142.110480222194,142.110480222194
+"549",550,"AMD FX-8320E Eight-Core",2014-11-21,119.99,2022-12-06,132,5087,"Second Quartile",104.3449819011,92.8642742046021
+"550",375,"Intel Core i5-3470S @ 2.90GHz",2013-03-18,197.99,2022-07-02,72.41,4387,"Third Quartile",174.964105564278,50.9416825390548
+"551",424,"Intel Pentium G3240 @ 3.10GHz",2014-07-16,69.99,2022-11-18,49.75,1938,"Second Quartile",60.8642827173765,34.9999821339315
+"552",82,"Intel Core i3-12300T",2022-12-31,157,2022-12-31,157,13251,"First Quartile",110.452204925171,110.452204925171
+"553",445,"AMD Athlon X4 845",2016-04-16,67.99,2022-09-16,59.99,3807,"First Quartile",58.3193657143598,42.2039985570764
+"554",48,"Intel Core i5-13500",2022-09-30,247.98,2022-09-30,247.98,32004,"Second Quartile",174.458202403464,174.458202403464
+"555",297,"Intel Pentium G4500 @ 3.50GHz",2015-11-20,89.99,2022-08-17,79.99,2772,"First Quartile",78.1627670703815,56.2743431335312
+"556",853,"AMD Sempron 2650 APU",2014-09-19,39.99,2022-07-23,114,574,"First Quartile",34.7758632071422,80.2009640857927
+"557",423,"Intel Pentium G2130 @ 3.20GHz",2013-02-20,99.99,2022-05-11,76,1921,"Second Quartile",88.361336003698,53.4673093905285
+"558",180,"Intel Core i3-7350K @ 4.20GHz",2017-03-02,169.99,2022-11-30,113.89,4958,"Second Quartile",142.770273909715,80.1235771906222
+"559",343,"AMD Ryzen 7 1700",2017-04-09,324.99,2022-12-13,100.28,14819,"Third Quartile",272.950828389425,70.5487077063447
+"560",307,"Intel Celeron G5900 @ 3.40GHz",2020-04-01,42,2022-04-05,57.99,2643,"First Quartile",33.4113839498714,40.7969640994309
+"561",665,"Intel Pentium E6600 @ 3.06GHz",2017-10-24,14.9,2022-12-21,37.48,1121,"First Quartile",12.5141307209527,26.3678257362764
+"562",487,"AMD Athlon X4 870K",2016-04-20,93.99,2022-08-22,36.59,3410,"Second Quartile",80.6212264081876,25.7416954026242
+"563",125,"Intel Core i7-9700K @ 3.60GHz",2018-10-22,419.99,2022-10-29,315.99,14477,"Third Quartile",344.337085286325,222.304409135699
+"564",421,"Intel Core i5-2550K @ 3.40GHz",2012-03-04,229.99,2022-09-12,106.25,4088,"Third Quartile",206.209902320591,74.7487055624164
+"565",625,"Intel Pentium E5800 @ 3.20GHz",2014-12-12,48.99,2022-06-29,92.19,1173,"First Quartile",42.6023890602125,64.8572533251687
+"566",74,"AMD Ryzen 9 5950X",2020-11-05,799,2022-12-26,534.99,45682,"Third Quartile",635.61180418922,376.374682247879
+"567",536,"AMD A10-7800 APU",2014-10-28,159.99,2022-02-15,53.17,3202,"Third Quartile",139.129541248079,37.4060110565052
+"568",347,"Intel Core i5-3570S @ 3.10GHz",2021-06-07,69.99,2022-04-06,67.96,4618,"First Quartile",53.1783045129281,47.8110308707936
+"569",565,"AMD A4-6300 APU",2013-11-07,59.99,2022-01-20,27.49,1432,"First Quartile",53.013266795298,19.3396886203372
+"570",65,"Intel Core i3-12300",2022-03-31,143,2022-03-31,143,14695,"First Quartile",100.602963721652,100.602963721652
+"571",78,"Intel Core i3-12100",2022-03-31,122,2022-03-31,122,13537,"First Quartile",85.8291019163747,85.8291019163747
+"572",284,"Intel Pentium G4600 @ 3.60GHz",2017-02-15,89.62,2023-01-26,76,3631,"First Quartile",75.2695567256231,51.3614883674625
+"573",563,"AMD FX-6200 Six-Core",2012-05-16,159.99,2023-03-08,36.03,4105,"Second Quartile",143.447638037616,24.349400340522
+"574",501,"Intel Core i5-2320 @ 3.00GHz",2011-12-15,189.99,2023-04-28,26.11,3658,"Third Quartile",173.871908353694,17.6453744904532
+"575",583,"AMD Phenom II X6 1065T",2021-06-03,159,2023-05-08,69.17,3384,"First Quartile",120.807978533441,46.7457125049656
+"576",623,"Intel Core2 Quad Q9650 @ 3.00GHz",2010-07-04,329.99,2023-02-28,53.71,2469,"Third Quartile",311.537830172245,36.2977044765317
+"577",201,"Intel Core i9-7920X @ 2.90GHz",2017-09-10,1199.99,2023-03-26,165.59,23616,"Third Quartile",1007.84105529101,111.907221825896
+"578",410,"Intel Celeron G3930 @ 2.90GHz",2018-08-16,51.17,2023-04-18,19.37,2237,"First Quartile",41.9527337653307,13.0904214431283
+"579",315,"Intel Core i5-4590 @ 3.30GHz",2014-05-17,199.99,2023-05-10,18.74,5369,"Third Quartile",173.914100595058,12.6646617369243
+"580",577,"Intel Celeron G1610 @ 2.60GHz",2013-02-07,49.99,2023-03-25,7.19,1517,"First Quartile",44.176249493198,4.85906712318494
+"581",310,"Intel Pentium G4560 @ 3.50GHz",2017-03-20,79.99,2023-03-19,29.99,3529,"First Quartile",67.1815648569805,20.2675136334237
+"582",467,"Intel Core i5-2380P @ 3.10GHz",2012-06-10,194.99,2023-01-07,116.67,3797,"Third Quartile",174.828770179103,78.8466427346296
+"583",508,"AMD Phenom II X6 1100T",2011-03-06,229.99,2023-04-28,123.01,3849,"Third Quartile",210.478447298627,83.1312721589679
+"584",433,"Intel Pentium G2120 @ 3.10GHz",2012-12-27,99.99,2023-05-26,85,1892,"Second Quartile",89.651411509352,57.443769884662
+"585",593,"AMD FX-8120 Eight-Core",2011-12-29,209.99,2023-03-24,30.74,4645,"Third Quartile",192.175177826161,20.7743704265237
+"586",574,"Intel Core i7-870 @ 2.93GHz",2010-09-26,279.99,2023-03-08,51.17,3120,"Third Quartile",264.333698202754,34.5811494705665
+"587",278,"Intel Core i5-4690K @ 3.50GHz",2014-08-28,249.99,2023-05-26,65,5690,"Third Quartile",217.394799778782,43.9275887353298
+"588",762,"AMD Athlon II X4 605e",2011-01-09,138.99,2023-04-20,14.2,1963,"Second Quartile",127.198571198905,9.59648861602589
+"589",566,"AMD A8-7650K",2016-04-03,96.69,2023-02-18,38.09,3123,"Second Quartile",82.9371888648543,25.7415669989033
+"590",472,"AMD FX-8350 Eight-Core",2012-12-13,209.99,2023-01-31,77.38,6059,"Third Quartile",188.277826811169,52.2941048667664
+"591",342,"Intel Core i7-5820K @ 3.30GHz",2014-11-08,374.99,2023-02-01,36.99,9859,"Third Quartile",326.096547738091,24.99817703569
+"592",624,"AMD Phenom II X6 1045T",2012-02-09,149.99,2023-05-09,48,3184,"Second Quartile",134.481600282905,32.4388347583974
+"593",581,"Intel Core i5-650 @ 3.20GHz",2010-11-12,164.99,2023-05-26,221.45,2239,"Third Quartile",155.764194672926,149.657915775981
+"594",570,"Intel Pentium G860 @ 3.00GHz",2011-12-15,99.99,2023-03-10,22.7,1470,"Second Quartile",91.5071957275956,15.3408656044921
+"595",802,"AMD Phenom 8450 Triple-Core",2010-07-20,50.99,2023-03-08,16.97,1216,"First Quartile",48.1387737824867,11.4684797052084
+"596",251,"Intel Core i7-6700 @ 3.40GHz",2015-09-28,329.99,2023-03-23,119.99,8094,"Third Quartile",286.619974503336,81.0903288054188
+"597",589,"AMD A6-9500E",2018-10-13,59.99,2023-01-03,57.91,1756,"First Quartile",49.1839847289855,39.1361025178915
+"598",560,"Intel Core i5-660 @ 3.33GHz",2010-07-04,207.99,2023-01-22,22.99,2382,"Third Quartile",196.359748166688,15.5368502311574
+"599",205,"Intel Core i9-7960X @ 2.80GHz",2017-10-06,1784.99,2023-02-24,257.98,28754,"Third Quartile",1499.16766413379,174.345220645237
+"600",629,"Intel Core i3-540 @ 3.07GHz",2010-08-17,124.99,2023-03-19,23.08,1535,"Second Quartile",118.000889097333,15.5976730463294
+"601",469,"AMD A10-6700 APU",2013-06-16,148.99,2023-01-12,38.78,3116,"Second Quartile",131.662720783988,26.2078752485552
+"602",529,"AMD A10-9700E",2018-01-17,159.98,2023-02-18,89.2,3180,"Second Quartile",131.162758408787,60.2821679260218
+"603",146,"Intel Core i7-7700K @ 4.20GHz",2017-01-07,349.99,2023-05-28,129.99,9656,"Third Quartile",293.947692015184,87.8484193800849
+"604",350,"Intel Pentium G3460 @ 3.50GHz",2014-09-24,104.99,2023-01-10,175,2216,"Second Quartile",91.3007721459831,118.266585056657
+"605",798,"AMD Phenom 9550 Quad-Core",2010-08-04,99.97,2023-04-15,26.81,1656,"Second Quartile",94.3799414597998,18.1184408306799
+"606",675,"Intel Core i3-530 @ 2.93GHz",2010-10-15,113.99,2023-04-12,115.19,1492,"Second Quartile",107.615980064045,77.846445329579
+"607",327,"Intel Core i5-3570K @ 3.40GHz",2012-06-20,229.99,2023-02-12,54.95,4954,"Third Quartile",206.209902320591,37.1357077077903
+"608",239,"Intel Core i7-6950X @ 3.00GHz",2016-06-29,1729.99,2023-01-09,379.74,17433,"Third Quartile",1483.92292237366,256.631731482371
+"609",541,"Intel Celeron G1620 @ 2.70GHz",2013-02-07,59.99,2023-05-09,98,1560,"First Quartile",53.013266795298,66.229287631728
+"610",409,"Intel Celeron G3920 @ 2.90GHz",2016-06-15,67.15,2023-03-29,1083.82,2358,"First Quartile",57.5988440611746,732.455372663463
+"611",482,"AMD A10-7890K",2016-06-05,162.83,2023-03-22,137.19,3522,"Third Quartile",139.669691414461,92.7142445938445
+"612",263,"Intel Pentium Gold G5500 @ 3.80GHz",2018-04-01,82,2023-03-25,10.71,3823,"First Quartile",67.2293173491717,7.23791500546742
+"613",549,"AMD FX-8150 Eight-Core",2011-11-27,269.99,2023-04-23,37.1,5260,"Third Quartile",247.08498624356,25.0725160320113
+"614",150,"AMD Ryzen 9 3900X",2019-07-07,499,2023-04-15,224.99,32661,"Third Quartile",401.841658148928,152.050279839413
+"615",316,"Intel Core i3-4360 @ 3.70GHz",2014-05-21,159.99,2023-02-23,110.42,3631,"Third Quartile",139.129541248079,74.6228361254633
+"616",157,"Intel Core i9-10940X @ 3.30GHz",2019-10-01,784,2023-04-06,740.81,27860,"Third Quartile",631.350420819157,500.646107861841
+"617",323,"AMD Ryzen 5 1600",2017-05-26,218.99,2023-02-08,84.95,12282,"Second Quartile",183.924126616204,57.4099794317887
+"618",281,"Intel Core i5-4690 @ 3.50GHz",2014-07-09,224.99,2023-01-12,64.99,5569,"Third Quartile",195.65445018692,43.9208306447551
+"619",222,"Intel Core i5-9400 @ 2.90GHz",2019-01-01,182,2023-05-11,181.45,9376,"Second Quartile",146.563490547304,122.625553477317
+"620",271,"Intel Core i7-4790S @ 3.20GHz",2014-06-07,314.99,2023-05-26,109.99,7008,"Third Quartile",273.919708717623,74.3322382307527
+"621",88,"Intel Core i5-11600KF @ 3.90GHz",2021-01-01,237,2023-05-10,229.99,19664,"Second Quartile",180.072269889469,155.429325126746
+"622",385,"Intel Core i5-4440 @ 3.10GHz",2013-10-06,194.99,2023-05-28,29.99,4770,"Third Quartile",172.313000373648,20.2675136334237
+"623",73,"AMD Ryzen 9 5900X",2020-11-05,549,2023-03-18,365.98,39193,"Third Quartile",436.734518773319,247.332598851631
+"624",185,"Intel Core i9-7900X @ 3.30GHz",2017-06-28,999.99,2023-02-18,265.93,21175,"Third Quartile",839.866146284934,179.717902652096
+"625",92,"Intel Core i5-11600 @ 2.80GHz",2021-05-27,289.89,2023-05-22,239.89,18113,"Second Quartile",220.258018220499,162.119834795666
+"626",188,"Intel Core i9-9980XE @ 3.00GHz",2018-10-01,1999,2023-01-17,1889.97,32054,"Third Quartile",1638.919577817,1277.25884434017
+"627",407,"Intel Core i3-3240 @ 3.40GHz",2012-09-13,149.99,2023-05-08,33,2317,"Second Quartile",134.481600282905,22.3016988963982
+"628",774,"Intel Core2 Duo E6600 @ 2.40GHz",2014-11-14,66.99,2023-05-02,195.5,939,"Second Quartile",58.2554407663531,132.120670734723
+"629",151,"AMD Ryzen 9 3950X",2019-11-25,1199,2023-03-05,530.2,38813,"Third Quartile",965.547391023175,358.313962268798
+"630",397,"Intel Core i7-2700K @ 3.50GHz",2012-02-25,339.99,2023-03-27,17.54,5721,"Third Quartile",304.836317622408,11.8536908679644
+"631",460,"Intel Core i3-4130T @ 2.90GHz",2013-09-23,139.99,2023-02-08,19.99,2875,"Second Quartile",123.709405212098,13.5094230587576
+"632",535,"Intel Pentium G3220T @ 2.60GHz",2016-01-21,39.99,2023-03-08,40.31,1600,"First Quartile",34.3019772748529,27.2418631064791
+"633",358,"Intel Celeron G4920 @ 3.20GHz",2018-04-01,52,2023-03-04,106.93,2500,"First Quartile",42.6332256360601,72.2642625149048
+"634",532,"Intel Core i7-970 @ 3.20GHz",2010-10-15,879.99,2023-04-16,86,6553,"Third Quartile",830.783281836643,58.1195789421286
+"635",499,"AMD Athlon X4 860K",2014-11-14,79.99,2023-02-20,15.03,3422,"Second Quartile",69.5604225541212,10.1574101337232
+"636",314,"Intel Core i5-7400 @ 3.00GHz",2017-02-22,189.99,2023-01-26,85,5485,"Second Quartile",159.567764810323,57.443769884662
+"637",505,"AMD A10-7850K APU",2014-07-15,169.99,2023-02-24,51.02,3416,"Third Quartile",147.825681084824,34.4797781119466
+"638",195,"Intel Core i5-7600K @ 3.80GHz",2017-02-03,239.99,2023-03-12,73.61,6798,"Third Quartile",201.561492061842,49.7463047201173
+"639",667,"Intel Pentium G620 @ 2.60GHz",2011-08-02,77.99,2023-02-18,11.99,1213,"First Quartile",71.3735993078826,8.10295059902468
+"640",606,"Intel Core i7-940 @ 2.93GHz",2008-11-17,562,2023-01-04,51.85,2947,"Third Quartile",541.217257318952,35.0406996296438
+"641",575,"AMD Phenom II X6 1075T",2011-01-03,239.99,2023-01-13,62.99,3413,"Third Quartile",219.63008203486,42.5692125298219
+"642",269,"Intel Celeron G5925 @ 3.60GHz",2020-07-01,52,2023-05-30,44.91,2841,"First Quartile",41.3664753665075,30.3505847708255
+"643",81,"Intel Core i3-13100T",2023-06-30,134,2023-06-30,134,13073,"First Quartile",90.558413700526,90.558413700526
+"644",218,"Intel Core i7-7700 @ 3.60GHz",2017-01-09,314.99,2023-01-11,195.99,8657,"Third Quartile",264.552082939121,132.451817172881
+"645",4,"Intel Core i9-13900KF",2022-09-01,564,2023-05-17,548.99,58678,"Third Quartile",396.783717056027,371.012414458595
+"646",362,"Intel Core i3-4350 @ 3.60GHz",2014-08-31,144.99,2023-03-10,39.99,3501,"Second Quartile",126.085331492962,27.0256042080898
+"647",198,"Intel Pentium Gold G6405 @ 4.10GHz",2021-01-01,64,2023-03-31,88.9,4252,"First Quartile",48.627110856228,60.0794252087818
+"648",666,"AMD Athlon II X4 641 Quad-Core",2012-08-09,89.99,2023-03-01,12.17,2313,"First Quartile",80.6853737546413,8.22459622936867
+"649",163,"AMD Ryzen 5 3600X",2019-07-31,249.99,2023-05-01,135.99,18216,"Second Quartile",201.315423087476,91.9032737248846
+"650",159,"AMD Ryzen 7 3700X",2019-07-07,329,2023-03-08,128.99,22578,"Third Quartile",264.941694450896,87.1726103226183
+"651",107,"Intel Core i9-9900KS @ 4.00GHz",2019-10-01,524,2023-02-24,886.8,19525,"Third Quartile",421.974005751579,599.307472161392
+"652",199,"Intel Core i7-7820X @ 3.60GHz",2017-08-10,599.99,2023-02-12,516.58,17203,"Third Quartile",503.91632827278,349.109442906102
+"653",181,"Intel Core i5-10400 @ 2.90GHz",2020-04-01,182,2023-03-25,106.38,12135,"Second Quartile",144.782663782776,71.8925675332982
+"654",97,"AMD Ryzen 7 5800X3D",2022-04-29,449,2023-04-20,349,28297,"Third Quartile",315.879235741412,235.857361055848
+"655",234,"AMD Ryzen 5 2600X",2018-05-17,209.99,2023-04-03,79.99,13919,"Second Quartile",172.164443294544,54.0579665067543
+"656",331,"Intel Core i3-4340 @ 3.60GHz",2013-09-20,159.99,2023-03-08,93.33,3545,"Second Quartile",141.383439816298,63.0732593333589
+"657",232,"Intel Core i7-6850K @ 3.60GHz",2016-07-17,609.99,2023-03-24,94.53,11461,"Third Quartile",523.227384793386,63.8842302023188
+"658",216,"Intel Core i5-8500 @ 3.00GHz",2018-04-12,204.99,2023-01-19,168.99,9572,"Second Quartile",168.065094675692,114.204972621283
+"659",228,"AMD Ryzen 7 2700X",2018-05-19,319.99,2023-01-31,159.99,17534,"Third Quartile",262.350112909286,108.122691104083
+"660",755,"AMD Sempron 145",2011-02-17,42.99,2023-05-02,34.92,506,"First Quartile",39.3428777310665,23.5992522867341
+"661",235,"Intel Core i5-8400 @ 2.80GHz",2017-10-06,189.99,2023-04-25,129.99,9237,"Second Quartile",159.567764810323,87.8484193800849
+"662",262,"Intel Pentium G4620 @ 3.70GHz",2017-03-03,92.99,2023-02-03,124.12,3753,"First Quartile",78.0999339423754,83.8814202127559
+"663",363,"Intel Core i5-3470 @ 3.20GHz",2012-08-09,199.99,2023-03-29,34.99,4677,"Third Quartile",179.311789056459,23.6465589207568
+"664",608,"Intel Pentium E6700 @ 3.20GHz",2014-11-14,59.95,2023-03-08,29,1169,"First Quartile",52.1333583212848,19.5984626665317
+"665",209,"Intel Core i3-9100 @ 3.60GHz",2019-04-01,122,2023-02-23,162.72,6608,"First Quartile",98.2458563009402,109.967649830967
+"666",305,"AMD Ryzen 5 1500X",2017-05-24,201.32,2023-01-12,69.3,9093,"Second Quartile",169.083543405517,46.8335676824362
+"667",489,"AMD A10-6790K APU",2014-03-03,129.99,2023-04-24,29.84,3070,"Second Quartile",113.041121737845,20.1661422748037
+"668",12,"Intel Core i7-13700KF",2022-10-20,384,2023-04-30,390.99,46381,"Third Quartile",270.150615867933,264.234583378871
+"669",221,"Intel Core i9-9820X @ 3.30GHz",2018-10-01,899,2023-06-01,597.31,20045,"Third Quartile",737.062881669578,403.667508115382
+"670",261,"Intel Pentium Gold G5600F @ 3.90GHz",2021-10-21,350,2023-01-23,74.99,4124,"Third Quartile",265.929512494997,50.6789212194212
+"671",162,"AMD Ryzen 5 PRO 4650G",2022-05-19,219.99,2023-05-02,114.87,16212,"Second Quartile",154.766755168715,77.6301864311897
+"672",366,"Intel Core i5-7500T @ 2.70GHz",2017-07-15,235.17,2023-03-03,119.28,5252,"Third Quartile",197.513296754796,80.6105043746175
+"673",31,"Intel Core i5-13600KF",2022-09-01,294,2023-04-30,294.99,37914,"Second Quartile",206.834065273886,199.356913862076
+"674",471,"Intel Celeron G1840 @ 2.80GHz",2014-06-16,49.99,2023-05-13,40.3,1768,"First Quartile",43.472003043887,27.2351050159045
+"675",736,"Intel Core i5 750S @ 2.40GHz",2016-07-02,290,2023-05-10,180,1326,"Third Quartile",248.751523123464,121.64563034399
+"676",649,"Intel Core2 Quad Q9550 @ 2.83GHz",2010-09-14,274.99,2023-03-18,29.8,2339,"Third Quartile",259.613285005805,20.139109912505
+"677",196,"Intel Core i5-7640X @ 4.00GHz",2017-08-17,239.99,2023-04-07,128.63,6844,"Third Quartile",201.561492061842,86.9293190619303
+"678",147,"AMD Ryzen 7 3800X",2019-07-07,399,2023-04-10,305.99,23174,"Third Quartile",321.312267738321,206.790813494209
+"679",543,"AMD A8-7600 APU",2014-11-14,94.99,2023-04-25,23.05,3219,"Second Quartile",82.6046323092384,15.5773987746054
+"680",264,"Intel Pentium Gold G5420 @ 3.80GHz",2019-04-01,64,2023-03-27,20.49,3706,"First Quartile",51.5388098627883,13.8473275874909
+"681",233,"Intel Core i7-7800X @ 3.50GHz",2017-07-12,639.89,2023-06-01,109.94,12882,"Third Quartile",537.427322619493,74.2984477778793
+"682",725,"Intel Core2 Duo E7300 @ 2.66GHz",2017-07-28,21.99,2023-05-21,49.33,963,"First Quartile",18.4688412452182,33.337660804828
+"683",609,"Intel Pentium G640 @ 2.80GHz",2012-09-18,71.99,2023-04-27,38.85,1355,"First Quartile",64.5465057961621,26.2551818825779
+"684",207,"Intel Core i3-9100F @ 3.60GHz",2019-04-01,122,2023-03-25,6.6,6742,"First Quartile",98.2458563009402,4.46033977927964
+"685",154,"Intel Core i9-10900X @ 3.70GHz",2019-10-01,590,2023-03-08,696.67,22490,"Third Quartile",475.12340342258,470.815896065265
+"686",494,"AMD A8-6600K APU",2013-09-27,109.99,2023-05-25,19.28,3008,"Second Quartile",97.198353305798,13.0295986279563
+"687",49,"Intel Core i7-12700F",2022-01-01,314,2023-05-19,293.99,30659,"Second Quartile",220.904409850341,198.681104804609
+"688",172,"Intel Core i9-9960X @ 3.10GHz",2019-02-17,1749.99,2023-04-02,1671.3,30618,"Third Quartile",1409.25627924658,1129.47967774395
+"689",208,"Intel Core i9-7940X @ 3.10GHz",2017-10-02,1399,2023-04-25,546.25,25966,"Third Quartile",1174.98448849751,369.160697641137
+"690",210,"Intel Core i9-7980XE @ 2.60GHz",2017-09-28,1999,2023-01-02,596.93,30208,"Third Quartile",1678.90921551574,403.410700673545
+"691",621,"Intel Celeron G555 @ 2.70GHz",2013-03-04,59.99,2023-03-01,52.43,1388,"First Quartile",53.013266795298,35.4326688829745
+"692",370,"Intel Core i5-4570T @ 2.90GHz",2015-02-21,200.99,2023-02-07,621,3219,"Third Quartile",174.574225508123,419.677424686766
+"693",135,"Intel Core i7-9700F @ 3.00GHz",2019-04-01,335,2023-05-28,187.68,13265,"Third Quartile",269.773457875533,126.835843905334
+"694",143,"Intel Core i7-8700K @ 3.70GHz",2018-01-13,389.99,2023-05-20,259,13655,"Third Quartile",319.740993573213,175.034545883853
+"695",211,"Intel Pentium Gold G6500 @ 4.10GHz",2020-04-01,75,2023-05-03,88.99,4145,"First Quartile",59.6631856247704,60.1402480239538
+"696",337,"Intel Core i3-6300T @ 3.30GHz",2016-08-14,158.06,2023-01-27,90.03,4002,"Third Quartile",135.578157741016,60.8430894437191
+"697",396,"Intel Pentium G3250 @ 3.20GHz",2014-11-21,69.99,2023-04-30,56.39,1994,"Second Quartile",60.8642827173765,38.1088727505423
+"698",202,"AMD Ryzen 5 3500X",2021-05-26,254.99,2023-04-21,69.99,13179,"Second Quartile",193.741046831712,47.2998759320882
+"699",312,"Intel Core i5-6600T @ 2.70GHz",2017-11-18,190,2023-03-08,113.22,5683,"Second Quartile",159.576163555773,76.5151014863698
+"700",47,"Intel Core i7-13700T",2023-03-31,384,2023-03-31,384,27450,"Second Quartile",259.510678067179,259.510678067179
+"701",383,"Intel Pentium G3260 @ 3.30GHz",2015-05-15,69.99,2023-02-08,55.35,2088,"First Quartile",60.7913331176353,37.406031330777
+"702",434,"Intel Core i5-2500 @ 3.30GHz",2011-01-10,209.99,2023-01-04,12.99,4129,"Third Quartile",192.175177826161,8.77875965649129
+"703",108,"Intel Core i5-11400 @ 2.60GHz",2021-01-01,182,2023-05-13,139.4,17088,"Second Quartile",138.283346497398,94.2077826108457
+"704",26,"AMD Ryzen 5 7600X",2022-09-28,299.99,2023-05-10,239.89,28572,"Second Quartile",211.048133474535,162.119834795666
+"705",132,"Intel Core i5-10500 @ 3.10GHz",2020-04-01,192,2023-04-09,181.46,13069,"Second Quartile",152.737755199412,122.632311567891
+"706",212,"Intel Core i3-8350K @ 4.00GHz",2017-11-11,229.99,2023-05-03,133.6,6863,"Second Quartile",193.162746611538,90.2880900775394
+"707",734,"Intel Core i7-860S @ 2.53GHz",2011-04-14,359.99,2023-04-04,110.99,2166,"Third Quartile",329.449698869658,75.0080472882193
+"708",111,"Intel Pentium Gold G7400",2022-01-01,64,2023-05-06,110.17,6776,"First Quartile",45.0251026446556,74.4538838610967
+"709",260,"Intel Core i5-6600 @ 3.30GHz",2015-11-11,229.99,2023-01-06,99.9,6042,"Third Quartile",199.762804739605,67.5133248409145
+"710",46,"Intel Core i7-12700",2022-01-01,339,2023-05-20,383.99,30834,"Second Quartile",238.49234057091,259.503919976604
+"711",118,"Intel Core i5-10600K @ 4.10GHz",2020-04-01,262,2023-04-04,210.97,14328,"Second Quartile",208.423395115865,142.575436853731
+"712",187,"Intel Core i9-9900X @ 3.50GHz",2018-10-01,999,2023-01-07,1008,21819,"Third Quartile",819.049854046617,681.215529926345
+"713",98,"AMD Ryzen 5 5600G",2022-02-11,331,2023-05-05,399.99,19900,"Second Quartile",232.864202740328,270.31686489607
+"714",679,"Intel Celeron E3500 @ 2.70GHz",2011-03-13,62.99,2023-05-09,95,935,"First Quartile",57.6461472035328,64.2018604593281
+"715",275,"AMD Ryzen 5 1600X",2017-06-14,239.99,2023-01-31,265.7,13065,"Third Quartile",201.561492061842,179.562466568879
+"716",223,"Intel Core i5-9400F @ 2.90GHz",2019-01-01,182,2023-05-11,99,9473,"Second Quartile",146.563490547304,66.9050966891946
+"717",248,"Intel Pentium Gold G5600 @ 3.90GHz",2018-04-01,93,2023-01-28,116.97,3843,"Second Quartile",76.247884310646,79.0493854518696
+"718",325,"AMD Ryzen 3 2200G",2018-04-05,111.31,2023-05-14,247.51,6767,"Second Quartile",91.2596989528818,167.269499813561
+"719",341,"Intel Core i5-4570S @ 2.90GHz",2013-06-06,199.99,2023-05-28,100,5013,"Third Quartile",176.731509024698,67.5809057466612
+"720",257,"Intel Core i7-5775C @ 3.30GHz",2015-10-28,371.99,2023-02-25,174.93,7683,"Third Quartile",323.099985804103,118.219278422634
+"721",488,"Intel Pentium G2020 @ 2.90GHz",2013-03-11,64.99,2023-03-19,54.64,1681,"First Quartile",57.431775446348,36.9262068999757
+"722",189,"Intel Core i3-9300 @ 3.70GHz",2019-04-01,152,2023-03-02,177.52,7137,"First Quartile",122.404673424122,119.969623881473
+"723",456,"AMD FX-8370 Eight-Core",2014-11-14,199.99,2023-05-25,171.74,6204,"Third Quartile",173.914100595058,116.063447529316
+"724",270,"Intel Core i3-8100 @ 3.60GHz",2017-11-02,149.89,2023-02-01,133.37,6131,"Second Quartile",125.888795554604,90.1326539943221
+"725",644,"AMD Phenom II X4 945",2010-09-08,135.99,2023-04-10,35,2378,"Second Quartile",128.385798130621,23.6533170113314
+"726",160,"Intel Core i3-10105F @ 3.70GHz",2021-05-26,154.61,2023-05-07,73.99,9011,"First Quartile",117.472462648147,50.0031121619546
+"727",527,"Intel Core i7-965 @ 3.20GHz",2008-11-17,999,2023-02-28,85.28,3424,"Third Quartile",962.057010785824,57.6329964207527
+"728",584,"AMD Athlon X4 740 Quad Core",2013-11-06,74.99,2023-05-22,10,2632,"First Quartile",66.268792748448,6.75809057466612
+"729",259,"Intel Core i3-8300 @ 3.70GHz",2018-06-11,138,2023-02-03,172.6,6310,"Second Quartile",113.142021880313,116.644643318737
+"730",178,"Intel Core i5-8600 @ 3.10GHz",2018-04-01,213,2023-01-30,153.49,9944,"Second Quartile",174.632251163092,103.72993223055
+"731",200,"Intel Pentium Gold G6600 @ 4.20GHz",2020-04-01,86,2023-04-16,172.4,4273,"First Quartile",68.41378618307,116.509481507244
+"732",134,"AMD Ryzen 5 3600XT",2020-07-01,249,2023-04-12,129.97,18664,"Second Quartile",198.081776274238,87.8349031989356
+"733",171,"Intel Core i3-10100 @ 3.60GHz",2020-04-01,122,2023-04-28,121.49,8668,"First Quartile",97.0521152829598,82.1040423916187
+"734",628,"Intel Core i7-930 @ 2.80GHz",2010-09-02,284.99,2023-02-26,15.96,2962,"Third Quartile",269.054111399703,10.7859125571671
+"735",119,"Intel Core i5-10600KF @ 4.10GHz",2020-04-01,237,2023-04-04,231.19,14256,"Second Quartile",188.535666574274,156.240295995706
+"736",62,"Intel Core i5-13500T",2023-03-31,232,2023-03-31,232,23296,"First Quartile",156.787701332254,156.787701332254
+"737",365,"AMD Ryzen 3 1200",2017-09-10,104.99,2023-01-31,61.99,6293,"First Quartile",88.1784284827401,41.8934034723553
+"738",295,"AMD Ryzen 5 2400G",2018-02-14,169,2023-04-09,109.28,8732,"Second Quartile",138.557983317195,73.8524137999514
+"739",56,"AMD Ryzen 7 7800X3D",2023-06-30,439,2023-06-30,439,34383,"Third Quartile",296.680176227843,296.680176227843
+"740",130,"Intel Core i3-10305 @ 3.80GHz",2021-01-01,143,2023-02-25,224.6,9291,"First Quartile",108.651200819384,151.786714307001
+"741",79,"Intel Core i9-11900F @ 2.50GHz",2021-01-01,422,2023-04-27,489.99,22580,"Third Quartile",320.635012208253,331.139680068065
+"742",486,"AMD A6-7480",2019-05-04,43.99,2023-05-28,34.82,1836,"First Quartile",35.4248788416259,23.5316713809874
+"743",379,"Intel Core i3-4130 @ 3.40GHz",2013-12-05,119.99,2023-05-01,21.26,3306,"Second Quartile",106.035370607898,14.3677005617402
+"744",432,"Intel Celeron G3900 @ 2.80GHz",2016-06-05,57.03,2023-04-16,35.09,2180,"First Quartile",48.9182736680385,23.7141398265034
+"745",717,"Intel Pentium E5400 @ 2.70GHz",2014-11-14,38.99,2023-05-26,84.75,971,"First Quartile",33.9062492234678,57.2748176202954
+"746",112,"Intel Core i5-11400F @ 2.60GHz",2021-01-01,157,2023-05-27,122.59,17088,"First Quartile",119.288381319184,82.847432354832
+"747",80,"Intel Core i7-11700K @ 3.60GHz",2021-03-26,418.99,2023-04-05,268.99,24657,"Third Quartile",318.348018400796,181.785878367944
+"748",348,"Intel Celeron G4930 @ 3.20GHz",2019-04-01,42,2023-04-27,45.6,2591,"First Quartile",33.8223439724548,30.8168930204775
+"749",11,"Intel Core i7-13700K",2022-10-20,409,2023-05-14,1114.99,46552,"Third Quartile",287.738546588502,753.520340984698
+"750",265,"AMD Ryzen 5 2600",2018-05-17,189.99,2023-04-26,67.34,13201,"Second Quartile",155.767048819136,45.5089819298017
+"751",398,"AMD FX-9590 Eight-Core",2013-11-03,429.99,2023-03-08,260.03,6771,"Third Quartile",379.982906972998,175.730629213043
+"752",136,"Intel Core i7-7740X @ 4.30GHz",2017-08-04,349.99,2023-01-30,133.9,9878,"Third Quartile",293.947692015184,90.4908327947794
+"753",144,"Intel Core i9-10920X @ 3.50GHz",2019-10-01,689,2023-04-05,757.98,26278,"Third Quartile",554.84749992908,512.249749378543
+"754",140,"AMD Ryzen 7 4700G",2021-10-12,309,2023-06-02,235.12,20143,"Second Quartile",234.777769602726,158.89622559155
+"755",540,"Intel Core i5-661 @ 3.33GHz",2010-07-08,209.99,2023-03-23,200.19,2459,"Third Quartile",198.247913445467,135.290215214241
+"756",100,"Intel Core i9-10900K @ 3.70GHz",2020-04-01,488,2023-04-11,334.8,22968,"Third Quartile",388.208461131839,226.260872439822
+"757",173,"Intel Core i5-9500F @ 3.00GHz",2019-04-01,202,2023-05-23,134.65,10028,"Second Quartile",162.669368629426,90.9976895878793
+"758",326,"Intel Core i5-4590S @ 3.00GHz",2014-07-15,189.99,2023-05-10,240,5135,"Third Quartile",165.217960758313,162.194173791987
+"759",142,"Intel Core i5-9600 @ 3.10GHz",2019-04-01,224,2023-04-27,134.69,10401,"Second Quartile",180.385834519759,91.024721950178
+"760",241,"AMD Ryzen 5 3400G",2019-08-01,149.99,2023-02-20,109.97,9278,"First Quartile",120.786032676869,74.3187220496033
+"761",757,"Intel Pentium E5200 @ 2.50GHz",2016-10-01,99,2023-05-29,77.45,927,"Second Quartile",84.9186234111136,52.3414115007891
+"762",380,"Intel Core i3-6100T @ 3.20GHz",2016-05-08,124.99,2023-01-10,112.99,3666,"Second Quartile",107.211906466213,76.3596654031525
+"763",137,"Intel Core i7-9700 @ 3.00GHz",2019-04-01,335,2023-03-15,268.38,13212,"Third Quartile",269.773457875533,181.373634842889
+"764",457,"AMD A6-9500",2017-10-12,58.98,2023-03-23,60.05,1876,"First Quartile",49.5358006658921,40.5823339008701
+"765",516,"AMD A10-5800K APU",2012-12-03,119.99,2023-03-08,28.95,2958,"Second Quartile",107.583487018773,19.5646722136584
+"766",739,"AMD Athlon II X4 610e",2011-01-09,139.99,2023-02-18,16.69,1964,"Second Quartile",128.113734672528,11.2792531691178
+"767",447,"AMD A12-9800",2017-08-27,109.99,2023-01-12,99.88,3583,"First Quartile",92.377801207892,67.4998086597652
+"768",152,"Intel Core i3-10300 @ 3.70GHz",2020-04-01,143,2023-04-23,129.95,9304,"First Quartile",113.757807257896,87.8213870177862
+"769",552,"AMD A10-7700K APU",2014-07-04,159.99,2023-04-04,55.3,3197,"Third Quartile",139.129541248079,37.3722408779036
+"770",51,"Intel Core i5-12600",2022-01-23,469.12,2023-03-08,260,21278,"Third Quartile",330.034002385325,175.710354941319
+"771",43,"Intel Core i5-12600KF",2021-10-01,264,2023-04-24,309.77,27434,"Second Quartile",200.586832281941,209.345371731432
+"772",229,"AMD Ryzen 3 3100",2021-06-22,276.25,2023-05-14,71.88,11620,"Second Quartile",209.894365219265,48.5771550507001
+"773",41,"Intel Core i5-12600K",2021-10-01,289,2023-05-12,235.99,27748,"Second Quartile",219.581797460155,159.484179471546
+"774",36,"Intel Core i5-13600",2023-03-31,255,2023-03-31,255,32488,"Second Quartile",172.331309653986,172.331309653986
+"775",292,"Intel Celeron G5920 @ 3.50GHz",2020-04-01,52,2023-05-25,53,2482,"First Quartile",41.3664753665075,35.8178800457304
+"776",21,"Intel Core i9-13900T",2023-03-31,549,2023-03-31,549,44297,"Third Quartile",371.01917254917,371.01917254917
+"777",35,"AMD Ryzen 7 7700",2023-03-31,319.79,2023-03-31,319.79,34598,"Second Quartile",216.116978487248,216.116978487248
+"778",105,"Intel Core i7-10700K @ 3.80GHz",2020-04-01,374,2023-01-18,369.95,18847,"Third Quartile",297.520418982188,250.015560809773
+"779",619,"Intel Core i5-760 @ 2.80GHz",2010-07-27,209.99,2023-03-08,12.99,2628,"Third Quartile",198.247913445467,8.77875965649129
+"780",204,"Intel Core i3-7320 @ 4.10GHz",2017-03-11,159.99,2023-03-18,125.58,4844,"Second Quartile",134.371528459411,84.8681014366571
+"781",485,"AMD FX-6350 Six-Core",2013-05-21,139.99,2023-01-25,50,4545,"Second Quartile",123.709405212098,33.7904528733306
+"782",101,"Intel Core i9-10900KF @ 3.70GHz",2020-04-01,463,2023-05-31,316.39,22646,"Third Quartile",368.320732590249,213.819227691861
+"783",170,"AMD Ryzen 9 3900",2021-01-13,449.99,2023-03-11,504.15,30836,"Third Quartile",341.901775221782,340.709136321792
+"784",273,"Intel Pentium Gold G5400 @ 3.70GHz",2018-04-01,64,2023-01-15,104.7,3726,"First Quartile",52.4716623213048,70.7572083167543
+"785",304,"AMD Ryzen 3 1300X",2017-09-29,121.99,2023-04-23,67.11,6985,"First Quartile",102.456295748257,45.3535458465843
+"786",71,"Intel Core i5-12400F",2022-01-11,179.99,2023-05-03,184,19535,"First Quartile",126.626066015806,124.348866573857
+"787",156,"AMD Ryzen 3 3300X",2021-06-22,351,2023-04-09,149.82,12659,"Third Quartile",266.689311102125,101.249712989648
+"788",169,"Intel Core i9-9940X @ 3.30GHz",2018-10-01,1387,2023-03-09,894.61,28059,"Third Quartile",1137.15930686953,604.585540900206
+"789",115,"Intel Core i9-9900KF @ 3.60GHz",2019-01-01,499,2023-03-06,360.73,18316,"Third Quartile",401.841658148928,243.784601299931
+"790",70,"Intel Core i9-11900K @ 3.50GHz",2021-03-01,599.99,2023-05-01,442.99,25324,"Third Quartile",455.871566291066,299.376654367135
+"791",75,"Intel Core i3-12100F",2022-01-08,109.95,2023-05-03,136.99,14153,"First Quartile",77.3517193090606,92.5790827823512
+"792",155,"Intel Core i3-10105 @ 3.70GHz",2021-01-01,122,2023-05-18,109.98,8550,"First Quartile",92.6954300696846,74.325480140178
+"793",283,"AMD Ryzen 7 2700",2018-05-12,294.99,2023-02-16,114.38,15720,"Third Quartile",241.853369815026,77.2990399930311
+"794",3,"Intel Core i9-13900K",2022-09-27,589,2023-05-31,1049.99,59349,"Third Quartile",414.371647776596,709.592752249368
+"795",531,"AMD A8-6500 APU",2013-08-06,118.99,2023-02-20,28.37,2809,"Second Quartile",105.151668877688,19.1727029603278
+"796",590,"Intel Core i7-875K @ 2.93GHz",2016-07-01,580,2023-05-26,380,3118,"Third Quartile",497.503046246928,256.807441837313
+"797",282,"Intel Celeron G5905 @ 3.50GHz",2020-07-01,42,2023-03-19,30.32,2814,"First Quartile",33.4113839498714,20.4905306223877
+"798",44,"AMD Ryzen 5 7600",2023-03-31,219.99,2023-03-31,219.99,27247,"First Quartile",148.67123455208,148.67123455208
+"799",19,"AMD Ryzen 9 7900X",2022-09-28,549.99,2023-05-04,433.79,51931,"Third Quartile",386.92744068022,293.159211038442
+"800",116,"Intel Core i9-9900K @ 3.60GHz",2018-10-22,579.99,2023-03-25,405,18324,"Third Quartile",475.516241089587,273.702668273978
+"801",174,"AMD Ryzen 5 4500",2022-09-16,199.97,2023-05-23,75.49,16141,"Second Quartile",140.682340247684,51.0168257481545
+"802",28,"Intel Core i5-13600K",2022-09-27,319,2023-05-19,314.99,38139,"Second Quartile",224.421995994455,212.873095011408
+"803",161,"AMD Ryzen 5 4600G",2022-09-26,154,2023-03-08,154,16043,"First Quartile",108.341653238702,104.074594849858
+"804",214,"Intel Pentium Gold G6400 @ 4.00GHz",2020-04-01,64,2023-04-02,51.99,4123,"First Quartile",50.9125850664707,35.1353128976892
+"805",110,"Intel Core i9-10900 @ 2.80GHz",2020-04-01,439,2023-04-15,496.53,19892,"Third Quartile",349.228513190323,335.559471303897
+"806",378,"Intel Celeron G4900 @ 3.10GHz",2018-04-01,42,2023-01-15,58.4,2442,"First Quartile",34.4345283983563,39.4672489560501
+"807",148,"AMD Ryzen 7 PRO 4750G",2020-07-16,289,2023-04-14,266.27,20476,"Second Quartile",229.902141940782,179.947677731635
+"808",77,"Intel Core i9-11900 @ 2.50GHz",2021-01-01,439,2023-05-09,499.97,22966,"Third Quartile",333.551588529439,337.884254461582
+"809",197,"AMD Ryzen 3 4100",2022-04-30,169.99,2023-04-27,153.99,11077,"First Quartile",119.590893727578,104.067836759284
+"810",93,"AMD Ryzen 7 5700G",2022-02-18,690.38,2023-05-18,186.29,24601,"Third Quartile",485.694224434645,125.896469315455
+"811",103,"Intel Core i9-10850K @ 3.60GHz",2020-07-01,453,2023-05-31,272.29,22458,"Third Quartile",360.365641173613,184.016048257584
+"812",203,"Intel Core i7-6700K @ 4.00GHz",2015-10-04,359.99,2023-03-08,130.2,8933,"Third Quartile",312.677125432455,87.9903392821529
+"813",138,"AMD Ryzen 9 3900XT",2020-07-12,498,2023-03-17,424.95,32737,"Third Quartile",396.163552548475,287.185058970437
+"814",194,"Intel Core i5-10400F @ 2.90GHz",2020-04-01,155,2023-03-25,67.89,12205,"First Quartile",123.303916957859,45.8806769114083
+"815",45,"Intel Core i5-13490F",2023-05-02,193.49,2023-06-02,263.66,27539,"First Quartile",130.762294529215,178.183816091647
+"816",95,"AMD Ryzen 5 5600",2022-04-24,410.53,2023-05-07,132.88,21569,"Third Quartile",288.814927948601,89.8015075561634
+"817",176,"Intel Core i3-10100F @ 3.60GHz",2020-10-01,79,2023-04-02,99.96,8766,"First Quartile",62.8452221914248,67.5538733843625
+"818",76,"AMD Ryzen 7 5800X",2020-11-06,449.99,2023-03-29,259,27911,"Third Quartile",357.971158657206,175.034545883853
+"819",67,"Intel Core i9-11900KF @ 3.50GHz",2021-01-01,513,2023-05-31,396.78,25269,"Third Quartile",389.776685456953,268.147517821602
+"820",106,"Intel Core i7-10700KF @ 3.80GHz",2020-04-01,349,2023-04-18,278.99,18652,"Third Quartile",277.632690440598,188.54396894261
+"821",120,"Intel Core i7-10700 @ 2.90GHz",2020-04-01,323,2023-04-19,348,16459,"Second Quartile",256.949452757344,235.181551998381
+"822",72,"Intel Core i5-13400T",2023-06-30,221,2023-06-30,221,21110,"First Quartile",149.353801700121,149.353801700121
+"823",367,"Intel Core i7-4770T @ 2.50GHz",2017-07-30,308.99,2023-03-15,74.72,5973,"Third Quartile",259.512835668939,50.4964527739053
+"824",37,"Intel Core i9-12900",2022-01-01,489,2023-03-08,568,34358,"Third Quartile",344.019924894321,383.859544641036
+"825",127,"Intel Core i7-8086K @ 4.00GHz",2018-06-11,425,2023-05-12,305,14313,"Third Quartile",348.444632602415,206.121762527317
+"826",87,"Intel Core i5-11600K @ 3.90GHz",2021-01-01,262,2023-05-08,248.98,19647,"Second Quartile",199.067235067683,168.262939128037
+"827",83,"Intel Core i7-11700KF @ 3.60GHz",2021-01-01,374,2023-04-19,349.99,24012,"Third Quartile",284.164679066082,236.52641202274
+"828",128,"Intel Core i3-10320 @ 3.80GHz",2020-04-01,154,2023-05-02,129.39,10024,"First Quartile",122.508407816195,87.4429339456049
+"829",374,"AMD Ryzen 5 1400",2017-05-22,178.14,2023-01-12,57.39,7765,"Second Quartile",149.615251451713,38.7846818080089
+"830",141,"Intel Core i5-9600K @ 3.70GHz",2018-11-14,400.69,2023-02-03,150.87,10692,"Third Quartile",328.513599617556,101.959312499988
+"831",99,"Intel Core i5-11500 @ 2.70GHz",2021-01-01,192,2023-04-15,229.28,17393,"Second Quartile",145.881332568684,154.949500695945
+"832",167,"Intel Pentium Gold G6605 @ 4.30GHz",2021-01-01,86,2023-01-07,156.18,4509,"First Quartile",65.3426802130564,105.547858595135
+"833",102,"Intel Core i7-11700 @ 2.50GHz",2021-04-03,344.99,2023-04-19,289.99,19802,"Third Quartile",262.122921473283,195.977868574743
+"834",84,"AMD Ryzen 7 5700X",2022-04-17,366,2023-05-21,192.99,26705,"Third Quartile",257.487305749124,130.424390000481
+"835",268,"Intel Core i5-5675C @ 3.10GHz",2015-10-25,273.99,2023-03-02,158.67,5579,"Third Quartile",237.979959435647,107.230623148227
+"836",515,"AMD A10-7860K",2016-03-15,114.99,2023-05-23,45.96,3271,"Second Quartile",98.6342677378178,31.0601842811655
+"837",24,"Intel Core i9-12900K",2021-10-01,589,2023-03-25,355.99,41361,"Third Quartile",447.521379598723,240.581266367539
+"838",13,"Intel Core i9-12900KS",2022-01-01,739,2023-03-30,652.35,44157,"Third Quartile",519.899232100007,440.864038638344
+"839",86,"AMD Ryzen 5 5600X",2020-11-05,299,2023-03-27,168.07,21911,"Second Quartile",237.857233357418,113.583228288413
+"840",27,"AMD Ryzen 9 7900",2023-03-31,419.99,2023-03-31,419.99,48842,"Third Quartile",283.833046045402,283.833046045402
+"841",16,"Intel Core i5-14600KF",2023-12-31,294,2023-12-31,294,39393,"Second Quartile",198.687862895184,198.687862895184
+"842",131,"AMD Ryzen 7 3800XT",2020-08-16,392.99,2023-03-18,246.95,23625,"Third Quartile",312.62713758238,166.89104674138
+"843",8,"Intel Core i7-14700K",2023-12-31,409,2023-12-31,409,53642,"Third Quartile",276.405904503844,276.405904503844
+"844",117,"Intel Core i5-10600 @ 3.30GHz",2020-04-01,213,2023-03-17,191.08,13679,"Second Quartile",169.443447174348,129.13359470072
+"845",17,"AMD Ryzen 9 7950X",2022-09-26,699,2023-06-02,555.99,62943,"Third Quartile",491.758542947097,375.743077860862
+"846",416,"Intel Core i5-4430S @ 2.70GHz",2017-07-30,134.99,2023-03-08,22.94,4321,"First Quartile",113.374664833652,15.5030597782841
+"847",186,"AMD Ryzen 5 3600",2019-07-07,199,2023-02-28,94.99,17768,"Second Quartile",160.253486917107,64.1951023687535
+"848",66,"Intel Core i3-13100F",2023-03-31,110.99,2023-03-31,110.99,14653,"First Quartile",75.0080472882193,75.0080472882193
+"849",22,"AMD Ryzen 7 7700X",2022-10-02,399.99,2023-06-01,377.99,36020,"Third Quartile",281.399856356809,255.449065631805
+"850",168,"Intel Core i9-9920X @ 3.50GHz",2018-10-01,1199,2023-05-26,860.61,25223,"Third Quartile",983.023798800694,581.608032946341
+"851",30,"Intel Core i7-13700",2023-01-01,384,2023-05-10,392.99,37655,"Second Quartile",259.510678067179,265.586201493804
+"852",18,"Intel Core i5-14600K",2023-12-31,319,2023-12-31,319,39255,"Second Quartile",215.583089331849,215.583089331849
+"853",25,"Intel Core i9-12900KF",2021-10-01,564,2023-04-16,567,41158,"Third Quartile",428.526414420509,383.183735583569
+"854",32,"Intel Core i7-13700F",2023-01-01,359,2023-05-08,362.99,39246,"Second Quartile",242.615451630514,245.311929769806
+"855",61,"Intel Core i5-13400F",2023-01-01,196,2023-05-20,208.99,25268,"First Quartile",132.458575263456,141.237334919947
+"856",33,"AMD Ryzen 9 7900X3D",2023-03-03,794.99,2023-05-23,599.99,50408,"Third Quartile",537.261442595382,405.478676389393
+"857",29,"AMD Ryzen 9 7950X3D",2023-03-03,918.99,2023-06-02,799.99,62536,"Third Quartile",621.061765721242,540.640487882715
+"858",34,"Intel Core i9-12900F",2022-01-01,464,2023-03-08,540,36971,"Third Quartile",326.431994173753,364.936891031971
+"859",14,"Intel Core i9-13900",2023-01-01,549,2023-05-22,549.99,47920,"Third Quartile",371.01917254917,371.688223516062
+"860",2,"Intel Core i9-13900KS",2023-01-13,729.99,2023-05-18,988.99,61899,"Third Quartile",493.333853860052,668.368399743905
+"861",124,"Intel Core i7-10700F @ 2.90GHz",2020-04-01,298,2023-01-14,249.92,16457,"Second Quartile",237.061724215754,168.898199642056
+"862",91,"Intel Core i7-11700F @ 2.50GHz",2021-01-01,298,2023-04-02,249,21059,"Second Quartile",226.419984924312,168.276455309186
+"863",104,"AMD Ryzen 5 5500",2022-04-17,191,2023-04-03,159,19457,"Second Quartile",134.371790705144,107.453640137191
+"864",50,"Intel Core i5-13600T",2023-03-31,255,2023-03-31,255,26096,"Second Quartile",172.331309653986,172.331309653986
+"865",145,"Intel Celeron G6900",2022-01-30,74.99,2023-05-23,98.78,4555,"First Quartile",52.7567569894175,66.7564186965519
+"866",60,"Intel Core i5-13400",2023-01-01,221,2023-05-22,199.99,24927,"First Quartile",149.353801700121,135.155053402748
+"867",109,"Intel Core i9-10900F @ 2.80GHz",2020-04-01,422,2023-05-31,427.99,20050,"Third Quartile",335.704857782041,289.239518505135
+"868",1,"Intel Core i9-14900K",2023-12-31,589,2023-12-31,589,61046,"Third Quartile",398.051534847834,398.051534847834
+"869",63,"Intel Core i3-13100",2023-01-01,134,2023-05-29,149.99,14693,"First Quartile",90.558413700526,101.364600529417
+"870",58,"Intel Core i5-12490F",2022-07-01,183.41,2023-05-13,181.45,20523,"First Quartile",129.032094938379,122.625553477317
+"871",9,"Intel Core i9-13900F",2023-01-01,524,2023-05-29,569.99,51623,"Third Quartile",354.123946112505,385.204404665394
+"872",7,"Intel Core i7-14700KF",2023-12-31,384,2023-12-31,384,53451,"Second Quartile",259.510678067179,259.510678067179
+"873",464,"AMD A10-9700",2017-08-27,89.99,2023-02-25,63.78,3542,"First Quartile",75.5803103072843,43.1031016852205
+"874",96,"Intel 300",2024-03-31,82,2024-03-31,82,7142,"First Quartile",53.5423601084659,53.5423601084659
+"875",10,"Intel Core i9-14900T",2024-03-31,549,2024-03-31,549,43527,"Third Quartile",358.47263048229,358.47263048229
+"876",42,"Intel Core i5-14500T",2024-03-31,232,2024-03-31,232,22398,"Second Quartile",151.485701770294,151.485701770294
+"877",15,"Intel Core i7-14700F",2024-03-31,359,2024-03-31,359,44921,"Second Quartile",234.411064377308,234.411064377308
+"878",23,"Intel Core i7-14700",2024-03-31,384,2024-03-31,384,46566,"Third Quartile",250.734954654279,250.734954654279
+"879",20,"Intel Core i5-14600",2024-03-31,255,2024-03-31,255,36251,"Second Quartile",166.503680825107,166.503680825107
+"880",5,"Intel Core i9-14900",2024-03-31,549,2024-03-31,549,49392,"Third Quartile",358.47263048229,358.47263048229
+"881",40,"Intel Core i5-14500",2024-03-31,232,2024-03-31,232,32734,"Second Quartile",151.485701770294,151.485701770294
+"882",53,"Intel Core i3-14100F",2024-03-31,109,2024-03-31,109,15320,"First Quartile",71.1721616075949,71.1721616075949
+"883",57,"Intel Core i5-14400F",2024-03-31,196,2024-03-31,196,25891,"First Quartile",127.979299771455,127.979299771455
+"884",54,"Intel Core i5-14400",2024-03-31,221,2024-03-31,221,26855,"First Quartile",144.303190048426,144.303190048426
+"885",6,"Intel Core i9-14900F",2024-03-31,524,2024-03-31,524,52059,"Third Quartile",342.148740205319,342.148740205319
