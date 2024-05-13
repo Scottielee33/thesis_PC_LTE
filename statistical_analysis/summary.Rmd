@@ -14,6 +14,7 @@ CPU <- read.csv("../final_data/CPU.csv")
 CPU$ReleaseDate <- as.Date(CPU$ReleaseDate, format = "%Y-%m-%d")
 CPU$CurrentDate <- as.Date(CPU$CurrentDate, format = "%Y-%m-%d")
 CPU$Score <- as.numeric(CPU$Score)
+CPU$X.1 <- NULL
 CPU$X <- NULL
 summary(CPU)
 ```
@@ -23,6 +24,7 @@ GPU <- read.csv("../final_data/GPU.csv")
 GPU$ReleaseDate <- as.Date(GPU$ReleaseDate, format = "%Y-%m-%d")
 GPU$CurrentDate <- as.Date(GPU$CurrentDate, format = "%Y-%m-%d")
 GPU$Score <- as.numeric(GPU$Score)
+GPU$X.1 <- NULL
 GPU$X <- NULL
 summary(GPU)
 ```
@@ -32,6 +34,7 @@ Disk <- read.csv("../final_data/Disk.csv")
 Disk$ReleaseDate <- as.Date(Disk$ReleaseDate, format = "%Y-%m-%d")
 Disk$CurrentDate <- as.Date(Disk$CurrentDate, format = "%Y-%m-%d")
 Disk$Score <- as.numeric(Disk$Score)
+Disk$X.1 <- NULL
 Disk$X <- NULL
 summary(Disk)
 ```
@@ -41,40 +44,41 @@ Memory <- read.csv("../final_data/Memory.csv")
 Memory$ReleaseDate <- as.Date(Memory$ReleaseDate, format = "%Y-%m-%d")
 Memory$CurrentDate <- as.Date(Memory$CurrentDate, format = "%Y-%m-%d")
 Memory$Score <- as.numeric(Memory$Score)
+Memory$X.1 <- NULL
 Memory$X <- NULL
 summary(Memory)
 ```
 
 ```{r MSRP}
-ggplot(CPU, aes(x=ReleasePrice)) + 
+ggplot(CPU, aes(x=AdjustedReleasePrice)) + 
   geom_histogram(bins=30, fill="lightblue", color="black") +
   labs(title="CPU MSRP Prices", x="Price", y="Frequency") +
   theme_minimal()
 
-ggplot(GPU, aes(x=ReleasePrice)) + 
+ggplot(GPU, aes(x=AdjustedReleasePrice)) + 
   geom_histogram(bins=30, fill="lightblue", color="black") +
   labs(title="GPU MSRP Prices", x="Price", y="Frequency") +
   theme_minimal()
 
-ggplot(Disk, aes(x=ReleasePrice)) + 
+ggplot(Disk, aes(x=AdjustedReleasePrice)) + 
   geom_histogram(bins=30, fill="lightblue", color="black") +
   labs(title="Disk MSRP Prices", x="Price", y="Frequency") +
   theme_minimal()
 
-ggplot(Memory, aes(x=ReleasePrice)) + 
+ggplot(Memory, aes(x=AdjustedReleasePrice)) + 
   geom_histogram(bins=30, fill="lightblue", color="black") +
   labs(title="Memory MSRP Prices", x="Price", y="Frequency") +
   theme_minimal()
 ```
 
 ```{r}
-cpu_summary <- CPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(ReleasePrice))
+cpu_summary <- CPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
-gpu_summary <- GPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(ReleasePrice))
+gpu_summary <- GPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
-disk_summary <- Disk %>% group_by(Quartile) %>% summarize(AvgPrice = mean(ReleasePrice))
+disk_summary <- Disk %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
-memory_summary <- Memory %>% group_by(Quartile) %>% summarize(AvgPrice = mean(ReleasePrice))
+memory_summary <- Memory %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
 
 

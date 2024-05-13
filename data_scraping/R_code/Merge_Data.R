@@ -359,6 +359,8 @@ Memory_complete <- Memory_complete %>%
 Memory_complete$Year <- NULL
 Memory_complete$GroupedYear <- NULL
 
+Memory_complete$Size <- stringr::str_extract(Memory_complete$Memory, "\\d+(?=GB\\b)")
+
 # --------
 write.csv(CPU_complete, file = "../final_data_no_inflation/CPU.csv")
 write.csv(GPU_complete, file = "../final_data_no_inflation/GPU.csv")
