@@ -71,6 +71,28 @@ ggplot(Memory, aes(x=AdjustedReleasePrice)) +
   theme_minimal()
 ```
 
+```{r Score}
+ggplot(CPU, aes(x=Score)) + 
+  geom_histogram(bins=30, fill="lightblue", color="black") +
+  labs(title="CPU MSRP Prices", x="Price", y="Frequency") +
+  theme_minimal()
+
+ggplot(GPU, aes(x=Score)) + 
+  geom_histogram(bins=30, fill="lightblue", color="black") +
+  labs(title="GPU MSRP Prices", x="Price", y="Frequency") +
+  theme_minimal()
+
+ggplot(Disk, aes(x=Score)) + 
+  geom_histogram(bins=30, fill="lightblue", color="black") +
+  labs(title="Disk MSRP Prices", x="Price", y="Frequency") +
+  theme_minimal()
+
+ggplot(Memory, aes(x=Score)) + 
+  geom_histogram(bins=30, fill="lightblue", color="black") +
+  labs(title="Memory MSRP Prices", x="Price", y="Frequency") +
+  theme_minimal()
+```
+
 ```{r}
 cpu_summary <- CPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
@@ -102,7 +124,7 @@ ggplot(combined_data, aes(x = Component, y = Price, fill = Quartile)) +
 
   theme_minimal() +
 
-  labs(title = "Component Prices per Quartile", x = "Component", y = "Price") +
+  labs(title = "Component Launch Prices per Quartile", x = "Component", y = "Price") +
 
   scale_fill_brewer(palette = "Set1") +
 
