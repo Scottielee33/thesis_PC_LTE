@@ -1,0 +1,157 @@
+---
+title: "forecasting"
+output: pdf_document
+date: "2024-02-15"
+---
+
+```{r}
+if (!require("ggplot2")) install.packages("ggplot2")
+if (!require("lubridate")) install.packages("lubridate")
+if (!require("dplyr")) install.packages("dplyr")
+if (!require("purr")) install.packages("purr")
+if (!require("broom")) install.packages("broom")
+```
+
+```{r}
+# Read the data
+CPU <- read.csv("../final_data/CPU.csv")
+GPU <- read.csv("../final_data/GPU.csv")
+Disk <- read.csv("../final_data/Disk.csv")
+Memory <- read.csv("../final_data/Memory.csv")
+```
+
+```{r}
+# Convert 'ReleaseDate' and 'CurrentDate' to Date objects and create 'Log_Score'
+CPU <- CPU %>%
+  mutate(
+    ReleaseDate = as.Date(ReleaseDate),
+    CurrentDate = as.Date(CurrentDate),
+    Log_Score = log(Score)
+  )
+
+# Fit a linear regression model for each quartile and collect coefficients
+models <- CPU %>%
+  group_by(Quartile) %>%
+  do(model = lm(Log_Score ~ ReleaseDate, data = .))
+
+# Get the summary of each model and tidy it up into a data frame
+model_summaries <- models %>%
+  pull(model) %>%
+  map(~ summary(.x)) %>%
+  map_dfr(~ tidy(.x), .id = "Quartile")
+
+# Print the model summaries for each quartile
+print(model_summaries)
+
+# Plot the regression line and data for each quartile
+ggplot(CPU, aes(x = ReleaseDate, y = Log_Score, color = Quartile)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  scale_color_manual(values = c("red", "green", "blue")) +
+  scale_fill_manual(values = c("red", "green", "blue")) +
+  labs(title = "CPU: Log Score vs. Release Date",
+       x = "Release date", y = "Log Score") +
+  theme_minimal()
+```
+
+```{r}
+# Convert 'ReleaseDate' and 'CurrentDate' to Date objects and create 'Log_Score'
+GPU <- GPU %>%
+  mutate(
+    ReleaseDate = as.Date(ReleaseDate),
+    CurrentDate = as.Date(CurrentDate),
+    Log_Score = log(Score)
+  )
+
+# Fit a linear regression model for each quartile and collect coefficients
+models <- GPU %>%
+  group_by(Quartile) %>%
+  do(model = lm(Log_Score ~ ReleaseDate, data = .))
+
+# Get the summary of each model and tidy it up into a data frame
+model_summaries <- models %>%
+  pull(model) %>%
+  map(~ summary(.x)) %>%
+  map_dfr(~ tidy(.x), .id = "Quartile")
+
+# Print the model summaries for each quartile
+print(model_summaries)
+
+# Plot the regression line and data for each quartile
+ggplot(GPU, aes(x = ReleaseDate, y = Log_Score, color = Quartile)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  scale_color_manual(values = c("red", "green", "blue", "purple")) +
+  scale_fill_manual(values = c("red", "green", "blue", "purple")) +
+  labs(title = "GPU: Log Score vs. Release Date",
+       x = "Release Date", y = "Log Score") +
+  theme_minimal()
+```
+
+```{r}
+# Convert 'ReleaseDate' and 'CurrentDate' to Date objects and create 'Log_Score'
+Disk <- Disk %>%
+  mutate(
+    ReleaseDate = as.Date(ReleaseDate),
+    CurrentDate = as.Date(CurrentDate),
+    Log_Score = log(Score)
+  )
+
+# Fit a linear regression model for each quartile and collect coefficients
+models <- Disk %>%
+  group_by(Quartile) %>%
+  do(model = lm(Log_Score ~ ReleaseDate, data = .))
+
+# Get the summary of each model and tidy it up into a data frame
+model_summaries <- models %>%
+  pull(model) %>%
+  map(~ summary(.x)) %>%
+  map_dfr(~ tidy(.x), .id = "Quartile")
+
+# Print the model summaries for each quartile
+print(model_summaries)
+
+# Plot the regression line and data for each quartile
+ggplot(Disk, aes(x = ReleaseDate, y = Log_Score, color = Quartile)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  scale_color_manual(values = c("red", "green", "blue", "purple")) +
+  scale_fill_manual(values = c("red", "green", "blue", "purple")) +
+  labs(title = "Disk: Log Score vs. Release Date",
+       x = "Release Date", y = "Log Score") +
+  theme_minimal()
+```
+
+```{r}
+# Convert 'ReleaseDate' and 'CurrentDate' to Date objects and create 'Log_Score'
+Memory <- Memory %>%
+  mutate(
+    ReleaseDate = as.Date(ReleaseDate),
+    CurrentDate = as.Date(CurrentDate),
+    Log_Score = log(Score)
+  )
+
+# Fit a linear regression model for each quartile and collect coefficients
+models <- Memory %>%
+  group_by(Quartile) %>%
+  do(model = lm(Log_Score ~ ReleaseDate, data = .))
+
+# Get the summary of each model and tidy it up into a data frame
+model_summaries <- models %>%
+  pull(model) %>%
+  map(~ summary(.x)) %>%
+  map_dfr(~ tidy(.x), .id = "Quartile")
+
+# Print the model summaries for each quartile
+print(model_summaries)
+
+# Plot the regression line and data for each quartile
+ggplot(Memory, aes(x = ReleaseDate, y = Log_Score, color = Quartile)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  scale_color_manual(values = c("red", "green", "blue", "purple")) +
+  scale_fill_manual(values = c("red", "green", "blue", "purple")) +
+  labs(title = "Memory: Log Score vs. Release Date",
+       x = "Release Date", y = "Log Score") +
+  theme_minimal()
+```
