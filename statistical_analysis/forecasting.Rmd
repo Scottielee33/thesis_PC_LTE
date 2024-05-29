@@ -8,7 +8,7 @@ date: "2024-02-15"
 if (!require("ggplot2")) install.packages("ggplot2")
 if (!require("lubridate")) install.packages("lubridate")
 if (!require("dplyr")) install.packages("dplyr")
-if (!require("purr")) install.packages("purr")
+if (!require("purrr")) install.packages("purr")
 if (!require("broom")) install.packages("broom")
 ```
 
