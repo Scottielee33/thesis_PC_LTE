@@ -74,14 +74,14 @@ CPU_complete <- CPU_complete %>%
   group_by(GroupedYear) %>%
   filter(n() >= 10)
 
-# Calculate the quartiles for each group of years
+# Calculate the Quantiles for each group of years
 CPU_complete <- CPU_complete %>%
   group_by(GroupedYear) %>%
   mutate(
-    Quartile = cut(
+    Quantile = cut(
       ReleasePrice, 
       breaks = c(-Inf, quantile(ReleasePrice, probs = c(0.33, 0.66)), Inf), 
-      labels = c("First Quartile", "Second Quartile", "Third Quartile"), 
+      labels = c("First Quantile", "Second Quantile", "Third Quantile"), 
       include.lowest = TRUE
     )
   )
@@ -166,14 +166,14 @@ GPU_counts$GroupedYear <- cumsum(GPU_counts$Count >= threshold)
 GPU_complete <- GPU_complete %>%
   left_join(GPU_counts %>% select(Year, GroupedYear), by = "Year")
 
-# Calculate the quartiles for each group of years
+# Calculate the quantiles for each group of years
 GPU_complete <- GPU_complete %>%
   group_by(GroupedYear) %>%
   mutate(
-    Quartile = cut(
+    Quantile = cut(
       ReleasePrice, 
       breaks = c(-Inf, quantile(ReleasePrice, probs = c(0.33, 0.66)), Inf), 
-      labels = c("First Quartile", "Second Quartile", "Third Quartile"), 
+      labels = c("First Quantile", "Second Quantile", "Third Quantile"), 
       include.lowest = TRUE
     )
   )
@@ -252,14 +252,14 @@ Disk_counts$GroupedYear <- cumsum(Disk_counts$Count >= threshold)
 Disk_complete <- Disk_complete %>%
   left_join(Disk_counts %>% select(Year, GroupedYear), by = "Year")
 
-# Calculate the quartiles for each group of years
+# Calculate the Quantiles for each group of years
 Disk_complete <- Disk_complete %>%
   group_by(GroupedYear) %>%
   mutate(
-    Quartile = cut(
+    Quantile = cut(
       ReleasePrice, 
       breaks = c(-Inf, quantile(ReleasePrice, probs = c(0.33, 0.66)), Inf), 
-      labels = c("First Quartile", "Second Quartile", "Third Quartile"), 
+      labels = c("First Quantile", "Second Quantile", "Third Quantile"), 
       include.lowest = TRUE
     )
   )
@@ -321,10 +321,10 @@ Memory_complete$Score <- as.numeric(gsub(",", "", Memory_complete$Score))
 
 Memory_complete$Scores <- NULL
 
-quartiles <- quantile(Memory_complete$ReleasePrice, probs = c(0.33, 0.66))
+Quantiles <- quantile(Memory_complete$ReleasePrice, probs = c(0.33, 0.66))
 
-Memory_complete$Quartile <- cut(Memory_complete$ReleasePrice, breaks=c(-Inf, quartiles, Inf), 
-                       labels=c("First Quartile", "Second Quartile", "Third Quartile"), include.lowest=TRUE)
+Memory_complete$Quantile <- cut(Memory_complete$ReleasePrice, breaks=c(-Inf, Quantiles, Inf), 
+                       labels=c("First Quantile", "Second Quantile", "Third Quantile"), include.lowest=TRUE)
 
 Memory_complete$Year <- year(Memory_complete$ReleaseDate)
 
@@ -344,14 +344,14 @@ Memory_counts$GroupedYear <- cumsum(Memory_counts$Count >= threshold)
 Memory_complete <- Memory_complete %>%
   left_join(Memory_counts %>% select(Year, GroupedYear), by = "Year")
 
-# Calculate the quartiles for each group of years
+# Calculate the Quantiles for each group of years
 Memory_complete <- Memory_complete %>%
   group_by(GroupedYear) %>%
   mutate(
-    Quartile = cut(
+    Quantile = cut(
       ReleasePrice, 
       breaks = c(-Inf, quantile(ReleasePrice, probs = c(0.33, 0.66)), Inf), 
-      labels = c("First Quartile", "Second Quartile", "Third Quartile"), 
+      labels = c("First Quantile", "Second Quantile", "Third Quantile"), 
       include.lowest = TRUE
     )
   )
