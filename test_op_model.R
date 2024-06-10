@@ -1,83 +1,86 @@
 library(nloptr)
 library(ggplot2)
+library(data.table)  # Added for potential use in data manipulation
 
 # Define the performance decay function
 performance <- function(t, t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new) {
-  if (t < t_upgrade) {
-    return(perf_initial * exp(-lambda * t))
-  } else {
-    perf_at_upgrade <- (perf_initial - perf_old_replaced) * exp(-lambda * t_upgrade) + perf_new
-    return(perf_at_upgrade * exp(-lambda * (t - t_upgrade)))
-  }
+  ifelse(
+    t < t_upgrade,
+    perf_initial * exp(-lambda * t),
+    {
+      perf_at_upgrade <- (perf_initial - perf_old_replaced) * exp(-lambda * t_upgrade) + perf_new
+      perf_at_upgrade * exp(-lambda * (t - t_upgrade))
+    }
+  )
 }
 
 # Define the average performance function over a period
 average_performance <- function(t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, period) {
-  total_perf <- 0
   time_steps <- seq(0, period, by = 0.01)
-  for (t in time_steps) {
-    total_perf <- total_perf + performance(t, t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new)
-  }
-  return(total_perf / length(time_steps))
+  performance_values <- performance(time_steps, t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new)
+  mean(performance_values)
 }
 
 # Parameters
-perf_initial <- 100  # Initial performance
-lambda <- 0.1        # Decay rate
-perf_old_replaced <- 5  # Initial performance of the old component
-perf_new <- 10  # Performance of the new component
+perf_initial <- 1000  # Initial performance
+lambda <- 0.2        # Decay rate
+perf_old_replaced <- 395  # Initial performance of the old component
+perf_new <- 432  # Performance of the new component
 initial_period <- 5  # Initial period (in years)
 
 # Calculate the average performance over the initial period without any upgrade
 initial_avg_perf_no_upgrade <- average_performance(Inf, perf_initial, lambda, perf_old_replaced, 0, initial_period)
-
-# Print the average performance over the first 5 years without any upgrades
 cat("Average performance over the first 5 years without any upgrades:", initial_avg_perf_no_upgrade, "\n")
 
-# Define the objective function to maximize the extended period while maintaining the average performance
-objective_function <- function(params) {
-  t_upgrade <- params[1]
-  extended_period <- params[2]
-  avg_perf <- average_performance(t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, extended_period)
+# Objective function to maximize the extended period while maintaining the average performance
+objective_function <- function(t_upgrade) {
+  extended_period <- initial_period
+  while (TRUE) {
+    avg_perf <- average_performance(t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, extended_period)
+    if (avg_perf < initial_avg_perf_no_upgrade) {
+      break
+    }
+    extended_period <- extended_period + 0.01  # Increased precision
+  }
   return(-extended_period)  # Maximize the extended period
 }
 
-# Constraint function to ensure the average performance is maintained
-constraint_function <- function(params) {
-  t_upgrade <- params[1]
-  extended_period <- params[2]
-  avg_perf <- average_performance(t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, extended_period)
-  return(avg_perf - initial_avg_perf_no_upgrade)
-}
-
 # Set up the optimization problem
-lb <- c(0, initial_period)  # Lower bounds for t_upgrade and extended_period
-ub <- c(initial_period, 20)  # Upper bounds for t_upgrade and extended_period (arbitrary large number for extended period)
-initial_guess <- c(initial_period / 2, initial_period * 2)
+lb <- 0  # Lower bound for t_upgrade
+ub <- initial_period  # Upper bound for t_upgrade
+initial_guess <- initial_period / 2
 
-# Run the optimization
+# Run the optimization using a different algorithm
 result <- nloptr::nloptr(
   x0 = initial_guess,
   eval_f = objective_function,
   lb = lb,
   ub = ub,
-  eval_g_ineq = function(x) constraint_function(x),
-  opts = list(algorithm = "NLOPT_LN_COBYLA", xtol_rel = 1e-6, maxeval = 1000)
+  opts = list(algorithm = "NLOPT_GN_ISRES", xtol_rel = 1e-6, maxeval = 1000)
 )
 
-# Extract the optimal upgrade time and extended period
+# Extract the optimal upgrade time
 optimal_t_upgrade <- result$solution[1]
-optimal_extended_period <- result$solution[2]
+
+# Calculate the optimal extended period
+optimal_extended_period <- initial_period
+while (TRUE) {
+  avg_perf <- average_performance(optimal_t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, optimal_extended_period)
+  if (avg_perf < initial_avg_perf_no_upgrade) {
+    break
+  }
+  optimal_extended_period <- optimal_extended_period + 0.01  # Increased precision
+}
 
 # Print the results
-cat("Optimal upgrade time:", optimal_t_upgrade, "years\n")
-cat("Optimal extended period:", optimal_extended_period, "years\n")
+cat("Optimal upgrade time:", format(optimal_t_upgrade, digits = 10), "years\n")
+cat("Optimal extended period:", format(optimal_extended_period, digits = 10), "years\n")
 
 # Generate performance data for plotting
 time_points <- seq(0, optimal_extended_period, by = 0.1)
 performance_data <- data.frame(
   Time = time_points,
-  Performance = sapply(time_points, function(t) performance(t, optimal_t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new))
+  Performance = performance(time_points, optimal_t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new)
 )
 
 # Plot the performance over time
