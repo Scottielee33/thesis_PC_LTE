@@ -1,83 +1,92 @@
+library(nloptr)
+library(ggplot2)
+
 # Define the performance decay function
-performance_decay <- function(initial_perf, decay_rate, time) {
-  return(initial_perf * exp(-decay_rate * time))
-}
-
-# Define the overall performance function
-overall_performance <- function(initial_perf, old_replaced_perf, new_perf, decay_rate, total_time, upgrade_time) {
-  # Time step for splitting each year into 10 parts
-  time_step <- 0.1
-  num_steps <- total_time / time_step
-  upgrade_step <- round(upgrade_time / time_step)
-  
-  # Initialize a vector to store overall performance
-  perf_overall <- numeric(num_steps + 1)
-  time_points <- seq(0, total_time, by = time_step)
-  
-  # Calculate performance before the upgrade
-  for (i in 1:upgrade_step) {
-    t <- time_points[i]
-    perf_overall[i] <- performance_decay(initial_perf, decay_rate, t)
+performance <- function(t, t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new) {
+  if (t < t_upgrade) {
+    return(perf_initial * exp(-lambda * t))
+  } else {
+    perf_at_upgrade <- (perf_initial - perf_old_replaced) * exp(-lambda * t_upgrade) + perf_new
+    return(perf_at_upgrade * exp(-lambda * (t - t_upgrade)))
   }
-  
-  # Calculate performance at the upgrade time
-  t_upgrade <- time_points[upgrade_step + 1]
-  perf_initial_decay <- performance_decay(initial_perf, decay_rate, t_upgrade)
-  perf_old_replaced_decay <- performance_decay(old_replaced_perf, decay_rate, t_upgrade)
-  perf_at_upgrade <- perf_initial_decay - perf_old_replaced_decay + new_perf
-  
-  # Ensure the performance jumps correctly at the upgrade point
-  perf_overall[upgrade_step + 1] <- perf_at_upgrade
-  
-  # Calculate performance after the upgrade
-  for (i in (upgrade_step + 2):(num_steps + 1)) {
-    t <- time_points[i]
-    time_after_upgrade <- t - t_upgrade
-    perf_overall[i] <- perf_at_upgrade * exp(-decay_rate * time_after_upgrade)
+}
+
+# Define the average performance function over a period
+average_performance <- function(t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, period) {
+  total_perf <- 0
+  time_steps <- seq(0, period, by = 0.01)
+  for (t in time_steps) {
+    total_perf <- total_perf + performance(t, t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new)
   }
-  
-  return(list(perf_overall = perf_overall, time_points = time_points))
+  return(total_perf / length(time_steps))
 }
 
-# Define the objective function to maximize average performance
-objective_function <- function(upgrade_time, initial_perf, old_replaced_perf, new_perf, decay_rate, total_time, target_time) {
-  result <- overall_performance(initial_perf, old_replaced_perf, new_perf, decay_rate, total_time, upgrade_time)
-  perf_overall <- result$perf_overall
-  time_points <- result$time_points
-  
-  # Calculate the average performance over the target time period
-  avg_performance <- mean(perf_overall[time_points <= target_time])
-  return(-avg_performance)  # Negative because we want to maximize this value
+# Parameters
+perf_initial <- 100  # Initial performance
+lambda <- 0.1        # Decay rate
+perf_old_replaced <- 5  # Initial performance of the old component
+perf_new <- 10  # Performance of the new component
+initial_period <- 5  # Initial period (in years)
+
+# Calculate the average performance over the initial period without any upgrade
+initial_avg_perf_no_upgrade <- average_performance(Inf, perf_initial, lambda, perf_old_replaced, 0, initial_period)
+
+# Print the average performance over the first 5 years without any upgrades
+cat("Average performance over the first 5 years without any upgrades:", initial_avg_perf_no_upgrade, "\n")
+
+# Define the objective function to maximize the extended period while maintaining the average performance
+objective_function <- function(params) {
+  t_upgrade <- params[1]
+  extended_period <- params[2]
+  avg_perf <- average_performance(t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, extended_period)
+  return(-extended_period)  # Maximize the extended period
 }
 
-# Example values
-initial_perf <- 1000
-old_replaced_perf <- 200
-new_perf <- 210
-decay_rate <- 0.1
-total_time <- 15
+# Constraint function to ensure the average performance is maintained
+constraint_function <- function(params) {
+  t_upgrade <- params[1]
+  extended_period <- params[2]
+  avg_perf <- average_performance(t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, extended_period)
+  return(avg_perf - initial_avg_perf_no_upgrade)
+}
 
-target_time <- 20
+# Set up the optimization problem
+lb <- c(0, initial_period)  # Lower bounds for t_upgrade and extended_period
+ub <- c(initial_period, 20)  # Upper bounds for t_upgrade and extended_period (arbitrary large number for extended period)
+initial_guess <- c(initial_period / 2, initial_period * 2)
 
-# Optimize the upgrade time to maximize the average performance over the target time period
-opt_result <- optim(par = 5, fn = objective_function, method = "L-BFGS-B",
-                    lower = 0, upper = total_time,
-                    initial_perf = initial_perf, old_replaced_perf = old_replaced_perf,
-                    new_perf = new_perf, decay_rate = decay_rate, total_time = total_time, target_time = target_time)
+# Run the optimization
+result <- nloptr::nloptr(
+  x0 = initial_guess,
+  eval_f = objective_function,
+  lb = lb,
+  ub = ub,
+  eval_g_ineq = function(x) constraint_function(x),
+  opts = list(algorithm = "NLOPT_LN_COBYLA", xtol_rel = 1e-6, maxeval = 1000)
+)
 
-# Get the optimal upgrade time
-optimal_upgrade_time <- opt_result$par
+# Extract the optimal upgrade time and extended period
+optimal_t_upgrade <- result$solution[1]
+optimal_extended_period <- result$solution[2]
 
-cat("Optimal upgrade time:", optimal_upgrade_time, "\n")
+# Print the results
+cat("Optimal upgrade time:", optimal_t_upgrade, "years\n")
+cat("Optimal extended period:", optimal_extended_period, "years\n")
 
-# Calculate the overall performance with the optimal upgrade time
-result_optimal <- overall_performance(initial_perf, old_replaced_perf, new_perf, decay_rate, total_time, optimal_upgrade_time)
-perf_overall_optimal <- result_optimal$perf_overall
-time_points_optimal <- result_optimal$time_points
+# Generate performance data for plotting
+time_points <- seq(0, optimal_extended_period, by = 0.1)
+performance_data <- data.frame(
+  Time = time_points,
+  Performance = sapply(time_points, function(t) performance(t, optimal_t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new))
+)
 
-# Plot the performance
-plot(time_points_optimal, perf_overall_optimal, type = "l", col = "blue", lwd = 2,
-     xlab = "Time (years)", ylab = "Performance",
-     main = "Optimized Computer Performance Over Time")
-abline(v = optimal_upgrade_time, col = "red", lty = 2)
-text(optimal_upgrade_time, max(perf_overall_optimal), labels = "Optimal Upgrade", pos = 4, col = "red")
+# Plot the performance over time
+ggplot(performance_data, aes(x = Time, y = Performance)) +
+  geom_line(color = "blue") +
+  geom_vline(xintercept = optimal_t_upgrade, linetype = "dashed", color = "red") +
+  labs(title = "Performance Over Time with Optimal Upgrade",
+       x = "Time (years)",
+       y = "Performance") +
+  annotate("text", x = optimal_t_upgrade, y = max(performance_data$Performance), label = paste("Upgrade at", round(optimal_t_upgrade, 2), "years"), hjust = -0.1) +
+  geom_hline(yintercept = initial_avg_perf_no_upgrade, linetype = "dotted", color = "green") +
+  annotate("text", x = optimal_extended_period * 0.7, y = initial_avg_perf_no_upgrade, label = "Initial Avg Performance", vjust = -1)
