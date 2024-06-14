@@ -16,7 +16,7 @@ cpu_data <- fread('../final_data/CPU.csv')
 gpu_data <- fread('../final_data/GPU.csv')
 disk_data <- fread('../final_data/Disk.csv')
 memory_data <- fread('../final_data/Memory.csv')
-
+                 
 # Add ReleaseYear column
 cpu_data$ReleaseYear <- year(ymd(cpu_data$ReleaseDate))
 gpu_data$ReleaseYear <- year(ymd(gpu_data$ReleaseDate))
@@ -246,5 +246,71 @@ results_df <- do.call(rbind, lapply(names(results), function(name) {
 
 results_df
 write.csv(results_df, "optimization_results.csv", row.names = FALSE)
+write.csv(cpu_averages, "cpu_averages.csv", row.names = FALSE)
+write.csv(gpu_averages, "gpu_averages.csv", row.names = FALSE)
+write.csv(disk_averages, "disk_averages.csv", row.names = FALSE)
+write.csv(memory_averages, "memory_averages.csv", row.names = FALSE)
+```
+
+```{r}
+gpu_averages <- gpu_averages %>% rename(GPU_Price = Avg_Release_Price)
+memory_averages <- memory_averages %>% rename(Memory_Price = Avg_Release_Price)
+cpu_averages <- cpu_averages %>% rename(CPU_Price = Avg_Release_Price)
+disk_averages <- disk_averages %>% rename(Disk_Price = Avg_Release_Price)
+
+# Convert the Year column in optimization_results to numeric
+results_df$Year <- as.numeric(results_df$Year)
+
+# Merge datasets with optimization_results
+merged_data <- results_df %>%
+  left_join(cpu_averages %>% select(Quantile, ReleaseYear, CPU_Price), by = c("Quantile" = "Quantile", "Year" = "ReleaseYear")) %>%
+  left_join(gpu_averages %>% select(Quantile, ReleaseYear, GPU_Price), by = c("Quantile" = "Quantile", "Year" = "ReleaseYear")) %>%
+  left_join(memory_averages %>% select(Quantile, ReleaseYear, Memory_Price), by = c("Quantile" = "Quantile", "Year" = "ReleaseYear")) %>%
+  left_join(disk_averages %>% select(Quantile, ReleaseYear, Disk_Price), by = c("Quantile" = "Quantile", "Year" = "ReleaseYear"))
+
+# Calculate the total average price for the system
+merged_data <- merged_data %>%
+  mutate(Total_Avg_Price = CPU_Price + GPU_Price + Memory_Price + Disk_Price)
+
+# Calculate the average price without upgrade for 5 years
+merged_data <- merged_data %>%
+  mutate(Avg_Price_Without_Upgrade = Total_Avg_Price / 5)
+
+# Function to get the price of a component after the optimal upgrade time
+get_upgrade_price <- function(row) {
+  component <- row["Component"]
+  year <- as.numeric(row["Year"])
+  upgrade_time <- as.numeric(row["Optimal_Upgrade_Time"])
+  upgrade_year <- year + floor(upgrade_time)
+  
+  if (component == "CPU") {
+    price <- cpu_averages %>% filter(ReleaseYear == upgrade_year & Quantile == row["Quantile"]) %>% select(CPU_Price) %>% unlist()
+  } else if (component == "GPU") {
+    price <- gpu_averages %>% filter(ReleaseYear == upgrade_year & Quantile == row["Quantile"]) %>% select(GPU_Price) %>% unlist()
+  } else if (component == "Memory") {
+    price <- memory_averages %>% filter(ReleaseYear == upgrade_year & Quantile == row["Quantile"]) %>% select(Memory_Price) %>% unlist()
+  } else if (component == "Disk") {
+    price <- disk_averages %>% filter(ReleaseYear == upgrade_year & Quantile == row["Quantile"]) %>% select(Disk_Price) %>% unlist()
+  } else {
+    price <- 0
+  }
+  
+  return(ifelse(length(price) > 0, price, 0))
+}
+
+# Apply the function to calculate the upgrade price
+merged_data$Upgrade_Price <- apply(merged_data, 1, get_upgrade_price)
+
+# Calculate the average price for the extended time including the upgrade
+merged_data <- merged_data %>%
+  mutate(Avg_Price_With_Upgrade = (Total_Avg_Price + Upgrade_Price) / (Optimal_Extended_Period + 1))
+
+# Select only necessary columns
+final_results <- merged_data %>%
+  select(Year, Quantile, Component, Optimal_Upgrade_Time, Optimal_Extended_Period, Avg_Price_Without_Upgrade, Avg_Price_With_Upgrade)
+
+# Display the final results
+print(final_results)
+write.csv(final_results, file = "final_results.csv", row.names = FALSE)
 ```
 

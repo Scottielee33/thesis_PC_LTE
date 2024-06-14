@@ -83,7 +83,7 @@ get_perf_new <- function(t_upgrade) {
 
 ```{r}
 # Objective function to maximize the extended period while maintaining the average performance
-objective_function <- function(t_upgrade) {
+objective_function <- function(t_upgrade, initial_avg_perf_no_upgrade) {
   perf_new <- get_perf_new(t_upgrade)
   extended_period <- initial_period
   while (TRUE) {
@@ -108,10 +108,15 @@ optimize_upgrade <- function(perf_initial, lambda, perf_old_replaced, initial_pe
   ub <- initial_period  # Upper bound for t_upgrade
   initial_guess <- initial_period / 2
   
+  # Modify the objective function to include initial_avg_perf_no_upgrade as an argument
+  objective_function_with_params <- function(t_upgrade) {
+    objective_function(t_upgrade, initial_avg_perf_no_upgrade)
+  }
+  
   # Run the optimization using a different algorithm
   result <- nloptr::nloptr(
     x0 = initial_guess,
-    eval_f = objective_function,
+    eval_f = objective_function_with_params,
     lb = lb,
     ub = ub,
     opts = list(algorithm = "NLOPT_GN_ISRES", xtol_rel = 1e-6, maxeval = 100)
@@ -136,13 +141,13 @@ optimize_upgrade <- function(perf_initial, lambda, perf_old_replaced, initial_pe
   cat("Optimal extended period:", format(optimal_extended_period, digits = 10), "years\n")
   
   # Generate performance data for plotting
-  time_points <- seq(0, optimal_extended_period, by = 0.1)
+  time_points <- seq(0, optimal_extended_period, by = 0.05)
   performance_data <- data.frame(
     Time = time_points,
     Performance = performance(time_points, optimal_t_upgrade, perf_initial, lambda, perf_old_replaced, optimal_perf_new)
   )
   
-  return(list(optimal_t_upgrade = optimal_t_upgrade, optimal_extended_period = optimal_extended_period, performance_data = performance_data))
+  return(list(optimal_t_upgrade = optimal_t_upgrade, optimal_extended_period = optimal_extended_period, performance_data = performance_data, initial_avg_perf_no_upgrade = initial_avg_perf_no_upgrade))
 }
 ```
 
@@ -177,7 +182,5 @@ ggplot(performance_data, aes(x = Time, y = Performance)) +
   labs(title = "Performance Over Time with Optimal Upgrade",
        x = "Time (years)",
        y = "Performance") +
-  annotate("text", x = optimal_t_upgrade, y = max(performance_data$Performance), label = paste("Upgrade at", round(optimal_t_upgrade, 2), "years"), hjust = -0.1) +
-  geom_hline(yintercept = initial_avg_perf_no_upgrade, linetype = "dotted", color = "green") +
-  annotate("text", x = optimal_extended_period * 0.7, y = initial_avg_perf_no_upgrade, label = "Initial Avg Performance", vjust = -1)
+  annotate("text", x = optimal_t_upgrade, y = max(performance_data$Performance), label = paste("Upgrade at", round(optimal_t_upgrade, 2), "years"), hjust = -0.1)
 ```
