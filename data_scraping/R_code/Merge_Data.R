@@ -109,17 +109,17 @@ GPU_R$Link <- NULL
 GPU_Price$Link <- NULL
 GPU_R$DATE <- NULL
 GPU_R$ReleaseDate <- NULL
-GPU_R <- rename(GPU_R, CurrentPrice1 = CurrentPrice)
-GPU_R$CurrentPrice1 <- as.character(GPU_R$CurrentPrice1)
 
 GPU_complete <- left_join(GPU_R, GPU_Price, by = "GPU")
 
 GPU_complete$ReleasePrice <- dplyr::na_if(GPU_complete$ReleasePrice, "")
 GPU_complete$CurrentPrice <- dplyr::na_if(GPU_complete$CurrentPrice, "")
 
+GPU_complete$Year <- year(GPU_complete$ReleaseDate)
+GPU_complete$Quarters <- quarter(GPU_complete$ReleaseDate)
+
 GPU_complete <- GPU_complete %>%
-  mutate(ReleasePrice = ifelse(is.na(ReleasePrice) | ReleasePrice == "", CurrentPrice1, ReleasePrice),
-         CurrentPrice = ifelse(is.na(CurrentPrice) | CurrentPrice == "", CurrentPrice1, CurrentPrice))
+  filter(!is.na(ReleaseDate))
 
 GPU_complete <- GPU_complete %>%
   mutate(ReleaseQuarterYear = paste0(Year, "-", ifelse(Quarters == "Q1", "03-31", 

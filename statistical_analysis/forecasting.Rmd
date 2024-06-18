@@ -29,24 +29,24 @@ CPU <- CPU %>%
     Log_Score = log(Score)
   )
 
-# Fit a linear regression model for each quartile and collect coefficients
+# Fit a linear regression model for each Quantile and collect coefficients
 models <- CPU %>%
-  group_by(Quartile) %>%
+  group_by(Quantile) %>%
   do(model = lm(Log_Score ~ ReleaseDate, data = .))
 
 # Get the summary of each model and tidy it up into a data frame
 model_summaries <- models %>%
   pull(model) %>%
   map(~ summary(.x)) %>%
-  map_dfr(~ tidy(.x), .id = "Quartile")
+  map_dfr(~ tidy(.x), .id = "Quantile")
 
-# Print the model summaries for each quartile
+# Print the model summaries for each Quantile
 print(model_summaries)
 
-# Plot the regression line and data for each quartile
-ggplot(CPU, aes(x = ReleaseDate, y = Log_Score, color = Quartile)) +
+# Plot the regression line and data for each Quantile
+ggplot(CPU, aes(x = ReleaseDate, y = Log_Score, color = Quantile)) +
   geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  geom_smooth(method = "lm", aes(fill = Quantile), se = FALSE) +
   scale_color_manual(values = c("red", "green", "blue")) +
   scale_fill_manual(values = c("red", "green", "blue")) +
   labs(title = "CPU: Log Score vs. Release Date",
@@ -63,24 +63,24 @@ GPU <- GPU %>%
     Log_Score = log(Score)
   )
 
-# Fit a linear regression model for each quartile and collect coefficients
+# Fit a linear regression model for each Quantile and collect coefficients
 models <- GPU %>%
-  group_by(Quartile) %>%
+  group_by(Quantile) %>%
   do(model = lm(Log_Score ~ ReleaseDate, data = .))
 
 # Get the summary of each model and tidy it up into a data frame
 model_summaries <- models %>%
   pull(model) %>%
   map(~ summary(.x)) %>%
-  map_dfr(~ tidy(.x), .id = "Quartile")
+  map_dfr(~ tidy(.x), .id = "Quantile")
 
-# Print the model summaries for each quartile
+# Print the model summaries for each Quantile
 print(model_summaries)
 
-# Plot the regression line and data for each quartile
-ggplot(GPU, aes(x = ReleaseDate, y = Log_Score, color = Quartile)) +
+# Plot the regression line and data for each Quantile
+ggplot(GPU, aes(x = ReleaseDate, y = Log_Score, color = Quantile)) +
   geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  geom_smooth(method = "lm", aes(fill = Quantile), se = FALSE) +
   scale_color_manual(values = c("red", "green", "blue", "purple")) +
   scale_fill_manual(values = c("red", "green", "blue", "purple")) +
   labs(title = "GPU: Log Score vs. Release Date",
@@ -97,24 +97,24 @@ Disk <- Disk %>%
     Log_Score = log(Score)
   )
 
-# Fit a linear regression model for each quartile and collect coefficients
+# Fit a linear regression model for each Quantile and collect coefficients
 models <- Disk %>%
-  group_by(Quartile) %>%
+  group_by(Quantile) %>%
   do(model = lm(Log_Score ~ ReleaseDate, data = .))
 
 # Get the summary of each model and tidy it up into a data frame
 model_summaries <- models %>%
   pull(model) %>%
   map(~ summary(.x)) %>%
-  map_dfr(~ tidy(.x), .id = "Quartile")
+  map_dfr(~ tidy(.x), .id = "Quantile")
 
-# Print the model summaries for each quartile
+# Print the model summaries for each Quantile
 print(model_summaries)
 
-# Plot the regression line and data for each quartile
-ggplot(Disk, aes(x = ReleaseDate, y = Log_Score, color = Quartile)) +
+# Plot the regression line and data for each Quantile
+ggplot(Disk, aes(x = ReleaseDate, y = Log_Score, color = Quantile)) +
   geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  geom_smooth(method = "lm", aes(fill = Quantile), se = FALSE) +
   scale_color_manual(values = c("red", "green", "blue", "purple")) +
   scale_fill_manual(values = c("red", "green", "blue", "purple")) +
   labs(title = "Disk: Log Score vs. Release Date",
@@ -131,24 +131,24 @@ Memory <- Memory %>%
     Log_Score = log(Score)
   )
 
-# Fit a linear regression model for each quartile and collect coefficients
+# Fit a linear regression model for each Quantile and collect coefficients
 models <- Memory %>%
-  group_by(Quartile) %>%
+  group_by(Quantile) %>%
   do(model = lm(Log_Score ~ ReleaseDate, data = .))
 
 # Get the summary of each model and tidy it up into a data frame
 model_summaries <- models %>%
   pull(model) %>%
   map(~ summary(.x)) %>%
-  map_dfr(~ tidy(.x), .id = "Quartile")
+  map_dfr(~ tidy(.x), .id = "Quantile")
 
-# Print the model summaries for each quartile
+# Print the model summaries for each Quantile
 print(model_summaries)
 
-# Plot the regression line and data for each quartile
-ggplot(Memory, aes(x = ReleaseDate, y = Log_Score, color = Quartile)) +
+# Plot the regression line and data for each Quantile
+ggplot(Memory, aes(x = ReleaseDate, y = Log_Score, color = Quantile)) +
   geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", aes(fill = Quartile), se = FALSE) +
+  geom_smooth(method = "lm", aes(fill = Quantile), se = FALSE) +
   scale_color_manual(values = c("red", "green", "blue", "purple")) +
   scale_fill_manual(values = c("red", "green", "blue", "purple")) +
   labs(title = "Memory: Log Score vs. Release Date",

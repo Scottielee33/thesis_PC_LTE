@@ -95,37 +95,37 @@ ggplot(Memory, aes(x=Score)) +
 ```
 
 ```{r}
-cpu_summary <- CPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
+cpu_summary <- CPU %>% group_by(Quantile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
-gpu_summary <- GPU %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
+gpu_summary <- GPU %>% group_by(Quantile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
-disk_summary <- Disk %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
+disk_summary <- Disk %>% group_by(Quantile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
-memory_summary <- Memory %>% group_by(Quartile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
+memory_summary <- Memory %>% group_by(Quantile) %>% summarize(AvgPrice = mean(AdjustedReleasePrice))
 
 
 
 # Combining data
 
-combined_data <- rbind(data.frame(Component = 'CPU', Quartile = cpu_summary$Quartile, Price = cpu_summary$AvgPrice),
+combined_data <- rbind(data.frame(Component = 'CPU', Quantile = cpu_summary$Quantile, Price = cpu_summary$AvgPrice),
 
-                       data.frame(Component = 'GPU', Quartile = gpu_summary$Quartile, Price = gpu_summary$AvgPrice),
+                       data.frame(Component = 'GPU', Quantile = gpu_summary$Quantile, Price = gpu_summary$AvgPrice),
 
-                       data.frame(Component = 'Disk', Quartile = disk_summary$Quartile, Price = disk_summary$AvgPrice),
+                       data.frame(Component = 'Disk', Quantile = disk_summary$Quantile, Price = disk_summary$AvgPrice),
 
-                       data.frame(Component = 'Memory', Quartile = memory_summary$Quartile, Price = memory_summary$AvgPrice))
+                       data.frame(Component = 'Memory', Quantile = memory_summary$Quantile, Price = memory_summary$AvgPrice))
 
 
 
 # Creating the plot
 
-ggplot(combined_data, aes(x = Component, y = Price, fill = Quartile)) +
+ggplot(combined_data, aes(x = Component, y = Price, fill = Quantile)) +
 
   geom_bar(stat = "identity", position = position_dodge()) +
 
   theme_minimal() +
 
-  labs(title = "Component Launch Prices per Quartile", x = "Component", y = "Price") +
+  labs(title = "Component Launch Prices per Quantile", x = "Component", y = "Price") +
 
   scale_fill_brewer(palette = "Set1") +
 
