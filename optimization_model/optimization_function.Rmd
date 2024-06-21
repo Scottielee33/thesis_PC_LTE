@@ -16,20 +16,30 @@ cpu_data <- fread('../final_data/CPU.csv')
 gpu_data <- fread('../final_data/GPU.csv')
 disk_data <- fread('../final_data/Disk.csv')
 memory_data <- fread('../final_data/Memory.csv')
+lambdas <- fread('../statistical_analysis/lambda.csv')
                  
 # Add ReleaseYear column
 cpu_data$ReleaseYear <- year(ymd(cpu_data$ReleaseDate))
 gpu_data$ReleaseYear <- year(ymd(gpu_data$ReleaseDate))
 disk_data$ReleaseYear <- year(ymd(disk_data$ReleaseDate))
 memory_data$ReleaseYear <- year(ymd(memory_data$ReleaseDate))
+```
 
+```{r}
+cpu_data$LogScore <- log(cpu_data$Score)
+gpu_data$LogScore <- log(gpu_data$G2DScore + gpu_data$G3DScore)
+memory_data$LogScore <- log(memory_data$Score)
+disk_data$LogScore <- log(disk_data$Score)
+```
+
+```{r}
 # Calculate averages for each quantile and release year
 calculate_averages <- function(data) {
   data %>%
     group_by(Quantile, ReleaseYear) %>%
     summarise(
       Avg_Release_Price = mean(AdjustedReleasePrice, na.rm = TRUE),
-      Avg_Score = mean(Score, na.rm = TRUE)
+      Avg_Score = mean(LogScore, na.rm = TRUE)
     ) %>%
     ungroup()
 }
@@ -38,7 +48,9 @@ cpu_averages <- calculate_averages(cpu_data)
 gpu_averages <- calculate_averages(gpu_data)
 disk_averages <- calculate_averages(disk_data)
 memory_averages <- calculate_averages(memory_data)
+```
 
+```{r}
 # Define the performance decay function
 performance <- function(t, t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new) {
   ifelse(
@@ -50,14 +62,18 @@ performance <- function(t, t_upgrade, perf_initial, lambda, perf_old_replaced, p
     }
   )
 }
+```
 
+```{r}
 # Define the average performance function over a period
 average_performance <- function(t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new, period) {
   time_steps <- seq(0, period, by = 0.01)
   performance_values <- performance(time_steps, t_upgrade, perf_initial, lambda, perf_old_replaced, perf_new)
   mean(performance_values)
 }
+```
 
+```{r}
 # Function to get the performance upgrade value based on the upgrade time
 get_perf_new <- function(t_upgrade, perf_new_values) {
   year <- ceiling(t_upgrade)
@@ -67,7 +83,9 @@ get_perf_new <- function(t_upgrade, perf_new_values) {
     return(perf_new_values[year])
   }
 }
+```
 
+```{r}
 # Objective function to maximize the extended period while maintaining the average performance
 objective_function <- function(t_upgrade, initial_avg_perf_no_upgrade, perf_initial, lambda, perf_old_replaced, perf_new_values, initial_period) {
   perf_new <- get_perf_new(t_upgrade, perf_new_values)
@@ -81,7 +99,9 @@ objective_function <- function(t_upgrade, initial_avg_perf_no_upgrade, perf_init
   }
   return(-extended_period)  # Maximize the extended period
 }
+```
 
+```{r}
 # Optimization function
 optimize_upgrade <- function(perf_initial, lambda, perf_old_replaced, initial_period, perf_new_values, average_performance, objective_function, get_perf_new, performance) {
   initial_avg_perf_no_upgrade <- average_performance(Inf, perf_initial, lambda, perf_old_replaced, 0, initial_period)
@@ -117,7 +137,9 @@ optimize_upgrade <- function(perf_initial, lambda, perf_old_replaced, initial_pe
   
   return(list(optimal_t_upgrade = optimal_t_upgrade, optimal_extended_period = optimal_extended_period))
 }
+```
 
+```{r}
 # Function to get starting performance and upgrade values
 get_performance_and_upgrades <- function(averages_data, start_year, start_quantile) {
   start_perf <- averages_data %>%
@@ -132,7 +154,9 @@ get_performance_and_upgrades <- function(averages_data, start_year, start_quanti
   
   return(list(start_perf = start_perf, upgrade_values = upgrade_values))
 }
+```
 
+```{r}
 # Main function to run the optimization
 run_optimization <- function(start_year, start_quantile, chosen_component) {
   # Load data

@@ -37,8 +37,8 @@ models <- CPU %>%
 # Get the summary of each model and tidy it up into a data frame
 model_summaries <- models %>%
   pull(model) %>%
-  map(~ summary(.x)) %>%
-  map_dfr(~ tidy(.x), .id = "Quantile")
+  map(~ tidy(.x)) %>%
+  map_dfr(~ .x %>% filter(term == "ReleaseDate"), .id = "Quantile")
 
 # Print the model summaries for each Quantile
 print(model_summaries)
@@ -52,6 +52,11 @@ ggplot(CPU, aes(x = ReleaseDate, y = Log_Score, color = Quantile)) +
   labs(title = "CPU: Log Score vs. Release Date",
        x = "Release date", y = "Log Score") +
   theme_minimal()
+
+cpu_slopes_df <- model_summaries %>%
+  select(Quantile, term, estimate) %>%
+  rename(Slope = estimate) %>%
+  mutate(Component = "CPU")
 ```
 
 ```{r}
@@ -60,7 +65,7 @@ GPU <- GPU %>%
   mutate(
     ReleaseDate = as.Date(ReleaseDate),
     CurrentDate = as.Date(CurrentDate),
-    Log_Score = log(Score)
+    Log_Score = log(G2DScore + G3DScore)
   )
 
 # Fit a linear regression model for each Quantile and collect coefficients
@@ -71,8 +76,8 @@ models <- GPU %>%
 # Get the summary of each model and tidy it up into a data frame
 model_summaries <- models %>%
   pull(model) %>%
-  map(~ summary(.x)) %>%
-  map_dfr(~ tidy(.x), .id = "Quantile")
+  map(~ tidy(.x)) %>%
+  map_dfr(~ .x %>% filter(term == "ReleaseDate"), .id = "Quantile")
 
 # Print the model summaries for each Quantile
 print(model_summaries)
@@ -86,9 +91,18 @@ ggplot(GPU, aes(x = ReleaseDate, y = Log_Score, color = Quantile)) +
   labs(title = "GPU: Log Score vs. Release Date",
        x = "Release Date", y = "Log Score") +
   theme_minimal()
+
+gpu_slopes_df <- model_summaries %>%
+  select(Quantile, term, estimate) %>%
+  rename(Slope = estimate) %>%
+  mutate(Component = "GPU")
 ```
 
 ```{r}
+Disk <- Disk %>%
+  mutate(ReleaseDate = as.Date(ReleaseDate)) %>%
+  filter(ReleaseDate >= as.Date("2019-01-01"))
+
 # Convert 'ReleaseDate' and 'CurrentDate' to Date objects and create 'Log_Score'
 Disk <- Disk %>%
   mutate(
@@ -105,8 +119,8 @@ models <- Disk %>%
 # Get the summary of each model and tidy it up into a data frame
 model_summaries <- models %>%
   pull(model) %>%
-  map(~ summary(.x)) %>%
-  map_dfr(~ tidy(.x), .id = "Quantile")
+  map(~ tidy(.x)) %>%
+  map_dfr(~ .x %>% filter(term == "ReleaseDate"), .id = "Quantile")
 
 # Print the model summaries for each Quantile
 print(model_summaries)
@@ -120,6 +134,11 @@ ggplot(Disk, aes(x = ReleaseDate, y = Log_Score, color = Quantile)) +
   labs(title = "Disk: Log Score vs. Release Date",
        x = "Release Date", y = "Log Score") +
   theme_minimal()
+
+disk_slopes_df <- model_summaries %>%
+  select(Quantile, term, estimate) %>%
+  rename(Slope = estimate) %>%
+  mutate(Component = "Disk")
 ```
 
 ```{r}
@@ -139,8 +158,8 @@ models <- Memory %>%
 # Get the summary of each model and tidy it up into a data frame
 model_summaries <- models %>%
   pull(model) %>%
-  map(~ summary(.x)) %>%
-  map_dfr(~ tidy(.x), .id = "Quantile")
+  map(~ tidy(.x)) %>%
+  map_dfr(~ .x %>% filter(term == "ReleaseDate"), .id = "Quantile")
 
 # Print the model summaries for each Quantile
 print(model_summaries)
@@ -154,4 +173,14 @@ ggplot(Memory, aes(x = ReleaseDate, y = Log_Score, color = Quantile)) +
   labs(title = "Memory: Log Score vs. Release Date",
        x = "Release Date", y = "Log Score") +
   theme_minimal()
+
+memory_slopes_df <- model_summaries %>%
+  select(Quantile, term, estimate) %>%
+  rename(Slope = estimate) %>%
+  mutate(Component = "memory")
+```
+
+```{r}
+slopes_df <- bind_rows(cpu_slopes_df, gpu_slopes_df, disk_slopes_df, memory_slopes_df)
+write.csv(slopes_df, file = "lambda.csv", row.names = FALSE)
 ```

@@ -181,6 +181,8 @@ GPU_complete <- GPU_complete %>%
 GPU_complete$Year <- NULL
 GPU_complete$GroupedYear <- NULL
 
+GPU_complete$Score <- NULL
+
 # ---Disk---
 Disk_R <- read.csv(file = "../scraped_data/harddrive_data_r.csv")
 Disk_Price <- read.csv(file = "../scraped_data/disk_price_data.csv")
